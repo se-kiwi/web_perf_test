@@ -1,0 +1,11 @@
+[t16]
+FileName1=t16.html
+URL1=https://gzs20.cnzz.com/stat.htm?id=4478442&r=&lg=zh-cn&ntime=none&cnzz_eid=220356809-1560120921-&showp=1536x864&p=https%3A%2F%2Fwww.wjx.cn%2Fjq%2F14514689.aspx&t=%E4%B8%80%E9%A4%90%E6%A1%8C%E9%9D%A2%E6%B8%85%E7%90%86%E6%83%85%E5%86%B5%E8%B0%83%E6%9F%A5&umuuid=16b3eb7aa964ce-0fbf81633905e7-e353165-144000-16b3eb7aa972b9&h=1&rnd=1795985284
+Total=1
+RequestHeaderFile=t16_RequestHeader.txt
+RequestBodyFile=NONE
+ResponseHeaderFile=t16_ResponseHeader.txt
+ContentType=text/html
+SnapshotXmlFile=snapshot_16.xml
+[ProtocolInfo]
+ProtocolId=QTWeb

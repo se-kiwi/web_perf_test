@@ -1,0 +1,9 @@
+GET /stat.htm?id=4478442&r=&lg=zh-cn&ntime=none&cnzz_eid=220356809-1560120921-&showp=1536x864&p=https%3A%2F%2Fwww.wjx.cn%2Fjq%2F14514689.aspx&t=%E4%B8%80%E9%A4%90%E6%A1%8C%E9%9D%A2%E6%B8%85%E7%90%86%E6%83%85%E5%86%B5%E8%B0%83%E6%9F%A5&umuuid=16b3eb7aa964ce-0fbf81633905e7-e353165-144000-16b3eb7aa972b9&h=1&rnd=1795985284 HTTP/1.1
+Host: gzs20.cnzz.com
+Connection: keep-alive
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3729.169 Safari/537.36
+Accept: image/webp,image/apng,image/*,*/*;q=0.8
+Referer: https://www.wjx.cn/jq/14514689.aspx
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN,zh;q=0.9,en-US;q=0.8,en;q=0.7
+

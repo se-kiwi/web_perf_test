@@ -1,0 +1,1064 @@
+[API Trapper      (2ec4:2968)] Recording in 64-bit mode: C:\Program Files (x86)\Google\Chrome\Application\chrome.exe
+[API Trapper      ( 944:2e58)] Recording in 64-bit mode: C:\Program Files (x86)\Google\Chrome\Application\chrome.exe
+[API Trapper      (1594: b64)] Recording in 64-bit mode: C:\Program Files (x86)\Google\Chrome\Application\chrome.exe
+[API Trapper      (1588:1dbc)] Recording in 64-bit mode: C:\Program Files (x86)\Google\Chrome\Application\chrome.exe
+[Network Analyzer (1588:30b8)] ------------------------------------------------------------------------------------------
+[Network Analyzer (1588:30b8)] Load Network Traffic Analyzers:
+[Network Analyzer (1588:30b8)]     Analyzer Module: WPLUS (value=)
+[Network Analyzer (1588:30b8)]     Analyzer Module: WebBase (value=GetHttpProtocolAnalyzer:api_http_filter_x64.dll)
+[Network Analyzer (1588:30b8)]     + Network Analyzer: api_http_filter_x64.dll @ GetHttpProtocolAnalyzer Loaded!
+[Network Analyzer (1588:30b8)]     + Interception Auditors: WinInetWplusInterceptionAudit:api_http_filter_x64.dll
+[Network Analyzer (1588:30b8)]     Analyzer Module: QTWeb (value=GetWebSocketProtocolAnalyzer:WebSocketAnalyzer_x64.dll)
+[Network Analyzer (1588:30b8)]     + Network Analyzer: WebSocketAnalyzer_x64.dll @ GetWebSocketProtocolAnalyzer Loaded!
+[Network Analyzer (1588:30b8)]     Analyzer Module: local_server (value=)
+[Network Analyzer (1588:30b8)] ------------------------------------------------------------------------------------------
+[Network Analyzer (1588:12cc)] Address lookup for DESKTOP-624ASTC = 192.168.245.1
+[API Trapper      ( 1a0: d54)] Recording in 64-bit mode: C:\WINDOWS\system32\cmd.exe
+[API Trapper      (21e0:362c)] Recording in 32-bit mode: C:\Program Files (x86)\Adobe\Acrobat DC\Acrobat\Browser\WCChromeExtn\WCChromeNativeMessagingHost.exe
+[Network Analyzer (1588:30b8)] Address lookup for DESKTOP-624ASTC = 192.168.245.1
+[Network Analyzer (1588:30b8)] Request Connection: Remote Server @ 202.120.40.82:11235   (Service=)  (Sid=  1)  PROXIED!
+[Network Analyzer (1588:30b8)] Address lookup for DESKTOP-624ASTC = 192.168.245.1
+[Web Request      (1588:12cc)] "CONNECT clientservices.googleapis.com:443"   
+[Network Analyzer (1588:12cc)]   (Sid:  1) Client -> Server @ : 254 bytes (Service=HTTP)
+[Network Analyzer (1588:30b8)] Request Connection: Remote Server @ 202.120.40.82:11235   (Service=)  (Sid=  2)  PROXIED!
+[Web Request      (1588:12cc)] "CONNECT mtalk.google.com:5228"   
+[Network Analyzer (1588:12cc)]   (Sid:  2) Client -> Server @ : 101 bytes (Service=HTTP)
+[Network Analyzer (1588:30b8)] Address lookup for DESKTOP-624ASTC = 192.168.245.1
+[Network Analyzer (1588:12cc)]   (Sid:  1) Server -> Client : 35 bytes 
+[Network Analyzer (1588:12cc)]   (Sid:  2) Server -> Client : 475 bytes  (Service=HTTP)
+[Network Analyzer (1588:12cc)]   (Sid:  2) Connection Terminated (by Server)
+[Network Analyzer (1588:30b8)] Request Connection: Remote Server @ 202.120.40.82:11235   (Service=)  (Sid=  3)  PROXIED!
+[Network Analyzer (1588:30b8)] Address lookup for DESKTOP-624ASTC = 192.168.245.1
+[Web Request      (1588:12cc)] "CONNECT www.googleapis.com:443"   
+[Network Analyzer (1588:12cc)]   (Sid:  3) Client -> Server @ : 232 bytes (Service=HTTP)
+[Network Analyzer (1588:30b8)] Request Connection: Remote Server @ 202.120.40.82:11235   (Service=)  (Sid=  4)  PROXIED!
+[Web Request      (1588:12cc)] "CONNECT www.google-analytics.com:443"   
+[Network Analyzer (1588:12cc)]   (Sid:  4) Client -> Server @ : 244 bytes (Service=HTTP)
+[Network Analyzer (1588:30b8)] Address lookup for DESKTOP-624ASTC = 192.168.245.1
+[Network Analyzer (1588:12cc)]   (Sid:  4) Server -> Client : 35 bytes 
+[Network Analyzer (1588:30b8)] Request Connection: Remote Server @ 202.120.40.82:11235   (Service=)  (Sid=  5)  PROXIED!
+[Network Analyzer (1588:30b8)] Address lookup for DESKTOP-624ASTC = 192.168.245.1
+[Network Analyzer (1588:12cc)]   (Sid:  3) Server -> Client : 35 bytes 
+[Web Request      (1588:12cc)] "CONNECT www.yahoo.com:443"   
+[Network Analyzer (1588:12cc)]   (Sid:  5) Client -> Server @ : 222 bytes (Service=HTTP)
+[Network Analyzer (1588:12cc)]   (Sid:  5) Server -> Client : 35 bytes 
+[Net An. Warning  (1588:30b8)] Request Connection: Remote Server @ 127.0.0.1:63342 (Service=) Failed attempt #1. Unable to connect to remote server: rc = -1 , le = 10061)
+[Net An. Warning  (1588:30b8)] Request Connection: Remote Server @ 127.0.0.1:63342 (Service=) Failed attempt #2. Unable to connect to remote server: rc = -1 , le = 10061)
+[API Trapper      ( f98: 82c)] Recording in 64-bit mode: C:\Program Files (x86)\Google\Chrome\Application\chrome.exe
+[Net An. Warning  (1588:30b8)] Request Connection: Remote Server @ 127.0.0.1:63342 (Service=) Failed attempt #3. Unable to connect to remote server: rc = -1 , le = 10061)
+[Net An. Error    (1588:30b8)] Request Connection: Remote Server @ 127.0.0.1:63342   (Service=)  NOT PROXIED! (REASON: Unable to connect to remote server: rc = -1 , le = 10061)
+[Network Analyzer (1588:30b8)] Address lookup for DESKTOP-624ASTC = 192.168.245.1
+[Network Analyzer (1588:30b8)] Request Connection: Remote Server @ 202.120.40.82:11235   (Service=)  (Sid=  6)  PROXIED!
+[Network Analyzer (1588:30b8)] Address lookup for DESKTOP-624ASTC = 192.168.245.1
+[Web Request      (1588:12cc)] "CONNECT infinity-basic.infinitynewtab.com:443"   
+[Network Analyzer (1588:12cc)]   (Sid:  6) Client -> Server @ : 262 bytes (Service=HTTP)
+[Network Analyzer (1588:30b8)] Request Connection: Remote Server @ 202.120.40.82:11235   (Service=)  (Sid=  7)  PROXIED!
+[Web Request      (1588:12cc)] "CONNECT accounts.google.com:443"   
+[Network Analyzer (1588:12cc)]   (Sid:  7) Client -> Server @ : 234 bytes (Service=HTTP)
+[Network Analyzer (1588:30b8)] Address lookup for DESKTOP-624ASTC = 192.168.245.1
+[Network Analyzer (1588:12cc)]   (Sid:  6) Server -> Client : 35 bytes 
+[Network Analyzer (1588:30b8)] Request Connection: Remote Server @ 202.120.40.82:11235   (Service=)  (Sid=  8)  PROXIED!
+[Network Analyzer (1588:30b8)] Address lookup for DESKTOP-624ASTC = 192.168.245.1
+[Web Request      (1588:12cc)] "CONNECT api.infinitynewtab.com:443"   
+[Network Analyzer (1588:12cc)]   (Sid:  8) Client -> Server @ : 240 bytes (Service=HTTP)
+[Network Analyzer (1588:30b8)] Request Connection: Remote Server @ 202.120.40.82:11235   (Service=)  (Sid=  9)  PROXIED!
+[Web Request      (1588:12cc)] "CONNECT sstats.adobe.com:443"   
+[Network Analyzer (1588:12cc)]   (Sid:  9) Client -> Server @ : 228 bytes (Service=HTTP)
+[Network Analyzer (1588:12cc)]   (Sid:  8) Server -> Client : 35 bytes 
+[Network Analyzer (1588:30b8)] Address lookup for DESKTOP-624ASTC = 192.168.245.1
+[Network Analyzer (1588:30b8)] Request Connection: Remote Server @ 202.120.40.82:11235   (Service=)  (Sid= 10)  PROXIED!
+[Network Analyzer (1588:30b8)] Address lookup for DESKTOP-624ASTC = 192.168.245.1
+[Web Request      (1588:12cc)] "CONNECT www.wjx.cn:443"   
+[Network Analyzer (1588:12cc)]   (Sid: 10) Client -> Server @ : 216 bytes (Service=HTTP)
+[Network Analyzer (1588:30b8)] Request Connection: Remote Server @ 202.120.40.82:11235   (Service=)  (Sid= 11)  PROXIED!
+[Web Request      (1588:12cc)] "CONNECT ssl.gstatic.com:443"   
+[Network Analyzer (1588:12cc)]   (Sid: 11) Client -> Server @ : 226 bytes (Service=HTTP)
+[Network Analyzer (1588:30b8)] Address lookup for DESKTOP-624ASTC = 192.168.245.1
+[Network Analyzer (1588:12cc)]   (Sid: 11) Server -> Client : 35 bytes 
+[Network Analyzer (1588:12cc)]   (Sid:  7) Server -> Client : 35 bytes 
+[Network Analyzer (1588:12cc)]   (Sid: 10) Server -> Client : 35 bytes 
+[Network Analyzer (1588:30b8)] Request Connection: Remote Server @ 202.120.40.82:11235   (Service=)  (Sid= 12)  PROXIED!
+[Network Analyzer (1588:12cc)]   (Sid:  9) Server -> Client : 35 bytes 
+[Web Request      (1588:12cc)] "CONNECT ssl.gstatic.com:443"   
+[Network Analyzer (1588:12cc)]   (Sid: 12) Client -> Server @ : 226 bytes (Service=HTTP)
+[Network Analyzer (1588:12cc)]   (Sid: 12) Server -> Client : 35 bytes 
+[Network Analyzer (1588:30b8)] Address lookup for DESKTOP-624ASTC = 192.168.245.1
+[Network Analyzer (1588:30b8)] Request Connection: Remote Server @ 202.120.40.82:11235   (Service=)  (Sid= 13)  PROXIED!
+[Web Request      (1588:12cc)] "CONNECT www.googleapis.com:443"   
+[Network Analyzer (1588:12cc)]   (Sid: 13) Client -> Server @ : 232 bytes (Service=HTTP)
+[Network Analyzer (1588:30b8)] Address lookup for DESKTOP-624ASTC = 192.168.245.1
+[Network Analyzer (1588:30b8)] Request Connection: Remote Server @ 202.120.40.82:11235   (Service=)  (Sid= 14)  PROXIED!
+[Web Request      (1588:12cc)] "CONNECT www.googleapis.com:443"   
+[Network Analyzer (1588:12cc)]   (Sid: 14) Client -> Server @ : 232 bytes (Service=HTTP)
+[Network Analyzer (1588:30b8)] Address lookup for DESKTOP-624ASTC = 192.168.245.1
+[Network Analyzer (1588:30b8)] Request Connection: Remote Server @ 202.120.40.82:11235   (Service=)  (Sid= 15)  PROXIED!
+[Network Analyzer (1588:30b8)] Address lookup for DESKTOP-624ASTC = 192.168.245.1
+[Web Request      (1588:12cc)] "CONNECT www.google-analytics.com:443"   
+[Network Analyzer (1588:12cc)]   (Sid: 15) Client -> Server @ : 244 bytes (Service=HTTP)
+[Network Analyzer (1588:30b8)] Request Connection: Remote Server @ 202.120.40.82:11235   (Service=)  (Sid= 16)  PROXIED!
+[Web Request      (1588:12cc)] "CONNECT www.google-analytics.com:443"   
+[Network Analyzer (1588:12cc)]   (Sid: 16) Client -> Server @ : 244 bytes (Service=HTTP)
+[Network Analyzer (1588:12cc)]   (Sid: 16) Server -> Client : 35 bytes 
+[Network Analyzer (1588:12cc)]   (Sid: 13) Server -> Client : 35 bytes 
+[Network Analyzer (1588:30b8)] Address lookup for DESKTOP-624ASTC = 192.168.245.1
+[Network Analyzer (1588:12cc)]   (Sid: 14) Server -> Client : 35 bytes 
+[Network Analyzer (1588:12cc)]   (Sid: 15) Server -> Client : 35 bytes 
+[Network Analyzer (1588:34d4)]   (Sid:  5) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.2, ciphers:ECDHE-RSA-AES128-GCM-SHA256)
+[Network Analyzer (1588:234c)]   (Sid:  4) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.2, ciphers:ECDHE-RSA-AES128-GCM-SHA256)
+[Network Analyzer (1588:35a8)]   (Sid:  3) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.2, ciphers:ECDHE-ECDSA-AES128-GCM-SHA256)
+[Network Analyzer (1588:3544)]   (Sid:  6) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.2, ciphers:ECDHE-RSA-AES128-GCM-SHA256)
+[Network Analyzer (1588:3530)]   (Sid:  1) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.2, ciphers:ECDHE-ECDSA-AES128-GCM-SHA256)
+[Network Analyzer (1588:357c)]   (Sid:  8) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.2, ciphers:ECDHE-RSA-AES128-GCM-SHA256)
+[Network Analyzer (1588:3550)]   (Sid: 11) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.2, ciphers:ECDHE-ECDSA-AES128-GCM-SHA256)
+[Network Analyzer (1588:3564)]   (Sid:  7) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.2, ciphers:ECDHE-RSA-AES128-GCM-SHA256)
+[Net An. Warning  (1588:30b8)] Request Connection: Remote Server @ 127.0.0.1:63342 (Service=) Failed attempt #1. Unable to connect to remote server: rc = -1 , le = 10061)
+[Network Analyzer (1588:356c)]   (Sid: 10) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.2, ciphers:ECDHE-RSA-AES128-GCM-SHA256)
+[Network Analyzer (1588:3588)]   (Sid:  9) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.2, ciphers:ECDHE-RSA-AES128-GCM-SHA256)
+[Network Analyzer (1588:3590)]   (Sid: 12) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.2, ciphers:ECDHE-ECDSA-AES128-GCM-SHA256)
+[Net An. Warning  (1588:30b8)] Request Connection: Remote Server @ 127.0.0.1:63342 (Service=) Failed attempt #2. Unable to connect to remote server: rc = -1 , le = 10061)
+[Net An. Warning  (1588:30b8)] Request Connection: Remote Server @ 127.0.0.1:63342 (Service=) Failed attempt #3. Unable to connect to remote server: rc = -1 , le = 10061)
+[Net An. Error    (1588:30b8)] Request Connection: Remote Server @ 127.0.0.1:63342   (Service=)  NOT PROXIED! (REASON: Unable to connect to remote server: rc = -1 , le = 10061)
+[Network Analyzer (1588:30b8)] Address lookup for DESKTOP-624ASTC = 192.168.245.1
+[Network Analyzer (1588:30b8)] Request Connection: Remote Server @ 202.120.40.82:11235   (Service=)  (Sid= 17)  PROXIED!
+[Network Analyzer (1588:30b8)] Address lookup for DESKTOP-624ASTC = 192.168.245.1
+[Web Request      (1588:12cc)] "CONNECT www.google-analytics.com:443"   
+[Network Analyzer (1588:12cc)]   (Sid: 17) Client -> Server @ : 244 bytes (Service=HTTP)
+[Network Analyzer (1588:30b8)] Request Connection: Remote Server @ 202.120.40.82:11235   (Service=)  (Sid= 18)  PROXIED!
+[Web Request      (1588:12cc)] "CONNECT www.google-analytics.com:443"   
+[Network Analyzer (1588:12cc)]   (Sid: 18) Client -> Server @ : 244 bytes (Service=HTTP)
+[Network Analyzer (1588:12cc)]   (Sid: 17) Server -> Client : 35 bytes 
+[Network Analyzer (1588:12cc)]   (Sid: 18) Server -> Client : 35 bytes 
+[Network Analyzer (1588:30b8)] Address lookup for DESKTOP-624ASTC = 192.168.245.1
+[Network Analyzer (1588:30b8)] Request Connection: Remote Server @ 202.120.40.82:11235   (Service=)  (Sid= 19)  PROXIED!
+[Web Request      (1588:12cc)] "CONNECT www.googleapis.com:443"   
+[Network Analyzer (1588:12cc)]   (Sid: 19) Client -> Server @ : 232 bytes (Service=HTTP)
+[Network Analyzer (1588:3598)]   (Sid: 16) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.2, ciphers:ECDHE-RSA-AES128-GCM-SHA256)
+[Network Analyzer (1588:35a8)]   (Sid:  3) Negotiate Client -> Proxy SSL Handshake (ssl:TLSv1.2, ciphers:ECDHE-RSA-AES128-GCM-SHA256)
+[Network Analyzer (1588:3564)]   (Sid:  7) Negotiate Client -> Proxy SSL Handshake (ssl:TLSv1.2, ciphers:ECDHE-RSA-AES128-GCM-SHA256)
+[Network Analyzer (1588:3530)]   (Sid:  1) Negotiate Client -> Proxy SSL Handshake (ssl:TLSv1.2, ciphers:ECDHE-RSA-AES128-GCM-SHA256)
+[Network Analyzer (1588:12cc)]   (Sid: 19) Server -> Client : 35 bytes 
+[Web Request      (1588:12cc)] "GET /chrome-variations/seed?osname=win&channel=stable&milestone=74"   
+[Network Analyzer (1588:12cc)]   (Sid:  1) Client -> Server @ : 379 bytes (SSL)(Service=HTTP)
+[Web Request      (1588:12cc)] "POST /oauth2/v4/token"   
+[Network Analyzer (1588:12cc)]   (Sid:  3) Client -> Server @ : 600 bytes (SSL)(Service=HTTP)
+[Network Analyzer (1588:12cc)]   (Sid:  7) Client -> Server @ : 1702 bytes (SSL)(Service=HTTP)
+[Web Request      (1588:12cc)] "POST /ListAccounts?gpsia=1&source=ChromiumBrowser&json=standard"   
+[Network Analyzer (1588:12cc)]   (Sid:  7) Client -> Server @ : 1 bytes (SSL)(Service=HTTP)
+[Network Analyzer (1588:3588)]   (Sid:  9) Negotiate Client -> Proxy SSL Handshake (ssl:TLSv1.2, ciphers:ECDHE-RSA-AES128-GCM-SHA256)
+[Network Analyzer (1588:356c)]   (Sid: 10) Negotiate Client -> Proxy SSL Handshake (ssl:TLSv1.2, ciphers:ECDHE-RSA-AES128-GCM-SHA256)
+[Network Analyzer (1588:3544)]   (Sid:  6) Negotiate Client -> Proxy SSL Handshake (ssl:TLSv1.2, ciphers:ECDHE-RSA-AES128-GCM-SHA256)
+[Network Analyzer (1588:34d4)]   (Sid:  5) Negotiate Client -> Proxy SSL Handshake (ssl:TLSv1.2, ciphers:ECDHE-RSA-AES128-GCM-SHA256)
+[Network Analyzer (1588:357c)]   (Sid:  8) Negotiate Client -> Proxy SSL Handshake (ssl:TLSv1.2, ciphers:ECDHE-RSA-AES128-GCM-SHA256)
+[Network Analyzer (1588:234c)]   (Sid:  4) Negotiate Client -> Proxy SSL Handshake (ssl:TLSv1.2, ciphers:ECDHE-RSA-AES128-GCM-SHA256)
+[Network Analyzer (1588:3598)]   (Sid: 16) Negotiate Client -> Proxy SSL Handshake (ssl:TLSv1.2, ciphers:ECDHE-RSA-AES128-GCM-SHA256)
+[Network Analyzer (1588:3550)]   (Sid: 11) Negotiate Client -> Proxy SSL Handshake (ssl:TLSv1.2, ciphers:ECDHE-RSA-AES128-GCM-SHA256)
+[Network Analyzer (1588:3590)]   (Sid: 12) Negotiate Client -> Proxy SSL Handshake (ssl:TLSv1.2, ciphers:ECDHE-RSA-AES128-GCM-SHA256)
+[Web Request      (1588:12cc)] "GET /b/ss/adbcreatepdfplugin.prod/1/JS-1.6/s6761544006173?AQB=1&ndh=1&pf=1&t=10%2F5%2F2019%208%3A8%3A49%201%20-480&fid=250CB031EE2F8E17-2372BBCB13C3A857&ce=UTF-8&pageName=DCBrowserExt%3AShim%3AVersion%3AUnknown%3AOp&g=chrome-extension%3A%2F%2Fefaidnbmnnnibpcajpcglclefindmkaj%2F_generated_background_page.html&v1=15.1.1.0&v2=sideload&v3=prod&v4=not_set&s=1536x864&c=24&j=1.6&v=N&k=Y&bh=8&AQE=1"   
+[Network Analyzer (1588:12cc)]   (Sid:  9) Client -> Server @ : 2414 bytes (SSL)(Service=HTTP)
+[Web Request      (1588:12cc)] "GET /jq/14514689.aspx"   
+[Network Analyzer (1588:12cc)]   (Sid: 10) Client -> Server @ : 453 bytes (SSL)(Service=HTTP)
+[Web Request      (1588:12cc)] "GET /basic-api/update-time.json?_=1560125327449"   
+[Network Analyzer (1588:12cc)]   (Sid:  6) Client -> Server @ : 400 bytes (SSL)(Service=HTTP)
+[Web Request      (1588:12cc)] "GET /news/_tdnews/api/resource/WeatherService;woeids=%5B2151849%5D?t=1560125327936"   
+[Network Analyzer (1588:12cc)]   (Sid:  5) Client -> Server @ : 499 bytes (SSL)(Service=HTTP)
+[Web Request      (1588:12cc)] "GET /se.php?t=t1dcvbeidh6kqvtjk6arhdx3vyso"   
+[Network Analyzer (1588:12cc)]   (Sid:  8) Client -> Server @ : 686 bytes (SSL)(Service=HTTP)
+[Web Request      (1588:12cc)] "GET /collect?_t=1560125327510&t=pageview&v=1&tid=UA-54537742-7&cid=e0a9e774-13d0-46d6-9af8-89a18b270e6e&sr=1536x864&sd=24-bits&ul=zh-CN&dl=chrome-extension%3A%2F%2Fdbfmnekepjoapopniengjbcpnbljalfg%2Fbackground%2Fbackground.html&dp=%2Fbackground%2Fbackground.html&dt="   
+[Network Analyzer (1588:12cc)]   (Sid:  4) Client -> Server @ : 567 bytes (SSL)(Service=HTTP)
+[Web Request      (1588:12cc)] "GET /collect?_t=1560125327511&t=event&v=1&tid=UA-54537742-7&cid=e0a9e774-13d0-46d6-9af8-89a18b270e6e&sr=1536x864&sd=24-bits&ul=zh-CN&ec=%E7%89%88%E6%9C%AC&ea=7.3.8&dl=chrome-extension%3A%2F%2Fdbfmnekepjoapopniengjbcpnbljalfg%2Fbackground%2Fbackground.html"   
+[Network Analyzer (1588:12cc)]   (Sid: 16) Client -> Server @ : 556 bytes (SSL)(Service=HTTP)
+[Web Request      (1588:12cc)] "GET /safebrowsing/csd/client_model_v5_variation_0.pb"   
+[Network Analyzer (1588:12cc)]   (Sid: 11) Client -> Server @ : 277 bytes (SSL)(Service=HTTP)
+[Web Request      (1588:12cc)] "GET /safebrowsing/csd/client_model_v5_ext_variation_0.pb"   
+[Network Analyzer (1588:12cc)]   (Sid: 12) Client -> Server @ : 281 bytes (SSL)(Service=HTTP)
+[Network Analyzer (1588:12cc)]   (Sid:  8) Server -> Client : 855 bytes (SSL) (Service=HTTP)
+[Network Analyzer (1588:12cc)]   (Sid:  4) Server -> Client : 437 bytes (SSL) (Service=HTTP)
+[Network Analyzer (1588:12cc)]   (Sid: 16) Server -> Client : 437 bytes (SSL) (Service=HTTP)
+[Network Analyzer (1588:12cc)]   (Sid: 10) Server -> Client : 1400 bytes (SSL) (Service=HTTP)
+[Network Analyzer (1588:12cc)]   (Sid: 11) Server -> Client : 1380 bytes (SSL) (Service=HTTP)
+[Network Analyzer (1588:12cc)]   (Sid:  1) Server -> Client : 212 bytes (SSL) (Service=HTTP)
+[Network Analyzer (1588:12cc)]   (Sid:  6) Server -> Client : 1198 bytes (SSL) (Service=HTTP)
+[Network Analyzer (1588:12cc)]   (Sid:  9) Server -> Client : 648 bytes (SSL) (Service=HTTP)
+[Network Analyzer (1588:12cc)]   (Sid: 10) Server -> Client : 1400 bytes (SSL) (Service=HTTP)
+[Network Analyzer (1588:12cc)]   (Sid: 11) Server -> Client : 1380 bytes (SSL) (Service=HTTP)
+[Network Analyzer (1588:12cc)]   (Sid: 12) Server -> Client : 1380 bytes (SSL) (Service=HTTP)
+[Network Analyzer (1588:12cc)]   (Sid: 10) Server -> Client : 115 bytes (SSL) (Service=HTTP)
+[Network Analyzer (1588:12cc)]   (Sid: 11) Server -> Client : 1380 bytes (SSL) (Service=HTTP)
+[Network Analyzer (1588:12cc)]   (Sid: 12) Server -> Client : 1380 bytes (SSL) (Service=HTTP)
+[Network Analyzer (1588:12cc)]   (Sid:  7) Server -> Client : 1389 bytes (SSL) (Service=HTTP)
+[Network Analyzer (1588:12cc)]   (Sid: 10) Server -> Client : 74 bytes (SSL) (Service=HTTP)
+[Network Analyzer (1588:12cc)]   (Sid: 11) Server -> Client : 1380 bytes (SSL) (Service=HTTP)
+[Network Analyzer (1588:12cc)]   (Sid: 12) Server -> Client : 1380 bytes (SSL) (Service=HTTP)
+[Network Analyzer (1588:12cc)]   (Sid:  3) Server -> Client : 1389 bytes (SSL) (Service=HTTP)
+[Network Analyzer (1588:12cc)]   (Sid:  7) Server -> Client : 146 bytes (SSL) (Service=HTTP)
+[Network Analyzer (1588:12cc)]   (Sid: 10) Server -> Client : 1400 bytes (SSL) (Service=HTTP)
+[Network Analyzer (1588:12cc)]   (Sid: 11) Server -> Client : 1380 bytes (SSL) (Service=HTTP)
+[Network Analyzer (1588:12cc)]   (Sid: 12) Server -> Client : 1380 bytes (SSL) (Service=HTTP)
+[Network Analyzer (1588:12cc)]   (Sid:  3) Server -> Client : 254 bytes (SSL) (Service=HTTP)
+[Network Analyzer (1588:12cc)]   (Sid:  5) Server -> Client : 878 bytes (SSL) (Service=HTTP)
+[Network Analyzer (1588:12cc)]   (Sid: 10) Server -> Client : 48 bytes (SSL) (Service=HTTP)
+[Network Analyzer (1588:12cc)]   (Sid: 11) Server -> Client : 1380 bytes (SSL) (Service=HTTP)
+[Network Analyzer (1588:12cc)]   (Sid: 12) Server -> Client : 1380 bytes (SSL) (Service=HTTP)
+[Network Analyzer (1588:12cc)]   (Sid:  5) Server -> Client : 1300 bytes (SSL) (Service=HTTP)
+[Network Analyzer (1588:12cc)]   (Sid: 10) Server -> Client : 1400 bytes (SSL) (Service=HTTP)
+[Network Analyzer (1588:12cc)]   (Sid: 11) Server -> Client : 1380 bytes (SSL) (Service=HTTP)
+[Network Analyzer (1588:12cc)]   (Sid: 12) Server -> Client : 1380 bytes (SSL) (Service=HTTP)
+[Network Analyzer (1588:12cc)]   (Sid:  5) Server -> Client : 1034 bytes (SSL) (Service=HTTP)
+[Network Analyzer (1588:12cc)]   (Sid: 10) Server -> Client : 48 bytes (SSL) (Service=HTTP)
+[Network Analyzer (1588:12cc)]   (Sid: 11) Server -> Client : 1380 bytes (SSL) (Service=HTTP)
+[Network Analyzer (1588:12cc)]   (Sid: 12) Server -> Client : 1380 bytes (SSL) (Service=HTTP)
+[Network Analyzer (1588:12cc)]   (Sid: 10) Server -> Client : 1400 bytes (SSL) (Service=HTTP)
+[Network Analyzer (1588:12cc)]   (Sid: 11) Server -> Client : 1380 bytes (SSL) (Service=HTTP)
+[Network Analyzer (1588:12cc)]   (Sid: 12) Server -> Client : 1380 bytes (SSL) (Service=HTTP)
+[Network Analyzer (1588:12cc)]   (Sid: 10) Server -> Client : 1400 bytes (SSL) (Service=HTTP)
+[Network Analyzer (1588:12cc)]   (Sid: 11) Server -> Client : 1380 bytes (SSL) (Service=HTTP)
+[Network Analyzer (1588:12cc)]   (Sid: 12) Server -> Client : 1380 bytes (SSL) (Service=HTTP)
+[Network Analyzer (1588:12cc)]   (Sid: 10) Server -> Client : 96 bytes (SSL) (Service=HTTP)
+[Network Analyzer (1588:12cc)]   (Sid: 11) Server -> Client : 1380 bytes (SSL) (Service=HTTP)
+[Network Analyzer (1588:12cc)]   (Sid: 12) Server -> Client : 1380 bytes (SSL) (Service=HTTP)
+[Network Analyzer (1588:12cc)]   (Sid: 10) Server -> Client : 1400 bytes (SSL) (Service=HTTP)
+[Network Analyzer (1588:12cc)]   (Sid: 11) Server -> Client : 1380 bytes (SSL) (Service=HTTP)
+[Network Analyzer (1588:12cc)]   (Sid: 12) Server -> Client : 1380 bytes (SSL) (Service=HTTP)
+[Network Analyzer (1588:12cc)]   (Sid: 10) Server -> Client : 48 bytes (SSL) (Service=HTTP)
+[Network Analyzer (1588:12cc)]   (Sid: 11) Server -> Client : 1380 bytes (SSL) (Service=HTTP)
+[Network Analyzer (1588:12cc)]   (Sid: 12) Server -> Client : 1380 bytes (SSL) (Service=HTTP)
+[Network Analyzer (1588:12cc)]   (Sid: 10) Server -> Client : 1400 bytes (SSL) (Service=HTTP)
+[Network Analyzer (1588:12cc)]   (Sid: 11) Server -> Client : 1380 bytes (SSL) (Service=HTTP)
+[Network Analyzer (1588:12cc)]   (Sid: 12) Server -> Client : 1380 bytes (SSL) (Service=HTTP)
+[Network Analyzer (1588:12cc)]   (Sid: 10) Server -> Client : 1400 bytes (SSL) (Service=HTTP)
+[Network Analyzer (1588:12cc)]   (Sid: 11) Server -> Client : 1380 bytes (SSL) (Service=HTTP)
+[Network Analyzer (1588:12cc)]   (Sid: 12) Server -> Client : 1380 bytes (SSL) (Service=HTTP)
+[Web Request      (1588:12cc)] "GET /__utm.gif?utmwv=5.7.2&utms=1&utmn=548907941&utmhn=fngmhnnpilhplaeedifhccceomclgfbg&utmcs=UTF-8&utmsr=1536x864&utmsc=24-bit&utmul=zh-cn&utmje=0&utmfl=-&utmhid=1331002702&utmr=-&utmp=%2F_generated_background_page.html&utmht=1560125329874&utmac=UA-33054271-5&utmcc=__utma%3D168020214.2045260896.1542347209.1560125205.1560125330.1296%3B%2B__utmz%3D168020214.1542347209.1.1.utmcsr%3D(direct)%7Cutmccn%3D(direct)%7Cutmcmd%3D(none)%3B&utmjid=&utmu=qAAAEAAAAAAAAAAAAAAAAAAE~"   
+[Network Analyzer (1588:12cc)]   (Sid:  4) Client -> Server @ : 808 bytes (SSL)(Service=HTTP)
+[Network Analyzer (1588:12cc)]   (Sid: 10) Server -> Client : 1400 bytes (SSL) (Service=HTTP)
+[Network Analyzer (1588:12cc)]   (Sid: 11) Server -> Client : 1380 bytes (SSL) (Service=HTTP)
+[Network Analyzer (1588:12cc)]   (Sid: 12) Server -> Client : 1380 bytes (SSL) (Service=HTTP)
+[Network Analyzer (1588:12cc)]   (Sid:  3) Server -> Client : 5 bytes (SSL) (Service=HTTP)
+[Network Analyzer (1588:12cc)]   (Sid:  7) Server -> Client : 61 bytes (SSL) (Service=HTTP)
+[Network Analyzer (1588:12cc)]   (Sid: 10) Server -> Client : 1400 bytes (SSL) (Service=HTTP)
+[Network Analyzer (1588:12cc)]   (Sid: 11) Server -> Client : 1380 bytes (SSL) (Service=HTTP)
+[Network Analyzer (1588:12cc)]   (Sid: 12) Server -> Client : 1380 bytes (SSL) (Service=HTTP)
+[Web Request      (1588:12cc)] "GET /r/collect?v=1&_v=j76&a=504904249&t=pageview&_s=1&dl=chrome-extension%3A%2F%2Fhflefjhkfeiaignkclmphmokmmbhbhik%2F_generated_background_page.html&dp=%2Fbackground%2F1.5.21%2FOn&ul=zh-cn&de=UTF-8&sd=24-bit&sr=1536x864&vp=&je=0&_u=QACAAEAB~&jid=174825347&gjid=466082591&cid=1508949300.1559633806&tid=UA-93290101-2&_gid=867776080.1560092489&_r=1&cd1=1.5.21&cd2=On&z=1389523331"   
+[Network Analyzer (1588:12cc)]   (Sid: 16) Client -> Server @ : 713 bytes (SSL)(Service=HTTP)
+[Network Analyzer (1588:12cc)]   (Sid:  4) Server -> Client : 437 bytes (SSL) (Service=HTTP)
+[Network Analyzer (1588:12cc)]   (Sid:  7) Server -> Client : 5 bytes (SSL) (Service=HTTP)
+[Network Analyzer (1588:12cc)]   (Sid: 10) Server -> Client : 1107 bytes (SSL) (Service=HTTP)
+[Network Analyzer (1588:12cc)]   (Sid: 11) Server -> Client : 1380 bytes (SSL) (Service=HTTP)
+[Network Analyzer (1588:12cc)]   (Sid: 12) Server -> Client : 1380 bytes (SSL) (Service=HTTP)
+[Network Analyzer (1588:12cc)]   (Sid: 11) Server -> Client : 1380 bytes (SSL) (Service=HTTP)
+[Network Analyzer (1588:12cc)]   (Sid: 12) Server -> Client : 1380 bytes (SSL) (Service=HTTP)
+[Network Analyzer (1588:12cc)]   (Sid: 11) Server -> Client : 1380 bytes (SSL) (Service=HTTP)
+[Network Analyzer (1588:12cc)]   (Sid: 12) Server -> Client : 1380 bytes (SSL) (Service=HTTP)
+[Network Analyzer (1588:35a4)]   (Sid: 13) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.2, ciphers:ECDHE-ECDSA-AES128-GCM-SHA256)
+[Network Analyzer (1588:12cc)]   (Sid: 11) Server -> Client : 1380 bytes (SSL) (Service=HTTP)
+[Network Analyzer (1588:12cc)]   (Sid: 12) Server -> Client : 1380 bytes (SSL) (Service=HTTP)
+[Network Analyzer (1588:12cc)]   (Sid: 11) Server -> Client : 1380 bytes (SSL) (Service=HTTP)
+[Network Analyzer (1588:12cc)]   (Sid: 12) Server -> Client : 1380 bytes (SSL) (Service=HTTP)
+[Network Analyzer (1588:12cc)]   (Sid: 16) Server -> Client : 984 bytes (SSL) (Service=HTTP)
+[Network Analyzer (1588:12cc)]   (Sid: 11) Server -> Client : 1380 bytes (SSL) (Service=HTTP)
+[Network Analyzer (1588:12cc)]   (Sid: 12) Server -> Client : 1380 bytes (SSL) (Service=HTTP)
+[Network Analyzer (1588:12cc)]   (Sid: 11) Server -> Client : 1380 bytes (SSL) (Service=HTTP)
+[Network Analyzer (1588:12cc)]   (Sid: 12) Server -> Client : 1380 bytes (SSL) (Service=HTTP)
+[Network Analyzer (1588:12cc)]   (Sid: 11) Server -> Client : 93 bytes (SSL) (Service=HTTP)
+[Network Analyzer (1588:12cc)]   (Sid: 12) Server -> Client : 1380 bytes (SSL) (Service=HTTP)
+[Network Analyzer (1588:12cc)]   (Sid: 11) Server -> Client : 1380 bytes (SSL) (Service=HTTP)
+[Network Analyzer (1588:12cc)]   (Sid: 12) Server -> Client : 93 bytes (SSL) (Service=HTTP)
+[Network Analyzer (1588:12cc)]   (Sid: 11) Server -> Client : 1380 bytes (SSL) (Service=HTTP)
+[Network Analyzer (1588:12cc)]   (Sid: 12) Server -> Client : 1380 bytes (SSL) (Service=HTTP)
+[Network Analyzer (1588:12cc)]   (Sid: 11) Server -> Client : 1380 bytes (SSL) (Service=HTTP)
+[Network Analyzer (1588:12cc)]   (Sid: 12) Server -> Client : 1380 bytes (SSL) (Service=HTTP)
+[Network Analyzer (1588:12cc)]   (Sid: 11) Server -> Client : 1380 bytes (SSL) (Service=HTTP)
+[Network Analyzer (1588:12cc)]   (Sid: 12) Server -> Client : 1380 bytes (SSL) (Service=HTTP)
+[Network Analyzer (1588:12cc)]   (Sid: 11) Server -> Client : 1380 bytes (SSL) (Service=HTTP)
+[Network Analyzer (1588:12cc)]   (Sid: 12) Server -> Client : 1380 bytes (SSL) (Service=HTTP)
+[Network Analyzer (1588:12cc)]   (Sid: 11) Server -> Client : 1380 bytes (SSL) (Service=HTTP)
+[Network Analyzer (1588:12cc)]   (Sid: 12) Server -> Client : 1380 bytes (SSL) (Service=HTTP)
+[Web Request      (1588:12cc)] "POST /oauth2/v4/token"   
+[Network Analyzer (1588:12cc)]   (Sid:  3) Client -> Server @ : 545 bytes (SSL)(Service=HTTP)
+[Network Analyzer (1588:12cc)]   (Sid: 11) Server -> Client : 1380 bytes (SSL) (Service=HTTP)
+[Network Analyzer (1588:12cc)]   (Sid: 12) Server -> Client : 1380 bytes (SSL) (Service=HTTP)
+[Network Analyzer (1588:35a4)]   (Sid: 13) Negotiate Client -> Proxy SSL Handshake (ssl:TLSv1.2, ciphers:ECDHE-RSA-AES128-GCM-SHA256)
+[Network Analyzer (1588:12cc)]   (Sid: 11) Server -> Client : 1380 bytes (SSL) (Service=HTTP)
+[Network Analyzer (1588:12cc)]   (Sid: 12) Server -> Client : 1380 bytes (SSL) (Service=HTTP)
+[Network Analyzer (1588:12cc)]   (Sid: 11) Server -> Client : 1380 bytes (SSL) (Service=HTTP)
+[Network Analyzer (1588:12cc)]   (Sid: 12) Server -> Client : 1380 bytes (SSL) (Service=HTTP)
+[Network Analyzer (1588:12cc)]   (Sid: 11) Server -> Client : 1380 bytes (SSL) (Service=HTTP)
+[Network Analyzer (1588:12cc)]   (Sid: 12) Server -> Client : 1380 bytes (SSL) (Service=HTTP)
+[Network Analyzer (1588:12cc)]   (Sid: 11) Server -> Client : 1380 bytes (SSL) (Service=HTTP)
+[Network Analyzer (1588:12cc)]   (Sid: 12) Server -> Client : 1380 bytes (SSL) (Service=HTTP)
+[Network Analyzer (1588:12cc)]   (Sid: 11) Server -> Client : 1380 bytes (SSL) (Service=HTTP)
+[Network Analyzer (1588:12cc)]   (Sid: 12) Server -> Client : 1380 bytes (SSL) (Service=HTTP)
+[Network Analyzer (1588:12cc)]   (Sid: 11) Server -> Client : 1380 bytes (SSL) (Service=HTTP)
+[Network Analyzer (1588:12cc)]   (Sid: 12) Server -> Client : 1380 bytes (SSL) (Service=HTTP)
+[Network Analyzer (1588:12cc)]   (Sid: 11) Server -> Client : 1380 bytes (SSL) (Service=HTTP)
+[Network Analyzer (1588:12cc)]   (Sid: 12) Server -> Client : 1380 bytes (SSL) (Service=HTTP)
+[Network Analyzer (1588:12cc)]   (Sid: 11) Server -> Client : 1380 bytes (SSL) (Service=HTTP)
+[Network Analyzer (1588:12cc)]   (Sid: 12) Server -> Client : 1380 bytes (SSL) (Service=HTTP)
+[Web Request      (1588:12cc)] "POST /oauth2/v4/token"   
+[Network Analyzer (1588:12cc)]   (Sid: 13) Client -> Server @ : 594 bytes (SSL)(Service=HTTP)
+[Network Analyzer (1588:12cc)]   (Sid: 11) Server -> Client : 1380 bytes (SSL) (Service=HTTP)
+[Network Analyzer (1588:12cc)]   (Sid: 12) Server -> Client : 1380 bytes (SSL) (Service=HTTP)
+[Network Analyzer (1588:12cc)]   (Sid: 11) Server -> Client : 1380 bytes (SSL) (Service=HTTP)
+[Network Analyzer (1588:12cc)]   (Sid: 12) Server -> Client : 1380 bytes (SSL) (Service=HTTP)
+[Network Analyzer (1588:12cc)]   (Sid: 11) Server -> Client : 1380 bytes (SSL) (Service=HTTP)
+[Network Analyzer (1588:12cc)]   (Sid: 12) Server -> Client : 1380 bytes (SSL) (Service=HTTP)
+[Network Analyzer (1588:12cc)]   (Sid: 11) Server -> Client : 1380 bytes (SSL) (Service=HTTP)
+[Network Analyzer (1588:12cc)]   (Sid: 12) Server -> Client : 1380 bytes (SSL) (Service=HTTP)
+[Network Analyzer (1588:12cc)]   (Sid: 11) Server -> Client : 1380 bytes (SSL) (Service=HTTP)
+[Network Analyzer (1588:12cc)]   (Sid: 12) Server -> Client : 1380 bytes (SSL) (Service=HTTP)
+[Network Analyzer (1588:12cc)]   (Sid: 11) Server -> Client : 1380 bytes (SSL) (Service=HTTP)
+[Network Analyzer (1588:12cc)]   (Sid: 12) Server -> Client : 1380 bytes (SSL) (Service=HTTP)
+[Network Analyzer (1588:12cc)]   (Sid: 11) Server -> Client : 1380 bytes (SSL) (Service=HTTP)
+[Network Analyzer (1588:12cc)]   (Sid: 12) Server -> Client : 1380 bytes (SSL) (Service=HTTP)
+[Network Analyzer (1588:12cc)]   (Sid: 11) Server -> Client : 1380 bytes (SSL) (Service=HTTP)
+[Network Analyzer (1588:12cc)]   (Sid: 12) Server -> Client : 1380 bytes (SSL) (Service=HTTP)
+[Network Analyzer (1588:12cc)]   (Sid: 11) Server -> Client : 1028 bytes (SSL) (Service=HTTP)
+[Network Analyzer (1588:12cc)]   (Sid: 12) Server -> Client : 1380 bytes (SSL) (Service=HTTP)
+[Network Analyzer (1588:12cc)]   (Sid: 11) Server -> Client : 352 bytes (SSL) (Service=HTTP)
+[Network Analyzer (1588:12cc)]   (Sid: 12) Server -> Client : 1028 bytes (SSL) (Service=HTTP)
+[Network Analyzer (1588:12cc)]   (Sid: 11) Server -> Client : 1380 bytes (SSL) (Service=HTTP)
+[Network Analyzer (1588:12cc)]   (Sid: 12) Server -> Client : 352 bytes (SSL) (Service=HTTP)
+[Network Analyzer (1588:12cc)]   (Sid: 11) Server -> Client : 1380 bytes (SSL) (Service=HTTP)
+[Network Analyzer (1588:12cc)]   (Sid: 12) Server -> Client : 1380 bytes (SSL) (Service=HTTP)
+[Network Analyzer (1588:12cc)]   (Sid: 11) Server -> Client : 899 bytes (SSL) (Service=HTTP)
+[Network Analyzer (1588:12cc)]   (Sid: 12) Server -> Client : 1380 bytes (SSL) (Service=HTTP)
+[Network Analyzer (1588:12cc)]   (Sid: 12) Server -> Client : 899 bytes (SSL) (Service=HTTP)
+[Web Request      (1588:12cc)] "GET /__utm.gif?utmwv=5.7.2&utms=3&utmn=6342206&utmhn=chphlpgkkbolifaimnlloiipkdnihall&utmcs=UTF-8&utmsr=1536x864&utmsc=24-bit&utmul=zh-cn&utmje=0&utmfl=-&utmhid=193701819&utmr=-&utmp=%2F_generated_background_page.html&utmht=1560125329870&utmac=UA-38573374-2&utmcc=__utma%3D140524640.1375607711.1542347206.1560092489.1560125206.847%3B%2B__utmz%3D140524640.1542347206.1.1.utmcsr%3D(direct)%7Cutmccn%3D(direct)%7Cutmcmd%3D(none)%3B&utmjid=&utmu=qAAAAAAAAAAAAAAAAAAAAAAE~"   
+[Network Analyzer (1588:12cc)]   (Sid:  4) Client -> Server @ : 804 bytes (SSL)(Service=HTTP)
+[Network Analyzer (1588:30b8)] Address lookup for DESKTOP-624ASTC = 192.168.245.1
+[Network Analyzer (1588:12cc)]   (Sid:  4) Server -> Client : 437 bytes (SSL) (Service=HTTP)
+[Network Analyzer (1588:30b8)] Request Connection: Remote Server @ 202.120.40.82:11235   (Service=)  (Sid= 20)  PROXIED!
+[Network Analyzer (1588:30b8)] Address lookup for DESKTOP-624ASTC = 192.168.245.1
+[Web Request      (1588:12cc)] "CONNECT www.wjx.cn:443"   
+[Network Analyzer (1588:12cc)]   (Sid: 20) Client -> Server @ : 216 bytes (Service=HTTP)
+[Network Analyzer (1588:30b8)] Request Connection: Remote Server @ 202.120.40.82:11235   (Service=)  (Sid= 21)  PROXIED!
+[Web Request      (1588:12cc)] "CONNECT www.wjx.cn:443"   
+[Network Analyzer (1588:12cc)]   (Sid: 21) Client -> Server @ : 216 bytes (Service=HTTP)
+[Network Analyzer (1588:30b8)] Address lookup for DESKTOP-624ASTC = 192.168.245.1
+[Network Analyzer (1588:12cc)]   (Sid: 20) Server -> Client : 35 bytes 
+[Network Analyzer (1588:12cc)]   (Sid: 21) Server -> Client : 35 bytes 
+[Network Analyzer (1588:30b8)] Request Connection: Remote Server @ 202.120.40.82:11235   (Service=)  (Sid= 22)  PROXIED!
+[Network Analyzer (1588:30b8)] Address lookup for DESKTOP-624ASTC = 192.168.245.1
+[Web Request      (1588:12cc)] "CONNECT www.wjx.cn:443"   
+[Network Analyzer (1588:12cc)]   (Sid: 22) Client -> Server @ : 216 bytes (Service=HTTP)
+[Network Analyzer (1588:30b8)] Request Connection: Remote Server @ 202.120.40.82:11235   (Service=)  (Sid= 23)  PROXIED!
+[Web Request      (1588:12cc)] "CONNECT www.wjx.cn:443"   
+[Network Analyzer (1588:12cc)]   (Sid: 23) Client -> Server @ : 216 bytes (Service=HTTP)
+[Network Analyzer (1588:30b8)] Address lookup for DESKTOP-624ASTC = 192.168.245.1
+[Network Analyzer (1588:12cc)]   (Sid: 22) Server -> Client : 35 bytes 
+[Network Analyzer (1588:12cc)]   (Sid: 23) Server -> Client : 35 bytes 
+[Network Analyzer (1588:30b8)] Request Connection: Remote Server @ 202.120.40.82:11235   (Service=)  (Sid= 24)  PROXIED!
+[Web Request      (1588:12cc)] "GET /joinnew/css/NewDefault.css?v=12"   
+[Network Analyzer (1588:12cc)]   (Sid: 10) Client -> Server @ : 594 bytes (SSL)(Service=HTTP)
+[Web Request      (1588:12cc)] "CONNECT www.wjx.cn:443"   
+[Network Analyzer (1588:12cc)]   (Sid: 24) Client -> Server @ : 216 bytes (Service=HTTP)
+[Network Analyzer (1588:30b8)] Address lookup for DESKTOP-624ASTC = 192.168.245.1
+[Network Analyzer (1588:12cc)]   (Sid: 24) Server -> Client : 35 bytes 
+[Network Analyzer (1588:12cc)]   (Sid: 10) Server -> Client : 1400 bytes (SSL) (Service=HTTP)
+[Network Analyzer (1588:12cc)]   (Sid: 13) Server -> Client : 855 bytes (SSL) (Service=HTTP)
+[Network Analyzer (1588:12cc)]   (Sid: 10) Server -> Client : 1400 bytes (SSL) (Service=HTTP)
+[Network Analyzer (1588:12cc)]   (Sid: 13) Server -> Client : 5 bytes (SSL) (Service=HTTP)
+[Network Analyzer (1588:30b8)] Request Connection: Remote Server @ 202.120.40.82:11235   (Service=)  (Sid= 25)  PROXIED!
+[Network Analyzer (1588:12cc)]   (Sid: 10) Server -> Client : 74 bytes (SSL) (Service=HTTP)
+[Network Analyzer (1588:12cc)]   (Sid: 10) Server -> Client : 1400 bytes (SSL) (Service=HTTP)
+[Web Request      (1588:12cc)] "CONNECT www.googleapis.com:443"   
+[Network Analyzer (1588:12cc)]   (Sid: 25) Client -> Server @ : 232 bytes (Service=HTTP)
+[Network Analyzer (1588:12cc)]   (Sid: 10) Server -> Client : 1400 bytes (SSL) (Service=HTTP)
+[Network Analyzer (1588:12cc)]   (Sid: 10) Server -> Client : 1400 bytes (SSL) (Service=HTTP)
+[Network Analyzer (1588:12cc)]   (Sid: 10) Server -> Client : 1400 bytes (SSL) (Service=HTTP)
+[Network Analyzer (1588:12cc)]   (Sid: 10) Server -> Client : 192 bytes (SSL) (Service=HTTP)
+[Network Analyzer (1588:30b8)] Address lookup for DESKTOP-624ASTC = 192.168.245.1
+[Network Analyzer (1588:12cc)]   (Sid: 10) Server -> Client : 1400 bytes (SSL) (Service=HTTP)
+[Network Analyzer (1588:12cc)]   (Sid: 10) Server -> Client : 1400 bytes (SSL) (Service=HTTP)
+[Network Analyzer (1588:12cc)]   (Sid: 10) Server -> Client : 514 bytes (SSL) (Service=HTTP)
+[Network Analyzer (1588:30b8)] Request Connection: Remote Server @ 202.120.40.82:11235   (Service=)  (Sid= 26)  PROXIED!
+[Web Request      (1588:12cc)] "POST /oauth2/v4/token"   
+[Network Analyzer (1588:12cc)]   (Sid: 13) Client -> Server @ : 602 bytes (SSL)(Service=HTTP)
+[Web Request      (1588:12cc)] "CONNECT image.wjx.com:443"   
+[Network Analyzer (1588:30b8)] Address lookup for DESKTOP-624ASTC = 192.168.245.1
+[Network Analyzer (1588:12cc)]   (Sid: 26) Client -> Server @ : 222 bytes (Service=HTTP)
+[Network Analyzer (1588:30b8)] Request Connection: Remote Server @ 202.120.40.82:11235   (Service=)  (Sid= 27)  PROXIED!
+[Network Analyzer (1588:30b8)] Address lookup for DESKTOP-624ASTC = 192.168.245.1
+[Web Request      (1588:12cc)] "CONNECT stats.g.doubleclick.net:443"   
+[Network Analyzer (1588:12cc)]   (Sid: 27) Client -> Server @ : 242 bytes (Service=HTTP)
+[Network Analyzer (1588:30b8)] Request Connection: Remote Server @ 202.120.40.82:11235   (Service=)  (Sid= 28)  PROXIED!
+[Web Request      (1588:12cc)] "CONNECT s6.cnzz.com:443"   
+[Network Analyzer (1588:12cc)]   (Sid: 28) Client -> Server @ : 218 bytes (Service=HTTP)
+[Network Analyzer (1588:12cc)]   (Sid: 27) Server -> Client : 35 bytes 
+[Web Request      (1588:12cc)] "GET /joinnew/maincss/q.css?v=826"   
+[Network Analyzer (1588:12cc)]   (Sid: 10) Client -> Server @ : 590 bytes (SSL)(Service=HTTP)
+[Web Request      (1588:12cc)] "GET /b/ss/adbcreatepdfplugin.prod/1/JS-1.6/s69454948151841?AQB=1&ndh=1&pf=1&t=10%2F5%2F2019%208%3A8%3A49%201%20-480&fid=250CB031EE2F8E17-2372BBCB13C3A857&ce=UTF-8&pageName=DCBrowserExt%3AExtension%3AStartup%3AOp&g=chrome-extension%3A%2F%2Fefaidnbmnnnibpcajpcglclefindmkaj%2F_generated_background_page.html&v1=15.1.1.0&v2=sideload&v3=prod&v4=unknown&AQE=1"   
+[Network Analyzer (1588:12cc)]   (Sid:  9) Client -> Server @ : 2375 bytes (SSL)(Service=HTTP)
+[Network Analyzer (1588:30b8)] Address lookup for DESKTOP-624ASTC = 192.168.245.1
+[Network Analyzer (1588:30b8)] Request Connection: Remote Server @ 202.120.40.82:11235   (Service=)  (Sid= 29)  PROXIED!
+[Network Analyzer (1588:12cc)]   (Sid: 10) Server -> Client : 1400 bytes (SSL) (Service=HTTP)
+[Network Analyzer (1588:12cc)]   (Sid: 10) Server -> Client : 1400 bytes (SSL) (Service=HTTP)
+[Web Request      (1588:12cc)] "CONNECT clients4.google.com:443"   
+[Network Analyzer (1588:12cc)]   (Sid: 29) Client -> Server @ : 234 bytes (Service=HTTP)
+[Network Analyzer (1588:12cc)]   (Sid: 10) Server -> Client : 74 bytes (SSL) (Service=HTTP)
+[Network Analyzer (1588:12cc)]   (Sid: 10) Server -> Client : 1400 bytes (SSL) (Service=HTTP)
+[Network Analyzer (1588:12cc)]   (Sid: 28) Server -> Client : 35 bytes 
+[Network Analyzer (1588:12cc)]   (Sid: 10) Server -> Client : 48 bytes (SSL) (Service=HTTP)
+[Network Analyzer (1588:12cc)]   (Sid: 26) Server -> Client : 35 bytes 
+[Network Analyzer (1588:12cc)]   (Sid: 10) Server -> Client : 23 bytes (SSL) (Service=HTTP)
+[Network Analyzer (1588:12cc)]   (Sid:  9) Server -> Client : 648 bytes (SSL) (Service=HTTP)
+[Web Request      (1588:12cc)] "GET /joinnew/css/newsolid_38.css?v=2"   
+[Network Analyzer (1588:12cc)]   (Sid: 10) Client -> Server @ : 594 bytes (SSL)(Service=HTTP)
+[Web Request      (1588:12cc)] "GET /b/ss/adbcreatepdfplugin.prod/1/JS-1.6/s6745570411383?AQB=1&ndh=1&pf=1&t=10%2F5%2F2019%208%3A8%3A49%201%20-480&fid=250CB031EE2F8E17-2372BBCB13C3A857&ce=UTF-8&pageName=DCBrowserExt%3AOS%3Awin%3AOp&g=chrome-extension%3A%2F%2Fefaidnbmnnnibpcajpcglclefindmkaj%2F_generated_background_page.html&v1=15.1.1.0&v2=sideload&v3=prod&v4=unknown&AQE=1"   
+[Network Analyzer (1588:12cc)]   (Sid:  9) Client -> Server @ : 2363 bytes (SSL)(Service=HTTP)
+[Network Analyzer (1588:12cc)]   (Sid: 10) Server -> Client : 789 bytes (SSL) (Service=HTTP)
+[Web Request      (1588:12cc)] "GET /joinnew/js/zhezhao.js?v=2"   
+[Network Analyzer (1588:12cc)]   (Sid: 10) Client -> Server @ : 573 bytes (SSL)(Service=HTTP)
+[Network Analyzer (1588:30b8)] Address lookup for DESKTOP-624ASTC = 192.168.245.1
+[Network Analyzer (1588:12cc)]   (Sid: 25) Server -> Client : 35 bytes 
+[Network Analyzer (1588:12cc)]   (Sid: 10) Server -> Client : 1400 bytes (SSL) (Service=HTTP)
+[Network Analyzer (1588:12cc)]   (Sid: 10) Server -> Client : 26 bytes (SSL) (Service=HTTP)
+[Network Analyzer (1588:30b8)] Request Connection: Remote Server @ 202.120.40.82:11235   (Service=)  (Sid= 30)  PROXIED!
+[Network Analyzer (1588:12cc)]   (Sid: 10) Server -> Client : 1011 bytes (SSL) (Service=HTTP)
+[Web Request      (1588:12cc)] "CONNECT image.wjx.com:443"   
+[Network Analyzer (1588:12cc)]   (Sid: 30) Client -> Server @ : 222 bytes (Service=HTTP)
+[Network Analyzer (1588:30b8)] Address lookup for DESKTOP-624ASTC = 192.168.245.1
+[Network Analyzer (1588:30b8)] Request Connection: Remote Server @ 202.120.40.82:11235   (Service=)  (Sid= 31)  PROXIED!
+[Web Request      (1588:12cc)] "GET /joinnew/js/slider_extras.js?v=826"   
+[Network Analyzer (1588:12cc)]   (Sid: 10) Client -> Server @ : 581 bytes (SSL)(Service=HTTP)
+[Web Request      (1588:12cc)] "CONNECT image.wjx.com:443"   
+[Network Analyzer (1588:12cc)]   (Sid: 31) Client -> Server @ : 222 bytes (Service=HTTP)
+[Network Analyzer (1588:12cc)]   (Sid: 30) Server -> Client : 35 bytes 
+[Network Analyzer (1588:30b8)] Address lookup for DESKTOP-624ASTC = 192.168.245.1
+[Network Analyzer (1588:12cc)]   (Sid:  9) Server -> Client : 648 bytes (SSL) (Service=HTTP)
+[Network Analyzer (1588:12cc)]   (Sid: 10) Server -> Client : 1400 bytes (SSL) (Service=HTTP)
+[Network Analyzer (1588:12cc)]   (Sid: 13) Server -> Client : 760 bytes (SSL) (Service=HTTP)
+[Network Analyzer (1588:12cc)]   (Sid: 31) Server -> Client : 35 bytes 
+[Network Analyzer (1588:12cc)]   (Sid: 10) Server -> Client : 1167 bytes (SSL) (Service=HTTP)
+[Network Analyzer (1588:36a8)]   (Sid: 14) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.2, ciphers:ECDHE-ECDSA-AES128-GCM-SHA256)
+[Network Analyzer (1588:30b8)] Request Connection: Remote Server @ 202.120.40.82:11235   (Service=)  (Sid= 32)  PROXIED!
+[Web Request      (1588:12cc)] "CONNECT down.wjx.com:443"   
+[Network Analyzer (1588:12cc)]   (Sid: 32) Client -> Server @ : 220 bytes (Service=HTTP)
+[Network Analyzer (1588:12cc)]   (Sid:  3) Server -> Client : 1389 bytes (SSL) (Service=HTTP)
+[Network Analyzer (1588:12cc)]   (Sid:  3) Server -> Client : 120 bytes (SSL) (Service=HTTP)
+[Network Analyzer (1588:30b8)] Address lookup for DESKTOP-624ASTC = 192.168.245.1
+[Network Analyzer (1588:30b8)] Request Connection: Remote Server @ 202.120.40.82:11235   (Service=)  (Sid= 33)  PROXIED!
+[Network Analyzer (1588:36a8)]   (Sid: 14) Negotiate Client -> Proxy SSL Handshake (ssl:TLSv1.2, ciphers:ECDHE-RSA-AES128-GCM-SHA256)
+[Web Request      (1588:12cc)] "GET /wjx/join/uploadqiniu.aspx?activity=14514689&q=3&ms=4096&length=1"   
+[Network Analyzer (1588:12cc)]   (Sid: 10) Client -> Server @ : 757 bytes (SSL)(Service=HTTP)
+[Web Request      (1588:12cc)] "CONNECT clients4.google.com:443"   
+[Network Analyzer (1588:12cc)]   (Sid: 33) Client -> Server @ : 233 bytes (Service=HTTP)
+[Web Request      (1588:12cc)] "GET /oauth2/v1/userinfo"   
+[Network Analyzer (1588:12cc)]   (Sid: 14) Client -> Server @ : 552 bytes (SSL)(Service=HTTP)
+[Network Analyzer (1588:12cc)]   (Sid: 13) Server -> Client : 5 bytes (SSL) (Service=HTTP)
+[Network Analyzer (1588:12cc)]   (Sid: 10) Server -> Client : 1400 bytes (SSL) (Service=HTTP)
+[Network Analyzer (1588:12cc)]   (Sid: 32) Server -> Client : 35 bytes 
+[Network Analyzer (1588:12cc)]   (Sid: 10) Server -> Client : 1400 bytes (SSL) (Service=HTTP)
+[Network Analyzer (1588:12cc)]   (Sid: 10) Server -> Client : 74 bytes (SSL) (Service=HTTP)
+[Network Analyzer (1588:3538)]   (Sid: 15) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.2, ciphers:ECDHE-RSA-AES128-GCM-SHA256)
+[Network Analyzer (1588:12cc)]   (Sid: 10) Server -> Client : 1400 bytes (SSL) (Service=HTTP)
+[Network Analyzer (1588:12cc)]   (Sid: 10) Server -> Client : 569 bytes (SSL) (Service=HTTP)
+[Web Request      (1588:12cc)] "GET /joinnew/js/hintinfo.js?v=2"   
+[Network Analyzer (1588:12cc)]   (Sid: 10) Client -> Server @ : 574 bytes (SSL)(Service=HTTP)
+[Network Analyzer (1588:12cc)]   (Sid:  3) Server -> Client : 5 bytes (SSL) (Service=HTTP)
+[Network Analyzer (1588:30b8)] Address lookup for DESKTOP-624ASTC = 192.168.245.1
+[Network Analyzer (1588:12cc)]   (Sid: 10) Server -> Client : 1400 bytes (SSL) (Service=HTTP)
+[Network Analyzer (1588:12cc)]   (Sid: 10) Server -> Client : 460 bytes (SSL) (Service=HTTP)
+[Network Analyzer (1588:30b8)] Request Connection: Remote Server @ 202.120.40.82:11235   (Service=)  (Sid= 34)  PROXIED!
+[Network Analyzer (1588:3538)]   (Sid: 15) Negotiate Client -> Proxy SSL Handshake (ssl:TLSv1.2, ciphers:ECDHE-RSA-AES128-GCM-SHA256)
+[Web Request      (1588:12cc)] "GET /images/checkbox.gif"   
+[Network Analyzer (1588:12cc)]   (Sid: 10) Client -> Server @ : 614 bytes (SSL)(Service=HTTP)
+[Network Analyzer (1588:12cc)]   (Sid: 33) Server -> Client : 35 bytes 
+[Web Request      (1588:12cc)] "CONNECT oauthaccountmanager.googleapis.com:443"   
+[Network Analyzer (1588:12cc)]   (Sid: 34) Client -> Server @ : 264 bytes (Service=HTTP)
+[Network Analyzer (1588:12cc)]   (Sid: 10) Server -> Client : 1400 bytes (SSL) (Service=HTTP)
+[Network Analyzer (1588:12cc)]   (Sid: 10) Server -> Client : 106 bytes (SSL) (Service=HTTP)
+[Web Request      (1588:12cc)] "GET /images/wjx/JoinQuestionnaire/bgProgressBg.gif"   
+[Network Analyzer (1588:12cc)]   (Sid: 10) Client -> Server @ : 640 bytes (SSL)(Service=HTTP)
+[Network Analyzer (1588:12cc)]   (Sid: 10) Server -> Client : 554 bytes (SSL) (Service=HTTP)
+[Web Request      (1588:12cc)] "GET /joinnew/js/jqnew2.js?v=826"   
+[Network Analyzer (1588:12cc)]   (Sid: 10) Client -> Server @ : 574 bytes (SSL)(Service=HTTP)
+[Network Analyzer (1588:350c)]   (Sid: 17) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.2, ciphers:ECDHE-RSA-AES128-GCM-SHA256)
+[Network Analyzer (1588:12cc)]   (Sid: 14) Server -> Client : 703 bytes (SSL) (Service=HTTP)
+[Network Analyzer (1588:12cc)]   (Sid: 10) Server -> Client : 1400 bytes (SSL) (Service=HTTP)
+[Network Analyzer (1588:12cc)]   (Sid: 10) Server -> Client : 26 bytes (SSL) (Service=HTTP)
+[Network Analyzer (1588:12cc)]   (Sid: 10) Server -> Client : 1400 bytes (SSL) (Service=HTTP)
+[Network Analyzer (1588:12cc)]   (Sid: 10) Server -> Client : 48 bytes (SSL) (Service=HTTP)
+[Network Analyzer (1588:12cc)]   (Sid: 10) Server -> Client : 1400 bytes (SSL) (Service=HTTP)
+[Network Analyzer (1588:12cc)]   (Sid: 10) Server -> Client : 1400 bytes (SSL) (Service=HTTP)
+[Network Analyzer (1588:350c)]   (Sid: 17) Negotiate Client -> Proxy SSL Handshake (ssl:TLSv1.2, ciphers:ECDHE-RSA-AES128-GCM-SHA256)
+[Network Analyzer (1588:12cc)]   (Sid: 10) Server -> Client : 1400 bytes (SSL) (Service=HTTP)
+[Network Analyzer (1588:12cc)]   (Sid: 10) Server -> Client : 144 bytes (SSL) (Service=HTTP)
+[Network Analyzer (1588:12cc)]   (Sid: 10) Server -> Client : 1400 bytes (SSL) (Service=HTTP)
+[Network Analyzer (1588:12cc)]   (Sid: 10) Server -> Client : 48 bytes (SSL) (Service=HTTP)
+[Network Analyzer (1588:12cc)]   (Sid: 10) Server -> Client : 1400 bytes (SSL) (Service=HTTP)
+[Network Analyzer (1588:12cc)]   (Sid: 10) Server -> Client : 1400 bytes (SSL) (Service=HTTP)
+[Network Analyzer (1588:12cc)]   (Sid: 10) Server -> Client : 1400 bytes (SSL) (Service=HTTP)
+[Network Analyzer (1588:12cc)]   (Sid: 10) Server -> Client : 1400 bytes (SSL) (Service=HTTP)
+[Network Analyzer (1588:12cc)]   (Sid: 10) Server -> Client : 192 bytes (SSL) (Service=HTTP)
+[Network Analyzer (1588:12cc)]   (Sid: 34) Server -> Client : 35 bytes 
+[Network Analyzer (1588:12cc)]   (Sid: 10) Server -> Client : 1400 bytes (SSL) (Service=HTTP)
+[Network Analyzer (1588:249c)]   (Sid: 18) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.2, ciphers:ECDHE-RSA-AES128-GCM-SHA256)
+[Network Analyzer (1588:12cc)]   (Sid: 10) Server -> Client : 1400 bytes (SSL) (Service=HTTP)
+[Network Analyzer (1588:12cc)]   (Sid: 10) Server -> Client : 1400 bytes (SSL) (Service=HTTP)
+[Network Analyzer (1588:12cc)]   (Sid: 10) Server -> Client : 1400 bytes (SSL) (Service=HTTP)
+[Network Analyzer (1588:12cc)]   (Sid: 10) Server -> Client : 192 bytes (SSL) (Service=HTTP)
+[Network Analyzer (1588:12cc)]   (Sid: 10) Server -> Client : 1400 bytes (SSL) (Service=HTTP)
+[Network Analyzer (1588:12cc)]   (Sid: 10) Server -> Client : 1400 bytes (SSL) (Service=HTTP)
+[Network Analyzer (1588:12cc)]   (Sid: 10) Server -> Client : 1400 bytes (SSL) (Service=HTTP)
+[Network Analyzer (1588:12cc)]   (Sid: 10) Server -> Client : 1400 bytes (SSL) (Service=HTTP)
+[Network Analyzer (1588:12cc)]   (Sid: 10) Server -> Client : 1400 bytes (SSL) (Service=HTTP)
+[Network Analyzer (1588:12cc)]   (Sid: 14) Server -> Client : 5 bytes (SSL) (Service=HTTP)
+[Network Analyzer (1588:12cc)]   (Sid: 10) Server -> Client : 1400 bytes (SSL) (Service=HTTP)
+[Network Analyzer (1588:12cc)]   (Sid: 10) Server -> Client : 1400 bytes (SSL) (Service=HTTP)
+[Network Analyzer (1588:12cc)]   (Sid: 10) Server -> Client : 1400 bytes (SSL) (Service=HTTP)
+[Network Analyzer (1588:12cc)]   (Sid: 10) Server -> Client : 1400 bytes (SSL) (Service=HTTP)
+[Network Analyzer (1588:249c)]   (Sid: 18) Negotiate Client -> Proxy SSL Handshake (ssl:TLSv1.2, ciphers:ECDHE-RSA-AES128-GCM-SHA256)
+[Network Analyzer (1588:12cc)]   (Sid: 10) Server -> Client : 1400 bytes (SSL) (Service=HTTP)
+[Network Analyzer (1588:12cc)]   (Sid: 10) Server -> Client : 1400 bytes (SSL) (Service=HTTP)
+[Network Analyzer (1588:12cc)]   (Sid: 10) Server -> Client : 1400 bytes (SSL) (Service=HTTP)
+[Network Analyzer (1588:12cc)]   (Sid: 10) Server -> Client : 1400 bytes (SSL) (Service=HTTP)
+[Network Analyzer (1588:12cc)]   (Sid: 10) Server -> Client : 306 bytes (SSL) (Service=HTTP)
+[Web Request      (1588:12cc)] "GET /joinnew/js/calendar.js"   
+[Network Analyzer (1588:12cc)]   (Sid: 10) Client -> Server @ : 570 bytes (SSL)(Service=HTTP)
+[Network Analyzer (1588:12cc)]   (Sid: 10) Server -> Client : 1400 bytes (SSL) (Service=HTTP)
+[Network Analyzer (1588:12cc)]   (Sid: 10) Server -> Client : 1400 bytes (SSL) (Service=HTTP)
+[Network Analyzer (1588:12cc)]   (Sid: 10) Server -> Client : 74 bytes (SSL) (Service=HTTP)
+[Network Analyzer (1588:12cc)]   (Sid: 10) Server -> Client : 1400 bytes (SSL) (Service=HTTP)
+[Network Analyzer (1588:12cc)]   (Sid: 10) Server -> Client : 48 bytes (SSL) (Service=HTTP)
+[Network Analyzer (1588:12cc)]   (Sid: 10) Server -> Client : 1400 bytes (SSL) (Service=HTTP)
+[Network Analyzer (1588:12cc)]   (Sid: 10) Server -> Client : 86 bytes (SSL) (Service=HTTP)
+[Web Request      (1588:12cc)] "GET /images/form/mobile.png"   
+[Network Analyzer (1588:12cc)]   (Sid: 10) Client -> Server @ : 606 bytes (SSL)(Service=HTTP)
+[Network Analyzer (1588:12cc)]   (Sid: 10) Server -> Client : 1369 bytes (SSL) (Service=HTTP)
+[Web Request      (1588:12cc)] "GET /images/form/date.png"   
+[Network Analyzer (1588:12cc)]   (Sid: 10) Client -> Server @ : 604 bytes (SSL)(Service=HTTP)
+[Network Analyzer (1588:12cc)]   (Sid: 10) Server -> Client : 1386 bytes (SSL) (Service=HTTP)
+[Web Request      (1588:12cc)] "GET /images/radio.gif"   
+[Network Analyzer (1588:12cc)]   (Sid: 10) Client -> Server @ : 611 bytes (SSL)(Service=HTTP)
+[Network Analyzer (1588:12cc)]   (Sid: 10) Server -> Client : 1400 bytes (SSL) (Service=HTTP)
+[Network Analyzer (1588:12cc)]   (Sid: 10) Server -> Client : 245 bytes (SSL) (Service=HTTP)
+[Web Request      (1588:12cc)] "GET /Images/newimg/newupload/upload-pc@2x.png"   
+[Network Analyzer (1588:12cc)]   (Sid: 10) Client -> Server @ : 672 bytes (SSL)(Service=HTTP)
+[Network Analyzer (1588:12cc)]   (Sid: 10) Server -> Client : 1400 bytes (SSL) (Service=HTTP)
+[Network Analyzer (1588:12cc)]   (Sid: 10) Server -> Client : 81 bytes (SSL) (Service=HTTP)
+[Web Request      (1588:12cc)] "GET /images/arrow.png"   
+[Network Analyzer (1588:12cc)]   (Sid: 10) Client -> Server @ : 611 bytes (SSL)(Service=HTTP)
+[Network Analyzer (1588:12cc)]   (Sid: 10) Server -> Client : 362 bytes (SSL) (Service=HTTP)
+[Web Request      (1588:12cc)] "GET /images/wjx/JoinQuestionnaire/sliderEnd.png"   
+[Network Analyzer (1588:12cc)]   (Sid: 10) Client -> Server @ : 637 bytes (SSL)(Service=HTTP)
+[Network Analyzer (1588:12cc)]   (Sid: 10) Server -> Client : 530 bytes (SSL) (Service=HTTP)
+[Web Request      (1588:12cc)] "GET /images/wjx/JoinQuestionnaire/slider1.png"   
+[Network Analyzer (1588:12cc)]   (Sid: 10) Client -> Server @ : 635 bytes (SSL)(Service=HTTP)
+[Network Analyzer (1588:12cc)]   (Sid: 10) Server -> Client : 1400 bytes (SSL) (Service=HTTP)
+[Network Analyzer (1588:12cc)]   (Sid: 10) Server -> Client : 142 bytes (SSL) (Service=HTTP)
+[Network Analyzer (1588:1770)]   (Sid: 19) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.2, ciphers:ECDHE-ECDSA-AES128-GCM-SHA256)
+[Network Analyzer (1588:1770)]   (Sid: 19) Negotiate Client -> Proxy SSL Handshake (ssl:TLSv1.2, ciphers:ECDHE-RSA-AES128-GCM-SHA256)
+[Network Analyzer (1588:12cc)]   (Sid: 29) Server -> Client : 35 bytes 
+[Network Analyzer (1588:2324)]   (Sid: 20) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.2, ciphers:ECDHE-RSA-AES128-GCM-SHA256)
+[Network Analyzer (1588:2324)]   (Sid: 20) Negotiate Client -> Proxy SSL Handshake (ssl:TLSv1.2, ciphers:ECDHE-RSA-AES128-GCM-SHA256)
+[Network Analyzer (1588: 70c)]   (Sid: 21) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.2, ciphers:ECDHE-RSA-AES128-GCM-SHA256)
+[Network Analyzer (1588: 70c)]   (Sid: 21) Negotiate Client -> Proxy SSL Handshake (ssl:TLSv1.2, ciphers:ECDHE-RSA-AES128-GCM-SHA256)
+[Network Analyzer (1588:1230)]   (Sid: 22) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.2, ciphers:ECDHE-RSA-AES128-GCM-SHA256)
+[Network Analyzer (1588:1230)]   (Sid: 22) Negotiate Client -> Proxy SSL Handshake (ssl:TLSv1.2, ciphers:ECDHE-RSA-AES128-GCM-SHA256)
+[Network Analyzer (1588: 44c)]   (Sid: 23) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.2, ciphers:ECDHE-RSA-AES128-GCM-SHA256)
+[Network Analyzer (1588: 44c)]   (Sid: 23) Negotiate Client -> Proxy SSL Handshake (ssl:TLSv1.2, ciphers:ECDHE-RSA-AES128-GCM-SHA256)
+[Network Analyzer (1588:1f50)]   (Sid: 24) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.2, ciphers:ECDHE-RSA-AES128-GCM-SHA256)
+[Network Analyzer (1588:1f50)]   (Sid: 24) Negotiate Client -> Proxy SSL Handshake (ssl:TLSv1.2, ciphers:ECDHE-RSA-AES128-GCM-SHA256)
+[Network Analyzer (1588:204c)]   (Sid: 27) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.2, ciphers:ECDHE-ECDSA-AES128-GCM-SHA256)
+[Network Analyzer (1588:204c)]   (Sid: 27) Negotiate Client -> Proxy SSL Handshake (ssl:TLSv1.2, ciphers:ECDHE-RSA-AES128-GCM-SHA256)
+[Network Analyzer (1588:18b0)]   (Sid: 28) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.2, ciphers:ECDHE-RSA-AES128-GCM-SHA256)
+[Network Analyzer (1588:19b4)]   (Sid: 26) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.2, ciphers:ECDHE-RSA-AES128-GCM-SHA256)
+[Network Analyzer (1588:18b0)]   (Sid: 28) Negotiate Client -> Proxy SSL Handshake (ssl:TLSv1.2, ciphers:ECDHE-RSA-AES128-GCM-SHA256)
+[Network Analyzer (1588:19b4)]   (Sid: 26) Negotiate Client -> Proxy SSL Handshake (ssl:TLSv1.2, ciphers:ECDHE-RSA-AES128-GCM-SHA256)
+[Network Analyzer (1588:1fe8)]   (Sid: 25) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.2, ciphers:ECDHE-ECDSA-AES128-GCM-SHA256)
+[Network Analyzer (1588:1fe8)]   (Sid: 25) Negotiate Client -> Proxy SSL Handshake (ssl:TLSv1.2, ciphers:ECDHE-RSA-AES128-GCM-SHA256)
+[Network Analyzer (1588: 278)]   (Sid: 30) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.2, ciphers:ECDHE-RSA-AES128-GCM-SHA256)
+[Network Analyzer (1588: 278)]   (Sid: 30) Negotiate Client -> Proxy SSL Handshake (ssl:TLSv1.2, ciphers:ECDHE-RSA-AES128-GCM-SHA256)
+[Web Request      (1588:12cc)] "GET /images/newbg/oldbg2-bg.jpg"   
+[Network Analyzer (1588:12cc)]   (Sid: 26) Client -> Server @ : 418 bytes (SSL)(Service=HTTP)
+[Web Request      (1588:12cc)] "GET /r/collect?v=1&aip=1&t=dc&_r=3&tid=UA-93290101-2&cid=1508949300.1559633806&jid=174825347&_gid=867776080.1560092489&gjid=466082591&_v=j76&z=1389523331"   
+[Network Analyzer (1588:12cc)]   (Sid: 27) Client -> Server @ : 602 bytes (SSL)(Service=HTTP)
+[Web Request      (1588:12cc)] "GET /z_stat.php?id=4478442&web_id=4478442"   
+[Network Analyzer (1588:12cc)]   (Sid: 28) Client -> Server @ : 375 bytes (SSL)(Service=HTTP)
+[Web Request      (1588:12cc)] "GET /images/newbg/oldbg2.jpg"   
+[Network Analyzer (1588:12cc)]   (Sid: 30) Client -> Server @ : 415 bytes (SSL)(Service=HTTP)
+[Network Analyzer (1588:2898)]   (Sid: 31) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.2, ciphers:ECDHE-RSA-AES128-GCM-SHA256)
+[Network Analyzer (1588:12cc)]   (Sid: 26) Server -> Client : 3065 bytes (SSL) (Service=HTTP)
+[Network Analyzer (1588:12cc)]   (Sid: 27) Server -> Client : 497 bytes (SSL) (Service=HTTP)
+[Network Analyzer (1588:12cc)]   (Sid: 28) Server -> Client : 2970 bytes (SSL) (Service=HTTP)
+[Network Analyzer (1588:12cc)]   (Sid: 30) Server -> Client : 2969 bytes (SSL) (Service=HTTP)
+[Network Analyzer (1588:12cc)]   (Sid: 28) Server -> Client : 1733 bytes (SSL) (Service=HTTP)
+[Network Analyzer (1588:12cc)]   (Sid: 30) Server -> Client : 16384 bytes (SSL) (Service=HTTP)
+[Network Analyzer (1588:12cc)]   (Sid: 30) Server -> Client : 588 bytes (SSL) (Service=HTTP)
+[Network Analyzer (1588:2898)]   (Sid: 31) Negotiate Client -> Proxy SSL Handshake (ssl:TLSv1.2, ciphers:ECDHE-RSA-AES128-GCM-SHA256)
+[Web Request      (1588:12cc)] "GET /GreyBox/ajax-loading.gif"   
+[Network Analyzer (1588:12cc)]   (Sid: 26) Client -> Server @ : 401 bytes (SSL)(Service=HTTP)
+[Network Analyzer (1588:2c78)]   (Sid: 32) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.2, ciphers:ECDHE-RSA-AES128-GCM-SHA256)
+[Network Analyzer (1588:30b8)] Address lookup for DESKTOP-624ASTC = 192.168.245.1
+[Network Analyzer (1588:30b8)] Request Connection: Remote Server @ 202.120.40.82:11235   (Service=)  (Sid= 35)  PROXIED!
+[Network Analyzer (1588:12cc)]   (Sid: 26) Server -> Client : 2970 bytes (SSL) (Service=HTTP)
+[Network Analyzer (1588:12cc)]   (Sid: 26) Server -> Client : 8464 bytes (SSL) (Service=HTTP)
+[Web Request      (1588:12cc)] "CONNECT c.cnzz.com:443"   
+[Network Analyzer (1588:12cc)]   (Sid: 35) Client -> Server @ : 216 bytes (Service=HTTP)
+[Network Analyzer (1588:30b8)] Address lookup for DESKTOP-624ASTC = 192.168.245.1
+[Network Analyzer (1588:30b8)] Request Connection: Remote Server @ 202.120.40.82:11235   (Service=)  (Sid= 36)  PROXIED!
+[Network Analyzer (1588:2c78)]   (Sid: 32) Negotiate Client -> Proxy SSL Handshake (ssl:TLSv1.2, ciphers:ECDHE-RSA-AES128-GCM-SHA256)
+[Network Analyzer (1588:12cc)]   (Sid: 35) Server -> Client : 35 bytes 
+[Web Request      (1588:12cc)] "GET /handler/qrcode.ashx?chs=50x50&chl=https%3a%2f%2fwww.wjx.cn%2fm%2f14514689.aspx"   
+[Network Analyzer (1588:12cc)]   (Sid: 32) Client -> Server @ : 454 bytes (SSL)(Service=HTTP)
+[Web Request      (1588:12cc)] "CONNECT gzs20.cnzz.com:443"   
+[Network Analyzer (1588:12cc)]   (Sid: 36) Client -> Server @ : 224 bytes (Service=HTTP)
+[Network Analyzer (1588:12cc)]   (Sid: 32) Server -> Client : 1400 bytes (SSL) (Service=HTTP)
+[Network Analyzer (1588:12cc)]   (Sid: 32) Server -> Client : 391 bytes (SSL) (Service=HTTP)
+[Network Analyzer (1588:12cc)]   (Sid: 36) Server -> Client : 35 bytes 
+[Network Analyzer (1588: 270)]   (Sid: 33) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.2, ciphers:ECDHE-ECDSA-AES128-GCM-SHA256)
+[Network Analyzer (1588: 270)]   (Sid: 33) Negotiate Client -> Proxy SSL Handshake (ssl:TLSv1.2, ciphers:ECDHE-RSA-AES128-GCM-SHA256)
+[Network Analyzer (1588:2b34)]   (Sid: 34) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.2, ciphers:ECDHE-ECDSA-AES128-GCM-SHA256)
+[Network Analyzer (1588:2b34)]   (Sid: 34) Negotiate Client -> Proxy SSL Handshake (ssl:TLSv1.2, ciphers:ECDHE-RSA-AES128-GCM-SHA256)
+[Network Analyzer (1588:30b8)] Address lookup for DESKTOP-624ASTC = 192.168.245.1
+[Web Request      (1588:12cc)] "POST /invalidation/android/request/CHES4QEStwFBUEE5MWJGejNhY09hWWRyN3lJZEZ0VWtxTkhiM1pOcW5sREZ5bXZLQUQyRU1BcUZjd1Z4VV8xZGp5WGxOTHBYemQ5blhqcGQyRFpKTjk3a3ZzVWNKc3RFZVROcFR6M09RN21RYjdJVjQtSHdobUJLU3Z6eHQtYmZ1dkxUdlFHdzlPdDNHeGs4a19VZ0dTako2OTZpT01UTE5GLUpNdDUxanhDVXFpNmJOMVd6cDE4Mno5XzlTNk0aACoCCAAyH2NvbS5nb29nbGUuY2hyb21lLmludmFsaWRhdGlvbnM"   
+[Network Analyzer (1588:12cc)]   (Sid: 33) Client -> Server @ : 1183 bytes (SSL)(Service=HTTP)
+[Web Request      (1588:12cc)] "POST /v1/issuetoken"   
+[Network Analyzer (1588:12cc)]   (Sid: 34) Client -> Server @ : 1262 bytes (SSL)(Service=HTTP)
+[Network Analyzer (1588:12cc)]   (Sid: 33) Server -> Client : 128 bytes (SSL) (Service=HTTP)
+[Network Analyzer (1588:12cc)]   (Sid: 34) Server -> Client : 858 bytes (SSL) (Service=HTTP)
+[Network Analyzer (1588:2894)]   (Sid: 29) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.2, ciphers:ECDHE-ECDSA-AES128-GCM-SHA256)
+[Network Analyzer (1588: c10)]   (Sid: 35) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.2, ciphers:ECDHE-RSA-AES128-GCM-SHA256)
+[Network Analyzer (1588:12cc)]   (Sid: 34) Server -> Client : 5 bytes (SSL) (Service=HTTP)
+[Network Analyzer (1588:3008)]   (Sid: 36) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.2, ciphers:ECDHE-RSA-AES128-GCM-SHA256)
+[Net An. Warning  (1588:30b8)] Request Connection: Remote Server @ 127.0.0.1:63342 (Service=) Failed attempt #1. Unable to connect to remote server: rc = -1 , le = 10061)
+[Net An. Warning  (1588:30b8)] Request Connection: Remote Server @ 127.0.0.1:63342 (Service=) Failed attempt #2. Unable to connect to remote server: rc = -1 , le = 10061)
+[Network Analyzer (1588:12cc)]   (Sid:  5) Connection Terminated (by Server)
+[Net An. Warning  (1588:30b8)] Request Connection: Remote Server @ 127.0.0.1:63342 (Service=) Failed attempt #3. Unable to connect to remote server: rc = -1 , le = 10061)
+[Net An. Error    (1588:30b8)] Request Connection: Remote Server @ 127.0.0.1:63342   (Service=)  NOT PROXIED! (REASON: Unable to connect to remote server: rc = -1 , le = 10061)
+[Network Analyzer (1588:2894)]   (Sid: 29) Negotiate Client -> Proxy SSL Handshake (ssl:TLSv1.2, ciphers:ECDHE-RSA-AES128-GCM-SHA256)
+[Network Analyzer (1588:12cc)]   (Sid: 33) Client -> Server @ : 750 bytes (SSL)(Service=HTTP)
+[Web Request      (1588:12cc)] "POST /chrome-sync/command/?client=Google+Chrome&client_id=eOkV5hRiIuSooumDReSRdw%3D%3D"   
+[Network Analyzer (1588:12cc)]   (Sid: 33) Client -> Server @ : 1241 bytes (SSL)(Service=HTTP)
+[Network Analyzer (1588: c10)]   (Sid: 35) Negotiate Client -> Proxy SSL Handshake (ssl:TLSv1.2, ciphers:ECDHE-RSA-AES128-GCM-SHA256)
+[Network Analyzer (1588:3008)]   (Sid: 36) Negotiate Client -> Proxy SSL Handshake (ssl:TLSv1.2, ciphers:ECDHE-RSA-AES128-GCM-SHA256)
+[Network Analyzer (1588:30b8)] Address lookup for DESKTOP-624ASTC = 192.168.245.1
+[Network Analyzer (1588:12cc)]   (Sid: 33) Server -> Client : 539 bytes (SSL) (Service=HTTP)
+[Network Analyzer (1588:12cc)]   (Sid: 33) Server -> Client : 1389 bytes (SSL) (Service=HTTP)
+[Web Request      (1588:12cc)] "GET /core.php?web_id=4478442&t=z"   
+[Network Analyzer (1588:12cc)]   (Sid: 35) Client -> Server @ : 453 bytes (SSL)(Service=HTTP)
+[Web Request      (1588:12cc)] "GET /stat.htm?id=4478442&r=&lg=zh-cn&ntime=none&cnzz_eid=220356809-1560120921-&showp=1536x864&p=https%3A%2F%2Fwww.wjx.cn%2Fjq%2F14514689.aspx&t=%E4%B8%80%E9%A4%90%E6%A1%8C%E9%9D%A2%E6%B8%85%E7%90%86%E6%83%85%E5%86%B5%E8%B0%83%E6%9F%A5&umuuid=16b3eb7aa964ce-0fbf81633905e7-e353165-144000-16b3eb7aa972b9&h=1&rnd=1795985284"   
+[Network Analyzer (1588:12cc)]   (Sid: 36) Client -> Server @ : 693 bytes (SSL)(Service=HTTP)
+[Network Analyzer (1588:12cc)]   (Sid: 33) Server -> Client : 267 bytes (SSL) (Service=HTTP)
+[Network Analyzer (1588:12cc)]   (Sid: 33) Server -> Client : 130 bytes (SSL) (Service=HTTP)
+[Network Analyzer (1588:12cc)]   (Sid: 33) Server -> Client : 5 bytes (SSL) (Service=HTTP)
+[Network Analyzer (1588:12cc)]   (Sid: 35) Server -> Client : 1263 bytes (SSL) (Service=HTTP)
+[Network Analyzer (1588:12cc)]   (Sid: 36) Server -> Client : 245 bytes (SSL) (Service=HTTP)
+[Net An. Warning  (1588:30b8)] Request Connection: Remote Server @ 127.0.0.1:63342 (Service=) Failed attempt #1. Unable to connect to remote server: rc = -1 , le = 10061)
+[Network Analyzer (1588:12cc)]   (Sid: 36) Connection Terminated (by Server)
+[Net An. Warning  (1588:30b8)] Request Connection: Remote Server @ 127.0.0.1:63342 (Service=) Failed attempt #2. Unable to connect to remote server: rc = -1 , le = 10061)
+[Net An. Warning  (1588:30b8)] Request Connection: Remote Server @ 127.0.0.1:63342 (Service=) Failed attempt #3. Unable to connect to remote server: rc = -1 , le = 10061)
+[Net An. Error    (1588:30b8)] Request Connection: Remote Server @ 127.0.0.1:63342   (Service=)  NOT PROXIED! (REASON: Unable to connect to remote server: rc = -1 , le = 10061)
+[Network Analyzer (1588:12cc)]   (Sid: 33) Client -> Server @ : 750 bytes (SSL)(Service=HTTP)
+[Web Request      (1588:12cc)] "POST /chrome-sync/command/?client=Google+Chrome&client_id=eOkV5hRiIuSooumDReSRdw%3D%3D"   
+[Network Analyzer (1588:12cc)]   (Sid: 33) Client -> Server @ : 5175 bytes (SSL)(Service=HTTP)
+[Network Analyzer (1588:30b8)] Address lookup for DESKTOP-624ASTC = 192.168.245.1
+[Network Analyzer (1588:12cc)]   (Sid: 33) Server -> Client : 539 bytes (SSL) (Service=HTTP)
+[Network Analyzer (1588:12cc)]   (Sid: 33) Server -> Client : 1290 bytes (SSL) (Service=HTTP)
+[Network Analyzer (1588:12cc)]   (Sid: 33) Server -> Client : 83 bytes (SSL) (Service=HTTP)
+[Network Analyzer (1588:12cc)]   (Sid: 33) Server -> Client : 5 bytes (SSL) (Service=HTTP)
+[Network Analyzer (1588:12cc)]   (Sid: 32) Connection Terminated (by Server)
+[API Trapper      ( f3c: ce8)] Recording in 64-bit mode: C:\Program Files (x86)\Google\Chrome\Application\chrome.exe
+[Network Analyzer (1588:12cc)]   (Sid: 15) Connection Terminated (by Client)
+[Network Analyzer (1588:12cc)]   (Sid: 17) Connection Terminated (by Client)
+[Network Analyzer (1588:12cc)]   (Sid: 18) Connection Terminated (by Client)
+[Network Analyzer (1588:12cc)]   (Sid: 19) Connection Terminated (by Client)
+[Network Analyzer (1588:12cc)]   (Sid: 25) Connection Terminated (by Client)
+[Network Analyzer (1588:12cc)]   (Sid: 31) Connection Terminated (by Client)
+[Network Analyzer (1588:12cc)]   (Sid: 20) Connection Terminated (by Client)
+[Network Analyzer (1588:12cc)]   (Sid: 21) Connection Terminated (by Client)
+[Network Analyzer (1588:12cc)]   (Sid: 22) Connection Terminated (by Client)
+[Network Analyzer (1588:12cc)]   (Sid: 23) Connection Terminated (by Client)
+[Network Analyzer (1588:12cc)]   (Sid: 24) Connection Terminated (by Client)
+[Network Analyzer (1588:30b8)] Request Connection: Remote Server @ 202.120.40.82:11235   (Service=)  (Sid= 37)  PROXIED!
+[Network Analyzer (1588:30b8)] Address lookup for DESKTOP-624ASTC = 192.168.245.1
+[Web Request      (1588:12cc)] "CONNECT cnzz.mmstat.com:443"   
+[Network Analyzer (1588:12cc)]   (Sid: 37) Client -> Server @ : 226 bytes (Service=HTTP)
+[Network Analyzer (1588:30b8)] Request Connection: Remote Server @ 202.120.40.82:11235   (Service=)  (Sid= 38)  PROXIED!
+[Web Request      (1588:12cc)] "CONNECT hm.baidu.com:443"   
+[Network Analyzer (1588:12cc)]   (Sid: 38) Client -> Server @ : 220 bytes (Service=HTTP)
+[Network Analyzer (1588:30b8)] Address lookup for DESKTOP-624ASTC = 192.168.245.1
+[Network Analyzer (1588:30b8)] Request Connection: Remote Server @ 202.120.40.82:11235   (Service=)  (Sid= 39)  PROXIED!
+[Network Analyzer (1588:30b8)] Address lookup for DESKTOP-624ASTC = 192.168.245.1
+[Network Analyzer (1588:12cc)]   (Sid: 38) Server -> Client : 35 bytes 
+[Web Request      (1588:12cc)] "CONNECT mtalk.google.com:443"   
+[Network Analyzer (1588:12cc)]   (Sid: 39) Client -> Server @ : 99 bytes (Service=HTTP)
+[Network Analyzer (1588:12cc)]   (Sid: 37) Server -> Client : 35 bytes 
+[Network Analyzer (1588:12cc)]   (Sid: 39) Server -> Client : 35 bytes 
+[Net An. Warning  (1588:30b8)] Request Connection: Remote Server @ 127.0.0.1:63342 (Service=) Failed attempt #1. Unable to connect to remote server: rc = -1 , le = 10061)
+[Net An. Warning  (1588:30b8)] Request Connection: Remote Server @ 127.0.0.1:63342 (Service=) Failed attempt #2. Unable to connect to remote server: rc = -1 , le = 10061)
+[Net An. Warning  (1588:30b8)] Request Connection: Remote Server @ 127.0.0.1:63342 (Service=) Failed attempt #3. Unable to connect to remote server: rc = -1 , le = 10061)
+[Net An. Error    (1588:30b8)] Request Connection: Remote Server @ 127.0.0.1:63342   (Service=)  NOT PROXIED! (REASON: Unable to connect to remote server: rc = -1 , le = 10061)
+[Network Analyzer (1588:30b8)] Address lookup for DESKTOP-624ASTC = 192.168.245.1
+[Network Analyzer (1588:30b8)] Request Connection: Remote Server @ 202.120.40.82:11235   (Service=)  (Sid= 40)  PROXIED!
+[Network Analyzer (1588:30b8)] Address lookup for DESKTOP-624ASTC = 192.168.245.1
+[Web Request      (1588:12cc)] "CONNECT clients1.google.com:443"   
+[Network Analyzer (1588:12cc)]   (Sid: 40) Client -> Server @ : 234 bytes (Service=HTTP)
+[Network Analyzer (1588:30b8)] Request Connection: Remote Server @ 202.120.40.82:11235   (Service=)  (Sid= 41)  PROXIED!
+[Web Request      (1588:12cc)] "CONNECT ei.cnzz.com:443"   
+[Network Analyzer (1588:12cc)]   (Sid: 41) Client -> Server @ : 218 bytes (Service=HTTP)
+[Network Analyzer (1588:18dc)]   (Sid: 38) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.2, ciphers:ECDHE-RSA-AES128-GCM-SHA256)
+[Network Analyzer (1588:12cc)]   (Sid: 41) Server -> Client : 35 bytes 
+[Network Analyzer (1588:1a68)]   (Sid: 37) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.2, ciphers:ECDHE-RSA-AES128-GCM-SHA256)
+[Network Analyzer (1588:12cc)]   (Sid: 40) Server -> Client : 35 bytes 
+[Network Analyzer (1588:18dc)]   (Sid: 38) Negotiate Client -> Proxy SSL Handshake (ssl:TLSv1.2, ciphers:ECDHE-RSA-AES128-GCM-SHA256)
+[Network Analyzer (1588:30b8)] Address lookup for DESKTOP-624ASTC = 192.168.245.1
+[Network Analyzer (1588:1464)]   (Sid: 39) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.2, ciphers:ECDHE-ECDSA-AES128-GCM-SHA256)
+[Network Analyzer (1588:1824)]   (Sid: 41) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.2, ciphers:ECDHE-RSA-AES128-GCM-SHA256)
+[Network Analyzer (1588:1c3c)]   (Sid: 40) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.2, ciphers:ECDHE-ECDSA-AES128-GCM-SHA256)
+[Web Request      (1588:12cc)] "GET /hm.js?21be24c80829bd7a683b2c536fcf520b"   
+[Network Analyzer (1588:12cc)]   (Sid: 38) Client -> Server @ : 378 bytes (SSL)(Service=HTTP)
+[Network Analyzer (1588:12cc)]   (Sid: 38) Server -> Client : 1472 bytes (SSL) (Service=HTTP)
+[Network Analyzer (1588:12cc)]   (Sid: 38) Server -> Client : 4000 bytes (SSL) (Service=HTTP)
+[Network Analyzer (1588:12cc)]   (Sid: 38) Server -> Client : 4000 bytes (SSL) (Service=HTTP)
+[Network Analyzer (1588:12cc)]   (Sid: 38) Server -> Client : 2881 bytes (SSL) (Service=HTTP)
+[Net An. Warning  (1588:30b8)] Request Connection: Remote Server @ 127.0.0.1:63342 (Service=) Failed attempt #1. Unable to connect to remote server: rc = -1 , le = 10061)
+[Net An. Warning  (1588:30b8)] Request Connection: Remote Server @ 127.0.0.1:63342 (Service=) Failed attempt #2. Unable to connect to remote server: rc = -1 , le = 10061)
+[Net An. Warning  (1588:30b8)] Request Connection: Remote Server @ 127.0.0.1:63342 (Service=) Failed attempt #3. Unable to connect to remote server: rc = -1 , le = 10061)
+[Net An. Error    (1588:30b8)] Request Connection: Remote Server @ 127.0.0.1:63342   (Service=)  NOT PROXIED! (REASON: Unable to connect to remote server: rc = -1 , le = 10061)
+[Web Request      (1588:12cc)] "GET /Images/newimg/newupload/upload-pc-pre@2x.png"   
+[Network Analyzer (1588:12cc)]   (Sid: 10) Client -> Server @ : 822 bytes (SSL)(Service=HTTP)
+[Network Analyzer (1588:1464)]   (Sid: 39) Negotiate Client -> Proxy SSL Handshake (ssl:TLSv1.2, ciphers:ECDHE-RSA-AES128-GCM-SHA256)
+[Network Analyzer (1588:1c3c)]   (Sid: 40) Negotiate Client -> Proxy SSL Handshake (ssl:TLSv1.2, ciphers:ECDHE-RSA-AES128-GCM-SHA256)
+[Network Analyzer (1588:1a68)]   (Sid: 37) Negotiate Client -> Proxy SSL Handshake (ssl:TLSv1.2, ciphers:ECDHE-RSA-AES128-GCM-SHA256)
+[Network Analyzer (1588:1824)]   (Sid: 41) Negotiate Client -> Proxy SSL Handshake (ssl:TLSv1.2, ciphers:ECDHE-RSA-AES128-GCM-SHA256)
+[Network Analyzer (1588:12cc)]   (Sid: 10) Server -> Client : 926 bytes (SSL) (Service=HTTP)
+[Web Request      (1588:12cc)] "GET /9.gif?abc=1&rnd=648614870"   
+[Network Analyzer (1588:12cc)]   (Sid: 37) Client -> Server @ : 404 bytes (SSL)(Service=HTTP)
+[Web Request      (1588:12cc)] "GET /hm.gif?cc=1&ck=1&cl=24-bit&ds=1536x864&vl=1122&et=0&ja=0&ln=zh-cn&lo=0&rnd=76763105&si=21be24c80829bd7a683b2c536fcf520b&v=1.2.51&lv=1&sn=64710&ct=!!&tt=%E4%B8%80%E9%A4%90%E6%A1%8C%E9%9D%A2%E6%B8%85%E7%90%86%E6%83%85%E5%86%B5%E8%B0%83%E6%9F%A5"   
+[Network Analyzer (1588:12cc)]   (Sid: 38) Client -> Server @ : 654 bytes (SSL)(Service=HTTP)
+[Network Analyzer (1588:12cc)]   (Sid: 39) Client -> Server @ : 191 bytes (SSL)
+[Web Request      (1588:12cc)] "GET /tbproxy/af/query?q=Chc2LjEuMTcxNS4xNDQyL2VuIChHR0xMKRMZugE2fZ3wD-ojLZFhlU4kIy2RYZVOJCMtBu27_yQjLQbtu_8kIy0G7bv_JCMtBu27_yQjLQbtu_8kIy0G7bv_JCMtnLPjeyQjLbWkk9YkIy0A_lfeJCMt-aNNPSQjLXloy1kkFA=="   
+[Network Analyzer (1588:12cc)]   (Sid: 40) Client -> Server @ : 536 bytes (SSL)(Service=HTTP)
+[Web Request      (1588:12cc)] "GET /stat.htm?id=4478442&r=&lg=zh-cn&ntime=none&cnzz_eid=220356809-1560120921-&showp=1536x864&p=https%3A%2F%2Fwww.wjx.cn%2Fjq%2F14514689.aspx&ei=PC%25E7%25AB%25AFJQ%7C%25E5%2585%258D%25E8%25B4%25B9%25E7%2589%2588%7C1%7C0%7C&t=%E4%B8%80%E9%A4%90%E6%A1%8C%E9%9D%A2%E6%B8%85%E7%90%86%E6%83%85%E5%86%B5%E8%B0%83%E6%9F%A5&umuuid=16b3eb7aa964ce-0fbf81633905e7-e353165-144000-16b3eb7aa972b9&h=1&rnd=1302696101"   
+[Network Analyzer (1588:12cc)]   (Sid: 41) Client -> Server @ : 772 bytes (SSL)(Service=HTTP)
+[Network Analyzer (1588:12cc)]   (Sid: 37) Server -> Client : 572 bytes (SSL) (Service=HTTP)
+[Network Analyzer (1588:12cc)]   (Sid: 37) Connection Terminated (by Server)
+[Network Analyzer (1588:12cc)]   (Sid: 38) Server -> Client : 299 bytes (SSL) (Service=HTTP)
+[Network Analyzer (1588:12cc)]   (Sid: 41) Server -> Client : 245 bytes (SSL) (Service=HTTP)
+[Network Analyzer (1588:12cc)]   (Sid: 39) Server -> Client : 1 bytes (SSL)
+[Network Analyzer (1588:12cc)]   (Sid: 39) Server -> Client : 90 bytes (SSL)
+[Network Analyzer (1588:12cc)]   (Sid: 39) Server -> Client : 119 bytes (SSL)
+[Network Analyzer (1588:12cc)]   (Sid: 40) Server -> Client : 355 bytes (SSL) (Service=HTTP)
+[Network Analyzer (1588:12cc)]   (Sid: 41) Connection Terminated (by Server)
+[Network Analyzer (1588:30b8)] Address lookup for DESKTOP-624ASTC = 192.168.245.1
+[Network Analyzer (1588:30b8)] Request Connection: Remote Server @ 202.120.40.82:11235   (Service=)  (Sid= 42)  PROXIED!
+[Web Request      (1588:12cc)] "CONNECT clients2.google.com:443"   
+[Network Analyzer (1588:12cc)]   (Sid: 42) Client -> Server @ : 234 bytes (Service=HTTP)
+[Network Analyzer (1588:12cc)]   (Sid: 42) Server -> Client : 35 bytes 
+[Network Analyzer (1588:30b8)] Address lookup for DESKTOP-624ASTC = 192.168.245.1
+[Network Analyzer (1588:1718)]   (Sid: 42) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.2, ciphers:ECDHE-ECDSA-AES128-GCM-SHA256)
+[Network Analyzer (1588:12cc)]   (Sid: 29) Connection Terminated (by Client)
+[Net An. Warning  (1588:30b8)] Request Connection: Remote Server @ 127.0.0.1:63342 (Service=) Failed attempt #1. Unable to connect to remote server: rc = -1 , le = 10061)
+[Net An. Warning  (1588:30b8)] Request Connection: Remote Server @ 127.0.0.1:63342 (Service=) Failed attempt #2. Unable to connect to remote server: rc = -1 , le = 10061)
+[Network Analyzer (1588:12cc)]   (Sid: 38) Connection Terminated (by Server)
+[Net An. Warning  (1588:30b8)] Request Connection: Remote Server @ 127.0.0.1:63342 (Service=) Failed attempt #3. Unable to connect to remote server: rc = -1 , le = 10061)
+[Net An. Error    (1588:30b8)] Request Connection: Remote Server @ 127.0.0.1:63342   (Service=)  NOT PROXIED! (REASON: Unable to connect to remote server: rc = -1 , le = 10061)
+[Network Analyzer (1588:1718)]   (Sid: 42) Negotiate Client -> Proxy SSL Handshake (ssl:TLSv1.2, ciphers:ECDHE-RSA-AES128-GCM-SHA256)
+[Network Analyzer (1588:30b8)] Address lookup for DESKTOP-624ASTC = 192.168.245.1
+[Web Request      (1588:12cc)] "GET /service/update2/crx?os=win&arch=x64&os_arch=x86_64&nacl_arch=x86-64&prod=chromecrx&prodchannel=&prodversion=74.0.3729.169&lang=zh-CN&acceptformat=crx2,crx3&x=id%3Dmgndgikekgjfcpckkfioiadnlibdjbkf%26v%3D0.0.0.0%26installedby%3Dinternal%26uc%26brand%3DSQJL&x=id%3Daapbdbdomjkkjkaonfhkkikfgjllcleb%26v%3D2.0.7%26installedby%3Dinternal%26uc%26brand%3DSQJL&x=id%3Daeajloomjeoncelkceelhhpkgbcgafek%26v%3D0.1%26installedby%3Dinternal%26uc%26brand%3DSQJL&x=id%3Dcfhdojbkjhnklbpkdaibdccddilifddb%26v%3D3.5.2%26installedby%3Dinternal%26uc%26brand%3DSQJL&x=id%3Dchphlpgkkbolifaimnlloiipkdnihall%26v%3D1.18%26installedby%3Dinternal%26uc%26brand%3DSQJL&x=id%3Ddbfmnekepjoapopniengjbcpnbljalfg%26v%3D7.3.8%26installedby%3Dinternal%26uc%26brand%3DSQJL&x=id%3Ddgjhfomjieaadpoljlnidmbgkdffpack%26v%3D19.6.6.2105%26installedby%3Dinternal%26uc%26brand%3DSQJL&x=id%3Deeeningnfkaonkonalpcicgemnnijjhn%26v%3D0.0.1.3%26installedby%3Dinternal%26uc%26brand%3DSQJL&x=id%3Defaidnbmnnnibpcajpcglclefindmkaj%26v%3D15.1.1.0%26installedby%3Dexternal%26uc%26brand%3DSQJL&x=id%3Dffabmkklhbepgcgfonabamgnfafbdlkn%26v%3D0.3.2%26installedby%3Dinternal%26uc%26brand%3DSQJL&x=id%3Dfngmhnnpilhplaeedifhccceomclgfbg%26v%3D1.5.0%26installedby%3Dinternal%26uc%26brand%3DSQJL&x=id%3Dhflefjhkfeiaignkclmphmokmmbhbhik%26v%3D1.5.21%26installedby%3Dinternal%26uc%26brand%3DSQJL&x=id%3Dhmhgeddbohgjknpmjagkdomcpobmllji%26v%3D2.0.10%26installedby%3Dinternal%26uc%26brand%3DSQJL&x=id%3Dilmpacenmcgknoogkhpigakpoocpjmpl%26v%3D2.6.1%26installedby%3Dinternal%26uc%26brand%3DSQJL&x=id%3Djlgkpaicikihijadgifklkbpdajbkhjo%26v%3D4.4.2%26installedby%3Dinternal%26uc%26brand%3DSQJL&x=id%3Dlloccabjgblebdmncjndmiibianflabo%26v%3D2.4.4%26installedby%3Dinternal%26uc%26brand%3DSQJL&x=id%3Dmcbpblocgmgfnpjjppndjkmgjaogfceg%26v%3D0.98.96%26installedby%3Dinternal%26uc%26brand%3DSQJL&x=id%3Dnmmhkkegccagdldgiimedpiccmgmieda%26v%3D1.0.0.4%26installedby%3Dother%26uc%26brand%3DSQJL"   
+[Network Analyzer (1588:12cc)]   (Sid: 42) Client -> Server @ : 2899 bytes (SSL)(Service=HTTP)
+[Network Analyzer (1588:12cc)]   (Sid: 42) Server -> Client : 687 bytes (SSL) (Service=HTTP)
+[Network Analyzer (1588:12cc)]   (Sid: 42) Server -> Client : 808 bytes (SSL) (Service=HTTP)
+[Network Analyzer (1588:12cc)]   (Sid: 42) Server -> Client : 5 bytes (SSL) (Service=HTTP)
+[Net An. Warning  (1588:30b8)] Request Connection: Remote Server @ 127.0.0.1:63342 (Service=) Failed attempt #1. Unable to connect to remote server: rc = -1 , le = 10061)
+[Net An. Warning  (1588:30b8)] Request Connection: Remote Server @ 127.0.0.1:63342 (Service=) Failed attempt #2. Unable to connect to remote server: rc = -1 , le = 10061)
+[Net An. Warning  (1588:30b8)] Request Connection: Remote Server @ 127.0.0.1:63342 (Service=) Failed attempt #3. Unable to connect to remote server: rc = -1 , le = 10061)
+[Net An. Error    (1588:30b8)] Request Connection: Remote Server @ 127.0.0.1:63342   (Service=)  NOT PROXIED! (REASON: Unable to connect to remote server: rc = -1 , le = 10061)
+[Web Request      (1588:12cc)] "GET /service/update2/crx?os=win&arch=x64&os_arch=x86_64&nacl_arch=x86-64&prod=chromecrx&prodchannel=&prodversion=74.0.3729.169&lang=zh-CN&acceptformat=crx2,crx3&x=id%3Dpkedcjkdefgpdelpbcmbmeomcjbeemfm%26v%3D7419.311.0.1%26installedby%3Dother%26uc%26brand%3DSQJL"   
+[Network Analyzer (1588:12cc)]   (Sid: 42) Client -> Server @ : 680 bytes (SSL)(Service=HTTP)
+[Network Analyzer (1588:12cc)]   (Sid: 42) Server -> Client : 687 bytes (SSL) (Service=HTTP)
+[Network Analyzer (1588:12cc)]   (Sid: 42) Server -> Client : 312 bytes (SSL) (Service=HTTP)
+[Network Analyzer (1588:12cc)]   (Sid: 42) Server -> Client : 5 bytes (SSL) (Service=HTTP)
+[Network Analyzer (1588:30b8)] Address lookup for DESKTOP-624ASTC = 192.168.245.1
+[Network Analyzer (1588:30b8)] Request Connection: Remote Server @ 202.120.40.82:11235   (Service=)  (Sid= 43)  PROXIED!
+[Web Request      (1588:12cc)] "CONNECT wjx-z0.qiniup.com:443"   
+[Network Analyzer (1588:12cc)]   (Sid: 43) Client -> Server @ : 230 bytes (Service=HTTP)
+[Network Analyzer (1588:12cc)]   (Sid: 43) Server -> Client : 35 bytes 
+[Network Analyzer (1588:2390)]   (Sid: 43) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.2, ciphers:ECDHE-RSA-AES128-GCM-SHA256)
+[Network Analyzer (1588:2390)]   (Sid: 43) Negotiate Client -> Proxy SSL Handshake (ssl:TLSv1.2, ciphers:ECDHE-RSA-AES128-GCM-SHA256)
+[Web Request      (1588:12cc)] "POST /"
+[Network Analyzer (1588:12cc)]   (Sid: 43) Client -> Server @ : 700 bytes (SSL)(Service=HTTP)
+[Network Analyzer (1588:12cc)]   (Sid: 43) Client -> Server @ : 16384 bytes (SSL)(Service=HTTP)
+[Network Analyzer (1588:12cc)]   (Sid: 43) Client -> Server @ : 8768 bytes (SSL)(Service=HTTP)
+[Network Analyzer (1588:12cc)]   (Sid: 43) Server -> Client : 763 bytes (SSL) (Service=HTTP)
+[Web Request      (1588:12cc)] "GET /wjx/join/uploadqiniu.aspx?activity=14514689&q=3&ms=4096&upload_ret=eyJzaXplIjoiMjM0NTIiLCJuYW1lIjoidGltZy5qcGciLCJrZXkiOiIxNDUxNDY4OV82MF9xM19HcmdNelBxb0ZVS2Z3clVkTGdSUGcuanBnIiwibWltZVR5cGUiOiJpbWFnZS9qcGVnIn0="   
+[Network Analyzer (1588:12cc)]   (Sid: 10) Client -> Server @ : 1229 bytes (SSL)(Service=HTTP)
+[Network Analyzer (1588:12cc)]   (Sid: 10) Server -> Client : 1400 bytes (SSL) (Service=HTTP)
+[Network Analyzer (1588:12cc)]   (Sid: 10) Server -> Client : 1400 bytes (SSL) (Service=HTTP)
+[Network Analyzer (1588:12cc)]   (Sid: 10) Server -> Client : 74 bytes (SSL) (Service=HTTP)
+[Network Analyzer (1588:12cc)]   (Sid: 10) Server -> Client : 1400 bytes (SSL) (Service=HTTP)
+[Network Analyzer (1588:12cc)]   (Sid: 10) Server -> Client : 48 bytes (SSL) (Service=HTTP)
+[Network Analyzer (1588:12cc)]   (Sid: 10) Server -> Client : 736 bytes (SSL) (Service=HTTP)
+[Network Analyzer (1588:30b8)] Address lookup for DESKTOP-624ASTC = 192.168.245.1
+[Network Analyzer (1588:30b8)] Request Connection: Remote Server @ 202.120.40.82:11235   (Service=)  (Sid= 44)  PROXIED!
+[Web Request      (1588:12cc)] "GET http://pubuserqiniu.paperol.cn/14514689_60_q3_GrgMzPqoFUKfwrUdLgRPg.jpg?imageMogr2/thumbnail/120x120&e=1560125462&token=-kY3jr8KMC7l3KkIN3OcIs8Q4s40OfGgUHr1Rg4D:6SHKsJijTkfZwvVrqr24FcEH_Zk="   
+[Network Analyzer (1588:12cc)]   (Sid: 44) Client -> Server @ : 531 bytes (Service=HTTP)
+[Network Analyzer (1588:12cc)]   (Sid: 44) Server -> Client : 2383 bytes  (Service=HTTP)
+[Network Analyzer (1588:12cc)]   (Sid: 44) Server -> Client : 2176 bytes  (Service=HTTP)
+[Network Analyzer (1588:30b8)] Address lookup for DESKTOP-624ASTC = 192.168.245.1
+[Network Analyzer (1588:12cc)]   (Sid:  8) Connection Terminated (by Server)
+[Network Analyzer (1588:12cc)]   (Sid:  7) Connection Terminated (by Server)
+[Net An. Warning  (1588:30b8)] Request Connection: Remote Server @ 127.0.0.1:63342 (Service=) Failed attempt #1. Unable to connect to remote server: rc = -1 , le = 10061)
+[Network Analyzer (1588:12cc)]   (Sid: 13) Connection Terminated (by Server)
+[Network Analyzer (1588:12cc)]   (Sid:  3) Connection Terminated (by Server)
+[Network Analyzer (1588:12cc)]   (Sid: 14) Connection Terminated (by Server)
+[Network Analyzer (1588:12cc)]   (Sid:  9) Connection Terminated (by Server)
+[Net An. Warning  (1588:30b8)] Request Connection: Remote Server @ 127.0.0.1:63342 (Service=) Failed attempt #2. Unable to connect to remote server: rc = -1 , le = 10061)
+[Network Analyzer (1588:12cc)]   (Sid: 34) Connection Terminated (by Server)
+[Net An. Warning  (1588:30b8)] Request Connection: Remote Server @ 127.0.0.1:63342 (Service=) Failed attempt #3. Unable to connect to remote server: rc = -1 , le = 10061)
+[Net An. Error    (1588:30b8)] Request Connection: Remote Server @ 127.0.0.1:63342   (Service=)  NOT PROXIED! (REASON: Unable to connect to remote server: rc = -1 , le = 10061)
+[Network Analyzer (1588:30b8)] Address lookup for DESKTOP-624ASTC = 192.168.245.1
+[Net An. Warning  (1588:30b8)] Request Connection: Remote Server @ 127.0.0.1:63342 (Service=) Failed attempt #1. Unable to connect to remote server: rc = -1 , le = 10061)
+[Net An. Warning  (1588:30b8)] Request Connection: Remote Server @ 127.0.0.1:63342 (Service=) Failed attempt #2. Unable to connect to remote server: rc = -1 , le = 10061)
+[Net An. Warning  (1588:30b8)] Request Connection: Remote Server @ 127.0.0.1:63342 (Service=) Failed attempt #3. Unable to connect to remote server: rc = -1 , le = 10061)
+[Net An. Error    (1588:30b8)] Request Connection: Remote Server @ 127.0.0.1:63342   (Service=)  NOT PROXIED! (REASON: Unable to connect to remote server: rc = -1 , le = 10061)
+[Network Analyzer (1588:12cc)]   (Sid: 44) Server -> Client : 430 bytes  (Service=HTTP)
+[Network Analyzer (1588:12cc)]   (Sid: 44) Connection Terminated (by Server)
+[Network Analyzer (1588:30b8)] Address lookup for DESKTOP-624ASTC = 192.168.245.1
+[Network Analyzer (1588:12cc)]   (Sid: 33) Connection Terminated (by Server)
+[Net An. Warning  (1588:30b8)] Request Connection: Remote Server @ 127.0.0.1:63342 (Service=) Failed attempt #1. Unable to connect to remote server: rc = -1 , le = 10061)
+[Net An. Warning  (1588:30b8)] Request Connection: Remote Server @ 127.0.0.1:63342 (Service=) Failed attempt #2. Unable to connect to remote server: rc = -1 , le = 10061)
+[Net An. Warning  (1588:30b8)] Request Connection: Remote Server @ 127.0.0.1:63342 (Service=) Failed attempt #3. Unable to connect to remote server: rc = -1 , le = 10061)
+[Net An. Error    (1588:30b8)] Request Connection: Remote Server @ 127.0.0.1:63342   (Service=)  NOT PROXIED! (REASON: Unable to connect to remote server: rc = -1 , le = 10061)
+[Network Analyzer (1588:30b8)] Address lookup for DESKTOP-624ASTC = 192.168.245.1
+[Net An. Warning  (1588:30b8)] Request Connection: Remote Server @ 127.0.0.1:63342 (Service=) Failed attempt #1. Unable to connect to remote server: rc = -1 , le = 10061)
+[Net An. Warning  (1588:30b8)] Request Connection: Remote Server @ 127.0.0.1:63342 (Service=) Failed attempt #2. Unable to connect to remote server: rc = -1 , le = 10061)
+[Net An. Warning  (1588:30b8)] Request Connection: Remote Server @ 127.0.0.1:63342 (Service=) Failed attempt #3. Unable to connect to remote server: rc = -1 , le = 10061)
+[Net An. Error    (1588:30b8)] Request Connection: Remote Server @ 127.0.0.1:63342   (Service=)  NOT PROXIED! (REASON: Unable to connect to remote server: rc = -1 , le = 10061)
+[Network Analyzer (1588:30b8)] Address lookup for DESKTOP-624ASTC = 192.168.245.1
+[Network Analyzer (1588:30b8)] Request Connection: Remote Server @ 202.120.40.82:11235   (Service=)  (Sid= 45)  PROXIED!
+[Web Request      (1588:12cc)] "CONNECT clients4.google.com:443"   
+[Network Analyzer (1588:12cc)]   (Sid: 45) Client -> Server @ : 233 bytes (Service=HTTP)
+[Network Analyzer (1588:12cc)]   (Sid: 45) Server -> Client : 35 bytes 
+[Network Analyzer (1588: 728)]   (Sid: 45) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.2, ciphers:ECDHE-ECDSA-AES128-GCM-SHA256)
+[Network Analyzer (1588: 728)]   (Sid: 45) Negotiate Client -> Proxy SSL Handshake (ssl:TLSv1.2, ciphers:ECDHE-RSA-AES128-GCM-SHA256)
+[Web Request      (1588:12cc)] "POST /joinnew/processjq.ashx?submittype=1&curID=14514689&t=1560125440888&starttime=2019%2F6%2F10%208%3A09%3A05&ktimes=135&rn=3394161671.72174508&hlv=1&jqnonce=3dda81ca-dad2-4272-be44-b13370f143c5&jqsign=6aad%3D4fd(ada7(1727(g%6011(g46625c416f0"   
+[Network Analyzer (1588:12cc)]   (Sid: 10) Client -> Server @ : 1327 bytes (SSL)(Service=HTTP)
+[Network Analyzer (1588:12cc)]   (Sid: 45) Client -> Server @ : 749 bytes (SSL)(Service=HTTP)
+[Web Request      (1588:12cc)] "POST /chrome-sync/command/?client=Google+Chrome&client_id=eOkV5hRiIuSooumDReSRdw%3D%3D"   
+[Network Analyzer (1588:12cc)]   (Sid: 45) Client -> Server @ : 735 bytes (SSL)(Service=HTTP)
+[Network Analyzer (1588:12cc)]   (Sid: 45) Server -> Client : 539 bytes (SSL) (Service=HTTP)
+[Network Analyzer (1588:12cc)]   (Sid: 10) Server -> Client : 592 bytes (SSL) (Service=HTTP)
+[Network Analyzer (1588:12cc)]   (Sid: 45) Server -> Client : 1389 bytes (SSL) (Service=HTTP)
+[Network Analyzer (1588:12cc)]   (Sid: 45) Server -> Client : 1389 bytes (SSL) (Service=HTTP)
+[Network Analyzer (1588:12cc)]   (Sid: 45) Server -> Client : 1348 bytes (SSL) (Service=HTTP)
+[Network Analyzer (1588:12cc)]   (Sid: 45) Server -> Client : 1389 bytes (SSL) (Service=HTTP)
+[Network Analyzer (1588:12cc)]   (Sid: 45) Server -> Client : 45 bytes (SSL) (Service=HTTP)
+[Network Analyzer (1588:12cc)]   (Sid: 45) Server -> Client : 34 bytes (SSL) (Service=HTTP)
+[Network Analyzer (1588:12cc)]   (Sid: 45) Server -> Client : 5 bytes (SSL) (Service=HTTP)
+[Network Analyzer (1588:30b8)] Address lookup for DESKTOP-624ASTC = 192.168.245.1
+[Network Analyzer (1588:30b8)] Request Connection: Remote Server @ 202.120.40.82:11235   (Service=)  (Sid= 46)  PROXIED!
+[Web Request      (1588:12cc)] "CONNECT sojump.cn-hangzhou.log.aliyuncs.com:443"   
+[Network Analyzer (1588:12cc)]   (Sid: 46) Client -> Server @ : 266 bytes (Service=HTTP)
+[Network Analyzer (1588:12cc)]   (Sid: 46) Server -> Client : 35 bytes 
+[Network Analyzer (1588:24e8)]   (Sid: 46) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.2, ciphers:ECDHE-RSA-AES128-GCM-SHA256)
+[Network Analyzer (1588:24e8)]   (Sid: 46) Negotiate Client -> Proxy SSL Handshake (ssl:TLSv1.2, ciphers:ECDHE-RSA-AES128-GCM-SHA256)
+[Web Request      (1588:12cc)] "GET /wjx/join/complete.aspx?q=14514689&JoinID=102822716510&jidx=60&s=&njqj=1"   
+[Network Analyzer (1588:12cc)]   (Sid: 10) Client -> Server @ : 1074 bytes (SSL)(Service=HTTP)
+[Web Request      (1588:12cc)] "GET /logstores/activityfinish/track.gif?APIVersion=0.6.0&activity=14514689&source=0&weixin=0&vip=0&qtype=1"   
+[Network Analyzer (1588:12cc)]   (Sid: 46) Client -> Server @ : 500 bytes (SSL)(Service=HTTP)
+[Network Analyzer (1588:12cc)]   (Sid: 10) Server -> Client : 1400 bytes (SSL) (Service=HTTP)
+[Network Analyzer (1588:12cc)]   (Sid: 10) Server -> Client : 1400 bytes (SSL) (Service=HTTP)
+[Network Analyzer (1588:12cc)]   (Sid: 46) Server -> Client : 250 bytes (SSL) (Service=HTTP)
+[Network Analyzer (1588:12cc)]   (Sid: 10) Server -> Client : 74 bytes (SSL) (Service=HTTP)
+[Network Analyzer (1588:12cc)]   (Sid: 46) Connection Terminated (by Server)
+[Network Analyzer (1588:12cc)]   (Sid: 10) Server -> Client : 1400 bytes (SSL) (Service=HTTP)
+[Network Analyzer (1588:12cc)]   (Sid: 10) Server -> Client : 1298 bytes (SSL) (Service=HTTP)
+[Network Analyzer (1588:30b8)] Address lookup for DESKTOP-624ASTC = 192.168.245.1
+[Network Analyzer (1588:30b8)] Request Connection: Remote Server @ 202.120.40.82:11235   (Service=)  (Sid= 47)  PROXIED!
+[Network Analyzer (1588:30b8)] Address lookup for DESKTOP-624ASTC = 192.168.245.1
+[Web Request      (1588:12cc)] "CONNECT hm.baidu.com:443"   
+[Network Analyzer (1588:12cc)]   (Sid: 47) Client -> Server @ : 220 bytes (Service=HTTP)
+[Network Analyzer (1588:30b8)] Request Connection: Remote Server @ 202.120.40.82:11235   (Service=)  (Sid= 48)  PROXIED!
+[Web Request      (1588:12cc)] "CONNECT www.wjx.cn:443"   
+[Network Analyzer (1588:12cc)]   (Sid: 48) Client -> Server @ : 216 bytes (Service=HTTP)
+[Network Analyzer (1588:30b8)] Address lookup for DESKTOP-624ASTC = 192.168.245.1
+[Network Analyzer (1588:30b8)] Request Connection: Remote Server @ 202.120.40.82:11235   (Service=)  (Sid= 49)  PROXIED!
+[Network Analyzer (1588:12cc)]   (Sid: 48) Server -> Client : 35 bytes 
+[Network Analyzer (1588:12cc)]   (Sid: 47) Server -> Client : 35 bytes 
+[Web Request      (1588:12cc)] "CONNECT image.wjx.cn:443"   
+[Network Analyzer (1588:12cc)]   (Sid: 49) Client -> Server @ : 220 bytes (Service=HTTP)
+[Web Request      (1588:12cc)] "GET /joinnew/css/newsolid_38.css"   
+[Network Analyzer (1588:12cc)]   (Sid: 10) Client -> Server @ : 955 bytes (SSL)(Service=HTTP)
+[Network Analyzer (1588:30b8)] Address lookup for DESKTOP-624ASTC = 192.168.245.1
+[Network Analyzer (1588:12cc)]   (Sid: 49) Server -> Client : 35 bytes 
+[Network Analyzer (1588:12cc)]   (Sid: 10) Server -> Client : 789 bytes (SSL) (Service=HTTP)
+[Network Analyzer (1588:30b8)] Request Connection: Remote Server @ 202.120.40.82:11235   (Service=)  (Sid= 50)  PROXIED!
+[Network Analyzer (1588:30b8)] Address lookup for DESKTOP-624ASTC = 192.168.245.1
+[Web Request      (1588:12cc)] "CONNECT image.wjx.cn:443"   
+[Network Analyzer (1588:12cc)]   (Sid: 50) Client -> Server @ : 220 bytes (Service=HTTP)
+[Network Analyzer (1588:30b8)] Request Connection: Remote Server @ 202.120.40.82:11235   (Service=)  (Sid= 51)  PROXIED!
+[Web Request      (1588:12cc)] "CONNECT www.wjx.cn:443"   
+[Network Analyzer (1588:12cc)]   (Sid: 51) Client -> Server @ : 216 bytes (Service=HTTP)
+[Network Analyzer (1588:12cc)]   (Sid: 50) Server -> Client : 35 bytes 
+[Network Analyzer (1588:12cc)]   (Sid: 51) Server -> Client : 35 bytes 
+[Web Request      (1588:12cc)] "GET /joinnew/js/joinawardactivity.js?v=826"   
+[Network Analyzer (1588:12cc)]   (Sid: 10) Client -> Server @ : 950 bytes (SSL)(Service=HTTP)
+[Network Analyzer (1588:12cc)]   (Sid: 10) Server -> Client : 1400 bytes (SSL) (Service=HTTP)
+[Network Analyzer (1588:12cc)]   (Sid: 10) Server -> Client : 26 bytes (SSL) (Service=HTTP)
+[Network Analyzer (1588:1a1c)]   (Sid: 48) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.2, ciphers:ECDHE-RSA-AES128-GCM-SHA256)
+[Network Analyzer (1588:12cc)]   (Sid: 10) Server -> Client : 1400 bytes (SSL) (Service=HTTP)
+[Network Analyzer (1588:12cc)]   (Sid: 10) Server -> Client : 48 bytes (SSL) (Service=HTTP)
+[Network Analyzer (1588:12cc)]   (Sid: 10) Server -> Client : 239 bytes (SSL) (Service=HTTP)
+[Network Analyzer (1588:1a1c)]   (Sid: 48) Negotiate Client -> Proxy SSL Handshake (ssl:TLSv1.2, ciphers:ECDHE-RSA-AES128-GCM-SHA256)
+[Network Analyzer (1588:2e50)]   (Sid: 47) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.2, ciphers:ECDHE-RSA-AES128-GCM-SHA256)
+[Network Analyzer (1588:2e50)]   (Sid: 47) Negotiate Client -> Proxy SSL Handshake (ssl:TLSv1.2, ciphers:ECDHE-RSA-AES128-GCM-SHA256)
+[Network Analyzer (1588:28ec)]   (Sid: 49) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.2, ciphers:ECDHE-RSA-AES128-GCM-SHA256)
+[Network Analyzer (1588:33a8)]   (Sid: 50) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.2, ciphers:ECDHE-RSA-AES128-GCM-SHA256)
+[Network Analyzer (1588:28ec)]   (Sid: 49) Negotiate Client -> Proxy SSL Handshake (ssl:TLSv1.2, ciphers:ECDHE-RSA-AES128-GCM-SHA256)
+[Net An. Error    (1588:33a8)] SSLAccept(ssl_id = 1550020354528 = 00000168E469A1E0) Failed, ctx = 00000168E4757B60, err = "SSLv3/TLS write server done", err code = 1, err msg= "error:00000001:lib(0):func(0):reason(1)
+error:14094416:SSL routines:ssl3_read_bytes:sslv3 alert certificate unknown
+" 
+[Network Analyzer (1588:2cfc)]   (Sid: 51) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.2, ciphers:ECDHE-RSA-AES128-GCM-SHA256)
+[Net An. Error    (1588:33a8)]   (Sid: 50) Negotiate Client -> Proxy SSL Handshake Failed!!!
+[Network Analyzer (1588:2cfc)]   (Sid: 51) Negotiate Client -> Proxy SSL Handshake (ssl:TLSv1.2, ciphers:ECDHE-RSA-AES128-GCM-SHA256)
+[Network Analyzer (1588:30b8)] Address lookup for DESKTOP-624ASTC = 192.168.245.1
+[Web Request      (1588:12cc)] "GET /hm.gif?cc=1&ck=1&cl=24-bit&ds=1536x864&vl=1122&ep=57801%2C31786&et=3&ja=0&ln=zh-cn&lo=0&rnd=1062860768&si=21be24c80829bd7a683b2c536fcf520b&v=1.2.51&lv=1&sn=64710"   
+[Network Analyzer (1588:12cc)]   (Sid: 47) Client -> Server @ : 563 bytes (SSL)(Service=HTTP)
+[Web Request      (1588:12cc)] "GET /joinnew/js/complete.js?v=826"   
+[Network Analyzer (1588:12cc)]   (Sid: 48) Client -> Server @ : 941 bytes (SSL)(Service=HTTP)
+[Web Request      (1588:12cc)] "GET /images/icon@2x.png"   
+[Network Analyzer (1588:12cc)]   (Sid: 49) Client -> Server @ : 562 bytes (SSL)(Service=HTTP)
+[Network Analyzer (1588:12cc)]   (Sid: 48) Server -> Client : 1400 bytes (SSL) (Service=HTTP)
+[Network Analyzer (1588:12cc)]   (Sid: 47) Server -> Client : 299 bytes (SSL) (Service=HTTP)
+[Network Analyzer (1588:12cc)]   (Sid: 48) Server -> Client : 1400 bytes (SSL) (Service=HTTP)
+[Network Analyzer (1588:12cc)]   (Sid: 49) Server -> Client : 4184 bytes (SSL) (Service=HTTP)
+[Network Analyzer (1588:12cc)]   (Sid: 48) Server -> Client : 74 bytes (SSL) (Service=HTTP)
+[Network Analyzer (1588:12cc)]   (Sid: 48) Server -> Client : 50 bytes (SSL) (Service=HTTP)
+[Network Analyzer (1588:12cc)]   (Sid: 50) Connection Terminated (by Client)
+[Network Analyzer (1588:12cc)]   (Sid: 40) Connection Terminated (by Server)
+[Net An. Warning  (1588:30b8)] Request Connection: Remote Server @ 127.0.0.1:63342 (Service=) Failed attempt #1. Unable to connect to remote server: rc = -1 , le = 10061)
+[Net An. Warning  (1588:30b8)] Request Connection: Remote Server @ 127.0.0.1:63342 (Service=) Failed attempt #2. Unable to connect to remote server: rc = -1 , le = 10061)
+[Net An. Warning  (1588:30b8)] Request Connection: Remote Server @ 127.0.0.1:63342 (Service=) Failed attempt #3. Unable to connect to remote server: rc = -1 , le = 10061)
+[Net An. Error    (1588:30b8)] Request Connection: Remote Server @ 127.0.0.1:63342   (Service=)  NOT PROXIED! (REASON: Unable to connect to remote server: rc = -1 , le = 10061)
+[Network Analyzer (1588:30b8)] Address lookup for DESKTOP-624ASTC = 192.168.245.1
+[Network Analyzer (1588:30b8)] Request Connection: Remote Server @ 202.120.40.82:11235   (Service=)  (Sid= 52)  PROXIED!
+[Network Analyzer (1588:30b8)] Address lookup for DESKTOP-624ASTC = 192.168.245.1
+[Web Request      (1588:12cc)] "CONNECT gzs20.cnzz.com:443"   
+[Network Analyzer (1588:12cc)]   (Sid: 52) Client -> Server @ : 224 bytes (Service=HTTP)
+[Network Analyzer (1588:30b8)] Request Connection: Remote Server @ 202.120.40.82:11235   (Service=)  (Sid= 53)  PROXIED!
+[Web Request      (1588:12cc)] "CONNECT cnzz.mmstat.com:443"   
+[Network Analyzer (1588:12cc)]   (Sid: 53) Client -> Server @ : 226 bytes (Service=HTTP)
+[Web Request      (1588:12cc)] "GET /hm.js?21be24c80829bd7a683b2c536fcf520b"   
+[Network Analyzer (1588:12cc)]   (Sid: 47) Client -> Server @ : 518 bytes (SSL)(Service=HTTP)
+[Network Analyzer (1588:30b8)] Address lookup for DESKTOP-624ASTC = 192.168.245.1
+[Network Analyzer (1588:12cc)]   (Sid: 53) Server -> Client : 35 bytes 
+[Network Analyzer (1588:12cc)]   (Sid: 52) Server -> Client : 35 bytes 
+[Network Analyzer (1588:12cc)]   (Sid: 47) Server -> Client : 208 bytes (SSL) (Service=HTTP)
+[Network Analyzer (1588:30b8)] Request Connection: Remote Server @ 202.120.40.82:11235   (Service=)  (Sid= 54)  PROXIED!
+[Web Request      (1588:12cc)] "CONNECT ei.cnzz.com:443"   
+[Network Analyzer (1588:12cc)]   (Sid: 54) Client -> Server @ : 218 bytes (Service=HTTP)
+[Network Analyzer (1588: b60)]   (Sid: 53) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.2, ciphers:ECDHE-RSA-AES128-GCM-SHA256)
+[Network Analyzer (1588: b60)]   (Sid: 53) Negotiate Client -> Proxy SSL Handshake (ssl:TLSv1.2, ciphers:ECDHE-RSA-AES128-GCM-SHA256)
+[Web Request      (1588:12cc)] "GET /hm.gif?cc=1&ck=1&cl=24-bit&ds=1536x864&vl=1122&ep=57801%2C31786&et=3&ja=0&ln=zh-cn&lo=0&rnd=1062860768&si=21be24c80829bd7a683b2c536fcf520b&v=1.2.51&lv=1&sn=64710&u=https%3A%2F%2Fwww.wjx.cn%2Fjq%2F14514689.aspx"   
+[Network Analyzer (1588:12cc)]   (Sid: 47) Client -> Server @ : 676 bytes (SSL)(Service=HTTP)
+[Web Request      (1588:12cc)] "GET /9.gif?abc=1&rnd=815573849"   
+[Network Analyzer (1588:30b8)] Address lookup for DESKTOP-624ASTC = 192.168.245.1
+[Network Analyzer (1588:12cc)]   (Sid: 53) Client -> Server @ : 558 bytes (SSL)(Service=HTTP)
+[Network Analyzer (1588:12cc)]   (Sid: 54) Server -> Client : 35 bytes 
+[Network Analyzer (1588:12cc)]   (Sid: 47) Server -> Client : 299 bytes (SSL) (Service=HTTP)
+[Network Analyzer (1588:12cc)]   (Sid: 53) Server -> Client : 406 bytes (SSL) (Service=HTTP)
+[Network Analyzer (1588:12cc)]   (Sid: 53) Connection Terminated (by Server)
+[Network Analyzer (1588:30b8)] Request Connection: Remote Server @ 202.120.40.82:11235   (Service=)  (Sid= 55)  PROXIED!
+[Web Request      (1588:12cc)] "CONNECT hm.baidu.com:443"   
+[Network Analyzer (1588:12cc)]   (Sid: 55) Client -> Server @ : 220 bytes (Service=HTTP)
+[Network Analyzer (1588:30b8)] Address lookup for DESKTOP-624ASTC = 192.168.245.1
+[Network Analyzer (1588:12cc)]   (Sid: 55) Server -> Client : 35 bytes 
+[Network Analyzer (1588:146c)]   (Sid: 52) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.2, ciphers:ECDHE-RSA-AES128-GCM-SHA256)
+[Network Analyzer (1588:2b4c)]   (Sid: 54) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.2, ciphers:ECDHE-RSA-AES128-GCM-SHA256)
+[Net An. Warning  (1588:30b8)] Request Connection: Remote Server @ 127.0.0.1:63342 (Service=) Failed attempt #1. Unable to connect to remote server: rc = -1 , le = 10061)
+[Net An. Warning  (1588:30b8)] Request Connection: Remote Server @ 127.0.0.1:63342 (Service=) Failed attempt #2. Unable to connect to remote server: rc = -1 , le = 10061)
+[Net An. Warning  (1588:30b8)] Request Connection: Remote Server @ 127.0.0.1:63342 (Service=) Failed attempt #3. Unable to connect to remote server: rc = -1 , le = 10061)
+[Net An. Error    (1588:30b8)] Request Connection: Remote Server @ 127.0.0.1:63342   (Service=)  NOT PROXIED! (REASON: Unable to connect to remote server: rc = -1 , le = 10061)
+[Network Analyzer (1588:146c)]   (Sid: 52) Negotiate Client -> Proxy SSL Handshake (ssl:TLSv1.2, ciphers:ECDHE-RSA-AES128-GCM-SHA256)
+[Network Analyzer (1588:2b4c)]   (Sid: 54) Negotiate Client -> Proxy SSL Handshake (ssl:TLSv1.2, ciphers:ECDHE-RSA-AES128-GCM-SHA256)
+[Web Request      (1588:12cc)] "GET /hm.gif?cc=1&ck=1&cl=24-bit&ds=1536x864&vl=722&et=0&ja=0&ln=zh-cn&lo=0&lt=1560125385&rnd=363078200&si=21be24c80829bd7a683b2c536fcf520b&su=https%3A%2F%2Fwww.wjx.cn%2Fjq%2F14514689.aspx&v=1.2.51&lv=2&sn=64775&ct=!!&tt=%E4%B8%80%E9%A4%90%E6%A1%8C%E9%9D%A2%E6%B8%85%E7%90%86%E6%83%85%E5%86%B5%E8%B0%83%E6%9F%A5--%E9%97%AE%E5%8D%B7%E5%A1%AB%E5%86%99%E5%AE%8C%E6%88%90%E9%A1%B5%E9%9D%A2"   
+[Network Analyzer (1588:12cc)]   (Sid: 47) Client -> Server @ : 846 bytes (SSL)(Service=HTTP)
+[Web Request      (1588:12cc)] "GET /stat.htm?id=4478442&r=https%3A%2F%2Fwww.wjx.cn%2Fjq%2F14514689.aspx&lg=zh-cn&ntime=1560120921&cnzz_eid=220356809-1560120921-&showp=1536x864&p=https%3A%2F%2Fwww.wjx.cn%2Fwjx%2Fjoin%2Fcomplete.aspx%3Fq%3D14514689%26JoinID%3D102822716510%26jidx%3D60%26s%3D%26njqj%3D1&t=%E4%B8%80%E9%A4%90%E6%A1%8C%E9%9D%A2%E6%B8%85%E7%90%86%E6%83%85%E5%86%B5%E8%B0%83%E6%9F%A5--%E9%97%AE%E5%8D%B7%E5%A1%AB%E5%86%99%E5%AE%8C%E6%88%90%E9%A1%B5%E9%9D%A2&umuuid=16b3eb7aa964ce-0fbf81633905e7-e353165-144000-16b3eb7aa972b9&h=1&rnd=489155835"   
+[Network Analyzer (1588:12cc)]   (Sid: 52) Client -> Server @ : 949 bytes (SSL)(Service=HTTP)
+[Web Request      (1588:12cc)] "GET /stat.htm?id=4478442&r=https%3A%2F%2Fwww.wjx.cn%2Fjq%2F14514689.aspx&lg=zh-cn&ntime=1560120921&cnzz_eid=220356809-1560120921-&showp=1536x864&p=https%3A%2F%2Fwww.wjx.cn%2Fwjx%2Fjoin%2Fcomplete.aspx%3Fq%3D14514689%26JoinID%3D102822716510%26jidx%3D60%26s%3D%26njqj%3D1&ei=PC%25E7%25AB%25AF%25E5%25AE%258C%25E6%2588%2590%7C%25E5%2585%258D%25E8%25B4%25B9%25E7%2589%2588%7C1%7C0%7C&t=%E4%B8%80%E9%A4%90%E6%A1%8C%E9%9D%A2%E6%B8%85%E7%90%86%E6%83%85%E5%86%B5%E8%B0%83%E6%9F%A5--%E9%97%AE%E5%8D%B7%E5%A1%AB%E5%86%99%E5%AE%8C%E6%88%90%E9%A1%B5%E9%9D%A2&umuuid=16b3eb7aa964ce-0fbf81633905e7-e353165-144000-16b3eb7aa972b9&h=1&rnd=1724594876"   
+[Network Analyzer (1588:12cc)]   (Sid: 54) Client -> Server @ : 1057 bytes (SSL)(Service=HTTP)
+[Network Analyzer (1588:12cc)]   (Sid: 47) Server -> Client : 299 bytes (SSL) (Service=HTTP)
+[Network Analyzer (1588:12cc)]   (Sid: 52) Server -> Client : 245 bytes (SSL) (Service=HTTP)
+[Network Analyzer (1588:12cc)]   (Sid: 54) Server -> Client : 245 bytes (SSL) (Service=HTTP)
+[Network Analyzer (1588:30b8)] Address lookup for DESKTOP-624ASTC = 192.168.245.1
+[Network Analyzer (1588:2994)]   (Sid: 55) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.2, ciphers:ECDHE-RSA-AES128-GCM-SHA256)
+[Network Analyzer (1588:30b8)] Request Connection: Remote Server @ 202.120.40.82:11235   (Service=)  (Sid= 56)  PROXIED!
+[Web Request      (1588:12cc)] "CONNECT sojump.cn-hangzhou.log.aliyuncs.com:443"   
+[Network Analyzer (1588:12cc)]   (Sid: 56) Client -> Server @ : 266 bytes (Service=HTTP)
+[Network Analyzer (1588:2994)]   (Sid: 55) Negotiate Client -> Proxy SSL Handshake (ssl:TLSv1.2, ciphers:ECDHE-RSA-AES128-GCM-SHA256)
+[Network Analyzer (1588:12cc)]   (Sid: 56) Server -> Client : 35 bytes 
+[Network Analyzer (1588:32dc)]   (Sid: 56) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.2, ciphers:ECDHE-RSA-AES128-GCM-SHA256)
+[Network Analyzer (1588:32dc)]   (Sid: 56) Negotiate Client -> Proxy SSL Handshake (ssl:TLSv1.2, ciphers:ECDHE-RSA-AES128-GCM-SHA256)
+[Web Request      (1588:12cc)] "GET /logstores/activitydata/track.gif?APIVersion=0.6.0&t=1&a=14514689&j=102822716510&i=0&q=1&s=1&w=5&d=3193&r=0&c=0"   
+[Network Analyzer (1588:12cc)]   (Sid: 56) Client -> Server @ : 564 bytes (SSL)(Service=HTTP)
+[Network Analyzer (1588:12cc)]   (Sid: 56) Server -> Client : 250 bytes (SSL) (Service=HTTP)
+[Network Analyzer (1588:12cc)]   (Sid: 56) Connection Terminated (by Server)
+[Network Analyzer (1588:12cc)]   (Sid: 51) Connection Terminated (by Client)
+[Network Analyzer (1588:12cc)]   (Sid: 52) Connection Terminated (by Server)
+[Network Analyzer (1588:12cc)]   (Sid: 54) Connection Terminated (by Server)
+[Network Analyzer (1588:30b8)] Address lookup for DESKTOP-624ASTC = 192.168.245.1
+[Network Analyzer (1588:12cc)]   (Sid: 42) Connection Terminated (by Server)
+[Net An. Warning  (1588:30b8)] Request Connection: Remote Server @ 127.0.0.1:63342 (Service=) Failed attempt #1. Unable to connect to remote server: rc = -1 , le = 10061)
+[Net An. Warning  (1588:30b8)] Request Connection: Remote Server @ 127.0.0.1:63342 (Service=) Failed attempt #2. Unable to connect to remote server: rc = -1 , le = 10061)
+[Network Analyzer (1588:12cc)]   (Sid: 47) Connection Terminated (by Server)
+[Net An. Warning  (1588:30b8)] Request Connection: Remote Server @ 127.0.0.1:63342 (Service=) Failed attempt #3. Unable to connect to remote server: rc = -1 , le = 10061)
+[Net An. Error    (1588:30b8)] Request Connection: Remote Server @ 127.0.0.1:63342   (Service=)  NOT PROXIED! (REASON: Unable to connect to remote server: rc = -1 , le = 10061)
+[Network Analyzer (1588:12cc)]   (Sid:  6) Connection Terminated (by Server)
+[Network Analyzer (1588:12cc)]   (Sid: 43) Connection Terminated (by Server)
+[Network Analyzer (1588:30b8)] Address lookup for DESKTOP-624ASTC = 192.168.245.1
+[Network Analyzer (1588:30b8)] Request Connection: Remote Server @ 202.120.40.82:11235   (Service=)  (Sid= 57)  PROXIED!
+[Web Request      (1588:12cc)] "CONNECT mtalk.google.com:5228"   
+[Network Analyzer (1588:12cc)]   (Sid: 57) Client -> Server @ : 101 bytes (Service=HTTP)
+[Network Analyzer (1588:30b8)] Address lookup for DESKTOP-624ASTC = 192.168.245.1
+[Network Analyzer (1588:12cc)]   (Sid: 57) Server -> Client : 475 bytes  (Service=HTTP)
+[Network Analyzer (1588:12cc)]   (Sid: 57) Connection Terminated (by Server)
+[Network Analyzer (1588:30b8)] Request Connection: Remote Server @ 202.120.40.82:11235   (Service=)  (Sid= 58)  PROXIED!
+[Web Request      (1588:12cc)] "CONNECT clients4.google.com:443"   
+[Network Analyzer (1588:12cc)]   (Sid: 58) Client -> Server @ : 234 bytes (Service=HTTP)
+[Network Analyzer (1588:12cc)]   (Sid: 58) Server -> Client : 35 bytes 
+[Network Analyzer (1588: 49c)]   (Sid: 58) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.2, ciphers:ECDHE-ECDSA-AES128-GCM-SHA256)
+[Network Analyzer (1588: 49c)]   (Sid: 58) Negotiate Client -> Proxy SSL Handshake (ssl:TLSv1.2, ciphers:ECDHE-RSA-AES128-GCM-SHA256)
+[Web Request      (1588:12cc)] "POST /invalidation/android/request/CHES4QEStwFBUEE5MWJGejNhY09hWWRyN3lJZEZ0VWtxTkhiM1pOcW5sREZ5bXZLQUQyRU1BcUZjd1Z4VV8xZGp5WGxOTHBYemQ5blhqcGQyRFpKTjk3a3ZzVWNKc3RFZVROcFR6M09RN21RYjdJVjQtSHdobUJLU3Z6eHQtYmZ1dkxUdlFHdzlPdDNHeGs4a19VZ0dTako2OTZpT01UTE5GLUpNdDUxanhDVXFpNmJOMVd6cDE4Mno5XzlTNk0aACoCCAAyH2NvbS5nb29nbGUuY2hyb21lLmludmFsaWRhdGlvbnM"   
+[Network Analyzer (1588:12cc)]   (Sid: 58) Client -> Server @ : 1183 bytes (SSL)(Service=HTTP)
+[Network Analyzer (1588:12cc)]   (Sid: 58) Server -> Client : 128 bytes (SSL) (Service=HTTP)
+[Network Analyzer (1588:12cc)]   (Sid: 28) Connection Terminated (by Server)
+[Network Analyzer (1588:12cc)]   (Sid: 30) Connection Terminated (by Server)
+[Network Analyzer (1588:12cc)]   (Sid: 26) Connection Terminated (by Server)
+[Network Analyzer (1588:30b8)] Address lookup for DESKTOP-624ASTC = 192.168.245.1
+[Network Analyzer (1588:12cc)]   (Sid:  1) Connection Terminated (by Client)
+[Network Analyzer (1588:12cc)]   (Sid: 27) Connection Terminated (by Client)
+[Network Analyzer (1588:12cc)]   (Sid: 16) Connection Terminated (by Client)
+[Network Analyzer (1588:12cc)]   (Sid:  4) Connection Terminated (by Client)
+[Network Analyzer (1588:12cc)]   (Sid: 45) Connection Terminated (by Client)
+[Network Analyzer (1588:12cc)]   (Sid: 35) Connection Terminated (by Client)
+[Network Analyzer (1588:12cc)]   (Sid: 55) Connection Terminated (by Client)
+[Network Analyzer (1588:12cc)]   (Sid: 49) Connection Terminated (by Client)
+[Network Analyzer (1588:12cc)]   (Sid: 10) Connection Terminated (by Client)
+[Network Analyzer (1588:12cc)]   (Sid: 48) Connection Terminated (by Client)
+[Network Analyzer (1588:12cc)]   (Sid: 11) Connection Terminated (by Client)
+[Network Analyzer (1588:12cc)]   (Sid: 12) Connection Terminated (by Client)
+[Network Analyzer (1588:12cc)]   (Sid: 39) Connection Terminated (by Client)
+[Net An. Warning  (1588:30b8)] Request Connection: Remote Server @ 127.0.0.1:63342 (Service=) Failed attempt #1. Unable to connect to remote server: rc = -1 , le = 10061)
+[Net An. Warning  (1588:30b8)] Request Connection: Remote Server @ 127.0.0.1:63342 (Service=) Failed attempt #2. Unable to connect to remote server: rc = -1 , le = 10061)
+[Net An. Warning  (1588:30b8)] Request Connection: Remote Server @ 127.0.0.1:63342 (Service=) Failed attempt #3. Unable to connect to remote server: rc = -1 , le = 10061)
+[Net An. Error    (1588:30b8)] Request Connection: Remote Server @ 127.0.0.1:63342   (Service=)  NOT PROXIED! (REASON: Unable to connect to remote server: rc = -1 , le = 10061)
+[Network Analyzer (1588:30b8)] Address lookup for DESKTOP-624ASTC = 192.168.245.1
+[Network Analyzer (1588:30b8)] Request Connection: Remote Server @ 202.120.40.82:11235   (Service=)  (Sid= 59)  PROXIED!
+[Network Analyzer (1588:30b8)] Address lookup for DESKTOP-624ASTC = 192.168.245.1
+[Web Request      (1588:12cc)] "CONNECT ssl.getfireshot.com:443"   
+[Network Analyzer (1588:12cc)]   (Sid: 59) Client -> Server @ : 234 bytes (Service=HTTP)
+[Network Analyzer (1588:12cc)]   (Sid: 59) Server -> Client : 35 bytes 
+[Net An. Warning  (1588:30b8)] Request Connection: Remote Server @ 127.0.0.1:63342 (Service=) Failed attempt #1. Unable to connect to remote server: rc = -1 , le = 10061)
+[Net An. Warning  (1588:30b8)] Request Connection: Remote Server @ 127.0.0.1:63342 (Service=) Failed attempt #2. Unable to connect to remote server: rc = -1 , le = 10061)
+[Net An. Warning  (1588:30b8)] Request Connection: Remote Server @ 127.0.0.1:63342 (Service=) Failed attempt #3. Unable to connect to remote server: rc = -1 , le = 10061)
+[Net An. Error    (1588:30b8)] Request Connection: Remote Server @ 127.0.0.1:63342   (Service=)  NOT PROXIED! (REASON: Unable to connect to remote server: rc = -1 , le = 10061)
+[Network Analyzer (1588: d7c)]   (Sid: 59) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.2, ciphers:ECDHE-ECDSA-AES128-GCM-SHA256)
+[Network Analyzer (1588: d7c)]   (Sid: 59) Negotiate Client -> Proxy SSL Handshake (ssl:TLSv1.2, ciphers:ECDHE-RSA-AES128-GCM-SHA256)
+[Web Request      (1588:12cc)] "GET /images/api/utm.gif?dummy=18057"   
+[Network Analyzer (1588:12cc)]   (Sid: 59) Client -> Server @ : 552 bytes (SSL)(Service=HTTP)
+[Network Analyzer (1588:12cc)]   (Sid: 59) Server -> Client : 648 bytes (SSL) (Service=HTTP)
+[Network Analyzer (1588:12cc)]   (Sid: 59) Server -> Client : 5 bytes (SSL) (Service=HTTP)
+[Network Analyzer (1588:30b8)] Address lookup for DESKTOP-624ASTC = 192.168.245.1

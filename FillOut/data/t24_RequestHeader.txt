@@ -1,0 +1,11 @@
+GET /wjx/join/complete.aspx?q=14514689&JoinID=102822716510&jidx=60&s=&njqj=1 HTTP/1.1
+Host: www.wjx.cn
+Connection: keep-alive
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3729.169 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3
+Referer: https://www.wjx.cn/jq/14514689.aspx
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN,zh;q=0.9,en-US;q=0.8,en;q=0.7
+Cookie: acw_tc=2f624a3e15601253457934605e4f9f682fb24f170502c021d2c22722af8048; .ASPXANONYMOUS=4oMwjrJV1QEkAAAAYjNlNDVjZDQtZTU4OC00YmJhLWExYzMtOWJjMWIyNzUxNjJlN0VXwtM2FaHXEP2su_3Jy67L5gU1; jac14514689=72174508; UM_distinctid=16b3eb7aa964ce-0fbf81633905e7-e353165-144000-16b3eb7aa972b9; CNZZDATA4478442=cnzz_eid%3D220356809-1560120921-%26ntime%3D1560120921; Hm_lvt_21be24c80829bd7a683b2c536fcf520b=1560125385; Hm_lpvt_21be24c80829bd7a683b2c536fcf520b=1560125385; LastActivityJoin=14514689,102822716510; jcmob=11122223333
+

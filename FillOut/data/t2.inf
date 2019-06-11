@@ -1,0 +1,13 @@
+[t2]
+FileName1=t2.html
+URL1=https://www.wjx.cn/jq/14514689.aspx
+Total=2
+RequestHeaderFile=t2_RequestHeader.txt
+RequestBodyFile=NONE
+ResponseHeaderFile=t2_ResponseHeader.txt
+ContentType=text/html
+SnapshotXmlFile=snapshot_2.xml
+FileName2=t2_client_model_v5_variation_0.html
+URL2=https://ssl.gstatic.com/safebrowsing/csd/client_model_v5_variation_0.pb
+[ProtocolInfo]
+ProtocolId=QTWeb

@@ -1,0 +1,13 @@
+[t26]
+FileName1=t26.html
+URL1=https://ei.cnzz.com/stat.htm?id=4478442&r=https%3A%2F%2Fwww.wjx.cn%2Fjq%2F14514689.aspx&lg=zh-cn&ntime=1560120921&cnzz_eid=220356809-1560120921-&showp=1536x864&p=https%3A%2F%2Fwww.wjx.cn%2Fwjx%2Fjoin%2Fcomplete.aspx%3Fq%3D14514689%26JoinID%3D102822716510%26jidx%3D60%26s%3D%26njqj%3D1&ei=PC%25E7%25AB%25AF%25E5%25AE%258C%25E6%2588%2590%7C%25E5%2585%258D%25E8%25B4%25B9%25E7%2589%2588%7C1%7C0%7C&t=%E4%B8%80%E9%A4%90%E6%A1%8C%E9%9D%A2%E6%B8%85%E7%90%86%E6%83%85%E5%86%B5%E8%B0%83%E6%9F%A5--%E9%97%AE%E5%8D%B7%E5%A1%AB%E5%86%99%E5%AE%8C%E6%88%90%E9%A1%B5%E9%9D%A2&umuuid=16b3eb7aa964ce-0fbf81633905e7-e353165-144000-16b3eb7aa972b9&h=1&rnd=1724594876
+Total=2
+RequestHeaderFile=t26_RequestHeader.txt
+RequestBodyFile=NONE
+ResponseHeaderFile=t26_ResponseHeader.txt
+ContentType=text/html
+SnapshotXmlFile=snapshot_26.xml
+FileName2=t26_track.gif
+URL2=https://sojump.cn-hangzhou.log.aliyuncs.com/logstores/activitydata/track.gif?APIVersion=0.6.0&t=1&a=14514689&j=102822716510&i=0&q=1&s=1&w=5&d=3193&r=0&c=0
+[ProtocolInfo]
+ProtocolId=QTWeb

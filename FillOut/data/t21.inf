@@ -1,0 +1,13 @@
+[t21]
+FileName1=t21.html
+URL1=https://www.wjx.cn/wjx/join/uploadqiniu.aspx?activity=14514689&q=3&ms=4096&upload_ret=eyJzaXplIjoiMjM0NTIiLCJuYW1lIjoidGltZy5qcGciLCJrZXkiOiIxNDUxNDY4OV82MF9xM19HcmdNelBxb0ZVS2Z3clVkTGdSUGcuanBnIiwibWltZVR5cGUiOiJpbWFnZS9qcGVnIn0=
+Total=2
+RequestHeaderFile=t21_RequestHeader.txt
+RequestBodyFile=NONE
+ResponseHeaderFile=t21_ResponseHeader.txt
+ContentType=text/html
+SnapshotXmlFile=snapshot_21.xml
+FileName2=t21_14514689_60_q3_GrgMzPqoFUKfwrUdLgRPg.jfif
+URL2=http://pubuserqiniu.paperol.cn/14514689_60_q3_GrgMzPqoFUKfwrUdLgRPg.jpg?imageMogr2/thumbnail/120x120&e=1560125462&token=-kY3jr8KMC7l3KkIN3OcIs8Q4s40OfGgUHr1Rg4D:6SHKsJijTkfZwvVrqr24FcEH_Zk=
+[ProtocolInfo]
+ProtocolId=QTWeb

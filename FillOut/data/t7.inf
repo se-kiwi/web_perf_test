@@ -1,0 +1,17 @@
+[t7]
+FileName1=t7_WeatherService;woeids=%5B2151849%5D.json
+URL1=https://www.yahoo.com/news/_tdnews/api/resource/WeatherService;woeids=%5B2151849%5D?t=1560125327936
+Total=4
+ContentType=application/json
+SnapshotXmlFile=snapshot_7.xml
+RequestHeaderFile=t7_RequestHeader.txt
+RequestBodyFile=NONE
+ResponseHeaderFile=t7_ResponseHeader.txt
+FileName2=t7___utm.gif
+URL2=https://www.google-analytics.com/__utm.gif?utmwv=5.7.2&utms=1&utmn=548907941&utmhn=fngmhnnpilhplaeedifhccceomclgfbg&utmcs=UTF-8&utmsr=1536x864&utmsc=24-bit&utmul=zh-cn&utmje=0&utmfl=-&utmhid=1331002702&utmr=-&utmp=%2F_generated_background_page.html&utmht=1560125329874&utmac=UA-33054271-5&utmcc=__utma%3D168020214.2045260896.1542347209.1560125205.1560125330.1296%3B%2B__utmz%3D168020214.1542347209.1.1.utmcsr%3D(direct)%7Cutmccn%3D(direct)%7Cutmcmd%3D(none)%3B&utmjid=&utmu=qAAAEAAAAAAAAAAAAAAAAAAE~
+FileName3=t7___utm.gif
+URL3=https://www.google-analytics.com/__utm.gif?utmwv=5.7.2&utms=3&utmn=6342206&utmhn=chphlpgkkbolifaimnlloiipkdnihall&utmcs=UTF-8&utmsr=1536x864&utmsc=24-bit&utmul=zh-cn&utmje=0&utmfl=-&utmhid=193701819&utmr=-&utmp=%2F_generated_background_page.html&utmht=1560125329870&utmac=UA-38573374-2&utmcc=__utma%3D140524640.1375607711.1542347206.1560092489.1560125206.847%3B%2B__utmz%3D140524640.1542347206.1.1.utmcsr%3D(direct)%7Cutmccn%3D(direct)%7Cutmcmd%3D(none)%3B&utmjid=&utmu=qAAAAAAAAAAAAAAAAAAAAAAE~
+FileName4=t7_NewDefault.css
+URL4=https://www.wjx.cn/joinnew/css/NewDefault.css?v=12
+[ProtocolInfo]
+ProtocolId=QTWeb

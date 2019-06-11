@@ -1,0 +1,9 @@
+GET /se.php?t=t1dcvbeidh6kqvtjk6arhdx3vyso HTTP/1.1
+Host: api.infinitynewtab.com
+Connection: keep-alive
+Accept: application/json, text/javascript, */*; q=0.01
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3729.169 Safari/537.36
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN,zh;q=0.9,en-US;q=0.8,en;q=0.7
+Cookie: laravel_session=eyJpdiI6ImhsR2ZVOVNndUR5YjFCVWNveVMyWmc9PSIsInZhbHVlIjoiZjJ0b2dmZUFKXC9CQ3o4YjRscWZVT3I5eXJNVm9FcjFBWDV4bFBEYUFyQ3J3V3RmMkJsbFwvUHpQMTd3Y2ZPTTh3S1A0WHpvRXA5dHpJRFVISHNTd24wQT09IiwibWFjIjoiMjk3MWUyNzMzMDMwZDA4NTRlMDQ2ZDRiNmQ0ZGJiYzk0MjJiMTVjNmM4YmMzNmU0NjA4Y2JmODQ4NzMxZWFmYSJ9
+

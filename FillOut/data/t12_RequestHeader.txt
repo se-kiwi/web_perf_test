@@ -1,0 +1,8 @@
+GET /oauth2/v1/userinfo HTTP/1.1
+Host: www.googleapis.com
+Connection: keep-alive
+Authorization: OAuth ya29.GqEBJAc-4NRJy7xvuoplz9pHSqgEFe6tTQuoxzJwFNMBJfHw9b0BicXFf3O1PKtUK7VnNDJeWkVX1W8kEqBJpSNKv4jRIZgy4UzNRnMV7kRXzHOTL8R7vs0bG9o3dDmMzpl8rqarb8hXAiaqM781MyhaJ4kjZwx-tsunMMmqW1V74N1QHOSUF4O6KEQYcDBiO1VnsUk7TESDstQnpcLm50iJ-V4
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3729.169 Safari/537.36
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN,zh;q=0.9,en-US;q=0.8,en;q=0.7
+

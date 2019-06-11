@@ -1,0 +1,13 @@
+[t18]
+FileName1=t18.html
+URL1=https://ei.cnzz.com/stat.htm?id=4478442&r=&lg=zh-cn&ntime=none&cnzz_eid=220356809-1560120921-&showp=1536x864&p=https%3A%2F%2Fwww.wjx.cn%2Fjq%2F14514689.aspx&ei=PC%25E7%25AB%25AFJQ%7C%25E5%2585%258D%25E8%25B4%25B9%25E7%2589%2588%7C1%7C0%7C&t=%E4%B8%80%E9%A4%90%E6%A1%8C%E9%9D%A2%E6%B8%85%E7%90%86%E6%83%85%E5%86%B5%E8%B0%83%E6%9F%A5&umuuid=16b3eb7aa964ce-0fbf81633905e7-e353165-144000-16b3eb7aa972b9&h=1&rnd=1302696101
+Total=2
+RequestHeaderFile=t18_RequestHeader.txt
+RequestBodyFile=NONE
+ResponseHeaderFile=t18_ResponseHeader.txt
+ContentType=text/html
+SnapshotXmlFile=snapshot_18.xml
+FileName2=t18_query.html
+URL2=https://clients1.google.com/tbproxy/af/query?q=Chc2LjEuMTcxNS4xNDQyL2VuIChHR0xMKRMZugE2fZ3wD-ojLZFhlU4kIy2RYZVOJCMtBu27_yQjLQbtu_8kIy0G7bv_JCMtBu27_yQjLQbtu_8kIy0G7bv_JCMtnLPjeyQjLbWkk9YkIy0A_lfeJCMt-aNNPSQjLXloy1kkFA==
+[ProtocolInfo]
+ProtocolId=QTWeb

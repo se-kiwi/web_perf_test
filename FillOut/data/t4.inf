@@ -1,0 +1,15 @@
+[t4]
+FileName1=t4_update-time.json
+URL1=https://infinity-basic.infinitynewtab.com/basic-api/update-time.json?_=1560125327449
+Total=3
+ContentType=application/json
+SnapshotXmlFile=snapshot_4.xml
+RequestHeaderFile=t4_RequestHeader.txt
+RequestBodyFile=NONE
+ResponseHeaderFile=t4_ResponseHeader.txt
+FileName2=t4_s6761544006173.gif
+URL2=https://sstats.adobe.com/b/ss/adbcreatepdfplugin.prod/1/JS-1.6/s6761544006173?AQB=1&ndh=1&pf=1&t=10%2F5%2F2019%208%3A8%3A49%201%20-480&fid=250CB031EE2F8E17-2372BBCB13C3A857&ce=UTF-8&pageName=DCBrowserExt%3AShim%3AVersion%3AUnknown%3AOp&g=chrome-extension%3A%2F%2Fefaidnbmnnnibpcajpcglclefindmkaj%2F_generated_background_page.html&v1=15.1.1.0&v2=sideload&v3=prod&v4=not_set&s=1536x864&c=24&j=1.6&v=N&k=Y&bh=8&AQE=1
+FileName3=t4_client_model_v5_ext_variation_0.html
+URL3=https://ssl.gstatic.com/safebrowsing/csd/client_model_v5_ext_variation_0.pb
+[ProtocolInfo]
+ProtocolId=QTWeb
