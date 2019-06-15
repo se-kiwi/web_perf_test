@@ -1,0 +1,14 @@
+POST /gt_judgement?pt=0&gt=66442f2f720bfc86799932d8ad2eb6c7 HTTP/1.1
+Content-Type: text/plain;charset=utf-8
+Accept: application/json
+Referer: https://passport.lagou.com/login/login.html?signature=A6CF4F334DB79C4DC31D06BBDED03E4B&service=http%253A%252F%252Fwww.lagou.com%252Fresume%252Fmyresume.html&action=login&serviceId=lagou&ts=1560570384851
+Accept-Language: zh-Hans-CN,zh-Hans;q=0.8,en-US;q=0.5,en;q=0.3
+Origin: https://passport.lagou.com
+Accept-Encoding: gzip, deflate
+User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64; Trident/7.0; rv:11.0) like Gecko
+Host: api.geetest.com
+Content-Length: 3712
+Connection: Keep-Alive
+Cache-Control: no-cache
+Cookie: GeeTestUser=1a3c51ea18bd9a905923322586d3c2ca
+

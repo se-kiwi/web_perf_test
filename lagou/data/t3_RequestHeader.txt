@@ -1,0 +1,11 @@
+GET /upload/ltm/oss.html?u=/login/login.html&q=0&n=3&d=3536&l=4850&dns=0&p=8387&pi=1046&qn=30752&t=1560570398975 HTTP/1.1
+Accept: */*
+Content-type: application/json;charset=utf-8
+Referer: https://passport.lagou.com/login/login.html?signature=A6CF4F334DB79C4DC31D06BBDED03E4B&service=http%253A%252F%252Fwww.lagou.com%252Fresume%252Fmyresume.html&action=login&serviceId=lagou&ts=1560570384851
+Accept-Language: zh-Hans-CN,zh-Hans;q=0.8,en-US;q=0.5,en;q=0.3
+Accept-Encoding: gzip, deflate
+User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64; Trident/7.0; rv:11.0) like Gecko
+Host: passport.lagou.com
+Connection: Keep-Alive
+Cookie: user_trace_token=20190615114624-eec33017-42e9-4baf-bc51-3ff174e17e8d; LGSID=20190615114634-2b716ac0-8f20-11e9-a37f-5254005c3644; PRE_UTM=; PRE_HOST=; PRE_SITE=; PRE_LAND=https%3A%2F%2Fpassport.lagou.com%2Flogin%2Flogin.html%3Fsignature%3DA6CF4F334DB79C4DC31D06BBDED03E4B%26service%3Dhttp%25253A%25252F%25252Fwww.lagou.com%25252Fresume%25252Fmyresume.html%26action%3Dlogin%26serviceId%3Dlagou%26ts%3D1560570384851; LGRID=20190615114634-2b716d53-8f20-11e9-a37f-5254005c3644; LGUID=20190615114634-2b716dba-8f20-11e9-a37f-5254005c3644; sensorsdata2015jssdkcross=%7B%22distinct_id%22%3A%2216b593e775387-0b89e03e3aa322-293e1d4e-2073600-16b593e7754951%22%2C%22%24device_id%22%3A%2216b593e775387-0b89e03e3aa322-293e1d4e-2073600-16b593e7754951%22%2C%22props%22%3A%7B%22%24latest_traffic_source_type%22%3A%22%E7%9B%B4%E6%8E%A5%E6%B5%81%E9%87%8F%22%2C%22%24latest_referrer%22%3A%22%22%2C%22%24latest_referrer_host%22%3A%22%22%2C%22%24latest_search_keyword%22%3A%22%E6%9C%AA%E5%8F%96%E5%88%B0%E5%80%BC_%E7%9B%B4%E6%8E%A5%E6%89%93%E5%BC%80%22%7D%7D; sajssdk_2015_cross_new_user=1; _ga=GA1.2.1782348110.1560570394; _gid=GA1.2.2119366934.1560570395; Hm_lvt_4233e74dff0ae5bd0a3d81c6ccf756e6=1560570397; Hm_lpvt_4233e74dff0ae5bd0a3d81c6ccf756e6=1560570397; JSESSIONID=ABAAABAAAGHAABHE2DC6EE18E85B83713994464AFC39063; _ga=GA1.3.1782348110.1560570394; _gat=1
+

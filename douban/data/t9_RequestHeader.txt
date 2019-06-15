@@ -1,0 +1,14 @@
+POST /j/mobile/login/basic HTTP/1.1
+X-Requested-With: XMLHttpRequest
+Accept: application/json
+Content-Type: application/x-www-form-urlencoded
+Referer: https://accounts.douban.com/passport/login_popup?login_source=anony
+Accept-Language: zh-Hans-CN,zh-Hans;q=0.8,en-US;q=0.5,en;q=0.3
+Accept-Encoding: gzip, deflate
+User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64; Trident/7.0; rv:11.0) like Gecko
+Host: accounts.douban.com
+Content-Length: 69
+Connection: Keep-Alive
+Cache-Control: no-cache
+Cookie: ll="108296"; bid=TQzEGe-LGHc; __utma=30149280.845802281.1560581044.1560581044.1560581044.1; __utmb=30149280.1.10.1560581044; __utmc=30149280; __utmz=30149280.1560581044.1.1.utmcsr=(direct)|utmccn=(direct)|utmcmd=(none); __utmt=1; login_start_time=1560581075679
+

@@ -1,0 +1,1919 @@
+{
+  "FilterHeaders": [
+    {
+      "Header": "x-requested-with",
+      "IncludeInScript": true
+    },
+    {
+      "Header": "x-l-req-header",
+      "IncludeInScript": true
+    },
+    {
+      "Header": "x-anit-forge-token",
+      "IncludeInScript": true
+    },
+    {
+      "Header": "x-anit-forge-code",
+      "IncludeInScript": true
+    },
+    {
+      "Header": "user-agent",
+      "IncludeInScript": false
+    },
+    {
+      "Header": "origin",
+      "IncludeInScript": true
+    },
+    {
+      "Header": "if-none-match",
+      "IncludeInScript": false
+    },
+    {
+      "Header": "cache-control",
+      "IncludeInScript": false
+    },
+    {
+      "Header": "access-control-request-method",
+      "IncludeInScript": true
+    },
+    {
+      "Header": "access-control-request-headers",
+      "IncludeInScript": true
+    },
+    {
+      "Header": "accept-language",
+      "IncludeInScript": false
+    },
+    {
+      "Header": "accept-encoding",
+      "IncludeInScript": false
+    },
+    {
+      "Header": "accept",
+      "IncludeInScript": false
+    }
+  ],
+  "FilterResources": [
+    {
+      "IsNonResource": false,
+      "type": "text/plain"
+    },
+    {
+      "IsNonResource": false,
+      "type": "text/javascript"
+    },
+    {
+      "IsNonResource": true,
+      "type": "text/html"
+    },
+    {
+      "IsNonResource": false,
+      "type": "text/css"
+    },
+    {
+      "IsNonResource": false,
+      "type": "image/x-icon"
+    },
+    {
+      "IsNonResource": false,
+      "type": "image/svg+xml"
+    },
+    {
+      "IsNonResource": false,
+      "type": "image/png"
+    },
+    {
+      "IsNonResource": false,
+      "type": "image/jpeg"
+    },
+    {
+      "IsNonResource": false,
+      "type": "image/gif"
+    },
+    {
+      "IsNonResource": false,
+      "type": "application/x-javascript"
+    },
+    {
+      "IsNonResource": false,
+      "type": "application/octet-stream"
+    },
+    {
+      "IsNonResource": true,
+      "type": "application/json"
+    },
+    {
+      "IsNonResource": false,
+      "type": "application/javascript"
+    }
+  ],
+  "GeneralInfo": {
+    "BrowserVersion": "",
+    "IsWinInetMode": false,
+    "MaxUsedConnections": 96,
+    "RecordedBrowser": "Internet Explorer",
+    "RecordingDate": "6��-15-2019",
+    "RecordingDuration": 88703,
+    "RecordingMode": "N/A",
+    "RecordingTimeStamp": 1560570369,
+    "RecordingType": "Browser",
+    "TotalBytesReceived": 1131397,
+    "TotalBytesSent": 154921,
+    "TotalRequests": 175,
+    "UserAgent": "Mozilla/5.0 (Windows NT 10.0; WOW64; Trident/7.0; rv:11.0) like Gecko"
+  },
+  "HostInfo": [
+    {
+      "DomainName": "lgstatic.com",
+      "Domains": [
+        {
+          "HTTPVersion": "HTTP/1.1",
+          "IP": "211.65.195.73",
+          "IncludeInScript": true,
+          "Name": "www.lgstatic.com",
+          "Port": 80,
+          "Requests": [
+            {
+              "CompressionType": "",
+              "DataType": "image/png",
+              "DownloadTime": 266,
+              "EventId": 1839,
+              "HttpStatus": 200,
+              "Size": 3234,
+              "URL": "http://www.lgstatic.com/i/image2/M01/DE/86/CgoB5lxrW-WAAwMmAAAMog6nQ0o153.png"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/jpeg",
+              "DownloadTime": 141,
+              "EventId": 1830,
+              "HttpStatus": 200,
+              "Size": 15080,
+              "URL": "http://www.lgstatic.com/image1/M00/29/FB/CgYXBlVoO9OADbVXAAA66FT5iHE275.jpg"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/png",
+              "DownloadTime": 94,
+              "EventId": 1817,
+              "HttpStatus": 200,
+              "Size": 7899,
+              "URL": "http://www.lgstatic.com/i/image/M00/2A/A6/Cgp3O1cyziuAfM5AAAAe20ZOb-4754.png"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/png",
+              "DownloadTime": 78,
+              "EventId": 1808,
+              "HttpStatus": 200,
+              "Size": 13939,
+              "URL": "http://www.lgstatic.com/i/image/M00/64/62/CgpEMlmaThqAbtwuAAA2cznW7gE693.png"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/png",
+              "DownloadTime": 62,
+              "EventId": 1806,
+              "HttpStatus": 200,
+              "Size": 3516,
+              "URL": "http://www.lgstatic.com/i/image2/M00/1F/84/CgotOVoNNsWAKAojAAANvLLP6BY862.png"
+            }
+          ],
+          "SSLCipher": "None",
+          "SSLVersion": "None"
+        },
+        {
+          "HTTPVersion": "HTTP/1.1",
+          "IP": "211.65.195.73",
+          "IncludeInScript": true,
+          "Name": "www.lgstatic.com",
+          "Port": 443,
+          "Requests": [
+            {
+              "CompressionType": "",
+              "DataType": "image/png",
+              "DownloadTime": 16,
+              "EventId": 2200,
+              "HttpStatus": 200,
+              "Size": 1172,
+              "URL": "https://www.lgstatic.com/www/static/mycenter-sidenav/modules/common/img/error_727fcc2.png"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/png",
+              "DownloadTime": 47,
+              "EventId": 2143,
+              "HttpStatus": 200,
+              "Size": 1091,
+              "URL": "https://www.lgstatic.com/www/static/common/widgets/mycenter-recommend/img/arr_top_db7eeba.png"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/png",
+              "DownloadTime": 31,
+              "EventId": 2141,
+              "HttpStatus": 200,
+              "Size": 360,
+              "URL": "https://www.lgstatic.com/www/static/common/widgets/send-resume/img/error_0b4953b.png"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/png",
+              "DownloadTime": 31,
+              "EventId": 2139,
+              "HttpStatus": 200,
+              "Size": 579,
+              "URL": "https://www.lgstatic.com/www/static/common/widgets/send-resume/img/lb_error_5b0bf87.png"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "application/x-javascript",
+              "DownloadTime": 47,
+              "EventId": 2116,
+              "HttpStatus": 200,
+              "Size": 529,
+              "URL": "https://www.lgstatic.com/www/static/common/widgets/common/validate-custom_46e9382.js"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "application/x-javascript",
+              "DownloadTime": 16,
+              "EventId": 2114,
+              "HttpStatus": 200,
+              "Size": 549,
+              "URL": "https://www.lgstatic.com/www/static/common/static/js/plat_tj_resume_log_amd_1b370ac.js"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "application/x-javascript",
+              "DownloadTime": 31,
+              "EventId": 2110,
+              "HttpStatus": 200,
+              "Size": 5283,
+              "URL": "https://www.lgstatic.com/www/static/common/widgets/send-resume/main_ba43de9.js"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "application/x-javascript",
+              "DownloadTime": 32,
+              "EventId": 2108,
+              "HttpStatus": 200,
+              "Size": 854,
+              "URL": "https://www.lgstatic.com/www/static/common/widgets/plat/addIcon_80716d2.js"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "application/x-javascript",
+              "DownloadTime": 32,
+              "EventId": 2106,
+              "HttpStatus": 200,
+              "Size": 527,
+              "URL": "https://www.lgstatic.com/www/static/common/widgets/mycenter-recommend/main_402bcac.js"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "application/x-javascript",
+              "DownloadTime": 16,
+              "EventId": 2102,
+              "HttpStatus": 200,
+              "Size": 1582,
+              "URL": "https://www.lgstatic.com/www/static/mycenter-sidenav/modules/collections/main_d02a8c4.js"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "application/x-javascript",
+              "DownloadTime": 47,
+              "EventId": 2072,
+              "HttpStatus": 200,
+              "Size": 6745,
+              "URL": "https://www.lgstatic.com/www/static/dep/jquery-validation/dist/jquery.validate_3bcc7a5.js"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/png",
+              "DownloadTime": 125,
+              "EventId": 1999,
+              "HttpStatus": 200,
+              "Size": 21533,
+              "URL": "https://www.lgstatic.com/www/static/mycenter-sidenav/modules/common/mycenter-nav-button/img/icons_mr_da12dfe.png"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/png",
+              "DownloadTime": 125,
+              "EventId": 1961,
+              "HttpStatus": 200,
+              "Size": 612,
+              "URL": "https://www.lgstatic.com/www/static/common/widgets/send-resume/img/profile_select_190_313c2de.png"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "application/x-javascript",
+              "DownloadTime": 47,
+              "EventId": 1904,
+              "HttpStatus": 200,
+              "Size": 1363,
+              "URL": "https://www.lgstatic.com/www/static/common/components/jquery-ajaxfileupload/ajaxfileupload_5b9f1c9.js"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "application/x-javascript",
+              "DownloadTime": 31,
+              "EventId": 1892,
+              "HttpStatus": 200,
+              "Size": 2282,
+              "URL": "https://www.lgstatic.com/www/static/common/components/validate/additional-methods_808547c.js"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "application/x-javascript",
+              "DownloadTime": 31,
+              "EventId": 1880,
+              "HttpStatus": 200,
+              "Size": 2234,
+              "URL": "https://www.lgstatic.com/www/static/common/components/jquery-pager/jquery.pager_95335ca.js"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "application/x-javascript",
+              "DownloadTime": 47,
+              "EventId": 1846,
+              "HttpStatus": 200,
+              "Size": 218,
+              "URL": "https://www.lgstatic.com/www/static/mycenter-sidenav/page/collections/main_b8c222c.js"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "application/x-javascript",
+              "DownloadTime": 31,
+              "EventId": 1835,
+              "HttpStatus": 200,
+              "Size": 46470,
+              "URL": "https://www.lgstatic.com/www/static/pkg/mycenter-sidenav/page/collections/main.html_aio_f6a22e2.js"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/png",
+              "DownloadTime": 47,
+              "EventId": 1828,
+              "HttpStatus": 200,
+              "Size": 3229,
+              "URL": "https://www.lgstatic.com/www/static/mycenter-sidenav/modules/common/img/noresult_95_d8b37c3.png"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/png",
+              "DownloadTime": 47,
+              "EventId": 1824,
+              "HttpStatus": 200,
+              "Size": 38266,
+              "URL": "https://www.lgstatic.com/www/static/common/widgets/mycenter-recommend/img/similar_position_triangle_ef2979b.png"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/png",
+              "DownloadTime": 31,
+              "EventId": 1822,
+              "HttpStatus": 200,
+              "Size": 1300,
+              "URL": "https://www.lgstatic.com/www/static/mycenter-sidenav/modules/common/img/resume_arr_1f2014c.png"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/gif",
+              "DownloadTime": 31,
+              "EventId": 1799,
+              "HttpStatus": 200,
+              "Size": 1285,
+              "URL": "https://www.lgstatic.com/www/static/mycenter-sidenav/modules/common/img/loading_1e48bce.gif"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "text/css",
+              "DownloadTime": 46,
+              "EventId": 1797,
+              "HttpStatus": 200,
+              "Size": 5500,
+              "URL": "https://www.lgstatic.com/www/static/pkg/mycenter-sidenav/page/collections/main.html_aio_6fe841d.css"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "text/css",
+              "DownloadTime": 46,
+              "EventId": 1795,
+              "HttpStatus": 200,
+              "Size": 4790,
+              "URL": "https://www.lgstatic.com/www/static/pkg/mycenter-sidenav/page/collections/main.html_aio_2_f964467.css"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/gif",
+              "DownloadTime": 31,
+              "EventId": 1793,
+              "HttpStatus": 200,
+              "Size": 1285,
+              "URL": "https://www.lgstatic.com/www/static/common/widgets/send-resume/img/loading_1e48bce.gif"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/x-icon",
+              "DownloadTime": 32,
+              "EventId": 1765,
+              "HttpStatus": 200,
+              "Size": 2835,
+              "URL": "https://www.lgstatic.com/www/static/common/static/favicon_faed927.ico"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/png",
+              "DownloadTime": 32,
+              "EventId": 1755,
+              "HttpStatus": 200,
+              "Size": 210,
+              "URL": "https://www.lgstatic.com/www/static/mycenter/modules/myresume_new/img/icon_down_normal@2x_442c629.png"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/png",
+              "DownloadTime": 31,
+              "EventId": 1749,
+              "HttpStatus": 200,
+              "Size": 157,
+              "URL": "https://www.lgstatic.com/www/static/common/components/jquery-colorbox-custom/img/loading_background_acf427e.png"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/png",
+              "DownloadTime": 47,
+              "EventId": 1744,
+              "HttpStatus": 200,
+              "Size": 1022,
+              "URL": "https://www.lgstatic.com/www/static/common/components/jquery-colorbox-custom/img/controls_74ddda3.png"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/png",
+              "DownloadTime": 32,
+              "EventId": 1740,
+              "HttpStatus": 200,
+              "Size": 1007,
+              "URL": "https://www.lgstatic.com/www/static/mycenter/modules/common/img/icons_change_f6f00ee.png"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "text/html",
+              "DownloadTime": 141,
+              "EventId": 1688,
+              "HttpStatus": 200,
+              "Size": 966,
+              "URL": "https://www.lgstatic.com/lagouhtml/a44.html"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "text/html",
+              "DownloadTime": 218,
+              "EventId": 1686,
+              "HttpStatus": 302,
+              "Size": 160,
+              "URL": "https://www.lgstatic.com/static/common/components/jquery-colorbox-custom/img/controls.png"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/gif",
+              "DownloadTime": 31,
+              "EventId": 1684,
+              "HttpStatus": 200,
+              "Size": 9427,
+              "URL": "https://www.lgstatic.com/www/static/common/components/jquery-colorbox-custom/img/loading_e6611f8.gif"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/png",
+              "DownloadTime": 328,
+              "EventId": 1664,
+              "HttpStatus": 200,
+              "Size": 1277,
+              "URL": "https://www.lgstatic.com/www/static/common/components/popup/img/lb_error_2e20d03.png"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/png",
+              "DownloadTime": 344,
+              "EventId": 1662,
+              "HttpStatus": 200,
+              "Size": 2143,
+              "URL": "https://www.lgstatic.com/www/static/mycenter/modules/myresume_new/img/pic_arrow@2x_089ced4.png"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/png",
+              "DownloadTime": 328,
+              "EventId": 1659,
+              "HttpStatus": 200,
+              "Size": 20233,
+              "URL": "https://www.lgstatic.com/www/static/mycenter/modules/common/img/delete_3e0bb29.png"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/png",
+              "DownloadTime": 156,
+              "EventId": 1568,
+              "HttpStatus": 200,
+              "Size": 3432,
+              "URL": "https://www.lgstatic.com/www/static/mycenter/modules/myresume_new/img/basic-sprite_fa961f7.png"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/png",
+              "DownloadTime": 47,
+              "EventId": 1552,
+              "HttpStatus": 200,
+              "Size": 16651,
+              "URL": "https://www.lgstatic.com/www/static/common/widgets/footer_c/modules/img/sprite_9dd5c92.png"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/png",
+              "DownloadTime": 47,
+              "EventId": 1515,
+              "HttpStatus": 200,
+              "Size": 667,
+              "URL": "https://www.lgstatic.com/www/static/mycenter/modules/myresume_new/img/photo@2x_defa2c7.png"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "text/html",
+              "DownloadTime": 156,
+              "EventId": 1414,
+              "HttpStatus": 200,
+              "Size": 966,
+              "URL": "https://www.lgstatic.com/lagouhtml/a44.html"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "text/html",
+              "DownloadTime": 219,
+              "EventId": 1412,
+              "HttpStatus": 302,
+              "Size": 160,
+              "URL": "https://www.lgstatic.com/www/static/pkg/mycenter/page/myresume/common/images/ajax-loader.gif"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/png",
+              "DownloadTime": 31,
+              "EventId": 1408,
+              "HttpStatus": 200,
+              "Size": 523,
+              "URL": "https://www.lgstatic.com/www/static/mycenter/modules/myresume_new/common/galpop/images/btn-prev_a939919.png"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/png",
+              "DownloadTime": 47,
+              "EventId": 1390,
+              "HttpStatus": 200,
+              "Size": 523,
+              "URL": "https://www.lgstatic.com/www/static/mycenter/modules/myresume_new/common/galpop/images/btn-next_a939919.png"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/png",
+              "DownloadTime": 47,
+              "EventId": 1374,
+              "HttpStatus": 200,
+              "Size": 3771,
+              "URL": "https://www.lgstatic.com/www/static/common/widgets/footer_c/modules/img/footer_lagou_icon_75f0ebc.png"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/png",
+              "DownloadTime": 47,
+              "EventId": 1360,
+              "HttpStatus": 200,
+              "Size": 12827,
+              "URL": "https://www.lgstatic.com/www/static/mycenter/modules/myresume_new/img/sprite_cd72b74.png"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/png",
+              "DownloadTime": 31,
+              "EventId": 1355,
+              "HttpStatus": 200,
+              "Size": 20629,
+              "URL": "https://www.lgstatic.com/www/static/mycenter/modules/common/img/icons_mr_0ef4596.png"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/png",
+              "DownloadTime": 31,
+              "EventId": 1351,
+              "HttpStatus": 200,
+              "Size": 250,
+              "URL": "https://www.lgstatic.com/www/static/mycenter/modules/common/img/social_account_a5d472f.png"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/png",
+              "DownloadTime": 31,
+              "EventId": 1341,
+              "HttpStatus": 200,
+              "Size": 8886,
+              "URL": "https://www.lgstatic.com/www/static/mycenter/modules/common/img/icon_jobObj_1c9b4bb.png"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/png",
+              "DownloadTime": 31,
+              "EventId": 1314,
+              "HttpStatus": 200,
+              "Size": 9946,
+              "URL": "https://www.lgstatic.com/www/static/mycenter/modules/common/img/logo@2x_b603cfa.png"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "application/x-javascript",
+              "DownloadTime": 47,
+              "EventId": 1304,
+              "HttpStatus": 200,
+              "Size": 797,
+              "URL": "https://www.lgstatic.com/www/static/common/components/artTemplate/template-helper_69eaf51.js"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/png",
+              "DownloadTime": 47,
+              "EventId": 1294,
+              "HttpStatus": 200,
+              "Size": 923,
+              "URL": "https://www.lgstatic.com/www/static/common/components/jquery-colorbox-custom/img/overlay_c2e5558.png"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/png",
+              "DownloadTime": 63,
+              "EventId": 1285,
+              "HttpStatus": 200,
+              "Size": 6399,
+              "URL": "https://www.lgstatic.com/www/static/common/widgets/header_c/modules/img/sprite_361857f.png"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/png",
+              "DownloadTime": 47,
+              "EventId": 1283,
+              "HttpStatus": 200,
+              "Size": 51483,
+              "URL": "https://www.lgstatic.com/www/static/common/widgets/footer_c/layout/img/lg_pic_weixin@2x_c372698.png"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/png",
+              "DownloadTime": 62,
+              "EventId": 1280,
+              "HttpStatus": 200,
+              "Size": 20460,
+              "URL": "https://www.lgstatic.com/www/static/common/widgets/header_c/modules/img/msg_popup_72c460d.png"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/png",
+              "DownloadTime": 31,
+              "EventId": 1278,
+              "HttpStatus": 200,
+              "Size": 1493,
+              "URL": "https://www.lgstatic.com/www/static/common/widgets/footer_c/modules/img/backtop-new_0e4bcbc.png"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/png",
+              "DownloadTime": 47,
+              "EventId": 1268,
+              "HttpStatus": 200,
+              "Size": 37838,
+              "URL": "https://www.lgstatic.com/www/static/common/widgets/footer_c/layout/img/lagou-mina-code_d70848a.png"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/jpeg",
+              "DownloadTime": 31,
+              "EventId": 1264,
+              "HttpStatus": 200,
+              "Size": 6027,
+              "URL": "https://www.lgstatic.com/i/image/M00/AD/50/Cgp3O1i1E6GAPqFBAAAXi7IMQFM24.jpeg"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/png",
+              "DownloadTime": 62,
+              "EventId": 1254,
+              "HttpStatus": 200,
+              "Size": 3896,
+              "URL": "https://www.lgstatic.com/www/static/mycenter/modules/common/img/shadow_tx_a482008.png"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "application/x-javascript",
+              "DownloadTime": 47,
+              "EventId": 1247,
+              "HttpStatus": 200,
+              "Size": 6750,
+              "URL": "https://www.lgstatic.com/www/static/common/widgets/common/msgPopup_f0e2385.js"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/png",
+              "DownloadTime": 31,
+              "EventId": 1245,
+              "HttpStatus": 200,
+              "Size": 6977,
+              "URL": "https://www.lgstatic.com/common/image/pc/default_boy_headpic3.png"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/png",
+              "DownloadTime": 47,
+              "EventId": 1233,
+              "HttpStatus": 200,
+              "Size": 6967,
+              "URL": "https://www.lgstatic.com/common/image/pc/default_girl_headpic2.png"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "application/octet-stream",
+              "DownloadTime": 62,
+              "EventId": 1227,
+              "HttpStatus": 200,
+              "Size": 2800,
+              "URL": "https://www.lgstatic.com/www/static/mycenter/modules/common/lg-www-resume/fonts/lg-www-resume_cb684db.eot?tk8sz4"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "text/css",
+              "DownloadTime": 31,
+              "EventId": 1212,
+              "HttpStatus": 200,
+              "Size": 1141,
+              "URL": "https://www.lgstatic.com/www/static/pkg/widgets_edb8a0d.css"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/png",
+              "DownloadTime": 47,
+              "EventId": 1191,
+              "HttpStatus": 200,
+              "Size": 6768,
+              "URL": "https://www.lgstatic.com/common/image/pc/default_boy_headpic1.png"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/gif",
+              "DownloadTime": 32,
+              "EventId": 1119,
+              "HttpStatus": 200,
+              "Size": 1285,
+              "URL": "https://www.lgstatic.com/www/static/mycenter/modules/myresume_new/img/loading_1e48bce.gif"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/gif",
+              "DownloadTime": 31,
+              "EventId": 1115,
+              "HttpStatus": 200,
+              "Size": 1285,
+              "URL": "https://www.lgstatic.com/www/static/mycenter/modules/common/img/loading_1e48bce.gif"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/png",
+              "DownloadTime": 31,
+              "EventId": 1097,
+              "HttpStatus": 200,
+              "Size": 7431,
+              "URL": "https://www.lgstatic.com/common/image/pc/default_girl_headpic3.png"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/png",
+              "DownloadTime": 47,
+              "EventId": 1086,
+              "HttpStatus": 200,
+              "Size": 7716,
+              "URL": "https://www.lgstatic.com/common/image/pc/default_boy_headpic2.png"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/png",
+              "DownloadTime": 47,
+              "EventId": 1072,
+              "HttpStatus": 200,
+              "Size": 7835,
+              "URL": "https://www.lgstatic.com/common/image/pc/default_girl_headpic1.png"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "text/css",
+              "DownloadTime": 47,
+              "EventId": 1059,
+              "HttpStatus": 200,
+              "Size": 16044,
+              "URL": "https://www.lgstatic.com/www/static/pkg/mycenter/page/myresume/main.html_aio_2_b8f687c.css"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "application/x-javascript",
+              "DownloadTime": 94,
+              "EventId": 1040,
+              "HttpStatus": 200,
+              "Size": 2151,
+              "URL": "https://www.lgstatic.com/www/static/pkg/lg-analytics_e5879d0.js"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "application/x-javascript",
+              "DownloadTime": 62,
+              "EventId": 1037,
+              "HttpStatus": 200,
+              "Size": 118781,
+              "URL": "https://www.lgstatic.com/www/static/pkg/mycenter/page/myresume/main.html_aio_2_c663d0f.js"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "application/x-javascript",
+              "DownloadTime": 31,
+              "EventId": 1033,
+              "HttpStatus": 200,
+              "Size": 1011,
+              "URL": "https://www.lgstatic.com/www/static/pkg/layout_9ea2ea0.js"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "application/x-javascript",
+              "DownloadTime": 31,
+              "EventId": 1031,
+              "HttpStatus": 200,
+              "Size": 14051,
+              "URL": "https://www.lgstatic.com/www/static/pkg/widgets_5a2551d.js"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "text/css",
+              "DownloadTime": 125,
+              "EventId": 1029,
+              "HttpStatus": 200,
+              "Size": 3938,
+              "URL": "https://www.lgstatic.com/www/static/pkg/mycenter/page/myresume/main.html_aio_ee98dd6.css"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "application/x-javascript",
+              "DownloadTime": 31,
+              "EventId": 1012,
+              "HttpStatus": 200,
+              "Size": 46470,
+              "URL": "https://www.lgstatic.com/www/static/pkg/mycenter/page/myresume/main.html_aio_f6a22e2.js"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "application/x-javascript",
+              "DownloadTime": 31,
+              "EventId": 1009,
+              "HttpStatus": 200,
+              "Size": 39552,
+              "URL": "https://www.lgstatic.com/www/static/pkg/vendor_2c10fc6.js"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "text/css",
+              "DownloadTime": 47,
+              "EventId": 1005,
+              "HttpStatus": 200,
+              "Size": 1305,
+              "URL": "https://www.lgstatic.com/www/static/dep/mCustomScrollbar/css/mCustomScrollbar_ac2fb8b.css"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "text/css",
+              "DownloadTime": 31,
+              "EventId": 1000,
+              "HttpStatus": 200,
+              "Size": 4264,
+              "URL": "https://www.lgstatic.com/www/static/pkg/layout_34e52c0.css"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/png",
+              "DownloadTime": 63,
+              "EventId": 524,
+              "HttpStatus": 200,
+              "Size": 1357,
+              "URL": "https://www.lgstatic.com/passport/static/pc/modules/common/img/info_03c90e8.png"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/png",
+              "DownloadTime": 47,
+              "EventId": 522,
+              "HttpStatus": 200,
+              "Size": 1022,
+              "URL": "https://www.lgstatic.com/passport/static/pc/modules/error-pop/img/controls_74ddda3.png"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/png",
+              "DownloadTime": 31,
+              "EventId": 520,
+              "HttpStatus": 200,
+              "Size": 157,
+              "URL": "https://www.lgstatic.com/passport/static/pc/modules/error-pop/img/loading_background_acf427e.png"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/gif",
+              "DownloadTime": 31,
+              "EventId": 518,
+              "HttpStatus": 200,
+              "Size": 9427,
+              "URL": "https://www.lgstatic.com/passport/static/pc/modules/error-pop/img/loading_e6611f8.gif"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/x-icon",
+              "DownloadTime": 15,
+              "EventId": 515,
+              "HttpStatus": 200,
+              "Size": 2835,
+              "URL": "https://www.lgstatic.com/passport/static/common/static/favicon_faed927.ico"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/png",
+              "DownloadTime": 31,
+              "EventId": 407,
+              "HttpStatus": 200,
+              "Size": 1357,
+              "URL": "https://www.lgstatic.com/passport/static/common/static/img/info_03c90e8.png"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/png",
+              "DownloadTime": 31,
+              "EventId": 341,
+              "HttpStatus": 200,
+              "Size": 923,
+              "URL": "https://www.lgstatic.com/passport/static/pc/modules/error-pop/img/overlay_c2e5558.png"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/png",
+              "DownloadTime": 16,
+              "EventId": 334,
+              "HttpStatus": 200,
+              "Size": 425,
+              "URL": "https://www.lgstatic.com/passport/static/pc/modules/common/img/icon-tencent_c85c20a.png"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/png",
+              "DownloadTime": 31,
+              "EventId": 330,
+              "HttpStatus": 200,
+              "Size": 611,
+              "URL": "https://www.lgstatic.com/passport/static/pc/modules/common/img/icon-wechat_823d4eb.png"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/png",
+              "DownloadTime": 31,
+              "EventId": 326,
+              "HttpStatus": 200,
+              "Size": 668,
+              "URL": "https://www.lgstatic.com/passport/static/pc/modules/common/img/icon-baidu_d1ad2b6.png"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/png",
+              "DownloadTime": 47,
+              "EventId": 246,
+              "HttpStatus": 200,
+              "Size": 4405,
+              "URL": "https://www.lgstatic.com/passport/static/pc/modules/common/img/logo_e420e46.png"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/svg+xml",
+              "DownloadTime": 31,
+              "EventId": 244,
+              "HttpStatus": 200,
+              "Size": 2432,
+              "URL": "https://www.lgstatic.com/passport/static/common/static/img/qrcode-normal_bb3ab97.svg"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/svg+xml",
+              "DownloadTime": 31,
+              "EventId": 242,
+              "HttpStatus": 200,
+              "Size": 3199,
+              "URL": "https://www.lgstatic.com/passport/static/common/static/img/wx-login_c936a5c.svg"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/png",
+              "DownloadTime": 46,
+              "EventId": 240,
+              "HttpStatus": 200,
+              "Size": 1385,
+              "URL": "https://www.lgstatic.com/passport/static/pc/modules/common/img/icon-arrow-right_ea91505.png"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/png",
+              "DownloadTime": 31,
+              "EventId": 238,
+              "HttpStatus": 200,
+              "Size": 730,
+              "URL": "https://www.lgstatic.com/passport/static/pc/modules/common/img/icon-sina_e161002.png"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "application/x-javascript",
+              "DownloadTime": 47,
+              "EventId": 177,
+              "HttpStatus": 200,
+              "Size": 47712,
+              "URL": "https://www.lgstatic.com/passport/static/pkg/pc/page/login/main.html_aio_276f591.js"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "application/x-javascript",
+              "DownloadTime": 47,
+              "EventId": 174,
+              "HttpStatus": 200,
+              "Size": 2561,
+              "URL": "https://www.lgstatic.com/passport/static/pkg/lg-analytics_44f2da6.js"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "application/x-javascript",
+              "DownloadTime": 32,
+              "EventId": 172,
+              "HttpStatus": 200,
+              "Size": 37276,
+              "URL": "https://www.lgstatic.com/passport/static/pkg/vendor_c7a7c93.js"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "text/css",
+              "DownloadTime": 32,
+              "EventId": 170,
+              "HttpStatus": 200,
+              "Size": 4425,
+              "URL": "https://www.lgstatic.com/passport/static/pkg/pc/page/login/main.html_aio_6c59138.css"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/svg+xml",
+              "DownloadTime": 31,
+              "EventId": 168,
+              "HttpStatus": 200,
+              "Size": 1285,
+              "URL": "https://www.lgstatic.com/passport/static/common/static/img/icon-success_550c0d8.svg"
+            }
+          ],
+          "SSLCipher": "ECDHE-RSA-AES128-GCM-SHA256",
+          "SSLVersion": "TLS1.2"
+        }
+      ],
+      "IncludeInScript": true
+    },
+    {
+      "DomainName": "lagou.com",
+      "Domains": [
+        {
+          "HTTPVersion": "HTTP/1.1",
+          "IP": "106.75.118.232",
+          "IncludeInScript": true,
+          "Name": "www.lagou.com",
+          "Port": 80,
+          "Requests": [
+            {
+              "CompressionType": "",
+              "DataType": "text/html",
+              "DownloadTime": 31,
+              "EventId": 988,
+              "HttpStatus": 301,
+              "Size": 266,
+              "URL": "http://www.lagou.com/resume/myresume.html"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "text/html",
+              "DownloadTime": 78,
+              "EventId": 972,
+              "HttpStatus": 301,
+              "Size": 266,
+              "URL": "http://www.lagou.com/resume/myresume.html?action=grantST&ticket=ST-877c4faa450946bfb618d17f5b03ae54"
+            }
+          ],
+          "SSLCipher": "None",
+          "SSLVersion": "None"
+        },
+        {
+          "HTTPVersion": "HTTP/1.1",
+          "IP": "106.75.118.232",
+          "IncludeInScript": true,
+          "Name": "www.lagou.com",
+          "Port": 443,
+          "Requests": [
+            {
+              "CompressionType": "",
+              "DataType": "text/html",
+              "DownloadTime": 31,
+              "EventId": 2253,
+              "HttpStatus": 200,
+              "Size": 0,
+              "URL": "https://www.lagou.com/upload/ltm/oss.html?u=/mycenter/collections.html&q=129&n=131&d=5177&l=4802&dns=0&p=10108&pi=43&qn=3207&t=1560570463569"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/gif",
+              "DownloadTime": 31,
+              "EventId": 2251,
+              "HttpStatus": 200,
+              "Size": 807,
+              "URL": "https://www.lagou.com/upload/edm/image/oss.gif?1560570463526"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "application/json",
+              "DownloadTime": 547,
+              "EventId": 2145,
+              "HttpStatus": 200,
+              "Size": 181,
+              "URL": "https://www.lagou.com/mycenter/showQRCode"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "application/json",
+              "DownloadTime": 63,
+              "EventId": 2062,
+              "HttpStatus": 200,
+              "Size": 1,
+              "URL": "https://www.lagou.com/wafcheck.json"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "application/json",
+              "DownloadTime": 47,
+              "EventId": 2027,
+              "HttpStatus": 200,
+              "Size": 126,
+              "URL": "https://www.lagou.com/message/newMessageList.json"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "application/x-javascript",
+              "DownloadTime": 47,
+              "EventId": 1801,
+              "HttpStatus": 200,
+              "Size": 1910,
+              "URL": "https://www.lagou.com/upload/oss.js"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "text/html",
+              "DownloadTime": 125,
+              "EventId": 1786,
+              "HttpStatus": 200,
+              "Size": 13663,
+              "URL": "https://www.lagou.com/mycenter/collections.html"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "text/html",
+              "DownloadTime": 47,
+              "EventId": 1782,
+              "HttpStatus": 200,
+              "Size": 0,
+              "URL": "https://www.lagou.com/upload/ltm/oss.html?u=/resume/myresume.html&q=0&n=6&d=6004&l=10991&dns=0&p=16993&pi=2694&qn=69664&t=1560570444263"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/gif",
+              "DownloadTime": 47,
+              "EventId": 1780,
+              "HttpStatus": 200,
+              "Size": 807,
+              "URL": "https://www.lagou.com/upload/edm/image/oss.gif?1560570441569"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "application/json",
+              "DownloadTime": 47,
+              "EventId": 1384,
+              "HttpStatus": 200,
+              "Size": 126,
+              "URL": "https://www.lagou.com/message/newMessageList.json"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "application/json",
+              "DownloadTime": 47,
+              "EventId": 1382,
+              "HttpStatus": 200,
+              "Size": 1,
+              "URL": "https://www.lagou.com/wafcheck.json"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "application/x-javascript",
+              "DownloadTime": 47,
+              "EventId": 1260,
+              "HttpStatus": 200,
+              "Size": 1910,
+              "URL": "https://www.lagou.com/upload/oss.js"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "application/x-javascript",
+              "DownloadTime": 47,
+              "EventId": 1102,
+              "HttpStatus": 200,
+              "Size": 4896,
+              "URL": "https://www.lagou.com/utrack/track.js?version=1.0.1.0"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "text/html",
+              "DownloadTime": 187,
+              "EventId": 990,
+              "HttpStatus": 200,
+              "Size": 81124,
+              "URL": "https://www.lagou.com/resume/myresume.html"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "",
+              "DownloadTime": 94,
+              "EventId": 986,
+              "HttpStatus": 302,
+              "Size": 0,
+              "URL": "https://www.lagou.com/resume/myresume.html?action=grantST&ticket=ST-877c4faa450946bfb618d17f5b03ae54"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "text/html",
+              "DownloadTime": 47,
+              "EventId": 39,
+              "HttpStatus": 302,
+              "Size": 0,
+              "URL": "https://www.lagou.com/resume/myresume.html"
+            }
+          ],
+          "SSLCipher": "ECDHE-RSA-AES128-GCM-SHA256",
+          "SSLVersion": "TLS1.2"
+        },
+        {
+          "HTTPVersion": "HTTP/1.1",
+          "IP": "106.75.118.232",
+          "IncludeInScript": true,
+          "Name": "passport.lagou.com",
+          "Port": 443,
+          "Requests": [
+            {
+              "CompressionType": "",
+              "DataType": "application/json",
+              "DownloadTime": 47,
+              "EventId": 2020,
+              "HttpStatus": 200,
+              "Size": 1593,
+              "URL": "https://passport.lagou.com/register/getPhoneCountryCode.json?jsoncallback=jQuery1113033311535484799615_1560570453807&_=1560570453808"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "application/json",
+              "DownloadTime": 47,
+              "EventId": 2008,
+              "HttpStatus": 200,
+              "Size": 135,
+              "URL": "https://passport.lagou.com/verify/getStyle.json?jsoncallback=jQuery1113033311535484799615_1560570453805&_=1560570453806"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "application/json",
+              "DownloadTime": 31,
+              "EventId": 1484,
+              "HttpStatus": 200,
+              "Size": 1592,
+              "URL": "https://passport.lagou.com/register/getPhoneCountryCode.json?jsoncallback=jQuery111307486207167744017_1560570429136&_=1560570429137"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "application/json",
+              "DownloadTime": 31,
+              "EventId": 1439,
+              "HttpStatus": 200,
+              "Size": 134,
+              "URL": "https://passport.lagou.com/verify/getStyle.json?jsoncallback=jQuery111307486207167744017_1560570429132&_=1560570429133"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "application/json",
+              "DownloadTime": 47,
+              "EventId": 1336,
+              "HttpStatus": 200,
+              "Size": 1592,
+              "URL": "https://passport.lagou.com/register/getPhoneCountryCode.json?jsoncallback=jQuery111307486207167744017_1560570429134&_=1560570429135"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "",
+              "DownloadTime": 62,
+              "EventId": 968,
+              "HttpStatus": 302,
+              "Size": 0,
+              "URL": "https://passport.lagou.com/grantServiceTicket/grant.html"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "application/json",
+              "DownloadTime": 125,
+              "EventId": 965,
+              "HttpStatus": 200,
+              "Size": 133,
+              "URL": "https://passport.lagou.com/login/login.json"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "text/html",
+              "DownloadTime": 31,
+              "EventId": 548,
+              "HttpStatus": 200,
+              "Size": 0,
+              "URL": "https://passport.lagou.com/upload/ltm/oss.html?u=/login/login.html&q=0&n=3&d=3536&l=4850&dns=0&p=8387&pi=1046&qn=30752&t=1560570398975"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/gif",
+              "DownloadTime": 31,
+              "EventId": 542,
+              "HttpStatus": 200,
+              "Size": 807,
+              "URL": "https://passport.lagou.com/upload/edm/image/oss.gif?1560570397929"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "application/json",
+              "DownloadTime": 63,
+              "EventId": 215,
+              "HttpStatus": 200,
+              "Size": 1549,
+              "URL": "https://passport.lagou.com/register/getPhoneCountryCode.json"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "application/x-javascript",
+              "DownloadTime": 47,
+              "EventId": 75,
+              "HttpStatus": 200,
+              "Size": 1910,
+              "URL": "https://passport.lagou.com/upload/oss.js"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "text/html",
+              "DownloadTime": 47,
+              "EventId": 64,
+              "HttpStatus": 200,
+              "Size": 3500,
+              "URL": "https://passport.lagou.com/login/login.html?signature=A6CF4F334DB79C4DC31D06BBDED03E4B&service=http%253A%252F%252Fwww.lagou.com%252Fresume%252Fmyresume.html&action=login&serviceId=lagou&ts=1560570384851"
+            }
+          ],
+          "SSLCipher": "ECDHE-RSA-AES128-GCM-SHA256",
+          "SSLVersion": "TLS1.2"
+        },
+        {
+          "HTTPVersion": "HTTP/1.1",
+          "IP": "117.50.37.131",
+          "IncludeInScript": true,
+          "Name": "img.lagou.com",
+          "Port": 443,
+          "Requests": [
+            {
+              "CompressionType": "gzip",
+              "DataType": "application/x-javascript",
+              "DownloadTime": 63,
+              "EventId": 379,
+              "HttpStatus": 200,
+              "Size": 20535,
+              "URL": "https://img.lagou.com/yun-main/static/common/static/sensorsSDK/1.8.10/js/sensorsdata.min.js"
+            }
+          ],
+          "SSLCipher": "ECDHE-RSA-AES128-GCM-SHA256",
+          "SSLVersion": "TLS1.2"
+        },
+        {
+          "HTTPVersion": "HTTP/1.1",
+          "IP": "117.50.36.103",
+          "IncludeInScript": true,
+          "Name": "ggservice.lagou.com",
+          "Port": 443,
+          "Requests": [
+            {
+              "CompressionType": "",
+              "DataType": "application/json",
+              "DownloadTime": 31,
+              "EventId": 2247,
+              "HttpStatus": 200,
+              "Size": 238,
+              "URL": "https://ggservice.lagou.com/promotionSpace/data?callback=jQuery1113033311535484799615_1560570453805&spaceKey=JIANLITOUDIDANKUANG_JIANLITOUDIDANKUANG&subsite=%E5%85%A8%E5%9B%BD&_=1560570453810"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "application/json",
+              "DownloadTime": 47,
+              "EventId": 2245,
+              "HttpStatus": 200,
+              "Size": 360,
+              "URL": "https://ggservice.lagou.com/promotionSpace/data?callback=jQuery1113033311535484799615_1560570453807&spaceKey=ZHIWEITOUDIXIANGYAOQINGHANSHOUZANGJIADINGYUELAN_ZHIWEITOUDIXIANGYAOQINGHANSHOUZANGJIADINGYUELAN&subsite=%E5%85%A8%E5%9B%BD&_=1560570453809"
+            }
+          ],
+          "SSLCipher": "ECDHE-RSA-AES128-GCM-SHA256",
+          "SSLVersion": "TLS1.2"
+        },
+        {
+          "HTTPVersion": "HTTP/1.1",
+          "IP": "117.50.39.99",
+          "IncludeInScript": true,
+          "Name": "gate.lagou.com",
+          "Port": 443,
+          "Requests": [
+            {
+              "CompressionType": "",
+              "DataType": "application/json",
+              "DownloadTime": 47,
+              "EventId": 1482,
+              "HttpStatus": 200,
+              "Size": 113,
+              "URL": "https://gate.lagou.com/v1/neirong/account/token"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "application/json",
+              "DownloadTime": 32,
+              "EventId": 1476,
+              "HttpStatus": 200,
+              "Size": 51,
+              "URL": "https://gate.lagou.com/v1/neirong/account/token"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "application/json",
+              "DownloadTime": 31,
+              "EventId": 1473,
+              "HttpStatus": 200,
+              "Size": 89,
+              "URL": "https://gate.lagou.com/v1/neirong/account/verifycode/style"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "application/json",
+              "DownloadTime": 31,
+              "EventId": 1463,
+              "HttpStatus": 200,
+              "Size": 51,
+              "URL": "https://gate.lagou.com/v1/neirong/account/verifycode/style"
+            }
+          ],
+          "SSLCipher": "ECDHE-RSA-AES128-GCM-SHA256",
+          "SSLVersion": "TLS1.2"
+        },
+        {
+          "HTTPVersion": "HTTP/1.1",
+          "IP": "106.75.76.78",
+          "IncludeInScript": true,
+          "Name": "activity.lagou.com",
+          "Port": 443,
+          "Requests": [
+            {
+              "CompressionType": "",
+              "DataType": "application/json",
+              "DownloadTime": 47,
+              "EventId": 2249,
+              "HttpStatus": 200,
+              "Size": 114,
+              "URL": "https://activity.lagou.com/activityapi/icon/getIcon.json?callback=jQuery1113033311535484799615_1560570453811&companyIds=&markLocation=PPF&_=1560570453812"
+            }
+          ],
+          "SSLCipher": "",
+          "SSLVersion": ""
+        },
+        {
+          "HTTPVersion": "HTTP/1.1",
+          "IP": "117.50.39.99",
+          "IncludeInScript": true,
+          "Name": "account.lagou.com",
+          "Port": 443,
+          "Requests": [
+            {
+              "CompressionType": "gzip",
+              "DataType": "text/html",
+              "DownloadTime": 31,
+              "EventId": 1521,
+              "HttpStatus": 200,
+              "Size": 1028,
+              "URL": "https://account.lagou.com/lagouhtml/a44.html?from=register&refresh=1560570429351"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "text/html",
+              "DownloadTime": 47,
+              "EventId": 1519,
+              "HttpStatus": 302,
+              "Size": 246,
+              "URL": "https://account.lagou.com/vcode/create?from=register&refresh=1560570429351"
+            }
+          ],
+          "SSLCipher": "ECDHE-RSA-AES128-GCM-SHA256",
+          "SSLVersion": "TLS1.2"
+        },
+        {
+          "HTTPVersion": "HTTP/1.1",
+          "IP": "106.75.118.232",
+          "IncludeInScript": true,
+          "Name": "a.lagou.com",
+          "Port": 443,
+          "Requests": [
+            {
+              "CompressionType": "",
+              "DataType": "image/gif",
+              "DownloadTime": 47,
+              "EventId": 2136,
+              "HttpStatus": 200,
+              "Size": 0,
+              "URL": "https://a.lagou.com/show?t=like&dl=https%3A%2F%2Fwww.lagou.com%2Fmycenter%2Fcollections.html&jids=1232147,3554098,5941470,5713884,5577817&time=1560570458969"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/gif",
+              "DownloadTime": 156,
+              "EventId": 2121,
+              "HttpStatus": 200,
+              "Size": 0,
+              "URL": "https://a.lagou.com/json?lt=trackshow&a=gp00_0001_0_1232147_4411,gp00_0002_0_3554098_8030,gp00_0003_0_5941470_1241,gp00_0004_0_5713884_1780,gp00_0005_0_5577817_6033&t=p&v=0&dl=https%3A%2F%2Fwww.lagou.com%2Fmycenter%2Fcollections.html&dr=https%3A%2F%2Fwww.lagou.com&time=1560570458968&abt=fine_sort|1,fine_sort|1,fine_sort|1,fine_sort|1,fine_sort|1"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/gif",
+              "DownloadTime": 47,
+              "EventId": 1920,
+              "HttpStatus": 200,
+              "Size": 0,
+              "URL": "https://a.lagou.com/track?v=1&t=a&dl=https%3A%2F%2Fwww.lagou.com%2Fresume%2Fmyresume.html&dr=https%3A%2F%2Fpassport.lagou.com%2Flogin%2Flogin.html%3Fsignature%3DA6CF4F334DB79C4DC31D06BBDED03E4B%26service%3Dhttp%25253A%25252F%25252Fwww.lagou.com%25252Fresume%25252Fmyresume.html%26action%3Dlogin%26serviceId%3Dlagou%26ts%3D1560570384851&dt=我的简�?拉勾�?专业的互联网招聘平台&aid=5900_idnull_0_idnull_4582&intrack=index_favorite"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/gif",
+              "DownloadTime": 47,
+              "EventId": 1868,
+              "HttpStatus": 200,
+              "Size": 0,
+              "URL": "https://a.lagou.com/collect?v=1&_v=j31&a=1630717747&t=pageview&_s=1&dl=https%3A%2F%2Fwww.lagou.com%2Fmycenter%2Fcollections.html&dr=https%3A%2F%2Fwww.lagou.com%2Fresume%2Fmyresume.html&ul=zh-cn&de=utf-8&dt=%E6%88%91%E6%94%B6%E8%97%8F%E7%9A%84%E8%81%8C%E4%BD%8D-%E6%8B%9B%E8%81%98%E6%9C%8D%E5%8A%A1-%E6%8B%89%E5%8B%BE%E7%BD%91-%E4%B8%93%E4%B8%9A%E7%9A%84%E4%BA%92%E8%81%94%E7%BD%91%E6%8B%9B%E8%81%98%E5%B9%B3%E5%8F%B0&sd=24-bit&sr=1920x1080&vp=1903x1082&je=1&fl=32.0%20r0&_u=MACAAAQAK~&jid=&cid=1782348110.1560570394&tid=UA-41268416-1&z=1508420951"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/gif",
+              "DownloadTime": 47,
+              "EventId": 1598,
+              "HttpStatus": 200,
+              "Size": 0,
+              "URL": "https://a.lagou.com/collect?v=1&_v=j31&a=802742460&t=pageview&_s=1&dl=https%3A%2F%2Fwww.lagou.com%2Fresume%2Fmyresume.html&dr=https%3A%2F%2Fpassport.lagou.com%2Flogin%2Flogin.html%3Fsignature%3DA6CF4F334DB79C4DC31D06BBDED03E4B%26service%3Dhttp%25253A%25252F%25252Fwww.lagou.com%25252Fresume%25252Fmyresume.html%26action%3Dlogin%26serviceId%3Dlagou%26ts%3D1560570384851&ul=zh-cn&de=utf-8&dt=%E6%88%91%E7%9A%84%E7%AE%80%E5%8E%86-%E6%8B%89%E5%8B%BE%E7%BD%91-%E4%B8%93%E4%B8%9A%E7%9A%84%E4%BA%92%E8%81%94%E7%BD%91%E6%8B%9B%E8%81%98%E5%B9%B3%E5%8F%B0&sd=24-bit&sr=1920x1080&vp=1903x1082&je=1&fl=32.0%20r0&_u=MACAAAQAK~&jid=47848235&cid=1782348110.1560570394&tid=UA-41268416-1&_r=1&z=2029605543"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/gif",
+              "DownloadTime": 31,
+              "EventId": 961,
+              "HttpStatus": 200,
+              "Size": 0,
+              "URL": "https://a.lagou.com/track?v=1&t=input&dl=https%3A%2F%2Fpassport.lagou.com%2Flogin%2Flogin.html%3Fsignature%3DA6CF4F334DB79C4DC31D06BBDED03E4B%26service%3Dhttp%25253A%25252F%25252Fwww.lagou.com%25252Fresume%25252Fmyresume.html%26action%3Dlogin%26serviceId%3Dlagou%26ts%3D1560570384851&dr=&dt=找工�?互联网招聘求职网-拉勾�?aid=1j90_idnull_0_idnull_4396&intrack=TG-TRACK-CODE=undefined;%20path=/"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/gif",
+              "DownloadTime": 63,
+              "EventId": 381,
+              "HttpStatus": 200,
+              "Size": 0,
+              "URL": "https://a.lagou.com/collect?v=1&_v=j31&a=895058163&t=pageview&_s=1&dl=https%3A%2F%2Fpassport.lagou.com%2Flogin%2Flogin.html%3Fsignature%3DA6CF4F334DB79C4DC31D06BBDED03E4B%26service%3Dhttp%25253A%25252F%25252Fwww.lagou.com%25252Fresume%25252Fmyresume.html%26action%3Dlogin%26serviceId%3Dlagou%26ts%3D1560570384851&ul=zh-cn&de=utf-8&dt=%E6%89%BE%E5%B7%A5%E4%BD%9C-%E4%BA%92%E8%81%94%E7%BD%91%E6%8B%9B%E8%81%98%E6%B1%82%E8%81%8C%E7%BD%91-%E6%8B%89%E5%8B%BE%E7%BD%91&sd=24-bit&sr=1920x1080&vp=1920x1082&je=1&fl=32.0%20r0&_u=MEAAAAQAK~&jid=1093432231&cid=1782348110.1560570394&tid=UA-41268416-1&_r=1&z=904190132"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "text/javascript",
+              "DownloadTime": 63,
+              "EventId": 375,
+              "HttpStatus": 200,
+              "Size": 14886,
+              "URL": "https://a.lagou.com/js/a.js"
+            }
+          ],
+          "SSLCipher": "ECDHE-RSA-AES128-GCM-SHA256",
+          "SSLVersion": "TLS1.2"
+        }
+      ],
+      "IncludeInScript": true
+    },
+    {
+      "DomainName": "google-analytics.com",
+      "Domains": [
+        {
+          "HTTPVersion": "HTTP/1.1",
+          "IP": "203.208.40.65",
+          "IncludeInScript": true,
+          "Name": "www.google-analytics.com",
+          "Port": 443,
+          "Requests": [
+            {
+              "CompressionType": "",
+              "DataType": "image/gif",
+              "DownloadTime": 31,
+              "EventId": 2076,
+              "HttpStatus": 200,
+              "Size": 35,
+              "URL": "https://www.google-analytics.com/collect?v=1&_v=j76&a=1630717747&t=pageview&_s=1&dl=https%3A%2F%2Fwww.lagou.com%2Fmycenter%2Fcollections.html&ul=zh-cn&de=utf-8&dt=%E6%88%91%E6%94%B6%E8%97%8F%E7%9A%84%E8%81%8C%E4%BD%8D-%E6%8B%9B%E8%81%98%E6%9C%8D%E5%8A%A1-%E6%8B%89%E5%8B%BE%E7%BD%91-%E4%B8%93%E4%B8%9A%E7%9A%84%E4%BA%92%E8%81%94%E7%BD%91%E6%8B%9B%E8%81%98%E5%B9%B3%E5%8F%B0&sd=24-bit&sr=1920x1080&vp=1903x1082&je=1&fl=32.0%20r0&_u=ACCAgEQAB~&jid=&gjid=&cid=1782348110.1560570394&tid=UA-41268416-1&_gid=2119366934.1560570395&z=2090952451"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/gif",
+              "DownloadTime": 250,
+              "EventId": 1626,
+              "HttpStatus": 200,
+              "Size": 35,
+              "URL": "https://www.google-analytics.com/collect?v=1&_v=j76&a=802742460&t=pageview&_s=1&dl=https%3A%2F%2Fwww.lagou.com%2Fresume%2Fmyresume.html&dr=https%3A%2F%2Fpassport.lagou.com%2Flogin%2Flogin.html%3Fsignature%3DA6CF4F334DB79C4DC31D06BBDED03E4B%26service%3Dhttp%25253A%25252F%25252Fwww.lagou.com%25252Fresume%25252Fmyresume.html%26action%3Dlogin%26serviceId%3Dlagou%26ts%3D1560570384851&ul=zh-cn&de=utf-8&dt=%E6%88%91%E7%9A%84%E7%AE%80%E5%8E%86-%E6%8B%89%E5%8B%BE%E7%BD%91-%E4%B8%93%E4%B8%9A%E7%9A%84%E4%BA%92%E8%81%94%E7%BD%91%E6%8B%9B%E8%81%98%E5%B9%B3%E5%8F%B0&sd=24-bit&sr=1920x1080&vp=1903x1082&je=1&fl=32.0%20r0&_u=ACCAgEQAB~&jid=&gjid=&cid=1782348110.1560570394&tid=UA-41268416-1&_gid=2119366934.1560570395&z=1435467083"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/gif",
+              "DownloadTime": 32,
+              "EventId": 401,
+              "HttpStatus": 200,
+              "Size": 35,
+              "URL": "https://www.google-analytics.com/collect?v=1&_v=j76&a=895058163&t=pageview&_s=1&dl=https%3A%2F%2Fpassport.lagou.com%2Flogin%2Flogin.html%3Fsignature%3DA6CF4F334DB79C4DC31D06BBDED03E4B%26service%3Dhttp%25253A%25252F%25252Fwww.lagou.com%25252Fresume%25252Fmyresume.html%26action%3Dlogin%26serviceId%3Dlagou%26ts%3D1560570384851&ul=zh-cn&de=utf-8&dt=%E6%89%BE%E5%B7%A5%E4%BD%9C-%E4%BA%92%E8%81%94%E7%BD%91%E6%8B%9B%E8%81%98%E6%B1%82%E8%81%8C%E7%BD%91-%E6%8B%89%E5%8B%BE%E7%BD%91&sd=24-bit&sr=1920x1080&vp=1920x1082&je=1&fl=32.0%20r0&_u=ICDAgEQAB~&jid=&gjid=&cid=1782348110.1560570394&tid=UA-41268416-1&_gid=2119366934.1560570395&z=491761592"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "text/javascript",
+              "DownloadTime": 31,
+              "EventId": 386,
+              "HttpStatus": 200,
+              "Size": 17595,
+              "URL": "https://www.google-analytics.com/analytics.js"
+            }
+          ],
+          "SSLCipher": "ECDHE-RSA-AES128-GCM-SHA256",
+          "SSLVersion": "TLS1.2"
+        }
+      ],
+      "IncludeInScript": true
+    },
+    {
+      "DomainName": "geetest.com",
+      "Domains": [
+        {
+          "HTTPVersion": "HTTP/1.1",
+          "IP": "[2400:a980:f7::6]",
+          "IncludeInScript": true,
+          "Name": "static.geetest.com",
+          "Port": 443,
+          "Requests": [
+            {
+              "CompressionType": "gzip",
+              "DataType": "application/javascript",
+              "DownloadTime": 31,
+              "EventId": 509,
+              "HttpStatus": 200,
+              "Size": 73681,
+              "URL": "https://static.geetest.com/static/js/sense.1.2.3.js"
+            }
+          ],
+          "SSLCipher": "ECDHE-RSA-AES128-GCM-SHA256",
+          "SSLVersion": "TLS1.2"
+        },
+        {
+          "HTTPVersion": "HTTP/1.1",
+          "IP": "222.22.29.95",
+          "IncludeInScript": true,
+          "Name": "api.geetest.com",
+          "Port": 443,
+          "Requests": [
+            {
+              "CompressionType": "",
+              "DataType": "text/javascript",
+              "DownloadTime": 47,
+              "EventId": 2132,
+              "HttpStatus": 200,
+              "Size": 175,
+              "URL": "https://api.geetest.com/gettype_deepknow.php?gt=66442f2f720bfc86799932d8ad2eb6c7&callback=geetest_1560570467821"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "text/javascript",
+              "DownloadTime": 360,
+              "EventId": 1666,
+              "HttpStatus": 200,
+              "Size": 175,
+              "URL": "https://api.geetest.com/gettype_deepknow.php?gt=66442f2f720bfc86799932d8ad2eb6c7&callback=geetest_1560570441116"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "text/javascript",
+              "DownloadTime": 78,
+              "EventId": 1650,
+              "HttpStatus": 200,
+              "Size": 175,
+              "URL": "https://api.geetest.com/gettype_deepknow.php?gt=66442f2f720bfc86799932d8ad2eb6c7&callback=geetest_1560570440527"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "text/javascript",
+              "DownloadTime": 63,
+              "EventId": 963,
+              "HttpStatus": 200,
+              "Size": 265,
+              "URL": "https://api.geetest.com/gt_judgement?pt=0&gt=66442f2f720bfc86799932d8ad2eb6c7"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "text/javascript",
+              "DownloadTime": 46,
+              "EventId": 483,
+              "HttpStatus": 200,
+              "Size": 175,
+              "URL": "https://api.geetest.com/gettype_deepknow.php?gt=66442f2f720bfc86799932d8ad2eb6c7&callback=geetest_1560570397047"
+            }
+          ],
+          "SSLCipher": "ECDHE-RSA-AES256-GCM-SHA384",
+          "SSLVersion": "TLS1.2"
+        }
+      ],
+      "IncludeInScript": true
+    },
+    {
+      "DomainName": "egoid.me",
+      "Domains": [
+        {
+          "HTTPVersion": "HTTP/1.1",
+          "IP": "120.27.14.91",
+          "IncludeInScript": true,
+          "Name": "deepknow.egoid.me",
+          "Port": 443,
+          "Requests": [
+            {
+              "CompressionType": "",
+              "DataType": "text/plain",
+              "DownloadTime": 31,
+              "EventId": 2202,
+              "HttpStatus": 200,
+              "Size": 11,
+              "URL": "https://deepknow.egoid.me/timeStamp?t=1560570459401&callback=geetest_1560570462985"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "text/plain",
+              "DownloadTime": 31,
+              "EventId": 1763,
+              "HttpStatus": 200,
+              "Size": 11,
+              "URL": "https://deepknow.egoid.me/timeStamp?t=1560570437821&callback=geetest_1560570444675"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "text/plain",
+              "DownloadTime": 31,
+              "EventId": 1736,
+              "HttpStatus": 200,
+              "Size": 11,
+              "URL": "https://deepknow.egoid.me/timeStamp?t=1560570436960&callback=geetest_1560570445820"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "text/plain",
+              "DownloadTime": 31,
+              "EventId": 952,
+              "HttpStatus": 200,
+              "Size": 11,
+              "URL": "https://deepknow.egoid.me/timeStamp?t=1560570398124&callback=geetest_1560570398959"
+            }
+          ],
+          "SSLCipher": "ECDHE-RSA-AES256-GCM-SHA384",
+          "SSLVersion": "TLS1.2"
+        }
+      ],
+      "IncludeInScript": true
+    },
+    {
+      "DomainName": "baidu.com",
+      "Domains": [
+        {
+          "HTTPVersion": "HTTP/1.1",
+          "IP": "202.108.23.152",
+          "IncludeInScript": true,
+          "Name": "hm.baidu.com",
+          "Port": 443,
+          "Requests": [
+            {
+              "CompressionType": "",
+              "DataType": "image/gif",
+              "DownloadTime": 47,
+              "EventId": 2112,
+              "HttpStatus": 200,
+              "Size": 43,
+              "URL": "https://hm.baidu.com/hm.gif?cc=1&ck=1&cl=24-bit&ds=1920x1080&vl=1082&et=0&fl=32.0&ja=1&ln=zh-cn&lo=0&lt=1560570397&rnd=43649893&si=4233e74dff0ae5bd0a3d81c6ccf756e6&su=https%3A%2F%2Fwww.lagou.com%2Fresume%2Fmyresume.html&v=1.2.51&lv=2&sn=51039&ct=!!&tt=%E6%88%91%E6%94%B6%E8%97%8F%E7%9A%84%E8%81%8C%E4%BD%8D-%E6%8B%9B%E8%81%98%E6%9C%8D%E5%8A%A1-%E6%8B%89%E5%8B%BE%E7%BD%91-%E4%B8%93%E4%B8%9A%E7%9A%84%E4%BA%92%E8%81%94%E7%BD%91%E6%8B%9B%E8%81%98%E5%B9%B3%E5%8F%B0"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/gif",
+              "DownloadTime": 46,
+              "EventId": 2070,
+              "HttpStatus": 200,
+              "Size": 43,
+              "URL": "https://hm.baidu.com/hm.gif?cc=1&ck=1&cl=24-bit&ds=1920x1080&vl=1082&ep=22994%2C22994&et=3&fl=32.0&ja=1&ln=zh-cn&lo=0&lt=1560570397&rnd=1307914794&si=4233e74dff0ae5bd0a3d81c6ccf756e6&su=https%3A%2F%2Fpassport.lagou.com%2Flogin%2Flogin.html%3Fsignature%3DA6CF4F334DB79C4DC31D06BBDED03E4B%26service%3Dhttp%25253A%25252F%25252Fwww.lagou.com%25252Fresume%25252Fmyresume.html%26action%3Dlogin%26serviceId%3Dlagou%26ts%3D1560570384851&v=1.2.51&lv=2&sn=51011&u=https%3A%2F%2Fwww.lagou.com%2Fresume%2Fmyresume.html"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/gif",
+              "DownloadTime": 47,
+              "EventId": 1959,
+              "HttpStatus": 200,
+              "Size": 43,
+              "URL": "https://hm.baidu.com/hm.gif?cc=1&ck=1&cl=24-bit&ds=1920x1080&vl=1082&ep=22994%2C22994&et=3&fl=32.0&ja=1&ln=zh-cn&lo=0&lt=1560570397&rnd=1307914794&si=4233e74dff0ae5bd0a3d81c6ccf756e6&su=https%3A%2F%2Fpassport.lagou.com%2Flogin%2Flogin.html%3Fsignature%3DA6CF4F334DB79C4DC31D06BBDED03E4B%26service%3Dhttp%25253A%25252F%25252Fwww.lagou.com%25252Fresume%25252Fmyresume.html%26action%3Dlogin%26serviceId%3Dlagou%26ts%3D1560570384851&v=1.2.51&lv=2&sn=51011"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "",
+              "DownloadTime": 47,
+              "EventId": 1864,
+              "HttpStatus": 304,
+              "Size": 0,
+              "URL": "https://hm.baidu.com/hm.js?4233e74dff0ae5bd0a3d81c6ccf756e6"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/gif",
+              "DownloadTime": 46,
+              "EventId": 1387,
+              "HttpStatus": 200,
+              "Size": 43,
+              "URL": "https://hm.baidu.com/hm.gif?cc=1&ck=1&cl=24-bit&ds=1920x1080&vl=1082&et=0&fl=32.0&ja=1&ln=zh-cn&lo=0&lt=1560570397&rnd=1847794977&si=4233e74dff0ae5bd0a3d81c6ccf756e6&su=https%3A%2F%2Fpassport.lagou.com%2Flogin%2Flogin.html%3Fsignature%3DA6CF4F334DB79C4DC31D06BBDED03E4B%26service%3Dhttp%25253A%25252F%25252Fwww.lagou.com%25252Fresume%25252Fmyresume.html%26action%3Dlogin%26serviceId%3Dlagou%26ts%3D1560570384851&v=1.2.51&lv=2&sn=51011&ct=!!&tt=%E6%88%91%E7%9A%84%E7%AE%80%E5%8E%86-%E6%8B%89%E5%8B%BE%E7%BD%91-%E4%B8%93%E4%B8%9A%E7%9A%84%E4%BA%92%E8%81%94%E7%BD%91%E6%8B%9B%E8%81%98%E5%B9%B3%E5%8F%B0"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "",
+              "DownloadTime": 47,
+              "EventId": 1378,
+              "HttpStatus": 304,
+              "Size": 0,
+              "URL": "https://hm.baidu.com/hm.js?4233e74dff0ae5bd0a3d81c6ccf756e6"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/gif",
+              "DownloadTime": 156,
+              "EventId": 1256,
+              "HttpStatus": 200,
+              "Size": 43,
+              "URL": "https://hm.baidu.com/hm.gif?cc=1&ck=1&cl=24-bit&ds=1920x1080&vl=1082&ep=27286%2C21551&et=3&fl=32.0&ja=1&ln=zh-cn&lo=0&rnd=1466658291&si=4233e74dff0ae5bd0a3d81c6ccf756e6&v=1.2.51&lv=1&sn=50977"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/gif",
+              "DownloadTime": 62,
+              "EventId": 496,
+              "HttpStatus": 200,
+              "Size": 43,
+              "URL": "https://hm.baidu.com/hm.gif?cc=1&ck=1&cl=24-bit&ds=1920x1080&vl=1082&et=0&fl=32.0&ja=1&ln=zh-cn&lo=0&rnd=2080622303&si=4233e74dff0ae5bd0a3d81c6ccf756e6&v=1.2.51&lv=1&sn=50977&ct=!!&tt=%E6%89%BE%E5%B7%A5%E4%BD%9C-%E4%BA%92%E8%81%94%E7%BD%91%E6%8B%9B%E8%81%98%E6%B1%82%E8%81%8C%E7%BD%91-%E6%8B%89%E5%8B%BE%E7%BD%91"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "application/javascript",
+              "DownloadTime": 31,
+              "EventId": 480,
+              "HttpStatus": 200,
+              "Size": 12005,
+              "URL": "https://hm.baidu.com/hm.js?4233e74dff0ae5bd0a3d81c6ccf756e6"
+            }
+          ],
+          "SSLCipher": "ECDHE-RSA-AES128-GCM-SHA256",
+          "SSLVersion": "TLS1.2"
+        }
+      ],
+      "IncludeInScript": true
+    }
+  ],
+  "WebSocket": {
+    "IncludeInScript": false,
+    "IsScriptIncludeWebSocket": false
+  },
+  "NumberOfCorrelations": 12
+}

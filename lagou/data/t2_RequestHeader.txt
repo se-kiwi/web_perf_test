@@ -1,0 +1,13 @@
+GET /register/getPhoneCountryCode.json HTTP/1.1
+Accept: */*
+X-Requested-With: XMLHttpRequest
+X-Anit-Forge-Token: 90689a8f-fe27-458b-a704-6af5f9000d87
+X-Anit-Forge-Code: 34061307
+Referer: https://passport.lagou.com/login/login.html?signature=A6CF4F334DB79C4DC31D06BBDED03E4B&service=http%253A%252F%252Fwww.lagou.com%252Fresume%252Fmyresume.html&action=login&serviceId=lagou&ts=1560570384851
+Accept-Language: zh-Hans-CN,zh-Hans;q=0.8,en-US;q=0.5,en;q=0.3
+Accept-Encoding: gzip, deflate
+User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64; Trident/7.0; rv:11.0) like Gecko
+Host: passport.lagou.com
+Connection: Keep-Alive
+Cookie: user_trace_token=20190615114624-eec33017-42e9-4baf-bc51-3ff174e17e8d; JSESSIONID=ABAAABAAAGHAABHE2DC6EE18E85B83713994464AFC39063
+

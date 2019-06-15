@@ -1,0 +1,17 @@
+[t9]
+FileName1=t9.json
+URL1=https://www.lagou.com/message/newMessageList.json
+Total=4
+RequestHeaderFile=t9_RequestHeader.txt
+RequestBodyFile=NONE
+ResponseHeaderFile=t9_ResponseHeader.txt
+ContentType=application/json
+SnapshotXmlFile=snapshot_9.xml
+FileName2=t9_hm.gif
+URL2=https://hm.baidu.com/hm.gif?cc=1&ck=1&cl=24-bit&ds=1920x1080&vl=1082&et=0&fl=32.0&ja=1&ln=zh-cn&lo=0&lt=1560570397&rnd=1847794977&si=4233e74dff0ae5bd0a3d81c6ccf756e6&su=https%3A%2F%2Fpassport.lagou.com%2Flogin%2Flogin.html%3Fsignature%3DA6CF4F334DB79C4DC31D06BBDED03E4B%26service%3Dhttp%25253A%25252F%25252Fwww.lagou.com%25252Fresume%25252Fmyresume.html%26action%3Dlogin%26serviceId%3Dlagou%26ts%3D1560570384851&v=1.2.51&lv=2&sn=51011&ct=!!&tt=%E6%88%91%E7%9A%84%E7%AE%80%E5%8E%86-%E6%8B%89%E5%8B%BE%E7%BD%91-%E4%B8%93%E4%B8%9A%E7%9A%84%E4%BA%92%E8%81%94%E7%BD%91%E6%8B%9B%E8%81%98%E5%B9%B3%E5%8F%B0
+FileName3=t9_btn-next_a939919.png
+URL3=https://www.lgstatic.com/www/static/mycenter/modules/myresume_new/common/galpop/images/btn-next_a939919.png
+FileName4=t9_btn-prev_a939919.png
+URL4=https://www.lgstatic.com/www/static/mycenter/modules/myresume_new/common/galpop/images/btn-prev_a939919.png
+[ProtocolInfo]
+ProtocolId=QTWeb

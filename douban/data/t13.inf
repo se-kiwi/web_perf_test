@@ -1,0 +1,15 @@
+[t13]
+FileName1=t13.html
+URL1=https://gorgon.youdao.com/gorgon/request.s?udid=HmB1Jxco8qu77IzQ8AN6PUESD6uHqmEJ&id=f690d10e6b29edd820475e7d539816db&pos=inline&issecure=1&isSecure=1&ct=2&reqfrom=web&webos=6&nsv=1.1.2&ran=1&callback=_yad_jsonp_0&_1560581097424
+Total=3
+RequestHeaderFile=t13_RequestHeader.txt
+RequestBodyFile=NONE
+ResponseHeaderFile=t13_ResponseHeader.txt
+ContentType=text/html
+SnapshotXmlFile=snapshot_13.xml
+FileName2=t13_pcBanner.css
+URL2=https://shared.ydstatic.com/js/yatdk/3.0.0/pcBanner.css
+FileName3=t13_isay_icon_pic.svg
+URL3=https://img3.doubanio.com/f/sns/1931ea1504566997b7b93816547b07cea2ad8dea/pics/sns/isay/isay_icon_pic.svg
+[ProtocolInfo]
+ProtocolId=QTWeb

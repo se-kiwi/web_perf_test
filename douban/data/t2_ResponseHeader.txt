@@ -1,0 +1,21 @@
+HTTP/1.1 200 OK
+Server: Tengine
+Content-Type: application/javascript
+Connection: keep-alive
+Vary: Accept-Encoding
+Date: Tue, 21 May 2019 03:56:58 GMT
+Expires: Wed, 20 May 2020 03:56:58 GMT
+Cache-Control: max-age=31536000
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Headers: Origin, X-Requested-With, Content-Type
+Access-Control-Max-Age: 1728000
+Ali-Swift-Global-Savetime: 1558411018
+Via: cache3.l2nu20-3[0,200-0,H], cache48.l2nu20-3[1,0], cache1.cn1472[0,200-0,H], cache17.cn1472[0,0]
+Age: 2170014
+X-Cache: HIT TCP_MEM_HIT dirn:3:453877821
+X-Swift-SaveTime: Fri, 14 Jun 2019 14:04:03 GMT
+X-Swift-CacheTime: 15552000
+Timing-Allow-Origin: *
+EagleId: 6a75d5a515605810324728614e
+Content-Encoding: gzip
+

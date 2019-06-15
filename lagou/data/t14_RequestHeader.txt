@@ -1,0 +1,12 @@
+OPTIONS /v1/neirong/account/token HTTP/1.1
+Accept: */*
+Origin: https://www.lagou.com
+Access-Control-Request-Method: GET
+Access-Control-Request-Headers: accept, x-l-req-header
+Accept-Encoding: gzip, deflate
+User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64; Trident/7.0; rv:11.0) like Gecko
+Host: gate.lagou.com
+Content-Length: 0
+Connection: Keep-Alive
+Cache-Control: no-cache
+

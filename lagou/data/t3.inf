@@ -1,0 +1,15 @@
+[t3]
+FileName1=t3_oss.html
+URL1=https://passport.lagou.com/upload/ltm/oss.html?u=/login/login.html&q=0&n=3&d=3536&l=4850&dns=0&p=8387&pi=1046&qn=30752&t=1560570398975
+Total=3
+ContentType=text/html
+SnapshotXmlFile=snapshot_3.xml
+RequestHeaderFile=t3_RequestHeader.txt
+RequestBodyFile=NONE
+ResponseHeaderFile=t3_ResponseHeader.txt
+FileName2=t3_timeStamp.txt
+URL2=https://deepknow.egoid.me/timeStamp?t=1560570398124&callback=geetest_1560570398959
+FileName3=t3_track.gif
+URL3=https://a.lagou.com/track?v=1&t=input&dl=https%3A%2F%2Fpassport.lagou.com%2Flogin%2Flogin.html%3Fsignature%3DA6CF4F334DB79C4DC31D06BBDED03E4B%26service%3Dhttp%25253A%25252F%25252Fwww.lagou.com%25252Fresume%25252Fmyresume.html%26action%3Dlogin%26serviceId%3Dlagou%26ts%3D1560570384851&dr=&dt=找工�?互联网招聘求职网-拉勾�?aid=1j90_idnull_0_idnull_4396&intrack=TG-TRACK-CODE=undefined;%20path=/
+[ProtocolInfo]
+ProtocolId=QTWeb

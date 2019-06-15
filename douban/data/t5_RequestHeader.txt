@@ -1,0 +1,10 @@
+GET /rexxar/api/v2/muzzy/columns/10008/items?start=0&count=3 HTTP/1.1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64; Trident/7.0; rv:11.0) like Gecko
+Host: m.douban.com
+Connection: Keep-Alive
+Accept: application/json, text/javascript, */*; q=0.01
+Referer: https://www.douban.com/
+Accept-Language: zh-Hans-CN,zh-Hans;q=0.8,en-US;q=0.5,en;q=0.3
+Origin: https://www.douban.com
+Accept-Encoding: gzip, deflate
+

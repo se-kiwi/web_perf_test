@@ -52,16 +52,16 @@ Action()
 	web_add_header("Upgrade-Insecure-Requests", 
 		"1");
 
-	web_url("uploadqiniu.aspx", 
-		"URL=https://www.wjx.cn/wjx/join/uploadqiniu.aspx?activity=14514689&q=3&ms=4096&length=1", 
-		"Resource=0", 
-		"RecContentType=text/html", 
-		"Referer=https://www.wjx.cn/jq/14514689.aspx", 
-		"Snapshot=t11.inf", 
-		"Mode=HTML", 
-		EXTRARES, 
-		"Url=/images/checkbox.gif", "Referer=https://www.wjx.cn/joinnew/maincss/q.css?v=826", ENDITEM, 
-		"Url=/images/wjx/JoinQuestionnaire/bgProgressBg.gif", "Referer=https://www.wjx.cn/joinnew/maincss/q.css?v=826", ENDITEM, 
+	web_url("uploadqiniu.aspx",
+		"URL=https://www.wjx.cn/wjx/join/uploadqiniu.aspx?activity=14514689&q=3&ms=4096&length=1",
+		"Resource=0",
+		"RecContentType=text/html",
+		"Referer=https://www.wjx.cn/jq/14514689.aspx",
+		"Snapshot=t11.inf",
+		"Mode=HTML",
+		EXTRARES,
+		"URL=/images/checkbox.gif", "Referer=https://www.wjx.cn/joinnew/maincss/q.css?v=826", ENDITEM,
+		"URL=/images/wjx/JoinQuestionnaire/bgProgressBg.gif", "Referer=https://www.wjx.cn/joinnew/maincss/q.css?v=826", ENDITEM,
 		LAST);
 
 	web_add_cookie("_fbp=fb.1.1551697940844.697615329; DOMAIN=stats.g.doubleclick.net");
@@ -74,7 +74,7 @@ Action()
 
 	web_add_cookie("CNZZDATA4478442=cnzz_eid%3D220356809-1560120921-%26ntime%3D1560120921; DOMAIN=www.wjx.cn");
 
-	lr_think_time(5);
+//	lr_think_time(5);
 
 	web_add_header("X-Goog-Update-AppId", 
 		"aapbdbdomjkkjkaonfhkkikfgjllcleb,aeajloomjeoncelkceelhhpkgbcgafek,cfhdojbkjhnklbpkdaibdccddilifddb,chphlpgkkbolifaimnlloiipkdnihall,dbfmnekepjoapopniengjbcpnbljalfg,dgjhfomjieaadpoljlnidmbgkdffpack,eeeningnfkaonkonalpcicgemnnijjhn,efaidnbmnnnibpcajpcglclefindmkaj,ffabmkklhbepgcgfonabamgnfafbdlkn,fngmhnnpilhplaeedifhccceomclgfbg,hflefjhkfeiaignkclmphmokmmbhbhik,hmhgeddbohgjknpmjagkdomcpobmllji,ilmpacenmcgknoogkhpigakpoocpjmpl,jlgkpaicikihijadgifklkbpdajbkhjo,lloccabjgblebdmncjndmiibianflabo,"
@@ -86,12 +86,12 @@ Action()
 	web_add_auto_header("X-Goog-Update-Updater", 
 		"chromecrx-74.0.3729.169");
 
-	lr_think_time(7);
+//	lr_think_time(7);
 
 	web_add_header("X-Goog-Update-AppId", 
 		"pkedcjkdefgpdelpbcmbmeomcjbeemfm");
 
-	lr_think_time(5);
+//	lr_think_time(5);
 
 	web_add_cookie("Hm_lvt_21be24c80829bd7a683b2c536fcf520b=1560125385; DOMAIN=www.wjx.cn");
 

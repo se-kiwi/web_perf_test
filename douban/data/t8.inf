@@ -1,0 +1,11 @@
+[t8]
+FileName1=t8_stat.html
+URL1=https://www.douban.com/stat.html?&action=login_click&platform=douban&login_click_time=1560581076793&callback=jsonp_wwz4u4q5vju0mqr
+Total=1
+ContentType=text/html
+SnapshotXmlFile=snapshot_8.xml
+RequestHeaderFile=t8_RequestHeader.txt
+RequestBodyFile=NONE
+ResponseHeaderFile=t8_ResponseHeader.txt
+[ProtocolInfo]
+ProtocolId=QTWeb

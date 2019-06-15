@@ -1,0 +1,13 @@
+[t28]
+FileName1=t28_getIcon.json
+URL1=https://activity.lagou.com/activityapi/icon/getIcon.json?callback=jQuery1113033311535484799615_1560570453811&companyIds=&markLocation=PPF&_=1560570453812
+Total=2
+ContentType=application/json
+SnapshotXmlFile=snapshot_28.xml
+RequestHeaderFile=t28_RequestHeader.txt
+RequestBodyFile=NONE
+ResponseHeaderFile=t28_ResponseHeader.txt
+FileName2=t28_oss.gif
+URL2=https://www.lagou.com/upload/edm/image/oss.gif?1560570463526
+[ProtocolInfo]
+ProtocolId=QTWeb

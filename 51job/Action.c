@@ -3,6 +3,16 @@
 
 	web_set_sockets_option("SSL_VERSION", "TLS1.2");
 
+/*Correlation comment - Do not change!  Original value='99a1f5fd9691580e3e5168b4fd6f0cac' Name ='guid' Type ='ResponseBased'*/
+	web_reg_save_param_regexp(
+		"ParamName=guid",
+		"RegExp=guid=(.*?);",
+		SEARCH_FILTERS,
+		"Scope=Cookies",
+		"IgnoreRedirections=No",
+		"RequestUrl=*/login.php*",
+		LAST);
+
 	web_url("login.php", 
 		"URL=https://login.51job.com/login.php", 
 		"Resource=0", 
@@ -30,7 +40,7 @@
 		LAST);
 
 	web_url("logRecord.php",
-		"URL=https://trace.51jingying.com/logRecord.php?VerType=3&webId=2&logTime=1560568871598&ip=202.120.40.82&guid=99a1f5fd9691580e3e5168b4fd6f0cac&domain=login.51job.com&pageCode=19999&cusParam=1%16%1651job_web%16%160%16&vt=1560568874392&logType=pageView",
+		"URL=https://trace.51jingying.com/logRecord.php?VerType=3&webId=2&logTime=1560568871598&ip=202.120.40.82&guid={guid}&domain=login.51job.com&pageCode=19999&cusParam=1%16%1651job_web%16%160%16&vt=1560568874392&logType=pageView",
 		"Resource=0",
 		"RecContentType=text/html",
 		"Referer=https://login.51job.com/login.php",
@@ -104,7 +114,7 @@
 		LAST);
 
 	web_url("logRecord.php_2",
-		"URL=https://trace.51jingying.com/logRecord.php?logCode=81&webId=2&version=1&logTime=1560568906168&ip=202.120.40.82&guid=99a1f5fd9691580e3e5168b4fd6f0cac&domain=i.51job.com&pageCode=11203&eventType=23&traceName=&cusParam=1%16158602693&vt=1560568910983&logType=event",
+		"URL=https://trace.51jingying.com/logRecord.php?logCode=81&webId=2&version=1&logTime=1560568906168&ip=202.120.40.82&guid={guid}&domain=i.51job.com&pageCode=11203&eventType=23&traceName=&cusParam=1%16158602693&vt=1560568910983&logType=event",
 		"Resource=0",
 		"RecContentType=text/html",
 		"Referer=https://i.51job.com/userset/my_51job.php",
@@ -113,7 +123,7 @@
 		LAST);
 
 	web_url("logRecord.php_3",
-		"URL=https://trace.51jingying.com/logRecord.php?VerType=3&webId=2&logTime=1560568912631&ip=202.120.40.82&guid=99a1f5fd9691580e3e5168b4fd6f0cac&domain=i.51job.com&pageCode=11203&cusParam=1%16158602693%1651job_web%16%160%16login.51job.com&vt=1560568912988&logType=pageView",
+		"URL=https://trace.51jingying.com/logRecord.php?VerType=3&webId=2&logTime=1560568912631&ip=202.120.40.82&guid={guid}&domain=i.51job.com&pageCode=11203&cusParam=1%16158602693%1651job_web%16%160%16login.51job.com&vt=1560568912988&logType=pageView",
 		"Resource=0",
 		"RecContentType=text/html",
 		"Referer=https://i.51job.com/userset/my_51job.php",
@@ -124,7 +134,7 @@
 	lr_think_time(9);
 
 	web_url("logRecord.php_4",
-		"URL=https://trace.51jingying.com/logRecord.php?logCode=81&webId=2&version=1&logTime=1560568921709&ip=202.120.40.82&guid=99a1f5fd9691580e3e5168b4fd6f0cac&domain=i.51job.com&pageCode=11203&eventType=5&traceName=&cusParam=1%16158602693&vt=1560568922065&logType=event",
+		"URL=https://trace.51jingying.com/logRecord.php?logCode=81&webId=2&version=1&logTime=1560568921709&ip=202.120.40.82&guid={guid}&domain=i.51job.com&pageCode=11203&eventType=5&traceName=&cusParam=1%16158602693&vt=1560568922065&logType=event",
 		"Resource=0",
 		"RecContentType=text/html",
 		"Referer=https://i.51job.com/userset/my_51job.php",
@@ -163,7 +173,7 @@
 		LAST);
 
 	web_url("logRecord.php_5",
-		"URL=http://trace.51jingying.com/logRecord.php?VerType=3&webId=2&logTime=1560568925933&ip=202.120.40.82&guid=99a1f5fd9691580e3e5168b4fd6f0cac&domain=i.51job.com&pageCode=19999&cusParam=1%16158602693%1651job_web%16%160%16&vt=1560568926262&logType=pageView",
+		"URL=http://trace.51jingying.com/logRecord.php?VerType=3&webId=2&logTime=1560568925933&ip=202.120.40.82&guid={guid}&domain=i.51job.com&pageCode=19999&cusParam=1%16158602693%1651job_web%16%160%16&vt=1560568926262&logType=pageView",
 		"Resource=0",
 		"RecContentType=text/html",
 		"Referer=http://i.51job.com/userset/my_apply.php?lang=c",

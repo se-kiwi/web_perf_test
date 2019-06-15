@@ -1,0 +1,9 @@
+GET /static/common/components/jquery-colorbox-custom/img/controls.png HTTP/1.1
+Accept: image/png, image/svg+xml, image/jxr, image/*;q=0.8, */*;q=0.5
+Referer: https://www.lagou.com/resume/myresume.html
+Accept-Language: zh-Hans-CN,zh-Hans;q=0.8,en-US;q=0.5,en;q=0.3
+User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64; Trident/7.0; rv:11.0) like Gecko
+Accept-Encoding: gzip, deflate
+Host: www.lgstatic.com
+Connection: Keep-Alive
+

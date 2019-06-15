@@ -1,0 +1,15 @@
+[t5]
+FileName1=t5_items.json
+URL1=https://m.douban.com/rexxar/api/v2/muzzy/columns/10008/items?start=0&count=3
+Total=3
+ContentType=application/json
+SnapshotXmlFile=snapshot_5.xml
+RequestHeaderFile=t5_RequestHeader.txt
+RequestBodyFile=NONE
+ResponseHeaderFile=t5_ResponseHeader.txt
+FileName2=t5_file-1536839373.jfif
+URL2=https://img3.doubanio.com/img/files/file-1536839373.jpg
+FileName3=t5_file-1533265075.jfif
+URL3=https://img3.doubanio.com/img/files/file-1533265075.jpg
+[ProtocolInfo]
+ProtocolId=QTWeb

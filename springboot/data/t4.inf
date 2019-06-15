@@ -1,0 +1,13 @@
+[t4]
+FileName1=t4.json
+URL1=http://localhost:30701/login
+Total=2
+RequestHeaderFile=t4_RequestHeader.txt
+RequestBodyFile=t4_RequestBody.txt
+ResponseHeaderFile=t4_ResponseHeader.txt
+ContentType=application/json
+SnapshotXmlFile=snapshot_4.xml
+FileName2=t4_hello.txt
+URL2=http://localhost:30701/hello?username=test1&code=8e41513b-908a-41b0-ba86-3c341840d79f
+[ProtocolInfo]
+ProtocolId=QTWeb

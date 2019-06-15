@@ -1,0 +1,22 @@
+HTTP/1.1 200 OK
+Date: Sat, 15 Jun 2019 06:43:42 GMT
+Content-Type: text/html; charset=utf-8
+Transfer-Encoding: chunked
+Connection: keep-alive
+Keep-Alive: timeout=30
+Vary: Accept-Encoding
+X-Xss-Protection: 1; mode=block
+X-Douban-Mobileapp: 0
+Expires: Sun, 1 Jan 2006 01:00:00 GMT
+Pragma: no-cache
+Cache-Control: must-revalidate, no-cache, private
+Set-Cookie: ll="108296"; path=/; domain=.douban.com; expires=Sun, 14-Jun-2020 06:43:42 GMT
+Set-Cookie: bid=TQzEGe-LGHc; Expires=Sun, 14-Jun-20 06:43:42 GMT; Domain=.douban.com; Path=/
+X-DOUBAN-NEWBID: TQzEGe-LGHc
+X-DAE-Node: anson44
+X-DAE-App: sns
+Server: dae
+X-Frame-Options: SAMEORIGIN
+Strict-Transport-Security: max-age=15552000;
+Content-Encoding: gzip
+

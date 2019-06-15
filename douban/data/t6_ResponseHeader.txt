@@ -1,0 +1,21 @@
+HTTP/1.1 200 OK
+Date: Sat, 15 Jun 2019 06:44:15 GMT
+Content-Type: application/json; charset=utf-8
+Content-Length: 1118
+Connection: keep-alive
+Keep-Alive: timeout=30
+Vary: Accept-Encoding
+X-Ratelimit-Remaining2: 9995
+X-Ratelimit-Limit2: 10000
+Expires: Sun, 1 Jan 2006 01:00:00 GMT
+Pragma: no-cache
+Cache-Control: must-revalidate, no-cache, private
+Access-Control-Allow-Origin: https://www.douban.com
+Set-Cookie: bid=8LFX-c74WVM; Expires=Sun, 14-Jun-20 06:44:15 GMT; Domain=.douban.com; Path=/
+X-DOUBAN-NEWBID: 8LFX-c74WVM
+X-DAE-Node: anson33
+X-DAE-App: muzzy
+Server: dae
+Strict-Transport-Security: max-age=15552000;
+X-Content-Type-Options: nosniff
+

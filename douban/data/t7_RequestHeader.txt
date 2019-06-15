@@ -1,0 +1,10 @@
+GET /artists/player/xdmserver?xdm_e=https%3A%2F%2Fwww.douban.com&xdm_c=default8208&xdm_p=1 HTTP/1.1
+Accept: text/html, application/xhtml+xml, image/jxr, */*
+Host: music.douban.com
+Connection: Keep-Alive
+Referer: https://www.douban.com/
+Accept-Language: zh-Hans-CN,zh-Hans;q=0.8,en-US;q=0.5,en;q=0.3
+User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64; Trident/7.0; rv:11.0) like Gecko
+Accept-Encoding: gzip, deflate
+Cookie: ll="108296"; bid=TQzEGe-LGHc; __utma=30149280.845802281.1560581044.1560581044.1560581044.1; __utmb=30149280.1.10.1560581044; __utmc=30149280; __utmz=30149280.1560581044.1.1.utmcsr=(direct)|utmccn=(direct)|utmcmd=(none); __utmt=1
+

@@ -1,0 +1,15 @@
+HTTP/1.1 200 OK
+Server: NWSs
+Date: Sat, 15 Jun 2019 03:47:17 GMT
+Content-Type: text/html
+Transfer-Encoding: chunked
+Connection: keep-alive
+Last-Modified: Wed, 13 Sep 2017 02:54:21 GMT
+Content-Encoding: gzip
+X-NWS-UUID-VERIFY: f5e26ad68b286eceda30c25fb3024c73
+Vary: Accept-Encoding
+ETag: W/"59b89ddd-73c"
+X-NWS-LOG-UUID: 5f6ae349-7b81-4779-8ba4-bd6b62c8e562
+X-Daa-Tunnel: hop_count=3
+Access-Control-Allow-Origin: *
+

@@ -1,0 +1,13 @@
+[t16]
+FileName1=t16_getPhoneCountryCode.json
+URL1=https://passport.lagou.com/register/getPhoneCountryCode.json?jsoncallback=jQuery111307486207167744017_1560570429136&_=1560570429137
+Total=2
+ContentType=application/json
+SnapshotXmlFile=snapshot_16.xml
+RequestHeaderFile=t16_RequestHeader.txt
+RequestBodyFile=NONE
+ResponseHeaderFile=t16_ResponseHeader.txt
+FileName2=t16_photo@2x_defa2c7.png
+URL2=https://www.lgstatic.com/www/static/mycenter/modules/myresume_new/img/photo@2x_defa2c7.png
+[ProtocolInfo]
+ProtocolId=QTWeb

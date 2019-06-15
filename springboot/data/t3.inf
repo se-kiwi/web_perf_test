@@ -1,0 +1,15 @@
+[t3]
+FileName1=t3.html
+URL1=http://localhost:30701/
+Total=3
+RequestHeaderFile=t3_RequestHeader.txt
+RequestBodyFile=NONE
+ResponseHeaderFile=t3_ResponseHeader.txt
+ContentType=text/html
+SnapshotXmlFile=snapshot_3.xml
+FileName2=t3_jquery.min.html
+URL2=http://libs.baidu.com/jquery/2.0.0/jquery.min.js
+FileName3=t3_favicon.ico
+URL3=http://localhost:30701/favicon.ico
+[ProtocolInfo]
+ProtocolId=QTWeb

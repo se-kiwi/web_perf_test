@@ -1,0 +1,13 @@
+[t14]
+FileName1=t14_frodo_landing.json
+URL1=https://m.douban.com/j/puppy/frodo_landing?include=anony_home
+Total=2
+ContentType=application/json
+SnapshotXmlFile=snapshot_14.xml
+RequestHeaderFile=t14_RequestHeader.txt
+RequestBodyFile=NONE
+ResponseHeaderFile=t14_ResponseHeader.txt
+FileName2=t14.html
+URL2=https://erebor.douban.com/?unit=dale_homepage_login_inner_middle&uid=197980264&bid=TQzEGe-LGHc&crtr=3%3A%2F&ts=1560581092435&callback=erebor_38E5221450E3415B8D5D09DABDFD1463
+[ProtocolInfo]
+ProtocolId=QTWeb

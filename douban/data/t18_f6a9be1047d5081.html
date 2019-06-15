@@ -1,0 +1,63 @@
+
+var sglist = $('.set-group-list');
+$(".add_contact").click(function(){
+    var btn = $(this),
+        id = btn.data('id'),
+        name = btn.data('name');
+    if(window._USER_ABNORMAL) {
+        window.show_abnormal && window.show_abnormal()
+        return
+    }
+    window.PEOPLE_NAME = name;
+    window.PEOPLE_ID = id;
+    $.post_withck(
+        '/j/contact/addcontact',
+        { 'people': id, from: 'rlist' },
+        function (r) {
+            if(r.result){
+                btn.replaceWith('<span class="user-cs">已关注</span>');
+                pop_win.load('/j/misc/follow_form');
+            } else if(r.msg==='need_captcha') {
+                $.get('/j/misc/captcha', function(r){
+                    url = r.url;
+                    token = r.token;
+                    html = '<form><div class="rectitle"><span class="gact rr"><a onclick="close_dialog()" href="javascript:;">x</a></span><span class="m"><i>请输入验证码</i></span></div><span class="recsmr addcontact"><img src="{url}" /><input type="text" class="captcha-input"/><input type="hidden" class="tk-input" value="{token}"/>看不清？<a href="#" class="change">换一个</a></span><div class="reccomment"><div class="recsubmit"><span class="bn-flat"><input value="确定" type="submit"/></span></div></div></form>'
+                    html = html.replace('{token}', token).replace('{url}', url);
+                    show_dialog(html, 300);
+                    $("#dialog").css("height", "195px");
+                    $("#overlay").css("height", "213px");
+                    $(".addcontact img").css("margin-bottom", "10px");
+                    $(".change").click(function(o){
+                        $.get('/j/misc/captcha', function(r){
+                            $(".recsmr img").attr("src", r.url);
+                            $(".tk-input").attr("value", r.token);
+                        });
+                        return false;
+                    });
+                    $("form").submit(function(e){
+                        sl = $(".captcha-input").val();
+                        tk = $(".tk-input").val();
+                        $.post_withck('/j/contact/addcontact',
+                            { tk: tk, sl: sl, people: id, from: 'rlist' },
+                            function(r){
+                                if(r.result) {
+                                    close_dialog();
+                                    btn.replaceWith('<span class="user-cs">已关注</span>');
+                                    pop_win.load('/j/misc/follow_form');
+                                } else {
+                                    $.get('/j/misc/captcha', function(r){
+                                        $(".recsmr img").attr("src", r.url);
+                                        $(".tk-input").attr("value", r.token);
+                                    });
+                                }
+                            }, 'json');
+                        e.preventDefault();
+                    });
+                }, 'json');
+            } else{
+                alert('Oops 关注失败，再试一次吧?');
+            }
+        },
+        'json'
+    );
+});

@@ -1,0 +1,21 @@
+HTTP/1.1 200 OK
+Date: Sat, 15 Jun 2019 06:45:00 GMT
+Content-Type: application/json; charset=utf-8
+Content-Length: 228
+Connection: keep-alive
+Keep-Alive: timeout=30
+X-Xss-Protection: 1; mode=block
+X-Douban-Mobileapp: 0
+Access-Control-Allow-Credentials: true
+Expires: Sun, 1 Jan 2006 01:00:00 GMT
+Pragma: no-cache
+Cache-Control: must-revalidate, no-cache, private
+Access-Control-Allow-Origin: https://www.douban.com
+Set-Cookie: bid=KlEaJdZjQg0; Expires=Sun, 14-Jun-20 06:45:00 GMT; Domain=.douban.com; Path=/
+X-DOUBAN-NEWBID: KlEaJdZjQg0
+X-DAE-Node: anson31
+X-DAE-App: talion
+Server: dae
+Strict-Transport-Security: max-age=15552000;
+X-Content-Type-Options: nosniff
+

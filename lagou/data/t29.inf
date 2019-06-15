@@ -1,0 +1,11 @@
+[t29]
+FileName1=t29_oss.html
+URL1=https://www.lagou.com/upload/ltm/oss.html?u=/mycenter/collections.html&q=129&n=131&d=5177&l=4802&dns=0&p=10108&pi=43&qn=3207&t=1560570463569
+Total=1
+ContentType=text/html
+SnapshotXmlFile=snapshot_29.xml
+RequestHeaderFile=t29_RequestHeader.txt
+RequestBodyFile=NONE
+ResponseHeaderFile=t29_ResponseHeader.txt
+[ProtocolInfo]
+ProtocolId=QTWeb

@@ -1,0 +1,35 @@
+Virtual User Script started at: 2019/6/15 22:08:59
+Starting action vuser_init.
+Web Turbo Replay of LoadRunner 12.60.0 for Windows 10; build 971 (8月 09 2018 11:27:13)  	[MsgId: MMSG-26983]
+Run mode: HTML  	[MsgId: MMSG-26993]
+Replay user agent: Mozilla/5.0 (Windows NT 10.0; WOW64; Trident/7.0; rv:11.0) like Gecko  	[MsgId: MMSG-26988]
+Runtime Settings file: "E:\code\Others\vscript\webtest\springboot\\default.cfg"  	[MsgId: MMSG-27141]
+Ending action vuser_init.
+Running Vuser...
+Starting iteration 1.
+Maximum number of concurrent connections per server: 6  	[MsgId: MMSG-26989]
+Starting action Action.
+Action.c(4): web_url("localhost:30701") started  	[MsgId: MMSG-26355]
+Action.c(4): Found resource "http://libs.baidu.com/jquery/2.0.0/jquery.min.js" in HTML "http://localhost:30701/"  	[MsgId: MMSG-26659]
+Action.c(4): Downloading resource "http://localhost:30701/favicon.ico" (specified by argument number 9)  	[MsgId: MMSG-26577]
+Action.c(4): web_url("localhost:30701") was successful, 31930 body bytes, 918 header bytes, 50 chunking overhead bytes  	[MsgId: MMSG-26385]
+Action.c(15): web_add_header("X-Requested-With") started  	[MsgId: MMSG-26355]
+Action.c(15): web_add_header("X-Requested-With") was successful  	[MsgId: MMSG-26392]
+Action.c(20): web_reg_find started  	[MsgId: MMSG-26355]
+Action.c(20): Registering web_reg_find was successful  	[MsgId: MMSG-26390]
+Action.c(25): web_reg_save_param_json started  	[MsgId: MMSG-26355]
+Action.c(25): Registering web_reg_save_param_json was successful  	[MsgId: MMSG-26390]
+Action.c(32): web_submit_data("login") started  	[MsgId: MMSG-26355]
+Action.c(32): Registered web_reg_find successful for "Text=true" (count=1)  	[MsgId: MMSG-26364]
+Action.c(32): web_submit_data("login") was successful, 61 body bytes, 128 header bytes, 11 chunking overhead bytes  	[MsgId: MMSG-26385]
+Action.c(44): web_reg_find started  	[MsgId: MMSG-26355]
+Action.c(44): Registering web_reg_find was successful  	[MsgId: MMSG-26390]
+Action.c(48): web_url("sayHello") started  	[MsgId: MMSG-26355]
+Action.c(48): Registered web_reg_find successful for "Text=Have a nice day!" (count=1)  	[MsgId: MMSG-26364]
+Action.c(48): web_url("sayHello") was successful, 30 body bytes, 114 header bytes  	[MsgId: MMSG-26386]
+Ending action Action.
+Ending iteration 1.
+Ending Vuser...
+Starting action vuser_end.
+Ending action vuser_end.
+Vuser Terminated.

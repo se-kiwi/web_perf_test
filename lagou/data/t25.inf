@@ -1,0 +1,15 @@
+[t25]
+FileName1=t25_showQRCode.json
+URL1=https://www.lagou.com/mycenter/showQRCode
+Total=3
+ContentType=application/json
+SnapshotXmlFile=snapshot_25.xml
+RequestHeaderFile=t25_RequestHeader.txt
+RequestBodyFile=NONE
+ResponseHeaderFile=t25_ResponseHeader.txt
+FileName2=t25_error_727fcc2.png
+URL2=https://www.lgstatic.com/www/static/mycenter-sidenav/modules/common/img/error_727fcc2.png
+FileName3=t25_timeStamp.txt
+URL3=https://deepknow.egoid.me/timeStamp?t=1560570459401&callback=geetest_1560570462985
+[ProtocolInfo]
+ProtocolId=QTWeb

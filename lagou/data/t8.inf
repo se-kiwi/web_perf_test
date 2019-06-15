@@ -1,0 +1,11 @@
+[t8]
+FileName1=t8_wafcheck.json
+URL1=https://www.lagou.com/wafcheck.json
+Total=1
+ContentType=application/json
+SnapshotXmlFile=snapshot_8.xml
+RequestHeaderFile=t8_RequestHeader.txt
+RequestBodyFile=NONE
+ResponseHeaderFile=t8_ResponseHeader.txt
+[ProtocolInfo]
+ProtocolId=QTWeb

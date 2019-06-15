@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="46px" height="47px" viewBox="0 0 46 47" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 50.2 (55047) - http://www.bohemiancoding.com/sketch -->
+    <title>icon</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="设计" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="PC扫码登录成功" transform="translate(-810.000000, -265.000000)">
+            <g id="Group-2" transform="translate(671.000000, 197.000000)">
+                <g id="icon" transform="translate(139.000000, 68.000000)">
+                    <ellipse id="Oval-3" fill="#02B389" cx="23" cy="23.5" rx="23" ry="23.5"></ellipse>
+                    <path d="M14.8225263,21.2255681 C18.1509074,23.5472226 20.2031989,24.9878649 20.9794006,25.5474949 C22.3686786,23.8805337 27.2441225,17.9677476 35.4329336,13 C35.6227327,13.271253 35.8117548,13.5811674 36,13.9297433 C28.7542214,21.3019225 24.1491594,27.6586748 22.184814,33 C21.6759446,32.4821949 14.4858033,24.3819674 13,23 C13.2841659,22.7214398 13.8916746,22.1299625 14.8225263,21.2255681 Z" id="Path-2" fill="#FFFFFF"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

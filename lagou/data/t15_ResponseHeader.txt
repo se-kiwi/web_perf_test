@@ -1,0 +1,13 @@
+HTTP/1.1 200 
+Server: nfs/1.0.0.2
+Date: Sat, 15 Jun 2019 03:47:13 GMT
+Content-Type: application/json;charset=UTF-8
+Transfer-Encoding: chunked
+Connection: keep-alive
+X-Application-Context: lg-zuul-boot-v1:pro-c:12760
+Set-Cookie: SESSION=d1ab410b-bb78-419a-8dab-46e9f3c98090; Path=/; HttpOnly
+Access-Control-Allow-Origin: https://www.lagou.com
+Access-Control-Allow-Credentials: true
+Access-Control-Allow-Methods: POST, GET, PUT, PATCH, DELETE
+Access-Control-Allow-Headers: X-L-REQ-HEADER,Content-Type,X-Anit-Forge-Token,X-Anit-Forge-Code
+
