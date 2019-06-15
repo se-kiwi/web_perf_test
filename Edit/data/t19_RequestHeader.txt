@@ -1,0 +1,9 @@
+GET /stat.htm?id=4478442&r=https%3A%2F%2Fwww.wjx.cn%2FLogin.aspx&lg=zh-cn&ntime=none&cnzz_eid=2002664346-1560324865-https%3A%2F%2Fwww.wjx.cn%2F&showp=1536x864&p=https%3A%2F%2Fwww.wjx.cn%2Fnewwjx%2Fmanage%2Fmyquestionnaires.aspx&t=%E6%88%91%E7%9A%84%E9%97%AE%E5%8D%B7%20-%20%E9%97%AE%E5%8D%B7%E6%98%9F%EF%BC%88%E5%85%8D%E8%B4%B9%E7%89%88%EF%BC%89&umuuid=16b4aeb614287-01f82b0b54ccdc-e353165-144000-16b4aeb614318d&h=1&rnd=1450434473 HTTP/1.1
+Host: gzs20.cnzz.com
+Connection: keep-alive
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3729.169 Safari/537.36
+Accept: image/webp,image/apng,image/*,*/*;q=0.8
+Referer: https://www.wjx.cn/newwjx/manage/myquestionnaires.aspx
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN,zh;q=0.9,en-US;q=0.8,en;q=0.7
+

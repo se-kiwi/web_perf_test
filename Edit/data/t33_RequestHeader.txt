@@ -1,0 +1,10 @@
+POST /invalidation/android/request/CHES4QEStwFBUEE5MWJGejNhY09hWWRyN3lJZEZ0VWtxTkhiM1pOcW5sREZ5bXZLQUQyRU1BcUZjd1Z4VV8xZGp5WGxOTHBYemQ5blhqcGQyRFpKTjk3a3ZzVWNKc3RFZVROcFR6M09RN21RYjdJVjQtSHdobUJLU3Z6eHQtYmZ1dkxUdlFHdzlPdDNHeGs4a19VZ0dTako2OTZpT01UTE5GLUpNdDUxanhDVXFpNmJOMVd6cDE4Mno5XzlTNk0aACoCCAAyH2NvbS5nb29nbGUuY2hyb21lLmludmFsaWRhdGlvbnM HTTP/1.1
+Host: clients4.google.com
+Connection: keep-alive
+Content-Length: 243
+Authorization: Bearer ya29.GqUBJgdeSE_tdqE4R3LfP0rl3F6ucKeSKNbpy5QEuvw1oTparikepBI4_7sXEaO9Lv9nSofGXR60E42Q-y5lwTSiXl3XYrikhSnPIRJbjnSxIr1Ddx79U3Pshq6r20W56GaENTSItbgqZ6SE5EKUB7_Ub28sdo26xmGoyIyxAR23m1gj6rgWKJ-vrAKQsrgCw_Uj6dBTSiQ7vdVVsGKA8-M0hat049tM
+Content-Type: application/x-protobuffer
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3729.169 Safari/537.36
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN,zh;q=0.9,en-US;q=0.8,en;q=0.7
+

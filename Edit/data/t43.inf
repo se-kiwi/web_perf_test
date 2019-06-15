@@ -1,0 +1,17 @@
+[t43]
+FileName1=t43.html
+URL1=https://www.wjx.cn/wjx/activitystat/visiturl.aspx?activity=40211802
+Total=4
+RequestHeaderFile=t43_RequestHeader.txt
+RequestBodyFile=NONE
+ResponseHeaderFile=t43_ResponseHeader.txt
+ContentType=text/html
+SnapshotXmlFile=snapshot_43.xml
+FileName2=t43_wjxUI.css
+URL2=https://www.wjx.cn/wjxUI/src/wjxUI.css
+FileName3=t43_layer.html
+URL3=https://www.wjx.cn/layer/layer.js?v=6
+FileName4=t43_icon.png
+URL4=https://www.wjx.cn/layer/theme/default/icon.png
+[ProtocolInfo]
+ProtocolId=QTWeb

@@ -1,0 +1,28 @@
+HTTP/1.1 200 OK
+Server: marco/2.10
+Date: Wed, 12 Jun 2019 09:07:04 GMT
+Content-Type: application/json
+Content-Length: 70
+Connection: keep-alive
+X-Source: C/200
+Content-Disposition: inline; filename="md5.json"; filename*=utf-8' 'md5.json
+X-Reqid: fVsAAABc0u5AaKcV
+Cache-Control: max-age=2592000
+ETag: "FvNVt_QYS-KKkbd_fd4db-tbvVMi"
+X-Log: X-Log
+Content-Transfer-Encoding: binary
+X-Qnm-Cache: Miss
+X-Svr: IO
+Access-Control-Expose-Headers: X-Log, X-Reqid
+Access-Control-Allow-Origin: *
+X-M-Reqid: aVkAAOpWUexAaKcV
+X-Qiniu-Zone: 0
+X-M-Log: QNM:xs1182;SRCPROXY:xs489;SRC:2;SRCPROXY:2;QNM3:2
+Last-Modified: Tue, 11 Jun 2019 23:02:06 GMT
+Access-Control-Max-Age: 2592000
+Accept-Ranges: bytes
+Expires: Fri, 12 Jul 2019 09:07:03 GMT
+Age: 1
+X-Request-Id: 4af8685656e63c71a1ffd3a03bb9f8b9
+Via: S.mix-sd-dst1-078, T.80.M, V.mix-sd-dst1-078, T.68.M, M.ctn-zj-jgh-069
+

@@ -1,0 +1,11 @@
+GET /wjx/activitystat/viewurl.aspx?activity=40211802 HTTP/1.1
+Host: www.wjx.cn
+Connection: keep-alive
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3729.169 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3
+Referer: https://www.wjx.cn/wjx/activitystat/visiturl.aspx?activity=40211802
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN,zh;q=0.9,en-US;q=0.8,en;q=0.7
+Cookie: acw_tc=2f624a3015603303326084250e1585def1065f42df4c082089aa40a594f1ba; .ASPXANONYMOUS=BYcG1I9X1QEkAAAAZjJlZWE4ZWQtZmQ0Yi00M2QzLWE5ZDAtM2M4ZTkwNjY2Y2M5Mf6gkeCq5SzAcq9qziSaG2dKiBo1; crudat=2019-05-22 17:56:15; SojumpSurvey=01022ADEEA3015EFD608FE2A7EFCB736EFD6080007770065006200740065007300740000012F00FFDED642CBEFC2CA00EF3FC0AB39FFD28AB6AAC882; WjxUser=UserName=webtest; LastCheckUpdateDate=1; LastCheckDesign=1; UM_distinctid=16b4af024d8e4-092e879fed8989-e353165-144000-16b4af024d9160; CNZZDATA4478442=cnzz_eid%3D2027245396-1560329066-https%253A%252F%252Fwww.wjx.cn%252F%26ntime%3D1560329066; Hm_lvt_21be24c80829bd7a683b2c536fcf520b=1560330389; Hm_lpvt_21be24c80829bd7a683b2c536fcf520b=1560330389; _cnzz_CV4478442=%E7%94%A8%E6%88%B7%E7%89%88%E6%9C%AC%7C%E5%85%8D%E8%B4%B9%E7%89%88%7C1560330390183
+

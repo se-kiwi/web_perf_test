@@ -1,0 +1,15 @@
+[t29]
+FileName1=t29.json
+URL1=https://www.googleapis.com/oauth2/v4/token
+Total=3
+RequestHeaderFile=t29_RequestHeader.txt
+RequestBodyFile=t29_RequestBody.txt
+ResponseHeaderFile=t29_ResponseHeader.txt
+ContentType=application/json
+SnapshotXmlFile=snapshot_29.xml
+FileName2=t29_index.css
+URL2=https://www.wjx.cn/css/index.css?v=3
+FileName3=t29_jquery-1.8.3.min.html
+URL3=https://www.wjx.cn/js/jquery-1.8.3.min.js
+[ProtocolInfo]
+ProtocolId=QTWeb

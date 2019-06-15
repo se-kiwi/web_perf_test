@@ -1,0 +1,13 @@
+[t16]
+FileName1=t16.html
+URL1=https://www.wjx.cn/wjx/design/designstart.aspx?activity=40211802
+Total=2
+RequestHeaderFile=t16_RequestHeader.txt
+RequestBodyFile=NONE
+ResponseHeaderFile=t16_ResponseHeader.txt
+ContentType=text/html
+SnapshotXmlFile=snapshot_16.xml
+FileName2=t16_guide.css
+URL2=https://www.wjx.cn/css/guide.css?v=1
+[ProtocolInfo]
+ProtocolId=QTWeb

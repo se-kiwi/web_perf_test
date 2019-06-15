@@ -1,0 +1,1170 @@
+{
+  "FilterHeaders": [
+    {
+      "Header": "x-requested-with",
+      "IncludeInScript": true
+    },
+    {
+      "Header": "user-agent",
+      "IncludeInScript": false
+    },
+    {
+      "Header": "cache-control",
+      "IncludeInScript": false
+    },
+    {
+      "Header": "accept-language",
+      "IncludeInScript": false
+    },
+    {
+      "Header": "accept-encoding",
+      "IncludeInScript": false
+    },
+    {
+      "Header": "accept",
+      "IncludeInScript": false
+    }
+  ],
+  "FilterResources": [
+    {
+      "IsNonResource": true,
+      "type": "text/html"
+    },
+    {
+      "IsNonResource": false,
+      "type": "text/css"
+    },
+    {
+      "IsNonResource": false,
+      "type": "image/x-icon"
+    },
+    {
+      "IsNonResource": false,
+      "type": "image/png"
+    },
+    {
+      "IsNonResource": false,
+      "type": "image/jpeg"
+    },
+    {
+      "IsNonResource": false,
+      "type": "application/x-javascript"
+    }
+  ],
+  "GeneralInfo": {
+    "BrowserVersion": "",
+    "IsWinInetMode": false,
+    "MaxUsedConnections": 53,
+    "RecordedBrowser": "Internet Explorer",
+    "RecordingDate": "6��-15-2019",
+    "RecordingDuration": 69547,
+    "RecordingMode": "N/A",
+    "RecordingTimeStamp": 1560568851,
+    "RecordingType": "Browser",
+    "TotalBytesReceived": 384717,
+    "TotalBytesSent": 45292,
+    "TotalRequests": 100,
+    "UserAgent": "Mozilla/5.0 (Windows NT 10.0; WOW64; Trident/7.0; rv:11.0) like Gecko"
+  },
+  "HostInfo": [
+    {
+      "DomainName": "51jobcdn.com",
+      "Domains": [
+        {
+          "HTTPVersion": "HTTP/1.1",
+          "IP": "61.129.48.229",
+          "IncludeInScript": true,
+          "Name": "js.51jobcdn.com",
+          "Port": 80,
+          "Requests": [
+            {
+              "CompressionType": "gzip",
+              "DataType": "application/x-javascript",
+              "DownloadTime": 32,
+              "EventId": 853,
+              "HttpStatus": 200,
+              "Size": 542,
+              "URL": "http://js.51jobcdn.com/in/js/iframeheight.js?20180319"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "application/x-javascript",
+              "DownloadTime": 16,
+              "EventId": 851,
+              "HttpStatus": 200,
+              "Size": 667,
+              "URL": "http://js.51jobcdn.com/in/js/2017/payservice/GetCompetition.js?20180319"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "application/x-javascript",
+              "DownloadTime": 16,
+              "EventId": 849,
+              "HttpStatus": 200,
+              "Size": 1613,
+              "URL": "http://js.51jobcdn.com/in/js/2016/my/apply.js?20180319"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "application/x-javascript",
+              "DownloadTime": 15,
+              "EventId": 847,
+              "HttpStatus": 200,
+              "Size": 854,
+              "URL": "http://js.51jobcdn.com/in/js/2016/my/pointtrack_my.js?20180319"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "application/x-javascript",
+              "DownloadTime": 16,
+              "EventId": 845,
+              "HttpStatus": 200,
+              "Size": 2286,
+              "URL": "http://js.51jobcdn.com/in/js/2016/my/my.js?20180319"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "application/x-javascript",
+              "DownloadTime": 32,
+              "EventId": 843,
+              "HttpStatus": 200,
+              "Size": 3674,
+              "URL": "http://js.51jobcdn.com/in/js/2016/delivery/delivery.js?20180419"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "application/x-javascript",
+              "DownloadTime": 32,
+              "EventId": 840,
+              "HttpStatus": 200,
+              "Size": 1262,
+              "URL": "http://js.51jobcdn.com/in/js/2016/pointtrack.js?20180605"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "application/x-javascript",
+              "DownloadTime": 31,
+              "EventId": 837,
+              "HttpStatus": 200,
+              "Size": 1562,
+              "URL": "http://js.51jobcdn.com/in/js/2016/layer/layer.js?20180319"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "application/x-javascript",
+              "DownloadTime": 31,
+              "EventId": 834,
+              "HttpStatus": 200,
+              "Size": 36344,
+              "URL": "http://js.51jobcdn.com/in/js/2016/jquery.js?20180319"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "text/css",
+              "DownloadTime": 16,
+              "EventId": 831,
+              "HttpStatus": 200,
+              "Size": 1892,
+              "URL": "http://js.51jobcdn.com/in/css/2017/public/form.css?20190524"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "text/css",
+              "DownloadTime": 31,
+              "EventId": 829,
+              "HttpStatus": 200,
+              "Size": 14487,
+              "URL": "http://js.51jobcdn.com/in/css/2017/my/my51.css?20180408"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "text/css",
+              "DownloadTime": 15,
+              "EventId": 826,
+              "HttpStatus": 200,
+              "Size": 7293,
+              "URL": "http://js.51jobcdn.com/in/css/2017/public/panel-pop.css?20180408"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "text/css",
+              "DownloadTime": 31,
+              "EventId": 817,
+              "HttpStatus": 200,
+              "Size": 3373,
+              "URL": "http://js.51jobcdn.com/in/css/2017/public/base.css?20180408"
+            }
+          ],
+          "SSLCipher": "None",
+          "SSLVersion": "None"
+        },
+        {
+          "HTTPVersion": "HTTP/1.1",
+          "IP": "61.129.48.229",
+          "IncludeInScript": true,
+          "Name": "js.51jobcdn.com",
+          "Port": 443,
+          "Requests": [
+            {
+              "CompressionType": "gzip",
+              "DataType": "application/x-javascript",
+              "DownloadTime": 16,
+              "EventId": 804,
+              "HttpStatus": 200,
+              "Size": 542,
+              "URL": "https://js.51jobcdn.com/in/js/iframeheight.js?20180319"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "application/x-javascript",
+              "DownloadTime": 16,
+              "EventId": 802,
+              "HttpStatus": 200,
+              "Size": 667,
+              "URL": "https://js.51jobcdn.com/in/js/2017/payservice/GetCompetition.js?20180319"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "application/x-javascript",
+              "DownloadTime": 31,
+              "EventId": 525,
+              "HttpStatus": 200,
+              "Size": 4660,
+              "URL": "https://js.51jobcdn.com/in/js/2016/login/d_nation.js?20180319"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "application/x-javascript",
+              "DownloadTime": 16,
+              "EventId": 522,
+              "HttpStatus": 200,
+              "Size": 8555,
+              "URL": "https://js.51jobcdn.com/in/js/2016/resume/modify_userinfo.js?20180801"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "application/x-javascript",
+              "DownloadTime": 15,
+              "EventId": 460,
+              "HttpStatus": 200,
+              "Size": 2286,
+              "URL": "https://js.51jobcdn.com/in/js/2016/my/my.js?20180319"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "application/x-javascript",
+              "DownloadTime": 16,
+              "EventId": 456,
+              "HttpStatus": 200,
+              "Size": 3190,
+              "URL": "https://js.51jobcdn.com/in/js/2016/login/mobile_original.js?20180319"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "application/x-javascript",
+              "DownloadTime": 0,
+              "EventId": 452,
+              "HttpStatus": 200,
+              "Size": 3674,
+              "URL": "https://js.51jobcdn.com/in/js/2016/delivery/delivery.js?20180419"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "application/x-javascript",
+              "DownloadTime": 16,
+              "EventId": 448,
+              "HttpStatus": 200,
+              "Size": 1777,
+              "URL": "https://js.51jobcdn.com/in/js/2016/my/my_51job.js?20180327"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "application/x-javascript",
+              "DownloadTime": 15,
+              "EventId": 432,
+              "HttpStatus": 200,
+              "Size": 854,
+              "URL": "https://js.51jobcdn.com/in/js/2016/my/pointtrack_my.js?20180319"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "application/x-javascript",
+              "DownloadTime": 0,
+              "EventId": 426,
+              "HttpStatus": 200,
+              "Size": 610,
+              "URL": "https://js.51jobcdn.com/in/js/2016/resume/RefreshResume.js?20180319"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "application/x-javascript",
+              "DownloadTime": 16,
+              "EventId": 408,
+              "HttpStatus": 200,
+              "Size": 1939,
+              "URL": "https://js.51jobcdn.com/in/js/2016/my/my_collection.js?20180413"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "application/x-javascript",
+              "DownloadTime": 16,
+              "EventId": 406,
+              "HttpStatus": 200,
+              "Size": 1562,
+              "URL": "https://js.51jobcdn.com/in/js/2016/layer/layer.js?20180319"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "application/x-javascript",
+              "DownloadTime": 32,
+              "EventId": 353,
+              "HttpStatus": 200,
+              "Size": 11143,
+              "URL": "https://js.51jobcdn.com/in/js/2016/my/my_service.js?20180504"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "application/x-javascript",
+              "DownloadTime": 32,
+              "EventId": 351,
+              "HttpStatus": 200,
+              "Size": 1613,
+              "URL": "https://js.51jobcdn.com/in/js/2016/my/apply.js?20180319"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "application/x-javascript",
+              "DownloadTime": 32,
+              "EventId": 349,
+              "HttpStatus": 200,
+              "Size": 401,
+              "URL": "https://js.51jobcdn.com/in/js/2016/my/resume_browsed.js?20180319"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "text/css",
+              "DownloadTime": 32,
+              "EventId": 336,
+              "HttpStatus": 200,
+              "Size": 1892,
+              "URL": "https://js.51jobcdn.com/in/css/2017/public/form.css?20190524"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "application/x-javascript",
+              "DownloadTime": 16,
+              "EventId": 333,
+              "HttpStatus": 200,
+              "Size": 7397,
+              "URL": "https://js.51jobcdn.com/in/js/2016/login/auth.js?20180727"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "text/css",
+              "DownloadTime": 32,
+              "EventId": 331,
+              "HttpStatus": 200,
+              "Size": 3373,
+              "URL": "https://js.51jobcdn.com/in/css/2017/public/base.css?20180408"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "text/css",
+              "DownloadTime": 16,
+              "EventId": 329,
+              "HttpStatus": 200,
+              "Size": 14492,
+              "URL": "https://js.51jobcdn.com/in/css/2017/my/my51.css?20180408"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "text/css",
+              "DownloadTime": 31,
+              "EventId": 326,
+              "HttpStatus": 200,
+              "Size": 7293,
+              "URL": "https://js.51jobcdn.com/in/css/2017/public/panel-pop.css?20180408"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "application/x-javascript",
+              "DownloadTime": 32,
+              "EventId": 267,
+              "HttpStatus": 200,
+              "Size": 837,
+              "URL": "https://js.51jobcdn.com/in/js/2016/trace/trackData.js?20180206"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "text/css",
+              "DownloadTime": 78,
+              "EventId": 189,
+              "HttpStatus": 200,
+              "Size": 18181,
+              "URL": "https://js.51jobcdn.com/in/resource/css/2019/login/common.629de74b.css"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "application/x-javascript",
+              "DownloadTime": 78,
+              "EventId": 187,
+              "HttpStatus": 200,
+              "Size": 36344,
+              "URL": "https://js.51jobcdn.com/in/js/2016/jquery.js?20180319"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "application/x-javascript",
+              "DownloadTime": 63,
+              "EventId": 182,
+              "HttpStatus": 200,
+              "Size": 471,
+              "URL": "https://js.51jobcdn.com/in/resource/js/2019/login/common.c1187a0d.js"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "application/x-javascript",
+              "DownloadTime": 62,
+              "EventId": 180,
+              "HttpStatus": 200,
+              "Size": 1262,
+              "URL": "https://js.51jobcdn.com/in/js/2016/pointtrack.js?20180605"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "application/x-javascript",
+              "DownloadTime": 62,
+              "EventId": 178,
+              "HttpStatus": 200,
+              "Size": 15159,
+              "URL": "https://js.51jobcdn.com/in/resource/js/2019/login/login.c733169c.js"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "text/css",
+              "DownloadTime": 46,
+              "EventId": 174,
+              "HttpStatus": 200,
+              "Size": 1419,
+              "URL": "https://js.51jobcdn.com/in/resource/css/2019/login/login.0d2bb609.css"
+            }
+          ],
+          "SSLCipher": "DES-CBC3-SHA",
+          "SSLVersion": "TLS1.2"
+        },
+        {
+          "HTTPVersion": "HTTP/1.1",
+          "IP": "211.65.195.74",
+          "IncludeInScript": true,
+          "Name": "img06.51jobcdn.com",
+          "Port": 80,
+          "Requests": [
+            {
+              "CompressionType": "",
+              "DataType": "image/png",
+              "DownloadTime": 78,
+              "EventId": 864,
+              "HttpStatus": 200,
+              "Size": 3067,
+              "URL": "http://img06.51jobcdn.com/im/2016/logo/logo_blue.png"
+            }
+          ],
+          "SSLCipher": "None",
+          "SSLVersion": "None"
+        },
+        {
+          "HTTPVersion": "HTTP/1.1",
+          "IP": "211.65.195.74",
+          "IncludeInScript": true,
+          "Name": "img06.51jobcdn.com",
+          "Port": 443,
+          "Requests": [
+            {
+              "CompressionType": "",
+              "DataType": "image/png",
+              "DownloadTime": 31,
+              "EventId": 473,
+              "HttpStatus": 200,
+              "Size": 9905,
+              "URL": "https://img06.51jobcdn.com/im/2016/code/web_fuwuhao_bottom.png"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/png",
+              "DownloadTime": 47,
+              "EventId": 464,
+              "HttpStatus": 200,
+              "Size": 3067,
+              "URL": "https://img06.51jobcdn.com/im/2016/logo/logo_blue.png"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/png",
+              "DownloadTime": 78,
+              "EventId": 185,
+              "HttpStatus": 200,
+              "Size": 1274,
+              "URL": "https://img06.51jobcdn.com/im/2016/header/slogen.png"
+            }
+          ],
+          "SSLCipher": "ECDHE-RSA-AES128-GCM-SHA256",
+          "SSLVersion": "TLS1.2"
+        },
+        {
+          "HTTPVersion": "HTTP/1.1",
+          "IP": "211.65.195.73",
+          "IncludeInScript": true,
+          "Name": "img05.51jobcdn.com",
+          "Port": 80,
+          "Requests": [
+            {
+              "CompressionType": "",
+              "DataType": "image/png",
+              "DownloadTime": 46,
+              "EventId": 859,
+              "HttpStatus": 200,
+              "Size": 9905,
+              "URL": "http://img05.51jobcdn.com/im/2016/code/web_fuwuhao_bottom.png"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/png",
+              "DownloadTime": 47,
+              "EventId": 857,
+              "HttpStatus": 200,
+              "Size": 2862,
+              "URL": "http://img05.51jobcdn.com/im/2016/code/web_top.png"
+            }
+          ],
+          "SSLCipher": "None",
+          "SSLVersion": "None"
+        },
+        {
+          "HTTPVersion": "HTTP/1.1",
+          "IP": "211.65.195.73",
+          "IncludeInScript": true,
+          "Name": "img05.51jobcdn.com",
+          "Port": 443,
+          "Requests": [
+            {
+              "CompressionType": "",
+              "DataType": "image/png",
+              "DownloadTime": 32,
+              "EventId": 806,
+              "HttpStatus": 200,
+              "Size": 9905,
+              "URL": "https://img05.51jobcdn.com/im/2016/code/web_fuwuhao_bottom.png"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/png",
+              "DownloadTime": 47,
+              "EventId": 561,
+              "HttpStatus": 200,
+              "Size": 2862,
+              "URL": "https://img05.51jobcdn.com/im/2016/code/web_top.png"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/png",
+              "DownloadTime": 46,
+              "EventId": 176,
+              "HttpStatus": 200,
+              "Size": 3067,
+              "URL": "https://img05.51jobcdn.com/im/2016/logo/logo_blue.png"
+            }
+          ],
+          "SSLCipher": "ECDHE-RSA-AES128-GCM-SHA256",
+          "SSLVersion": "TLS1.2"
+        },
+        {
+          "HTTPVersion": "HTTP/1.1",
+          "IP": "211.65.195.74",
+          "IncludeInScript": true,
+          "Name": "img03.51jobcdn.com",
+          "Port": 80,
+          "Requests": [
+            {
+              "CompressionType": "",
+              "DataType": "image/png",
+              "DownloadTime": 46,
+              "EventId": 861,
+              "HttpStatus": 200,
+              "Size": 2838,
+              "URL": "http://img03.51jobcdn.com/im/2016/code/web_bottom.png"
+            }
+          ],
+          "SSLCipher": "None",
+          "SSLVersion": "None"
+        },
+        {
+          "HTTPVersion": "HTTP/1.1",
+          "IP": "211.65.195.74",
+          "IncludeInScript": true,
+          "Name": "img02.51jobcdn.com",
+          "Port": 443,
+          "Requests": [
+            {
+              "CompressionType": "",
+              "DataType": "image/png",
+              "DownloadTime": 31,
+              "EventId": 490,
+              "HttpStatus": 200,
+              "Size": 2838,
+              "URL": "https://img02.51jobcdn.com/im/2016/code/web_bottom.png"
+            }
+          ],
+          "SSLCipher": "ECDHE-RSA-AES128-GCM-SHA256",
+          "SSLVersion": "TLS1.2"
+        },
+        {
+          "HTTPVersion": "HTTP/1.1",
+          "IP": "211.65.195.73",
+          "IncludeInScript": true,
+          "Name": "img01.51jobcdn.com",
+          "Port": 80,
+          "Requests": [
+            {
+              "CompressionType": "",
+              "DataType": "image/png",
+              "DownloadTime": 62,
+              "EventId": 891,
+              "HttpStatus": 200,
+              "Size": 198,
+              "URL": "http://img01.51jobcdn.com/im/2017/my/new.png"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/png",
+              "DownloadTime": 31,
+              "EventId": 889,
+              "HttpStatus": 200,
+              "Size": 708,
+              "URL": "http://img01.51jobcdn.com/im/2016/icon/arrow.png"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/png",
+              "DownloadTime": 31,
+              "EventId": 887,
+              "HttpStatus": 200,
+              "Size": 209,
+              "URL": "http://img01.51jobcdn.com/im/2016/form/hp_arr.png"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/png",
+              "DownloadTime": 31,
+              "EventId": 885,
+              "HttpStatus": 200,
+              "Size": 4425,
+              "URL": "http://img01.51jobcdn.com/im/2017/my/n.png"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/png",
+              "DownloadTime": 31,
+              "EventId": 881,
+              "HttpStatus": 200,
+              "Size": 250,
+              "URL": "http://img01.51jobcdn.com/im/jobs/fb_img.png"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/png",
+              "DownloadTime": 78,
+              "EventId": 879,
+              "HttpStatus": 200,
+              "Size": 687,
+              "URL": "http://img01.51jobcdn.com/im/2017/my/ns2.png"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/png",
+              "DownloadTime": 62,
+              "EventId": 877,
+              "HttpStatus": 200,
+              "Size": 146,
+              "URL": "http://img01.51jobcdn.com/im/jobs/img_top.png"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/png",
+              "DownloadTime": 63,
+              "EventId": 875,
+              "HttpStatus": 200,
+              "Size": 1159,
+              "URL": "http://img01.51jobcdn.com/im/2016/icon/header.png"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/png",
+              "DownloadTime": 32,
+              "EventId": 873,
+              "HttpStatus": 200,
+              "Size": 245,
+              "URL": "http://img01.51jobcdn.com/im/2016/icon/header2.png"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/png",
+              "DownloadTime": 31,
+              "EventId": 870,
+              "HttpStatus": 200,
+              "Size": 445,
+              "URL": "http://img01.51jobcdn.com/im/2017/my/icon_mt.png"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/png",
+              "DownloadTime": 62,
+              "EventId": 868,
+              "HttpStatus": 200,
+              "Size": 191,
+              "URL": "http://img01.51jobcdn.com/im/2017/my/hot.png"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/png",
+              "DownloadTime": 78,
+              "EventId": 866,
+              "HttpStatus": 200,
+              "Size": 1274,
+              "URL": "http://img01.51jobcdn.com/im/2016/header/slogen.png?1544426366"
+            }
+          ],
+          "SSLCipher": "None",
+          "SSLVersion": "None"
+        },
+        {
+          "HTTPVersion": "HTTP/1.1",
+          "IP": "211.65.195.73",
+          "IncludeInScript": true,
+          "Name": "img01.51jobcdn.com",
+          "Port": 443,
+          "Requests": [
+            {
+              "CompressionType": "",
+              "DataType": "image/png",
+              "DownloadTime": 32,
+              "EventId": 762,
+              "HttpStatus": 200,
+              "Size": 2838,
+              "URL": "https://img01.51jobcdn.com/im/2016/code/web_bottom.png"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/png",
+              "DownloadTime": 32,
+              "EventId": 760,
+              "HttpStatus": 200,
+              "Size": 2862,
+              "URL": "https://img01.51jobcdn.com/im/2016/code/web_top.png"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/png",
+              "DownloadTime": 47,
+              "EventId": 733,
+              "HttpStatus": 200,
+              "Size": 878,
+              "URL": "https://img01.51jobcdn.com/im/2017/my/icon_rse.png"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/png",
+              "DownloadTime": 47,
+              "EventId": 729,
+              "HttpStatus": 200,
+              "Size": 245,
+              "URL": "https://img01.51jobcdn.com/im/2016/icon/header2.png"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/png",
+              "DownloadTime": 47,
+              "EventId": 727,
+              "HttpStatus": 200,
+              "Size": 708,
+              "URL": "https://img01.51jobcdn.com/im/2016/icon/arrow.png"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/png",
+              "DownloadTime": 47,
+              "EventId": 725,
+              "HttpStatus": 200,
+              "Size": 198,
+              "URL": "https://img01.51jobcdn.com/im/2017/my/new.png"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/png",
+              "DownloadTime": 47,
+              "EventId": 723,
+              "HttpStatus": 200,
+              "Size": 4425,
+              "URL": "https://img01.51jobcdn.com/im/2017/my/n.png"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/png",
+              "DownloadTime": 31,
+              "EventId": 632,
+              "HttpStatus": 200,
+              "Size": 146,
+              "URL": "https://img01.51jobcdn.com/im/jobs/img_top.png"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/png",
+              "DownloadTime": 46,
+              "EventId": 628,
+              "HttpStatus": 200,
+              "Size": 1159,
+              "URL": "https://img01.51jobcdn.com/im/2016/icon/header.png"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/png",
+              "DownloadTime": 31,
+              "EventId": 624,
+              "HttpStatus": 200,
+              "Size": 168,
+              "URL": "https://img01.51jobcdn.com/im/2017/my/icon_close.png"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/png",
+              "DownloadTime": 31,
+              "EventId": 620,
+              "HttpStatus": 200,
+              "Size": 250,
+              "URL": "https://img01.51jobcdn.com/im/jobs/fb_img.png"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/png",
+              "DownloadTime": 32,
+              "EventId": 616,
+              "HttpStatus": 200,
+              "Size": 191,
+              "URL": "https://img01.51jobcdn.com/im/2017/my/hot.png"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/png",
+              "DownloadTime": 31,
+              "EventId": 598,
+              "HttpStatus": 200,
+              "Size": 3860,
+              "URL": "https://img01.51jobcdn.com/im/resume/iconMain.png"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/png",
+              "DownloadTime": 47,
+              "EventId": 592,
+              "HttpStatus": 200,
+              "Size": 687,
+              "URL": "https://img01.51jobcdn.com/im/2017/my/ns2.png"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/jpeg",
+              "DownloadTime": 47,
+              "EventId": 579,
+              "HttpStatus": 200,
+              "Size": 22307,
+              "URL": "https://img01.51jobcdn.com/im/mkt/zn/banner/mqzp/5-770-65.jpg"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/png",
+              "DownloadTime": 47,
+              "EventId": 468,
+              "HttpStatus": 200,
+              "Size": 1274,
+              "URL": "https://img01.51jobcdn.com/im/2016/header/slogen.png?1544426366"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/png",
+              "DownloadTime": 63,
+              "EventId": 263,
+              "HttpStatus": 200,
+              "Size": 3153,
+              "URL": "https://img01.51jobcdn.com/im/2019/login/foot-icon.a9aa2473.png"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/png",
+              "DownloadTime": 31,
+              "EventId": 261,
+              "HttpStatus": 200,
+              "Size": 1491,
+              "URL": "https://img01.51jobcdn.com/im/2019/2016/temp/icon_lr.497a7ae2.png"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/png",
+              "DownloadTime": 31,
+              "EventId": 255,
+              "HttpStatus": 200,
+              "Size": 13300,
+              "URL": "https://img01.51jobcdn.com/im/2019/login/newbg.a1df1775.png"
+            }
+          ],
+          "SSLCipher": "ECDHE-RSA-AES128-GCM-SHA256",
+          "SSLVersion": "TLS1.2"
+        }
+      ],
+      "IncludeInScript": true
+    },
+    {
+      "DomainName": "51job.com",
+      "Domains": [
+        {
+          "HTTPVersion": "HTTP/1.1",
+          "IP": "58.215.111.12",
+          "IncludeInScript": true,
+          "Name": "www.51job.com",
+          "Port": 443,
+          "Requests": [
+            {
+              "CompressionType": "",
+              "DataType": "text/html",
+              "DownloadTime": 47,
+              "EventId": 731,
+              "HttpStatus": 200,
+              "Size": 0,
+              "URL": "https://www.51job.com/ex/page_view.php/adid=31493934"
+            }
+          ],
+          "SSLCipher": "DES-CBC3-SHA",
+          "SSLVersion": "TLS1.2"
+        },
+        {
+          "HTTPVersion": "HTTP/1.1",
+          "IP": "61.129.48.223",
+          "IncludeInScript": true,
+          "Name": "login.51job.com",
+          "Port": 443,
+          "Requests": [
+            {
+              "CompressionType": "",
+              "DataType": "text/html",
+              "DownloadTime": 141,
+              "EventId": 294,
+              "HttpStatus": 302,
+              "Size": 0,
+              "URL": "https://login.51job.com/login.php"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/x-icon",
+              "DownloadTime": 31,
+              "EventId": 265,
+              "HttpStatus": 200,
+              "Size": 1150,
+              "URL": "https://login.51job.com/favicon.ico"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "text/html",
+              "DownloadTime": 31,
+              "EventId": 205,
+              "HttpStatus": 200,
+              "Size": 45,
+              "URL": "https://login.51job.com/ajax/verifymethod.php?callback=jsoncallback&_=1560568870586"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/png",
+              "DownloadTime": 31,
+              "EventId": 52,
+              "HttpStatus": 200,
+              "Size": 2543,
+              "URL": "https://login.51job.com/ajax/verifycode.php?type=33&from_domain=i&t=1190389214"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "text/html",
+              "DownloadTime": 15,
+              "EventId": 37,
+              "HttpStatus": 200,
+              "Size": 4231,
+              "URL": "https://login.51job.com/login.php"
+            }
+          ],
+          "SSLCipher": "DES-CBC3-SHA",
+          "SSLVersion": "TLS1.2"
+        },
+        {
+          "HTTPVersion": "HTTP/1.1",
+          "IP": "61.129.48.139",
+          "IncludeInScript": true,
+          "Name": "i.51job.com",
+          "Port": 80,
+          "Requests": [
+            {
+              "CompressionType": "",
+              "DataType": "image/x-icon",
+              "DownloadTime": 16,
+              "EventId": 893,
+              "HttpStatus": 200,
+              "Size": 1150,
+              "URL": "http://i.51job.com/favicon.ico"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "text/html",
+              "DownloadTime": 62,
+              "EventId": 812,
+              "HttpStatus": 200,
+              "Size": 8055,
+              "URL": "http://i.51job.com/userset/my_apply.php?lang=c"
+            }
+          ],
+          "SSLCipher": "None",
+          "SSLVersion": "None"
+        },
+        {
+          "HTTPVersion": "HTTP/1.1",
+          "IP": "61.129.48.139",
+          "IncludeInScript": true,
+          "Name": "i.51job.com",
+          "Port": 443,
+          "Requests": [
+            {
+              "CompressionType": "gzip",
+              "DataType": "text/html",
+              "DownloadTime": 62,
+              "EventId": 756,
+              "HttpStatus": 200,
+              "Size": 8055,
+              "URL": "https://i.51job.com/userset/my_apply.php?lang=c"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "text/html",
+              "DownloadTime": 140,
+              "EventId": 739,
+              "HttpStatus": 200,
+              "Size": 120,
+              "URL": "https://i.51job.com/userset/ajax/getRecommendJob.php?jsoncallback=jQuery183035585671028137044_1560568902396&currentPage=1&number=5&langType=c&_=1560568910981"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/x-icon",
+              "DownloadTime": 16,
+              "EventId": 735,
+              "HttpStatus": 200,
+              "Size": 1150,
+              "URL": "https://i.51job.com/favicon.ico"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "text/html",
+              "DownloadTime": 78,
+              "EventId": 700,
+              "HttpStatus": 200,
+              "Size": 337,
+              "URL": "https://i.51job.com/userset/ajax/whoviewme.php"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "text/html",
+              "DownloadTime": 109,
+              "EventId": 323,
+              "HttpStatus": 200,
+              "Size": 8657,
+              "URL": "https://i.51job.com/userset/my_51job.php"
+            }
+          ],
+          "SSLCipher": "DES-CBC3-SHA",
+          "SSLVersion": "TLS1.2"
+        }
+      ],
+      "IncludeInScript": true
+    },
+    {
+      "DomainName": "51jingying.com",
+      "Domains": [
+        {
+          "HTTPVersion": "HTTP/1.1",
+          "IP": "58.215.111.18",
+          "IncludeInScript": true,
+          "Name": "trace.51jingying.com",
+          "Port": 80,
+          "Requests": [
+            {
+              "CompressionType": "gzip",
+              "DataType": "text/html",
+              "DownloadTime": 31,
+              "EventId": 922,
+              "HttpStatus": 200,
+              "Size": 23,
+              "URL": "http://trace.51jingying.com/logRecord.php?VerType=3&webId=2&logTime=1560568925933&ip=202.120.40.82&guid=99a1f5fd9691580e3e5168b4fd6f0cac&domain=i.51job.com&pageCode=19999&cusParam=1%16158602693%1651job_web%16%160%16&vt=1560568926262&logType=pageView"
+            }
+          ],
+          "SSLCipher": "None",
+          "SSLVersion": "None"
+        },
+        {
+          "HTTPVersion": "HTTP/1.1",
+          "IP": "58.215.111.18",
+          "IncludeInScript": true,
+          "Name": "trace.51jingying.com",
+          "Port": 443,
+          "Requests": [
+            {
+              "CompressionType": "gzip",
+              "DataType": "text/html",
+              "DownloadTime": 16,
+              "EventId": 754,
+              "HttpStatus": 200,
+              "Size": 23,
+              "URL": "https://trace.51jingying.com/logRecord.php?logCode=81&webId=2&version=1&logTime=1560568921709&ip=202.120.40.82&guid=99a1f5fd9691580e3e5168b4fd6f0cac&domain=i.51job.com&pageCode=11203&eventType=5&traceName=&cusParam=1%16158602693&vt=1560568922065&logType=event"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "text/html",
+              "DownloadTime": 16,
+              "EventId": 750,
+              "HttpStatus": 200,
+              "Size": 23,
+              "URL": "https://trace.51jingying.com/logRecord.php?VerType=3&webId=2&logTime=1560568912631&ip=202.120.40.82&guid=99a1f5fd9691580e3e5168b4fd6f0cac&domain=i.51job.com&pageCode=11203&cusParam=1%16158602693%1651job_web%16%160%16login.51job.com&vt=1560568912988&logType=pageView"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "text/html",
+              "DownloadTime": 16,
+              "EventId": 747,
+              "HttpStatus": 200,
+              "Size": 23,
+              "URL": "https://trace.51jingying.com/logRecord.php?logCode=81&webId=2&version=1&logTime=1560568906168&ip=202.120.40.82&guid=99a1f5fd9691580e3e5168b4fd6f0cac&domain=i.51job.com&pageCode=11203&eventType=23&traceName=&cusParam=1%16158602693&vt=1560568910983&logType=event"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "text/html",
+              "DownloadTime": 32,
+              "EventId": 289,
+              "HttpStatus": 200,
+              "Size": 23,
+              "URL": "https://trace.51jingying.com/logRecord.php?VerType=3&webId=2&logTime=1560568871598&ip=202.120.40.82&guid=99a1f5fd9691580e3e5168b4fd6f0cac&domain=login.51job.com&pageCode=19999&cusParam=1%16%1651job_web%16%160%16&vt=1560568874392&logType=pageView"
+            }
+          ],
+          "SSLCipher": "DES-CBC3-SHA",
+          "SSLVersion": "TLS1.2"
+        }
+      ],
+      "IncludeInScript": true
+    }
+  ],
+  "WebSocket": {
+    "IncludeInScript": false,
+    "IsScriptIncludeWebSocket": false
+  },
+  "NumberOfCorrelations": 1
+}

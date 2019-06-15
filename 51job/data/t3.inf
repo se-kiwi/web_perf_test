@@ -1,0 +1,11 @@
+[t3]
+FileName1=t3.html
+URL1=https://trace.51jingying.com/logRecord.php?VerType=3&webId=2&logTime=1560568871598&ip=202.120.40.82&guid=99a1f5fd9691580e3e5168b4fd6f0cac&domain=login.51job.com&pageCode=19999&cusParam=1%16%1651job_web%16%160%16&vt=1560568874392&logType=pageView
+Total=1
+RequestHeaderFile=t3_RequestHeader.txt
+RequestBodyFile=NONE
+ResponseHeaderFile=t3_ResponseHeader.txt
+ContentType=text/html
+SnapshotXmlFile=snapshot_3.xml
+[ProtocolInfo]
+ProtocolId=QTWeb

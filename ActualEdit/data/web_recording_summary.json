@@ -1,0 +1,1259 @@
+{
+  "FilterHeaders": [
+    {
+      "Header": "user-agent",
+      "IncludeInScript": false
+    },
+    {
+      "Header": "origin",
+      "IncludeInScript": true
+    },
+    {
+      "Header": "cache-control",
+      "IncludeInScript": false
+    },
+    {
+      "Header": "accept-language",
+      "IncludeInScript": false
+    },
+    {
+      "Header": "accept-encoding",
+      "IncludeInScript": false
+    },
+    {
+      "Header": "accept",
+      "IncludeInScript": false
+    }
+  ],
+  "FilterResources": [
+    {
+      "IsNonResource": true,
+      "type": "text/html"
+    },
+    {
+      "IsNonResource": false,
+      "type": "text/css"
+    },
+    {
+      "IsNonResource": false,
+      "type": "image/x-icon"
+    },
+    {
+      "IsNonResource": false,
+      "type": "image/png"
+    },
+    {
+      "IsNonResource": false,
+      "type": "image/jpeg"
+    },
+    {
+      "IsNonResource": false,
+      "type": "image/gif"
+    },
+    {
+      "IsNonResource": false,
+      "type": "application/x-javascript"
+    },
+    {
+      "IsNonResource": false,
+      "type": "application/octet-stream"
+    },
+    {
+      "IsNonResource": false,
+      "type": "application/javascript"
+    }
+  ],
+  "GeneralInfo": {
+    "BrowserVersion": "",
+    "IsWinInetMode": false,
+    "MaxUsedConnections": 27,
+    "RecordedBrowser": "Internet Explorer",
+    "RecordingDate": "6闁?15-2019",
+    "RecordingDuration": 63953,
+    "RecordingMode": "N/A",
+    "RecordingTimeStamp": 1560564749,
+    "RecordingType": "Browser",
+    "TotalBytesReceived": 1021559,
+    "TotalBytesSent": 135726,
+    "TotalRequests": 117,
+    "UserAgent": "Mozilla/5.0 (Windows NT 10.0; WOW64; Trident/7.0; rv:11.0) like Gecko"
+  },
+  "HostInfo": [
+    {
+      "DomainName": "www.wjx.cn",
+      "Domains": [
+        {
+          "HTTPVersion": "HTTP/1.1",
+          "IP": "47.96.195.110",
+          "IncludeInScript": true,
+          "Name": "www.wjx.cn",
+          "Port": 443,
+          "Requests": [
+            {
+              "CompressionType": "",
+              "DataType": "image/png",
+              "DownloadTime": 62,
+              "EventId": 4215,
+              "HttpStatus": 200,
+              "Size": 1189,
+              "URL": "https://www.wjx.cn/Images/newimg/questionnaire.png"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/png",
+              "DownloadTime": 62,
+              "EventId": 4213,
+              "HttpStatus": 200,
+              "Size": 260,
+              "URL": "https://www.wjx.cn/Images/newimg/online-exam/guide-pre.png"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/png",
+              "DownloadTime": 47,
+              "EventId": 4211,
+              "HttpStatus": 200,
+              "Size": 387,
+              "URL": "https://www.wjx.cn/Images/newimg/online-exam/edit.png"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/png",
+              "DownloadTime": 78,
+              "EventId": 4202,
+              "HttpStatus": 200,
+              "Size": 1222,
+              "URL": "https://www.wjx.cn/images/newimg/DWizard/Sign-in-gray.png"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "",
+              "DownloadTime": 63,
+              "EventId": 4200,
+              "HttpStatus": 200,
+              "Size": 0,
+              "URL": "https://www.wjx.cn/Handler/designqfinish.ashx?curID=40211802"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "text/css",
+              "DownloadTime": 63,
+              "EventId": 4197,
+              "HttpStatus": 200,
+              "Size": 1431,
+              "URL": "https://www.wjx.cn/css/guide.css?v=1"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "text/html",
+              "DownloadTime": 31,
+              "EventId": 4183,
+              "HttpStatus": 200,
+              "Size": 12610,
+              "URL": "https://www.wjx.cn/wjx/design/designstart.aspx?activity=40211802"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "text/html",
+              "DownloadTime": 125,
+              "EventId": 4181,
+              "HttpStatus": 200,
+              "Size": 132,
+              "URL": "https://www.wjx.cn/Handler/designQHandler.ashx?submitType=redesign&curID=40211802&userguid=&validate_text=ys&t=1560566601514&sstate=pub&totalq=6&initqc=6&eod=true&pub=1"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/png",
+              "DownloadTime": 62,
+              "EventId": 4107,
+              "HttpStatus": 200,
+              "Size": 7971,
+              "URL": "https://www.wjx.cn/kindeditor/skins/default/default.png?v=3"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/png",
+              "DownloadTime": 62,
+              "EventId": 4099,
+              "HttpStatus": 200,
+              "Size": 276,
+              "URL": "https://www.wjx.cn/Images/design/full-screen-nor.png"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "text/css",
+              "DownloadTime": 62,
+              "EventId": 4093,
+              "HttpStatus": 200,
+              "Size": 403,
+              "URL": "https://www.wjx.cn/kindeditor/skins/common/editor.css?ver=3.5.5"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "text/css",
+              "DownloadTime": 63,
+              "EventId": 4081,
+              "HttpStatus": 200,
+              "Size": 2688,
+              "URL": "https://www.wjx.cn/kindeditor/skins/default.css?v=6"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/png",
+              "DownloadTime": 156,
+              "EventId": 3983,
+              "HttpStatus": 200,
+              "Size": 20123,
+              "URL": "https://www.wjx.cn/images/design/icoall.png?v=2"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/gif",
+              "DownloadTime": 110,
+              "EventId": 3976,
+              "HttpStatus": 200,
+              "Size": 1369,
+              "URL": "https://www.wjx.cn/images/radio.gif"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/png",
+              "DownloadTime": 93,
+              "EventId": 3849,
+              "HttpStatus": 200,
+              "Size": 423,
+              "URL": "https://www.wjx.cn/images/wjx/JoinQuestionnaire/Rate/piont_lv.png"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/png",
+              "DownloadTime": 94,
+              "EventId": 3845,
+              "HttpStatus": 200,
+              "Size": 1266,
+              "URL": "https://www.wjx.cn/Images/WJX/JoinQuestionnaire/slider1.png"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "application/x-javascript",
+              "DownloadTime": 94,
+              "EventId": 3843,
+              "HttpStatus": 200,
+              "Size": 33891,
+              "URL": "https://www.wjx.cn/Js/createqattr_new.js?v=470"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/gif",
+              "DownloadTime": 78,
+              "EventId": 3841,
+              "HttpStatus": 200,
+              "Size": 1230,
+              "URL": "https://www.wjx.cn/images/checkbox.gif"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "application/x-javascript",
+              "DownloadTime": 79,
+              "EventId": 3839,
+              "HttpStatus": 200,
+              "Size": 27733,
+              "URL": "https://www.wjx.cn/kindeditor/kindeditor.js?v=470"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "application/x-javascript",
+              "DownloadTime": 79,
+              "EventId": 3832,
+              "HttpStatus": 200,
+              "Size": 3010,
+              "URL": "https://www.wjx.cn/Js/utility_new.js?v=470"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/png",
+              "DownloadTime": 16,
+              "EventId": 3829,
+              "HttpStatus": 200,
+              "Size": 1043,
+              "URL": "https://www.wjx.cn/images/stu/icon.png"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "application/x-javascript",
+              "DownloadTime": 32,
+              "EventId": 3815,
+              "HttpStatus": 200,
+              "Size": 13129,
+              "URL": "https://www.wjx.cn/Js/operation_new.js?v=470"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/png",
+              "DownloadTime": 32,
+              "EventId": 3813,
+              "HttpStatus": 200,
+              "Size": 255,
+              "URL": "https://www.wjx.cn/Images/WJX/JoinQuestionnaire/sliderEnd.png"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "application/x-javascript",
+              "DownloadTime": 63,
+              "EventId": 3720,
+              "HttpStatus": 200,
+              "Size": 34027,
+              "URL": "https://www.wjx.cn/Js/design_new.js?v=470"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "application/x-javascript",
+              "DownloadTime": 62,
+              "EventId": 3674,
+              "HttpStatus": 200,
+              "Size": 1706,
+              "URL": "https://www.wjx.cn/Js/hintinfo.js?v=2"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/png",
+              "DownloadTime": 172,
+              "EventId": 3601,
+              "HttpStatus": 200,
+              "Size": 148735,
+              "URL": "https://www.wjx.cn/images/stu/jump-web.png"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/png",
+              "DownloadTime": 172,
+              "EventId": 3599,
+              "HttpStatus": 200,
+              "Size": 97921,
+              "URL": "https://www.wjx.cn/images/stu/conditional-processing.png"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "application/x-javascript",
+              "DownloadTime": 156,
+              "EventId": 3597,
+              "HttpStatus": 200,
+              "Size": 2304,
+              "URL": "https://www.wjx.cn/Js/designUserIdentity.js?v=3"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/png",
+              "DownloadTime": 32,
+              "EventId": 3568,
+              "HttpStatus": 200,
+              "Size": 34028,
+              "URL": "https://www.wjx.cn/images/stu/according-text.png"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/png",
+              "DownloadTime": 16,
+              "EventId": 3563,
+              "HttpStatus": 200,
+              "Size": 44375,
+              "URL": "https://www.wjx.cn/images/stu/transcript.png"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "text/css",
+              "DownloadTime": 62,
+              "EventId": 3561,
+              "HttpStatus": 200,
+              "Size": 7475,
+              "URL": "https://www.wjx.cn/css/designnew.css?v=470"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "text/css",
+              "DownloadTime": 62,
+              "EventId": 3558,
+              "HttpStatus": 200,
+              "Size": 11690,
+              "URL": "https://www.wjx.cn/css/NewDefault.css?v=12"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "text/css",
+              "DownloadTime": 31,
+              "EventId": 3548,
+              "HttpStatus": 200,
+              "Size": 4021,
+              "URL": "https://www.wjx.cn/css/q.css?v=829"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "text/html",
+              "DownloadTime": 78,
+              "EventId": 3538,
+              "HttpStatus": 200,
+              "Size": 14739,
+              "URL": "https://www.wjx.cn/mysojump/questionnairemng/designnew.aspx?version=7&openType=redesign&curid=40211802&nqt="
+            },
+            {
+              "CompressionType": "",
+              "DataType": "text/html",
+              "DownloadTime": 31,
+              "EventId": 3536,
+              "HttpStatus": 302,
+              "Size": 218,
+              "URL": "https://www.wjx.cn/newwjx/design/editquestionnaire.aspx?activity=40211802"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/png",
+              "DownloadTime": 78,
+              "EventId": 3530,
+              "HttpStatus": 200,
+              "Size": 1180,
+              "URL": "https://www.wjx.cn/Images/newimg/home.png"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/png",
+              "DownloadTime": 78,
+              "EventId": 3527,
+              "HttpStatus": 200,
+              "Size": 1473,
+              "URL": "https://www.wjx.cn/Images/newimg/service-gray.png"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/png",
+              "DownloadTime": 47,
+              "EventId": 3525,
+              "HttpStatus": 200,
+              "Size": 1265,
+              "URL": "https://www.wjx.cn/images/newimg/triangle.png"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/png",
+              "DownloadTime": 79,
+              "EventId": 3520,
+              "HttpStatus": 200,
+              "Size": 260,
+              "URL": "https://www.wjx.cn/Images/newimg/online-exam/guide.png"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/png",
+              "DownloadTime": 79,
+              "EventId": 3518,
+              "HttpStatus": 200,
+              "Size": 398,
+              "URL": "https://www.wjx.cn/Images/newimg/online-exam/prizes.png"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/png",
+              "DownloadTime": 78,
+              "EventId": 3516,
+              "HttpStatus": 200,
+              "Size": 1593,
+              "URL": "https://www.wjx.cn/Images/newimg/question-gray.png"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/png",
+              "DownloadTime": 31,
+              "EventId": 3513,
+              "HttpStatus": 200,
+              "Size": 1421,
+              "URL": "https://www.wjx.cn/Images/newimg/appearance.png"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/png",
+              "DownloadTime": 78,
+              "EventId": 3511,
+              "HttpStatus": 200,
+              "Size": 610,
+              "URL": "https://www.wjx.cn/Images/newimg/online-exam/set.png"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/png",
+              "DownloadTime": 78,
+              "EventId": 3509,
+              "HttpStatus": 200,
+              "Size": 1510,
+              "URL": "https://www.wjx.cn/Images/newimg/quality.png"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/png",
+              "DownloadTime": 62,
+              "EventId": 3507,
+              "HttpStatus": 200,
+              "Size": 383,
+              "URL": "https://www.wjx.cn/Images/newimg/online-exam/edit-pre.png"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/png",
+              "DownloadTime": 31,
+              "EventId": 3504,
+              "HttpStatus": 200,
+              "Size": 1474,
+              "URL": "https://www.wjx.cn/Images/newimg/online-exam/design-hover.png"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/png",
+              "DownloadTime": 32,
+              "EventId": 3501,
+              "HttpStatus": 200,
+              "Size": 1563,
+              "URL": "https://www.wjx.cn/Images/newimg/online-exam/recycling.png"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/png",
+              "DownloadTime": 32,
+              "EventId": 3498,
+              "HttpStatus": 200,
+              "Size": 1590,
+              "URL": "https://www.wjx.cn/Images/newimg/online-exam/analysis.png"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "text/css",
+              "DownloadTime": 16,
+              "EventId": 3481,
+              "HttpStatus": 200,
+              "Size": 921,
+              "URL": "https://www.wjx.cn/newwjx/css/altermode.css"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "text/css",
+              "DownloadTime": 31,
+              "EventId": 3463,
+              "HttpStatus": 200,
+              "Size": 11605,
+              "URL": "https://www.wjx.cn/newwjx/css/NewDefault.css?v=12"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "text/css",
+              "DownloadTime": 32,
+              "EventId": 3459,
+              "HttpStatus": 200,
+              "Size": 12011,
+              "URL": "https://www.wjx.cn/newwjx/css/wjxdesign360.css?v=16"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "text/html",
+              "DownloadTime": 63,
+              "EventId": 3450,
+              "HttpStatus": 200,
+              "Size": 9973,
+              "URL": "https://www.wjx.cn/newwjx/design/editquestionnaire.aspx?activity=40211802"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/png",
+              "DownloadTime": 62,
+              "EventId": 3445,
+              "HttpStatus": 200,
+              "Size": 1355,
+              "URL": "https://www.wjx.cn/images/newimg/pic-1/design-hover.png"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/png",
+              "DownloadTime": 62,
+              "EventId": 3442,
+              "HttpStatus": 200,
+              "Size": 1418,
+              "URL": "https://www.wjx.cn/images/newimg/pic-1/recovery-hover.png"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/png",
+              "DownloadTime": 125,
+              "EventId": 3437,
+              "HttpStatus": 200,
+              "Size": 1631,
+              "URL": "https://www.wjx.cn/Images/newimg/pic-1/WeChat1.png"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/png",
+              "DownloadTime": 125,
+              "EventId": 3435,
+              "HttpStatus": 200,
+              "Size": 1622,
+              "URL": "https://www.wjx.cn/Images/newimg/pic-1/question1.png"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/png",
+              "DownloadTime": 110,
+              "EventId": 3433,
+              "HttpStatus": 200,
+              "Size": 1194,
+              "URL": "https://www.wjx.cn/images/newimg/pic-1/copy-hover.png"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/png",
+              "DownloadTime": 63,
+              "EventId": 3399,
+              "HttpStatus": 200,
+              "Size": 1434,
+              "URL": "https://www.wjx.cn/images/newimg/pic-1/download-hover.png"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/png",
+              "DownloadTime": 62,
+              "EventId": 3397,
+              "HttpStatus": 200,
+              "Size": 282,
+              "URL": "https://www.wjx.cn/Images/newimg/last1-new@2x.png"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/png",
+              "DownloadTime": 62,
+              "EventId": 3395,
+              "HttpStatus": 200,
+              "Size": 252,
+              "URL": "https://www.wjx.cn/Images/newimg/next-new@2x.png"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/png",
+              "DownloadTime": 63,
+              "EventId": 3392,
+              "HttpStatus": 200,
+              "Size": 1227,
+              "URL": "https://www.wjx.cn/images/newimg/pic-1/remind.png"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/png",
+              "DownloadTime": 47,
+              "EventId": 3390,
+              "HttpStatus": 200,
+              "Size": 272,
+              "URL": "https://www.wjx.cn/Images/newimg/first-new@2x.png"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/png",
+              "DownloadTime": 63,
+              "EventId": 3387,
+              "HttpStatus": 200,
+              "Size": 1278,
+              "URL": "https://www.wjx.cn/images/newimg/pic-1/stop.png"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/png",
+              "DownloadTime": 16,
+              "EventId": 3385,
+              "HttpStatus": 200,
+              "Size": 254,
+              "URL": "https://www.wjx.cn/Images/newimg/previous1-new@2x.png"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/png",
+              "DownloadTime": 47,
+              "EventId": 3381,
+              "HttpStatus": 200,
+              "Size": 1149,
+              "URL": "https://www.wjx.cn/images/newimg/pic-1/folder.png"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/png",
+              "DownloadTime": 46,
+              "EventId": 3375,
+              "HttpStatus": 200,
+              "Size": 1180,
+              "URL": "https://www.wjx.cn/images/newimg/pic-1/delete.png"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/png",
+              "DownloadTime": 78,
+              "EventId": 3373,
+              "HttpStatus": 200,
+              "Size": 1308,
+              "URL": "https://www.wjx.cn/images/newimg/pic-1/release-hover.png"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/png",
+              "DownloadTime": 63,
+              "EventId": 3370,
+              "HttpStatus": 200,
+              "Size": 1197,
+              "URL": "https://www.wjx.cn/images/newimg/pic-1/delete-gray.png"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/png",
+              "DownloadTime": 78,
+              "EventId": 3368,
+              "HttpStatus": 200,
+              "Size": 1595,
+              "URL": "https://www.wjx.cn/images/newimg/pic-1/logo-small.png"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/png",
+              "DownloadTime": 15,
+              "EventId": 3365,
+              "HttpStatus": 200,
+              "Size": 1193,
+              "URL": "https://www.wjx.cn/images/newimg/pic-1/copy.png"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/png",
+              "DownloadTime": 62,
+              "EventId": 3363,
+              "HttpStatus": 200,
+              "Size": 1019,
+              "URL": "https://www.wjx.cn/images/newimg/pic-1/create_15.png"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/png",
+              "DownloadTime": 78,
+              "EventId": 3360,
+              "HttpStatus": 200,
+              "Size": 1334,
+              "URL": "https://www.wjx.cn/images/newimg/pic-1/search-gray.png"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/png",
+              "DownloadTime": 79,
+              "EventId": 3357,
+              "HttpStatus": 200,
+              "Size": 1491,
+              "URL": "https://www.wjx.cn/Images/newimg/pic-1/advice1.png"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/png",
+              "DownloadTime": 32,
+              "EventId": 3355,
+              "HttpStatus": 200,
+              "Size": 1419,
+              "URL": "https://www.wjx.cn/images/newimg/pic-1/recovery.png"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/png",
+              "DownloadTime": 16,
+              "EventId": 3352,
+              "HttpStatus": 200,
+              "Size": 1357,
+              "URL": "https://www.wjx.cn/images/newimg/pic-1/design.png"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/png",
+              "DownloadTime": 16,
+              "EventId": 3349,
+              "HttpStatus": 200,
+              "Size": 1423,
+              "URL": "https://www.wjx.cn/images/newimg/pic-1/download.png"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "text/css",
+              "DownloadTime": 31,
+              "EventId": 3342,
+              "HttpStatus": 200,
+              "Size": 2247,
+              "URL": "https://www.wjx.cn/newwjx/css/folder-set.css?v=3"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/png",
+              "DownloadTime": 63,
+              "EventId": 3339,
+              "HttpStatus": 200,
+              "Size": 1488,
+              "URL": "https://www.wjx.cn/Images/newimg/user.png"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/png",
+              "DownloadTime": 63,
+              "EventId": 3336,
+              "HttpStatus": 200,
+              "Size": 1230,
+              "URL": "https://www.wjx.cn/Images/newimg/news.png"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/png",
+              "DownloadTime": 16,
+              "EventId": 3330,
+              "HttpStatus": 200,
+              "Size": 1127,
+              "URL": "https://www.wjx.cn/Images/newimg/home24.png"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/png",
+              "DownloadTime": 32,
+              "EventId": 3327,
+              "HttpStatus": 200,
+              "Size": 5169,
+              "URL": "https://www.wjx.cn/images/newimg/index/mobieindexnew.png"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/png",
+              "DownloadTime": 32,
+              "EventId": 3321,
+              "HttpStatus": 200,
+              "Size": 1419,
+              "URL": "https://www.wjx.cn/Images/newimg/exit.png"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "text/css",
+              "DownloadTime": 31,
+              "EventId": 3316,
+              "HttpStatus": 200,
+              "Size": 2797,
+              "URL": "https://www.wjx.cn/layer/theme/default/layer.css?v=3.1.0"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "application/x-javascript",
+              "DownloadTime": 15,
+              "EventId": 3313,
+              "HttpStatus": 200,
+              "Size": 1178,
+              "URL": "https://www.wjx.cn/newwjx/js/selectpick.js?v=4"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "application/x-javascript",
+              "DownloadTime": 94,
+              "EventId": 3306,
+              "HttpStatus": 200,
+              "Size": 2414,
+              "URL": "https://www.wjx.cn/newwjx/js/myquestionnaires.js?v=470"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "application/x-javascript",
+              "DownloadTime": 31,
+              "EventId": 3297,
+              "HttpStatus": 200,
+              "Size": 10573,
+              "URL": "https://www.wjx.cn/layer/layer.js?v=8"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "text/css",
+              "DownloadTime": 16,
+              "EventId": 3292,
+              "HttpStatus": 200,
+              "Size": 1497,
+              "URL": "https://www.wjx.cn/newwjx/css/wjxmaster.css?v=4"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/png",
+              "DownloadTime": 78,
+              "EventId": 3271,
+              "HttpStatus": 200,
+              "Size": 1367,
+              "URL": "https://www.wjx.cn/Images/newimg/pic-1/service.png"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "application/x-javascript",
+              "DownloadTime": 16,
+              "EventId": 3262,
+              "HttpStatus": 200,
+              "Size": 11502,
+              "URL": "https://www.wjx.cn/newwjx/js/modernizr.js"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/png",
+              "DownloadTime": 31,
+              "EventId": 3252,
+              "HttpStatus": 200,
+              "Size": 1331,
+              "URL": "https://www.wjx.cn/Images/newimg/pic-1/advice.png"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/png",
+              "DownloadTime": 62,
+              "EventId": 3243,
+              "HttpStatus": 200,
+              "Size": 1531,
+              "URL": "https://www.wjx.cn/Images/newimg/pic-1/service1.png"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "text/css",
+              "DownloadTime": 32,
+              "EventId": 3204,
+              "HttpStatus": 200,
+              "Size": 6772,
+              "URL": "https://www.wjx.cn/wjxUI/src/wjxUI.css?v=5"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "text/css",
+              "DownloadTime": 47,
+              "EventId": 3202,
+              "HttpStatus": 200,
+              "Size": 7697,
+              "URL": "https://www.wjx.cn/newwjx/css/default.css?v=4"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "text/css",
+              "DownloadTime": 15,
+              "EventId": 3190,
+              "HttpStatus": 200,
+              "Size": 5197,
+              "URL": "https://www.wjx.cn/newwjx/css/myquestionnaires.css?v=470"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "text/html",
+              "DownloadTime": 62,
+              "EventId": 3184,
+              "HttpStatus": 200,
+              "Size": 18701,
+              "URL": "https://www.wjx.cn/newwjx/manage/myquestionnaires.aspx"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "text/html",
+              "DownloadTime": 109,
+              "EventId": 3182,
+              "HttpStatus": 302,
+              "Size": 153,
+              "URL": "https://www.wjx.cn/Login.aspx"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/x-icon",
+              "DownloadTime": 15,
+              "EventId": 3178,
+              "HttpStatus": 200,
+              "Size": 1150,
+              "URL": "https://www.wjx.cn/favicon.ico"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "application/x-javascript",
+              "DownloadTime": 47,
+              "EventId": 2857,
+              "HttpStatus": 200,
+              "Size": 2726,
+              "URL": "https://www.wjx.cn/js/zhezhao.js?v=3"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/png",
+              "DownloadTime": 32,
+              "EventId": 2853,
+              "HttpStatus": 200,
+              "Size": 4669,
+              "URL": "https://www.wjx.cn/images/register-login/logo.png"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "application/x-javascript",
+              "DownloadTime": 47,
+              "EventId": 2850,
+              "HttpStatus": 200,
+              "Size": 33514,
+              "URL": "https://www.wjx.cn/js/jquery-1.8.3.min.js"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "text/css",
+              "DownloadTime": 31,
+              "EventId": 2822,
+              "HttpStatus": 200,
+              "Size": 7617,
+              "URL": "https://www.wjx.cn/css/index.css?v=3"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "text/html",
+              "DownloadTime": 32,
+              "EventId": 2813,
+              "HttpStatus": 200,
+              "Size": 3479,
+              "URL": "https://www.wjx.cn/Login.aspx"
+            }
+          ],
+          "SSLCipher": "ECDHE-RSA-AES128-GCM-SHA256",
+          "SSLVersion": "TLS1.2"
+        }
+      ],
+      "IncludeInScript": true
+    },
+    {
+      "DomainName": "wjx.com",
+      "Domains": [
+        {
+          "HTTPVersion": "HTTP/1.1",
+          "IP": "222.22.29.100",
+          "IncludeInScript": true,
+          "Name": "image.wjx.com",
+          "Port": 443,
+          "Requests": [
+            {
+              "CompressionType": "",
+              "DataType": "image/jpeg",
+              "DownloadTime": 78,
+              "EventId": 3161,
+              "HttpStatus": 200,
+              "Size": 232287,
+              "URL": "https://image.wjx.com/images/newimg/register-login/bacg.jpg"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/png",
+              "DownloadTime": 63,
+              "EventId": 3159,
+              "HttpStatus": 200,
+              "Size": 1242,
+              "URL": "https://image.wjx.com/images/register-login/password.png"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/png",
+              "DownloadTime": 78,
+              "EventId": 3157,
+              "HttpStatus": 200,
+              "Size": 2225,
+              "URL": "https://image.wjx.com/images/register-login/weixin-nor.png"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/png",
+              "DownloadTime": 47,
+              "EventId": 3155,
+              "HttpStatus": 200,
+              "Size": 1913,
+              "URL": "https://image.wjx.com/images/register-login/qq.png"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/png",
+              "DownloadTime": 47,
+              "EventId": 3153,
+              "HttpStatus": 200,
+              "Size": 1319,
+              "URL": "https://image.wjx.com/images/register-login/user.png"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/png",
+              "DownloadTime": 47,
+              "EventId": 3151,
+              "HttpStatus": 200,
+              "Size": 2201,
+              "URL": "https://image.wjx.com/images/register-login/qiye-nor.png"
+            }
+          ],
+          "SSLCipher": "ECDHE-RSA-AES128-GCM-SHA256",
+          "SSLVersion": "TLS1.2"
+        }
+      ],
+      "IncludeInScript": true
+    },
+    {
+      "DomainName": "cnzz.com",
+      "Domains": [
+        {
+          "HTTPVersion": "HTTP/1.1",
+          "IP": "121.194.7.231",
+          "IncludeInScript": true,
+          "Name": "s6.cnzz.com",
+          "Port": 443,
+          "Requests": [
+            {
+              "CompressionType": "gzip",
+              "DataType": "application/javascript",
+              "DownloadTime": 187,
+              "EventId": 4005,
+              "HttpStatus": 200,
+              "Size": 4051,
+              "URL": "https://s6.cnzz.com/z_stat.php?id=4478442&web_id=4478442"
+            }
+          ],
+          "SSLCipher": "ECDHE-RSA-AES128-GCM-SHA256",
+          "SSLVersion": "TLS1.2"
+        },
+        {
+          "HTTPVersion": "HTTP/1.1",
+          "IP": "[2401:b180:2000:20::22]",
+          "IncludeInScript": true,
+          "Name": "gzs20.cnzz.com",
+          "Port": 443,
+          "Requests": [
+            {
+              "CompressionType": "gzip",
+              "DataType": "text/html",
+              "DownloadTime": 47,
+              "EventId": 4089,
+              "HttpStatus": 200,
+              "Size": 22,
+              "URL": "https://gzs20.cnzz.com/stat.htm?id=4478442&r=https%3A%2F%2Fwww.wjx.cn%2Fnewwjx%2Fdesign%2Feditquestionnaire.aspx%3Factivity%3D40211802&lg=zh-cn&ntime=1560561510&cnzz_eid=1591451856-1559572098-&showp=1536x864&p=https%3A%2F%2Fwww.wjx.cn%2Fmysojump%2Fquestionnairemng%2Fdesignnew.aspx%3Fversion%3D7%26openType%3Dredesign%26curid%3D40211802%26nqt%3D&t=%E8%AE%BE%E8%AE%A1%E9%97%AE%E5%8D%B7%20%EF%BC%8D%20%E4%B8%93%E4%B8%9A%E7%9A%84%E5%9C%A8%E7%BA%BF%E9%97%AE%E5%8D%B7%E8%B0%83%E6%9F%A5%E5%B9%B3%E5%8F%B0&umuuid=16b1dd9e27d89-0df50382fd90a6-293e1d4e-144000-16b1dd9e27e2f9&h=1&rnd=380222273"
+            }
+          ],
+          "SSLCipher": "ECDHE-RSA-AES128-GCM-SHA256",
+          "SSLVersion": "TLS1.2"
+        },
+        {
+          "HTTPVersion": "HTTP/1.1",
+          "IP": "[2401:b180:2000:20::22]",
+          "IncludeInScript": true,
+          "Name": "ei.cnzz.com",
+          "Port": 443,
+          "Requests": [
+            {
+              "CompressionType": "gzip",
+              "DataType": "text/html",
+              "DownloadTime": 47,
+              "EventId": 4176,
+              "HttpStatus": 200,
+              "Size": 22,
+              "URL": "https://ei.cnzz.com/stat.htm?id=4478442&r=https%3A%2F%2Fwww.wjx.cn%2Fnewwjx%2Fdesign%2Feditquestionnaire.aspx%3Factivity%3D40211802&lg=zh-cn&ntime=1560561510&cnzz_eid=1591451856-1559572098-&showp=1536x864&p=https%3A%2F%2Fwww.wjx.cn%2Fmysojump%2Fquestionnairemng%2Fdesignnew.aspx%3Fversion%3D7%26openType%3Dredesign%26curid%3D40211802%26nqt%3D&ei=%25E5%25B1%258F%25E5%25B9%2595%25E5%25AE%25BD%25E5%25BA%25A6%7Cw1536%7C%7C0%7C&t=%E8%AE%BE%E8%AE%A1%E9%97%AE%E5%8D%B7%20%EF%BC%8D%20%E4%B8%93%E4%B8%9A%E7%9A%84%E5%9C%A8%E7%BA%BF%E9%97%AE%E5%8D%B7%E8%B0%83%E6%9F%A5%E5%B9%B3%E5%8F%B0&umuuid=16b1dd9e27d89-0df50382fd90a6-293e1d4e-144000-16b1dd9e27e2f9&h=1&rnd=1181562370"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "text/html",
+              "DownloadTime": 46,
+              "EventId": 4154,
+              "HttpStatus": 200,
+              "Size": 22,
+              "URL": "https://ei.cnzz.com/stat.htm?id=4478442&r=https%3A%2F%2Fwww.wjx.cn%2Fnewwjx%2Fdesign%2Feditquestionnaire.aspx%3Factivity%3D40211802&lg=zh-cn&ntime=1560561510&cnzz_eid=1591451856-1559572098-&showp=1536x864&p=https%3A%2F%2Fwww.wjx.cn%2Fmysojump%2Fquestionnairemng%2Fdesignnew.aspx%3Fversion%3D7%26openType%3Dredesign%26curid%3D40211802%26nqt%3D&ei=%25E7%25BC%2596%25E8%25BE%2591%25E9%25A1%25B5%25E9%259D%25A2%7C%25E7%25BC%2596%25E8%25BE%2591%25E9%25A2%2598%25E7%259B%25AE%7C%25E7%25BC%2596%25E8%25BE%2591%25E6%258C%2589%25E9%2592%25AE%7C0%7C&t=%E8%AE%BE%E8%AE%A1%E9%97%AE%E5%8D%B7%20%EF%BC%8D%20%E4%B8%93%E4%B8%9A%E7%9A%84%E5%9C%A8%E7%BA%BF%E9%97%AE%E5%8D%B7%E8%B0%83%E6%9F%A5%E5%B9%B3%E5%8F%B0&umuuid=16b1dd9e27d89-0df50382fd90a6-293e1d4e-144000-16b1dd9e27e2f9&h=1&rnd=1067330947"
+            }
+          ],
+          "SSLCipher": "ECDHE-RSA-AES128-GCM-SHA256",
+          "SSLVersion": "TLS1.2"
+        },
+        {
+          "HTTPVersion": "HTTP/1.1",
+          "IP": "121.194.7.232",
+          "IncludeInScript": true,
+          "Name": "c.cnzz.com",
+          "Port": 443,
+          "Requests": [
+            {
+              "CompressionType": "gzip",
+              "DataType": "application/javascript",
+              "DownloadTime": 47,
+              "EventId": 4026,
+              "HttpStatus": 200,
+              "Size": 620,
+              "URL": "https://c.cnzz.com/core.php?web_id=4478442&t=z"
+            }
+          ],
+          "SSLCipher": "ECDHE-RSA-AES128-GCM-SHA256",
+          "SSLVersion": "TLS1.2"
+        }
+      ],
+      "IncludeInScript": true
+    },
+    {
+      "DomainName": "baidu.com",
+      "Domains": [
+        {
+          "HTTPVersion": "HTTP/1.1",
+          "IP": "202.108.23.152",
+          "IncludeInScript": true,
+          "Name": "hm.baidu.com",
+          "Port": 443,
+          "Requests": [
+            {
+              "CompressionType": "",
+              "DataType": "image/gif",
+              "DownloadTime": 31,
+              "EventId": 4220,
+              "HttpStatus": 200,
+              "Size": 43,
+              "URL": "https://hm.baidu.com/hm.gif?cc=1&ck=1&cl=24-bit&ds=1536x864&vl=745&ep=13172%2C13170&et=3&fl=32.0&ja=1&ln=zh-cn&lo=0&lt=1560566589&rnd=870269072&si=21be24c80829bd7a683b2c536fcf520b&su=https%3A%2F%2Fwww.wjx.cn%2Fnewwjx%2Fdesign%2Feditquestionnaire.aspx%3Factivity%3D40211802&v=1.2.51&lv=3&sn=47169"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/gif",
+              "DownloadTime": 125,
+              "EventId": 4119,
+              "HttpStatus": 200,
+              "Size": 43,
+              "URL": "https://hm.baidu.com/hm.gif?cc=1&ck=1&cl=24-bit&ds=1536x864&vl=745&et=0&fl=32.0&ja=1&ln=zh-cn&lo=0&lt=1560566589&rnd=1930911126&si=21be24c80829bd7a683b2c536fcf520b&su=https%3A%2F%2Fwww.wjx.cn%2Fnewwjx%2Fdesign%2Feditquestionnaire.aspx%3Factivity%3D40211802&v=1.2.51&lv=3&sn=47169&ct=!!&tt=%E8%AE%BE%E8%AE%A1%E9%97%AE%E5%8D%B7%20%EF%BC%8D%20%E4%B8%93%E4%B8%9A%E7%9A%84%E5%9C%A8%E7%BA%BF%E9%97%AE%E5%8D%B7%E8%B0%83%E6%9F%A5%E5%B9%B3%E5%8F%B0"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "application/javascript",
+              "DownloadTime": 46,
+              "EventId": 4103,
+              "HttpStatus": 200,
+              "Size": 11870,
+              "URL": "https://hm.baidu.com/hm.js?21be24c80829bd7a683b2c536fcf520b"
+            }
+          ],
+          "SSLCipher": "ECDHE-RSA-AES128-GCM-SHA256",
+          "SSLVersion": "TLS1.2"
+        }
+      ],
+      "IncludeInScript": true
+    },
+    {
+      "DomainName": "alicdn.com",
+      "Domains": [
+        {
+          "HTTPVersion": "HTTP/1.1",
+          "IP": "222.192.186.124",
+          "IncludeInScript": true,
+          "Name": "at.alicdn.com",
+          "Port": 443,
+          "Requests": [
+            {
+              "CompressionType": "",
+              "DataType": "application/octet-stream",
+              "DownloadTime": 62,
+              "EventId": 4076,
+              "HttpStatus": 200,
+              "Size": 14740,
+              "URL": "https://at.alicdn.com/t/font_1066834_87xmm2dp4hk.eot?"
+            }
+          ],
+          "SSLCipher": "ECDHE-RSA-AES128-GCM-SHA256",
+          "SSLVersion": "TLS1.2"
+        }
+      ],
+      "IncludeInScript": true
+    }
+  ],
+  "WebSocket": {
+    "IncludeInScript": false,
+    "IsScriptIncludeWebSocket": false
+  },
+  "NumberOfCorrelations": 1
+}

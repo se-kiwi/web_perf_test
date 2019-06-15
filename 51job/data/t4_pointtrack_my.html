@@ -1,0 +1,165 @@
+var trackPoints = {
+    'trackButtonClick': {
+        trackType: '1',
+        elementsStr: "[track-type='trackButtonClick']",
+        paramsRank: ["logCode", "webId", "version", "logTime", "ip", "guid", "domain", "pageCode", "eventType","traceName", "cusParam"],
+        params: {
+            logCode: "81",
+            webId: "2",
+            version: "1",
+            domain: 'i.51job.com',
+            traceName: ''
+        },
+        dealParamsBeforeEvent: function(params){
+            params['ip'] = trackConfig.ip;
+            params['guid'] = trackConfig.guid;
+            params['pageCode'] = $("#pageCode").val();
+            params['cusParam'] = "1" + String.fromCharCode(22) + trackConfig.accountid;
+            
+            return params;
+        },
+        dealParamsAfterEvent: function(params, e){
+            params['eventType'] = $(e).attr('event-type');
+            params['logTime'] = new Date().getTime() + d_system_client_time;
+            return params;
+        }
+    },
+    'trackButtonClickNew': {
+        trackType: '1',
+        elementsStr: "[track-type='trackButtonClickNew']",
+        paramsRank: ["VerType", "webId", "version", "logTime", "ip", "guid", "domain", "pageCode", "eventType","traceName", "cusParam"],
+        params: {
+            VerType: "81",
+            webId: "2",
+            version: "1",
+            domain: 'i.51job.com',
+            traceName: ''
+        },
+        dealParamsBeforeEvent: function(params){
+            params['ip'] = trackConfig.ip;
+            params['guid'] = trackConfig.guid;
+            params['pageCode'] = $("#pageCode").val();
+            
+            return params;
+        },
+        dealParamsAfterEvent: function(params, e){
+            params['eventType'] = $(e).attr('event-type');
+            params['logTime'] = new Date().getTime() + d_system_client_time;
+            switch($(e).attr('track-cusparamtype'))
+            {
+                case '1':
+                    params['cusParam'] = ["1", trackConfig.accountid, "51job_web", trackConfig.partner, typeof($(e).attr("track-resumeid")) == 'undefined' ? '' : $(e).attr("track-resumeid"), ''].join(String.fromCharCode(22));
+                    break;
+                case '2':
+                    params['cusParam'] = ["1", trackConfig.accountid].join(String.fromCharCode(22));
+                    break;
+                case '3':
+                    params['cusParam'] = ["1", trackConfig.accountid, $(e).html()].join(String.fromCharCode(22));
+                    break;
+                case '4':
+                    params['cusParam'] = ["1", trackConfig.accountid, $(e).attr('track-text')].join(String.fromCharCode(22));
+                    break;
+                case '99':
+                case '':
+                default:
+                    params['cusParam'] = ["1", trackConfig.accountid].join(String.fromCharCode(22));
+                    break;
+                
+            }
+            
+            return params;
+        }
+    },
+    'trackIndexClick': {
+        trackType: '1',
+        elementsStr: "[track-type='trackIndexClick']",
+        paramsRank: ["logCode", "webId", "version", "logTime", "ip", "guid", "domain", "pageCode", "eventType","traceName", "cusParam"],
+        params: {
+            logCode: "81",
+            webId: "2",
+            version: "1",
+            domain: 'i.51job.com',
+            traceName: ''
+        },
+        dealParamsBeforeEvent: function(params){
+            params['ip'] = trackConfig.ip;
+            params['guid'] = trackConfig.guid;
+            params['pageCode'] = '11203';//特殊点，必须记录在my51job下
+            params['cusParam'] = "1" + String.fromCharCode(22) + trackConfig.accountid;
+            
+            return params;
+        },
+        dealParamsAfterEvent: function(params, e){
+            params['eventType'] = $(e).attr('event-type');
+            params['logTime'] = new Date().getTime() + d_system_client_time;
+            return params;
+        }
+    },
+    'reBindTrackButtonClickNew': {
+        trackType: '4',
+        elementsStr: "[track-type='reBindTrackButtonClickNew']",
+        paramsRank: ["VerType", "webId", "version", "logTime", "ip", "guid", "domain", "pageCode", "eventType","traceName", "cusParam"],
+        params: {
+            VerType: "81",
+            webId: "2",
+            version: "1",
+            domain: 'i.51job.com',
+            traceName: ''
+        },
+        dealParamsBeforeEvent: function(params){
+            params['ip'] = trackConfig.ip;
+            params['guid'] = trackConfig.guid;
+            params['pageCode'] = $("#pageCode").length > 0 ? $("#pageCode").val() : '19999';
+            
+            return params;
+        },
+        dealParamsAfterEvent: function(params, e){
+            params['eventType'] = $(e).attr('event-type');
+            params['logTime'] = new Date().getTime() + d_system_client_time;
+            params['cusParam'] = ["1", trackConfig.accountid].join(String.fromCharCode(22));
+            return params;
+        }
+    },
+    'manualTrack': {
+        trackType: '3',
+        elementsStr: '',
+        paramsRank: ["logCode", "webId", "version", "logTime", "ip", "guid", "domain", "pageCode", "eventType","traceName", "cusParam"],
+        params: {
+            logCode: "81",
+            webId: "2",
+            version: "1",
+            domain: 'i.51job.com',
+            traceName: ''
+        },
+        dealParamsBeforeEvent: function(params){
+            params['logTime'] = new Date().getTime() + d_system_client_time;
+            params['ip'] = trackConfig.ip;
+            params['guid'] = trackConfig.guid;
+            params['pageCode'] = $("#pageCode").val();
+            params['cusParam'] = "1" + String.fromCharCode(22) + trackConfig.accountid;
+            
+            return params;
+        }
+    },
+    'manualTrackNew': {
+        trackType: '3',
+        elementsStr: '',
+        paramsRank: ["VerType", "webId", "version", "logTime", "ip", "guid", "domain", "pageCode", "eventType","traceName", "cusParam"],
+        params: {
+            VerType: "81",
+            webId: "2",
+            version: "1",
+            domain: 'i.51job.com',
+            traceName: ''
+        },
+        dealParamsBeforeEvent: function(params){
+            params['logTime'] = new Date().getTime() + d_system_client_time;
+            params['ip'] = trackConfig.ip;
+            params['guid'] = trackConfig.guid;
+            params['pageCode'] = $("#pageCode").val();
+            params['cusParam'] = "1" + String.fromCharCode(22) + trackConfig.accountid;
+            
+            return params;
+        }
+    }
+}

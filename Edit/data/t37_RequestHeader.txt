@@ -1,0 +1,15 @@
+POST /Login.aspx HTTP/1.1
+Host: www.wjx.cn
+Connection: keep-alive
+Content-Length: 454
+Cache-Control: max-age=0
+Origin: https://www.wjx.cn
+Upgrade-Insecure-Requests: 1
+Content-Type: application/x-www-form-urlencoded
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3729.169 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3
+Referer: https://www.wjx.cn/Login.aspx
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN,zh;q=0.9,en-US;q=0.8,en;q=0.7
+Cookie: acw_tc=2f624a3015603303326084250e1585def1065f42df4c082089aa40a594f1ba; .ASPXANONYMOUS=BYcG1I9X1QEkAAAAZjJlZWE4ZWQtZmQ0Yi00M2QzLWE5ZDAtM2M4ZTkwNjY2Y2M5Mf6gkeCq5SzAcq9qziSaG2dKiBo1
+

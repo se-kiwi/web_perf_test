@@ -1,0 +1,1836 @@
+
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head id="ctl02_Head1"><title>
+	NPS报告
+</title><meta http-equiv="content-type" content="text/html; charset=UTF-8" /><meta http-equiv="X-UA-Compatible" content="IE=EmulateIE10" /><meta name="renderer" content="webkit|ie-comp|ie-stand" /><meta id="ctl02_keywords" name="keywords" content="问卷星" /><link rel="stylesheet" type="text/css" href="/newwjx/css/default.css?v=4" /><link rel="Stylesheet" type="text/css" href="/newwjx/css/NewDefault.css?v=12" /><link rel="Stylesheet" type="text/css" href="/newwjx/css/wjxdesign360.css?v=16" /><link href="/wjxUI/src/wjxUI.css?v=5" rel="stylesheet" />
+    <style>
+        .selSendTypeBox {
+            position: absolute;
+            top: 20px;
+            left: 480px;
+            display: flex;
+            align-items: center;
+            color: #333333;
+            font-size: 14px;
+        }
+
+        .selectpick-div {
+            background: #fff;
+        }
+    </style>
+   
+    <script type="text/javascript" src="/js/jquery-1.8.3.min.js"></script>
+    <script src="/layer/layer.js?v=8"></script>
+    <script src="/newwjx/js/modernizr.js" type="text/javascript"></script>
+    <script type="text/javascript">
+        var _$ = jQuery.noConflict();
+    </script>
+    <script src="/newwjx/js/selectpick.js?v=4" type="text/javascript"></script>
+
+</head>
+<body class="fp-viewing">
+    <div class="main-container">
+        <div class="nav-bar aside size30x30" id="leftlabel">
+            <div class="ui-sidebar">
+                <a href="/newwjx/manage/myquestionnaires.aspx?randomt=1560330399" class="return-wrapper">
+                    <em class="icon return-icon"></em>
+                    <div class="tips">
+                        <div class="caret-top"></div>
+                        返回我的问卷
+                    </div>
+                </a>
+                <a class="nav-items" href="/wjx/design/designstart.aspx?activity=40211802">
+                    <div class="items-box">
+                        <i class="icon testDesign-icon"></i>
+                    </div>
+                    <br />
+                    <span class="items-name">设计问卷</span>
+                    <em class="caret-left"></em>
+                </a>
+                <a class="nav-items" href="/newwjx/design/sendqstart.aspx?activityid=40211802">
+                    <div class="items-box">
+                        <i class="icon issusPapers-icon"></i>
+                    </div>
+                    <br />
+                    <span class="items-name">发送问卷</span>
+                    <em class="caret-left"></em>
+                </a>
+                <a class="nav-items" href="/wjx/activitystat/viewnps.aspx?activityid=40211802">
+                    <div class="items-box">
+                        <i class="icon resultsData-icon"></i>
+                    </div>
+                    <br />
+                    <span class="items-name">分析&下载</span>
+                    <em class="caret-left"></em>
+                </a>
+            </div>
+            <div id="ctl02_divKeFu" class="ui-sidebottom">
+                <ul>
+                    <li><a href="javascript:void(0)">
+                        <div class="icon-box">
+                            <i class="icon kefu-icon"></i>
+                            <div>客服中心</div>
+                        </div>
+                    </a>
+                        <div class="service-box">
+                            <div id="ctl02_divService" class="BS-con"><a href='javascript: void(0);' onclick='PDF_launch("/wjx/manage/onlinesupport.aspx", 620, 400); '  class='btn btn-default btn-sm btn-sm-apply '>申请协助</a><div class='freepromotetxt' style='margin-top:8px;'><b>提示：</b>升级到企业版可享受在线咨询及电话支持，<a href=' /register/upgradevip.aspx?upgradeReason=17'  class='titlelnk'>了解详情</a></span></div>
+                            
+                            
+                        </div>
+                    </li>
+                    <li alt="帮助中心">
+                        <a href="/help/help.aspx" title="帮助中心" target="_blank">
+                            <div class="icon-box">
+                                <i class="icon help-icon"></i>
+                                <div>
+                                    帮助中心
+                                </div>
+                            </div>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="inside-wrapper">
+            <div class="inside-head clearfix" style="">
+                <div class="activity-box pull-left">
+                    <span id="ctl02_spanActivity" style="display: none"><select  id='ddlActivitynew' style=''><option value='40211802' selected='selected'>当代大学生脱发情况调查132(ID:40211802)</option><option value='40211783'>当代大学生脱发情况调查726(ID:40211783)</option><option value='40213117'>当代大学生脱发情况调查296(ID:40213117)</option><option value='40213165'>当代大学生脱发情况调查1(ID:40213165)</option><option value='40088973'>当代大学生脱发情况调查206(ID:40088973)</option><option value='40090042'>当代大学生脱发情况调查56(ID:40090042)</option><option value='40089675'>当代大学生脱发情况调查191(ID:40089675)</option><option value='40091027'>当代大学生脱发情况调查515(ID:40091027)</option><option value='40076921'>当代大学生脱发情况调查81(ID:40076921)</option><option value='40078371'>当代大学生脱发情况调查190(ID:40078371)</option><option value='40079780'>当代大学生脱发情况调查306(ID:40079780)</option><option value='40067929'>当代大学生脱发情况调查414(ID:40067929)</option><option value='40032197'>当代大学生脱发情况调查908(ID:40032197)</option><option value='40023865'>大学生手机使用频率调查(ID:40023865)</option></select></span>
+
+                </div>
+                <a href="/wjx/design/previewmobile.aspx?activity=40211802&s=1" id="ctl02_hrefView" target="_blank" class="btnnew btn-default btn-lg btn-nobg view-btn">预览问卷</a>
+
+                <div class="nav-show clearfix" id="toplabel">
+                    <div class="nav-box clearfix" style="display: none">
+                        <a class="nav-items pull-left" href="/wjx/design/designstart.aspx?activity=40211802">
+                            <label class="icon ksdesignGuide-icon"></label>
+                            <br />
+                            <span>设计向导</span>
+                        </a>
+                        <a class="nav-items pull-left" href="/newwjx/design/editquestionnaire.aspx?activity=40211802">
+                            <label class="icon ksedit-icon"></label>
+                            <br />
+                            <span>编辑问卷</span>
+                        </a>
+                        <a class="nav-items pull-left" href="/wjx/design/questionnairesettings.aspx?activity=40211802">
+                            <label class="icon kssetting-icon"></label>
+                            <br />
+                            <span>问卷设置</span>
+                        </a>
+                        <a class="nav-items pull-left" href="/newwjx/join/jqnew.aspx?q=40211802&wg=1&t=636959559987792499">
+                            <label class="icon surface-icon"></label>
+                            <br />
+                            <span>问卷外观</span>
+                        </a>
+                        <a class="nav-items pull-left" href="/wjx/design/sethbaward.aspx?activity=40211802">
+                            <label class="icon kshongbao-icon"></label>
+                            <br />
+                            <span>红包&奖品</span>
+                        </a>
+                        <a class='nav-items pull-left' href='/wjx/rule/addrule.aspx?activity=40211802'>
+                            <label class="icon quality-icon"></label>
+                            <br />
+                            <span>质量控制</span>
+                        </a>
+                    </div>
+                    <div class="nav-box clearfix" style="display: none">
+                        <a class="nav-items pull-left" href="/newwjx/design/sendqstart.aspx?activity=40211802">
+                            <label class=" icon linkCode-icon"></label>
+                            <br />
+                            <span>链接与二维码</span>
+                        </a>
+                        <a class="nav-items pull-left" href="/wjx/promote/urlemed.aspx?activityid=40211802" style="display: none">
+                            <label class="icon CustomVariables-icon"></label>
+                            <br />
+                            <span>自定义参数</span>
+                        </a>
+                        <a class="nav-items pull-left" href="/wjx/promote/sendweixin.aspx?activityid=40211802">
+                            <label class="icon wechat-icon"></label>
+                            <br />
+                            <span>微信发送</span>
+                        </a>
+                        
+
+                        
+                        <a href="javascript:void(0)" id="ctl02_divEmailSms" class="nav-items pull-left">
+                            <label class="icon email-icon"></label>
+                            <br />
+                            <span>邮件&短信</span>
+                            <ul class="nav-ul" id="EmailSms">
+                                <li value="1">邮件发送</li>
+                                <li value="2">短信发送</li>
+                            </ul>
+                        </a>
+                        <a href="/sample/demand.aspx?activityid=40211802&lst=1&npub=1" id="ctl02_divsampleId" class="nav-items pull-left" target="_blank">
+                            <label class="icon sanpleinf-icon"></label>
+                            <br />
+                            <span>样本服务</span>
+                        </a>
+                        <a href="/wjx/promote/joinbacklist.aspx?activity=40211802" id="ctl02_divjoin" class="nav-items pull-left">
+                            <label class="icon join-icon"></label>
+                            <br />
+                            <span>互填问卷</span>
+                        </a>
+                        <a href="/wjx/promote/promoteapply.aspx?activity=40211802" id="ctl02_divpromote" class="nav-items pull-left">
+                            <label class="icon promote-icon"></label>
+                            <br />
+                            <span>申请推荐</span>
+                        </a>
+                    </div>
+                    <div class="nav-box clearfix" style="display: none">
+                        
+                        <a class="nav-items pull-left" href="/wjx/activitystat/viewnps.aspx?activityid=40211802">
+                            <label class="icon Answer0-icon"></label>
+                            <br />
+                            <span>NPS报告</span>
+                        </a>
+                        
+                        <a class="nav-items pull-left" href="/report/40211802.aspx">
+                            <label class="icon Answer2-icon"></label>
+                            <br />
+                            <span>统计&分析</span>
+                        </a>
+                        <a class="nav-items pull-left" href="/wjx/activitystat/viewstatsummary.aspx?activity=40211802">
+                            <label class="icon Answer1-icon"></label>
+                            <br />
+                            <span>查看下载答卷</span>
+                        </a>
+                       
+                        <a class="nav-items pull-left" href="/wjx/activitystat/viewurl.aspx?activity=40211802">
+                            <label class="icon Answer3-icon"></label>
+                            <br />
+                            <span>答案来源分析</span>
+                        </a>
+
+                        <a class="nav-items pull-left" href="/wjx/activitystat/visiturl.aspx?activity=40211802" style="">
+                            <label class="icon Answer4-icon"></label>
+                            <br />
+                            <span>完成率分析</span>
+                        </a>
+                    </div>
+                    <div class="nav-box">
+                         <a class="nav-items pull-left " href="/newwjx/design/sendqstart.aspx?activityid=40211802">
+                            <label class="icon defauleWx-icon"></label><br />
+                            <span>默认方式</span>
+                        </a>
+                        <a id="ctl02_hrefLink" class="nav-items pull-left">
+                            <label class=" icon linkCode-icon"></label>
+                            <br />
+                            <span>链接与二维码</span>
+                        </a>
+                    </div>
+                </div>
+                <a href="/wjx/design/previewmobile.aspx?activity=40211802&s=1" id="ctl02_hrefViewnew" target="_blank" class="btnnew btn-default btn-lg btn-nobg view-btn-mini help-btn">预览问卷</a>
+            </div>
+            
+               <script type="text/javascript">
+                   _$(".ui-sidebottom li").hover(function () {
+                       _$(this).find("div.service-box").eq(0).css("display", "block");
+                   }, function () {
+                       _$(this).find("div.service-box").eq(0).css("display", "none");
+                   })
+                   var  outlabel=2;
+                   var innerlabel="NPS报告";
+                   var vstat=0;
+                   var $topoutlabel=_$("#toplabel div.nav-box")
+                   var $leftoutlabel=_$("#leftlabel a.nav-items")
+                   var $leftoutul=_$("#leftlabel dd.sub-item")
+                   //var $leftoutul=_$("#leftlabel dd")
+                   var $leftoutli=_$("#leftlabel dd.sub-item").eq(outlabel).find("a");
+
+                _$(".selSendType option:contains('" + innerlabel + "')").attr("selected", "selected");
+
+                for (var i = 0; i < $topoutlabel.length; i++) {
+                    $topoutlabel.eq(i).css("display", "none");
+                }
+                $topoutlabel.eq(outlabel).css("display", "");
+                var $topinnerlabel = $topoutlabel.eq(outlabel).find("span");
+                var $topinnera = $topoutlabel.eq(outlabel).find("a");
+                for (var i = 0; i < $topinnerlabel.length; i++) {
+                    if ($topinnerlabel.eq(i).text() == innerlabel) {
+                        $topinnera.eq(i).addClass("clicked");
+                    }
+                    else if (vstat == 1) {
+                        $topinnera.eq(i).hide();
+                    }
+                }
+                for (var i = 0; i < $leftoutli.length; i++) {
+                    if ($leftoutli.eq(i).text() == innerlabel) {
+                        $leftoutli.eq(i).addClass("current");
+                    }
+                }
+                if (outlabel == 3) {
+                    outlabel = 1;
+                }
+
+                $leftoutlabel.eq(outlabel).addClass("clicked");
+                $leftoutul.eq(outlabel).css("display", "block");
+                $overall_report = _$(".overall__report"),
+                    $overall_report_pageDec = $overall_report.find(".overall__report-pageDec");
+                if (ISIE(8) || ISIE(7) || ISIE(6)) {
+                    $overall_report_pageDec.children(".items:nth-child(5n + 1)").css({
+                        "margin-left": 0
+                    });
+                }
+                /*** 内部 选择问卷的select美化按钮 在1024,1366,1600分辨率下的宽度*/
+                var activity_box,
+                    wind_width_obj,
+                    window_width;
+                _$("body").scrollTop(10);
+                if (_$("body").scrollTop() > 0) {
+                    window_width = _$(window).width() + 17;//获得屏幕分辨率
+                }
+                else {
+                    window_width = _$(window).width();
+                }
+                _$("body").scrollTop(0);
+                // console.log(window_width)
+                if (ISIE(7)) {
+                    activity_box = 140;
+                }
+                else {
+                    if (window_width >= 1600) {
+                        activity_box = 300;
+                    } else if (window_width < 1600 && window_width >= 1349) {
+                        activity_box = 200;
+                    } else {
+                        activity_box = 140;
+                    }
+
+                }
+                wind_width_obj = {
+                    container: ".activity-box",
+                    width: activity_box,
+                    height: 30,
+                    disabled: false,
+                    flags: true,
+                    freeWidth: true,
+                    MaxfreeWidth: 600
+                };
+
+                   _$("#ddlActivitynew").selectpick(wind_width_obj);
+                   var reportId = '';
+                   _$("#ddlActivitynew").change(function()
+                   {
+                       var activity = _$(this).val();
+                       if (activity) {
+                           var loc = window.location.href.toLowerCase();
+                           loc = loc.replace(/activity=(\d+)/gi, "activity=" + activity + "");
+                           loc = loc.replace(/activityid=(\d+)/gi, "activityid=" + activity + "");
+                           loc = loc.replace(/\/(\d+)\.aspx/gi, "\/" + activity + "\.aspx");
+                           loc = loc.replace(/\/(\d+),/gi, "\/" + activity + ",");
+                              
+                           if (reportId) {
+                               loc = loc.replace(/reportid=(\d+)/g, "");
+                               loc = loc.replace(/,(\d+)/g, "");
+                           }
+                           if (loc.indexOf("viewregnew.aspx") > -1||loc.indexOf("viewregnew2.aspx") > -1)
+                               loc = "/report/" + activity + ".aspx";
+                           if (loc.indexOf("setcepingreport.aspx") > -1)
+                               loc = "/wjx/activitystat/setcepingreport.aspx?activity=" + activity;
+                           window.location = loc;
+                       }
+                   })
+                   var divEmailSms=document.getElementById("ctl02_divEmailSms");
+                   if(divEmailSms)
+                   {
+                       var lis=_$("#ctl02_divEmailSms li");
+                       lis .bind("click",function(){
+                           var val=_$(this).attr("value");
+                           var msg="邮件发送功能只对企业版用户提供，您是免费版用户，请升级到企业版！";
+                           var loc="/register/upgradevip.aspx?upgradeReason=27";
+                           if(val=="2")
+                           {
+                               msg="短信发送功能只对企业版用户提供，您是免费版用户，请升级到企业版！";
+                               loc="/register/upgradevip.aspx?upgradeReason=28";
+                           }
+                           layer.alert(msg, { btn: '知道了', title: '提示'  }, function () {
+                               location.href = loc;
+                           })
+                       })
+                   }
+                   function processQywx(){
+                       var cc=confirmnew("此问卷设置了只允许钉钉用户参与，是否取消该限制？",function(){
+                           var url = 0 ? "/mobile/qywx/qywxlimit.ashx?activity=40211802" : "/mobile/dingding/dingdinglimit.ashx?activity=40211802";
+                           _$.get(url,function(){
+                               window.location.href= "/newwjx/design/sendqstart.aspx?activity=40211802";
+                           });
+                       });
+                   }
+
+
+               </script>
+               <div class="inside-main">
+                    
+                <div class="inside-box">
+                    <div class="box-items">
+
+                        <div style="clear: both"></div>
+                        <div class="step__evaluate article" style="text-align: left">
+                            <style>
+                                .SET-Guide {
+                                    width: 740px !important;
+                                }
+
+                                .SET-Expansion h2 {
+                                    font-size: 12px;
+                                }
+                            </style>
+                            
+    <link rel="stylesheet" href="/css/single-item-count.css?v=4" type="text/css">
+    <style>
+        #container {
+            width: 990px;
+            background: #fff;
+        }
+
+        * {
+            -webkit-box-sizing: border-box;
+            -moz-box-sizing: border-box;
+            box-sizing: border-box;
+        }
+
+        .cross-container {
+            text-align: left;
+            margin: 30px 0 20px;
+        }
+        .nps_wrap {
+            position: relative;
+            padding-top: 30px;
+            width: 766px;
+            margin: 0 auto;
+        }
+        .btn_control {
+            display: inline-block;
+            padding: 8px;
+            line-height: 34px;
+            border: 1px solid #CDCDCD;
+        }
+        .btn_control:hover {
+            background: #f3f4f5;
+        }
+        .downBtn {
+            display: block;
+            font-size: 14px;
+            color: #FFFFFF !important;
+            background-color: #1ea0fa;
+            border-radius: 4px;
+            text-align: center;
+            float: right;
+            width: 50px;
+            height: 50px;
+            line-height: 50px;
+        }
+
+        .downBtn:hover {
+            background-color: #0987db;
+            color: #fff !important;
+        }
+
+        .select_zone span {
+            margin-right: 6px;
+        }
+
+        #selectContainer select {
+            margin-right: 10px;
+            width: 112px;
+            height: 26px;
+            background: #FFFFFF;
+            border-radius: 2px;
+            border: 1px solid #D6D6D6;
+            font-size: 12px;
+            color: #343434;
+            outline: none;
+        }
+
+        .chartBox {
+            margin-top: 20px;
+            overflow: hidden;
+            background: #fff;
+        }
+
+        .chartBoxItem {
+            width: 378px;
+            height: 120px;
+            background: #fff;
+            border-radius: 4px;
+            border: 1px solid #E1E7F2;
+            float: left;
+            overflow: hidden;
+        }
+
+        .tit_score {
+            float: left;
+            margin: 24px 20px 0 30px;
+        }
+
+        .tit_score dt {
+            font-size: 18px;
+            color: #666666;
+            margin-bottom: 6px;
+        }
+
+        .tit_score dd {
+            font-size: 32px;
+            color: #333333;
+            font-weight: 600;
+        }
+
+        .rightChart {
+            float: right;
+        }
+
+        .leftChart img {
+            display: block;
+            width: 76px;
+            height: 76px;
+            float: right;
+            margin: 23px 30px 0 0;
+        }
+
+        #scoreChart {
+            width: 120px;
+            height: 120px;
+            float: right;
+        }
+
+        .chartBox {
+            margin-bottom: 20px;
+        }
+
+        #selectContainerCustom select {
+            margin-right: 10px;
+        }
+
+        .h1Title {
+            font-size: 28px;
+            font-weight: 600;
+            text-align: center;
+            color: #000;
+            margin-bottom: 20px;
+        }
+        .shareDown {
+            display: none;
+            margin-left:500px;
+        }
+        .sic_wrap {
+            overflow: visible;
+        }
+    </style>
+    <script type="text/javascript" src="https://staticfile.qnssl.com/jquery/1.8.3/jquery.min.js"></script>
+    <script type="text/javascript">
+        !window.jQuery && document.write('<script src="/js/jquery-1.8.3.min.js"><\/script>');
+    </script>
+    
+
+
+    <div id="ctl02_ContentPlaceHolder1_divViewStat" class="sic_wrap" style="padding-bottom: 40px;">
+        <input name="ctl02$ContentPlaceHolder1$hdBaseData" type="hidden" id="hdBaseData" value="{&quot;QIndex&quot;:60000,&quot;IsShare&quot;:false,&quot;NpsOptions&quot;:[{&quot;Value&quot;:60000,&quot;Name&quot;:&quot;6.您向朋友或同事推荐我们的可能性有多大？&quot;,&quot;Type&quot;:2}],&quot;QuestionOptions&quot;:[{&quot;Value&quot;:20000,&quot;Name&quot;:&quot;2.new title&quot;,&quot;Type&quot;:0},{&quot;Value&quot;:40000,&quot;Name&quot;:&quot;4.标题&quot;,&quot;Type&quot;:0}]}" />
+        <input name="ctl02$ContentPlaceHolder1$hdNpsData" type="hidden" id="hdNpsData" value="{&quot;NpsView&quot;:{&quot;Nps&quot;:0.0,&quot;ThreeLevelScores&quot;:[50.0,0.0,50.0],&quot;Average&quot;:5.5,&quot;JoinTimes&quot;:2}}" />
+        <input name="ctl02$ContentPlaceHolder1$hdProvinceData" type="hidden" id="hdProvinceData" value="{&quot;Items&quot;:[{&quot;Key&quot;:&quot;上海&quot;,&quot;Name&quot;:&quot;上海&quot;,&quot;Nps&quot;:0.0,&quot;Average&quot;:5.5,&quot;Total&quot;:2}]}" />
+        <form name="aspnetForm" method="post" action="viewnps.aspx?activity=40211802" id="aspnetForm">
+<div>
+<input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="/wEPDwUKMTE0NTA4NDEwMmRkZ9dBLuKoPe0Q65Z52ontep2+01c=" />
+</div>
+
+<div>
+
+	<input type="hidden" name="__VIEWSTATEGENERATOR" id="__VIEWSTATEGENERATOR" value="7A335D16" />
+	<input type="hidden" name="__EVENTVALIDATION" id="__EVENTVALIDATION" value="/wEdAAQheSIsqyZY3oF8rGZtJdIZCLTBS+mV/J0L2VfLnhEk085+M8qS4hkojvYI+PJKJOi7YplJGMMzlp9rgN3lbCwcNYD4sfqVDwLdXjTFsvWlIyYT14M=" />
+</div>
+            <div id="divSumData" style="padding: 0;">
+                <div id="reportContainer">
+                    <div class="nps_wrap">
+                        <h1 class="h1Title">当代大学生脱发情况调查132</h1>
+                        <div class="wjxui-btn-rightsideGroup shareDown" style="display: none;">
+			                <a id="btnShare" href="javascript:shareNpsPage();" class="wjxui-btn" onmouseenter="layer.tips('分享此报告', this)">
+			                <i class="wjx_iconfont" >&#xe64c;</i>
+                                <p>分享</p>
+			                </a>
+			                <a href = 'javascript:GenerateReport();' class="wjxui-btn" onmouseenter="layer.tips('下载此报告', this)">
+			                <i class="wjx_iconfont">&#xe650;</i>
+                                <p>报告</p>
+			                </a>
+		                </div>
+                        
+                        <div id="yQuestionContainer" style="display: none;">
+                            <b>分析题目：</b>
+                            <select id="selectYQuestion">
+                            </select>
+                            <span id="selectYQuestionOne" style="display: none;"></span>
+                        </div>
+                        <div class="chartBox ">
+                            <div class="chartBoxItem leftChart">
+                                <dl class="tit_score">
+                                    <dt>答卷数</dt>
+                                    <dd id="lbJoinTimes"></dd>
+
+                                </dl>
+                                <img src="/Images/newimg/answer.png" alt="" />
+                            </div>
+                            <div class="chartBoxItem rightChart">
+                                <dl class="tit_score">
+                                    <dt>平均分</dt>
+                                    <dd id="lbAverage"></dd>
+                                </dl>
+                                <div id="scoreChart">
+                                </div>
+                            </div>
+                        </div>
+
+                        <div style="overflow: hidden">
+                            <div style="float: left; width: 378px; margin-right: 10px;">
+                                <div id="chartDiv2" style="border: #E6E6E6 1px solid; height: 264px; border-radius: 2px;">
+                                </div>
+                            </div>
+                            <div style="float: right; width: 378px; border: #E6E6E6 1px solid; height: 264px; border-radius: 2px;">
+                                <div id="chartDiv1" style="width: 370px; height: 256px; margin-top: 6px">
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="cross-container">
+                            <div style="text-align: left; margin: 10px 0; font-size: 15px; color: #343434;">
+                                <b>地区分布</b>
+                            </div>
+                            <div id="selectContainerArea">
+                                <select id="selectXQuestionArea">
+                                    <option value="-1">来源省份</option>
+                                    <option value="-2">来源城市</option>
+                                </select>
+                            </div>
+                            <div class="radiu-box" style="margin-top: 10px;">
+                                <table class="the-table" id="resultDataTableArea" cellspacing="0" cellpadding="3" border="0" style="background-color: #e0e0e0; width: 100%; border-collapse: collapse;">
+                                    <tbody>
+                                    </tbody>
+                                </table>
+                            </div>
+                        </div>
+                        <div style="clear: both;"></div>
+
+                        <div id="divChartArea" class="sic_wrap" style="margin: 20px 0px; width: 100%; border-radius: 0px;">
+                            <div class="divResultCss" id="divResultCssArea" style="margin-bottom: 16px;">
+                                <ul style="float: right">
+                                    <li class="liSelect" index="2"><a href="javascript:void(0);" class="zhutu">柱状图</a></li>
+                                    <li index="3"><a href="javascript:void(0);" class="zhexian">折线图</a></li>
+                                    <li index="4"><a href="javascript:void(0);" class="tiao">条形图</a></li>
+                                </ul>
+                            </div>
+                            <div id="chartDivArea" style="height: 360px; width: 560px; margin: 0 auto; display: none">
+                            </div>
+                            <div style="clear: both;"></div>
+                        </div>
+
+                        <div class="cross-container">
+                            <div style="text-align: left; margin: 10px 0; font-size: 15px; color: #343434;">
+                                <b>时间分布</b>
+                            </div>
+                            <div id="selectContainerTime">
+                                <select id="selectXQuestionTime">
+                                    <option value="-3">提交时间（天）</option>
+                                    <option value="-4">提交时间（周）</option>
+                                    <option value="-5">提交时间（月）</option>
+                                </select>
+                            </div>
+                            <div class="radiu-box" style="margin-top: 10px;">
+                                <table class="the-table" id="resultDataTableTime" cellspacing="0" cellpadding="3" border="0" style="background-color: #e0e0e0; width: 100%; border-collapse: collapse;">
+                                    <tbody>
+                                    </tbody>
+                                </table>
+                            </div>
+                        </div>
+                        <div style="clear: both;"></div>
+
+                        <div id="divChartTime" class="sic_wrap" style="margin: 20px 0px; width: 100%; border-radius: 0px;">
+                            <div class="divResultCss" id="divResultCssTime" style="margin-bottom: 16px;">
+                                <ul style="float: right">
+                                    <li class="liSelect" index="2"><a href="javascript:void(0);" class="zhutu">柱状图</a></li>
+                                    <li index="3"><a href="javascript:void(0);" class="zhexian">折线图</a></li>
+                                    <li index="4"><a href="javascript:void(0);" class="tiao">条形图</a></li>
+                                </ul>
+                            </div>
+                            <div id="chartDivTime" style="height: 360px; width: 560px; margin: 0 auto; display: none">
+                            </div>
+                            <div style="clear: both;"></div>
+                        </div>
+
+                        <div id="divContainerCustom" class="cross-container">
+                            <div style="text-align: left; margin: 10px 0; font-size: 15px; color: #343434;">
+                                <b>自定义分布</b>
+                            </div>
+                            <div id="selectContainerCustom">
+                                <select id="selectXQuestionCustom">
+                                </select>
+                            </div>
+                            <div class="radiu-box" style="margin-top: 10px;">
+                                <table class="the-table" id="resultDataTableCustom" cellspacing="0" cellpadding="3" border="0" style="background-color: #e0e0e0; width: 100%; border-collapse: collapse;">
+                                    <tbody>
+                                    </tbody>
+                                </table>
+                            </div>
+                        </div>
+                        <div style="clear: both;"></div>
+
+                        <div id="divChartCustom" class="sic_wrap" style="margin: 20px 0px; width: 100%; border-radius: 0px;">
+                            <div class="divResultCss" id="divResultCssCustom" style="margin-bottom: 16px;">
+                                <ul style="float: right">
+                                    <li class="liSelect" index="2"><a href="javascript:void(0);" class="zhutu">柱状图</a></li>
+                                    <li index="3"><a href="javascript:void(0);" class="zhexian">折线图</a></li>
+                                    <li index="4"><a href="javascript:void(0);" class="tiao">条形图</a></li>
+                                </ul>
+                            </div>
+                            <div id="chartDivCustom" style="height: 360px; width: 560px; margin: 0 auto; display: none">
+                            </div>
+                            <div style="clear: both;"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </form>
+    </div>
+    <script type="text/javascript" src="//image.wjx.com/js/highchartsall.js?v=467"></script>
+    <script type="text/javascript">
+        String.prototype.startWith = function (str) {
+            if (str == null || str.length > this.length)
+                return false;
+            if (str == "") return true;
+            if (this.substr(0, str.length) == str)
+                return true;
+            return false;
+        }
+
+        function myGaugeChart(containerId, min, max, step, text, name, data) {
+            var a = new Array();
+            a.push(data);
+            var chart = new Highcharts.Chart({
+                chart: {
+                    renderTo: containerId,
+                    type: "gauge",
+                    plotBorderWidth: 0,
+                    plotBackgroundColor: "#ffffff",
+                    plotBackgroundImage: null,
+                    width: 376,
+                    height: 262
+                },
+                exporting: {
+                    enabled: false
+                },
+                credits: {
+                    enabled: false
+                },
+                title: {
+                    text: name,
+                    style: { "color": "#666", "fontSize": "18px" },
+                    y: 30
+                },
+                pane: [{
+                    startAngle: -90,
+                    endAngle: 90,
+                    background: null,
+                    center: ['50%', '90%'],
+                    size: 250
+                }],
+                yAxis: {
+                    min: min,
+                    max: max,
+                    tickInterval: step,
+                    minorTickWidth: 1,
+                    minorTickLength: 5,
+                    minorTickPosition: 'inside',
+                    minorTickColor: '#848484',
+                    tickWidth: 1,
+                    tickPosition: 'inside',
+                    tickLength: 10,
+                    tickColor: '#848484',
+                    offset: -2,
+                    labels: {
+                        // 刻度值旋转角度
+                        rotation: 'auto',
+                        distance: 40,
+                        style: {
+                            color: '#848484', fontFamily: 'Times New Roman'
+                        }
+                    },
+                    plotBands: [{
+                        from: min,
+                        to: max,
+                        color: '#1EA4FF',
+                        innerRadius: '100%',
+                        outerRadius: '125%'
+                    }],
+                    // 表盘,为0时为半圆，其余都为圆
+                    pane: 0,
+                    title: {
+                        style: { color: '#343434', fontSize: '24px', fontWeight: '600', fontFamily: 'Times New Roman' },
+                        text: text,
+                        y: 5
+                    }
+                },
+                plotOptions: {
+                    gauge: {
+                        dataLabels: {
+                            enabled: false
+                        },
+                        dial: {
+                            backgroundColor: '#1DA0FA',
+                            baseLength: "50%",
+                            baseWidth: 5,
+                            radius: '100%'
+                        }
+                    }
+                },
+                series: [{
+                    data: a,
+                    name: name,
+                    yAxis: 0
+                }]
+
+            })
+        }
+    </script>
+    <script type="text/javascript">
+
+        var activityId = 40211802;
+        var questionId = 60000;
+        var dataCache = [];
+        var hasCustom = true;
+        var secondCharLoaded = false;
+        var thirdCharLoaded = false;
+
+
+        //判断数组中是否包含某个元素
+        Array.prototype.contains = function (obj) {
+            var i = this.length;
+            while (i--) {
+                if (this[i] === obj) {
+                    return true;
+                }
+            }
+            return false;
+        }
+        var HighChart = {
+            ChartDataFormate: {
+                FormateNOGroupData: function (data) {
+                    var categories = [];
+                    var datas = [];
+                    for (var i = 0; i < data.length; i++) {
+                        categories.push(data[i].name || "");
+                        datas.push([data[i].name, data[i].value || 0]);
+                    }
+                    return { category: categories, data: datas };
+                },
+                FormatGroupData: function (data) {//处理分组数据，数据格式：name：XXX，group：XXX，value：XXX用于折线图、柱形图（分组，堆积）
+                    var names = new Array();
+                    var groups = new Array();
+                    var series = new Array();
+                    for (var i = 0; i < data.length; i++) {
+                        if (!names.contains(data[i].name))
+                            names.push(data[i].name);
+                        if (!groups.contains(data[i].group))
+                            groups.push(data[i].group);
+                    }
+                    for (var i = 0; i < groups.length; i++) {
+                        var temp_series = {};
+                        var temp_data = new Array();
+                        for (var j = 0; j < data.length; j++) {
+                            for (var k = 0; k < names.length; k++)
+                                if (groups[i] == data[j].group && data[j].name == names[k]) {
+
+                                    temp_data.push(data[j].value);
+                                }
+                        }
+                        temp_series = {
+                            name: groups[i], data: temp_data,
+                            dataLabels: {
+                                enabled: true
+                            }
+                        };
+                        //if (polar) temp_series = $.extend({}, temp_series, { pointPlacement: "on" });
+                        series.push(temp_series);
+                    }
+                    return { category: names, series: series };
+                }
+            },
+            ChartOptionTemplates: {
+                Ring: function (score, totalScore) {
+                    return {
+                        tooltip: {
+                            enabled: false
+                        },
+                        useHTML: true,
+                        title: {
+                            y: 50,
+                            style: '{ "color": "#333333", "fontSize": "12px"}',
+                            floating: true,
+                            text: '<b>' + score + '</b>/<span style="color:#999">' + totalScore + '</span>'
+                        },
+                        colors: ["#1EA0FA", "#EFEEEE"],
+                        credits: {
+                            enabled: false
+                        },
+                        exporting: {
+                            enabled: false
+                        },
+                        plotOptions: {
+                            pie: {
+                                allowPointSelect: true,
+                                cursor: 'pointer',
+                                dataLabels: {
+                                    enabled: false
+                                },
+                            }
+                        },
+                        series: [{
+                            enableMouseTracking: false,
+                            type: 'pie',
+                            innerSize: '80%',
+                            data: [
+                                ['', score],
+                                ['', totalScore - score]
+                            ]
+                        }]
+                    }
+                },
+                Pie: function (data, isPercent, donut) {
+                    var pie_datas = HighChart.ChartDataFormate.FormateNOGroupData(data);
+                    var needLegend = false;
+                    for (var i = 0; i < pie_datas.category.length; i++) {
+                        if (pie_datas.category[i].length > 10)
+                            needLegend = true;
+                    }
+                    var innerSize = '';
+                    if (donut)
+                        innerSize = '50%';
+                    var option = {
+                        chart: {
+                            plotBackgroundColor: null,
+                            plotBorderWidth: null,
+                            plotShadow: false
+                        },
+                        credits: {
+                            enabled: false
+                        },
+                        exporting: {
+                            enabled: false
+                        },
+                        colors: ["#54C7FC", "#FFB54D", "#FF7466", "#44DB5E", "#4D9FFF", "#FFD300", '#22b5c3', '#a3be57', '#ff9c9c', '#48cfef', '#25bf6e', '#ea5f35', '#7e85e0', '#f2bd7c', '#bbbbba', '#7257a2'],
+                        title: {
+                            text: ''
+                        },
+                        tooltip: {
+                            formatter: function () {
+                                var val = this.y;
+                                if (isPercent) val = this.y + "%";
+                                return '<b>' + this.point.name + '</b>：' + val;
+                            },
+                            useHTML: true,
+                            percentageDecimals: 1,
+                            style: {
+                                fontFamily: 'Microsoft YaHei'
+                            }
+                        },
+                        legend: {
+                            itemStyle: {
+                                fontWeight: 'normal',
+                                fontFamily: "Microsoft YaHei"
+                            }
+                        },
+                        plotOptions: {
+                            pie: {
+                                allowPointSelect: true,
+                                cursor: 'pointer',
+                                dataLabels: {
+                                    enabled: true,
+                                    style: { "fontSize": "13px", "fontWeight": "normal", "font-family": "Microsoft YaHei" },
+                                    formatter: function () {
+                                        var val = this.y;
+                                        if (isPercent) val = this.y + "%";
+                                        if (needLegend) return val;
+                                        var name = this.point.name;
+                                        if (name.length > 10)
+                                            name = name.substr(0, 10) + '... ';
+                                        return name + ": " + val;
+                                    }
+                                },
+                                showInLegend: needLegend
+                            }
+                        },
+                        series: [{
+                            type: 'pie',
+                            name: '',
+                            data: pie_datas.data,
+                            innerSize: innerSize
+                        }]
+                    };
+                    return option;
+                },
+                Bars: function (data, bartype, isPercent) {
+                    var type = 'column'; var ispolar = false;
+                    if (bartype == 3) type = 'line';
+                    else if (bartype == 4)
+                        type = 'bar';
+                    else if (bartype == 5) {
+                        ispolar = true; type = 'line';
+                    }
+                    var colors = ["#1DA0FA", "#76c0ec", "#95dc7c", "#d8de00", "#fff500", "#fca000", '#22b5c3', '#a3be57', '#ff9c9c', '#48cfef', '#25bf6e', '#ea5f35', '#7e85e0', '#f2bd7c', '#bbbbba', '#7257a2'];
+                    var bars_datas = HighChart.ChartDataFormate.FormatGroupData(data, isPercent);
+                    var enableLegend = bars_datas.series.length > 1;
+                    var stacking = '';
+                    if (enableLegend && bars_datas.category.length > 4) {
+                        if (isPercent)
+                            stacking = 'percent';
+                        else
+                            stacking = 'normal';
+                        var count = bars_datas.series.length;
+                        if (count < colors.length) {
+                            colors = colors.slice(0, count);
+                            colors = colors.reverse();// ["#fca000", "#fff500", "#d8de00", "#95dc7c", "#76c0ec", "#1DA0FA", '#22b5c3', '#a3be57', '#ff9c9c', '#48cfef', '#25bf6e', '#ea5f35'];
+                        }
+                        if (count == 2)
+                            colors = ["#fca000", "#1DA0FA"];
+                    }
+                    var option = {
+                        chart: {
+                            polar: ispolar,
+                            type: type
+                        },
+                        legend: {
+                            enabled: enableLegend,
+                            itemStyle: {
+                                fontWeight: 'normal',
+                                fontFamily: "Microsoft YaHei"
+                            },
+                            labelFormatter: function () {
+                                if (this.name.length > 12)
+                                    return this.name.substr(0, 12) + '...';
+                                else
+                                    return this.name;
+                            }
+                        },
+                        title: {
+                            text: ''
+                        },
+                        credits: {
+                            enabled: false
+                        },
+                        exporting: {
+                            enabled: false
+                        },
+                        colors: colors,
+                        xAxis: {
+                            categories: bars_datas.category
+                        },
+                        yAxis: {
+                            lineWidth: 1,
+                            gridLineWidth: 0,
+                            title: {
+                                text: ''
+                            }
+                        },
+                        tooltip: {
+                            formatter: function () {
+                                var val = this.y;
+                                if (isPercent) val = this.y + "%";
+                                if (enableLegend)
+                                    return '<b>' + this.series.name + '</b>：' + val;
+                                else
+                                    return '<b>' + this.x + '</b>：' + val;
+                            },
+                            useHTML: true,
+                            percentageDecimals: 1,
+                            style: {
+                                fontFamily: 'Microsoft YaHei'
+                            }
+                        },
+                        plotOptions: {
+                            column: {
+                                pointPadding: 0.2,
+                                borderWidth: 0,
+                                stacking: stacking,
+                                dataLabels: {
+                                    style: { "fontSize": "13px", "fontWeight": "normal", "font-family": "Microsoft YaHei" },
+                                    formatter: function () {
+                                        var val = this.y;
+                                        if (val == 0 && stacking) return '';
+                                        if (isPercent) val = this.y + "%";
+                                        return val;
+                                    }
+                                }
+                            },
+                            bar: {
+                                pointPadding: 0.2,
+                                borderWidth: 0,
+                                stacking: stacking,
+                                dataLabels: {
+                                    style: { "fontSize": "13px", "fontWeight": "normal", "font-family": "Microsoft YaHei" },
+                                    formatter: function () {
+                                        var val = this.y;
+                                        if (val == 0 && stacking) return '';
+                                        if (isPercent) val = this.y + "%";
+                                        return val;
+                                    }
+                                }
+                            },
+                            line: {
+                                dataLabels: {
+                                    enabled: true,
+                                    style: { "fontSize": "13px", "fontWeight": "normal", "font-family": "Microsoft YaHei" },
+                                    formatter: function () {
+                                        var val = this.y;
+                                        if (isPercent) val = Highcharts.numberFormat(this.y, 0) + "%";
+                                        return val;
+                                    }
+                                }
+                            }
+                        },
+                        series: bars_datas.series
+                    };
+                    if (bartype == 5) {//雷达图
+                        var bar_option = {
+                            pane: {
+                                size: '80%'
+                            },
+                            xAxis: {
+                                categories: bars_datas.category,
+                                tickmarkPlacement: 'on',
+                                lineWidth: 0
+                            },
+                            yAxis: {
+                                gridLineInterpolation: 'polygon',
+                                lineWidth: 0,
+                                min: 0
+                            }
+                        };
+                        return $.extend({}, option, bar_option);
+                    }
+                    return option;
+                }
+            },
+            RenderChart: function (option, container) {
+                container.highcharts(option);
+            }
+        };
+        function renderChart(container, npsItem) {
+
+            var highChartData = new Array();
+            var isPercent = true;
+            var nameArray = []; nameArray.push("批评型(0-6)"); nameArray.push("被动型(7-8)"); nameArray.push("推荐型(9-10)");
+            var dArray = npsItem.NpsView.ThreeLevelScores;
+
+            for (var i = 0; i < 3; i++) {
+                var namecell = nameArray[i];
+                var valuecell = dArray[i];
+                var val = parseFloat(valuecell);
+                highChartData.push({ "name": namecell, "group": 'group', "value": val });
+            }
+
+            var opt = HighChart.ChartOptionTemplates.Bars(highChartData, 4, isPercent);
+
+            container.show();
+            container.opt = opt;
+            HighChart.RenderChart(opt, container);
+        }
+        function openwindow(url, iWidth, iHeight) {
+            PDF_launch(url, iWidth, iHeight);
+        }
+        var currentJoinTimes =2;
+        function addtolog() {
+            var rimg = document.createElement("img");
+            var logstore = "activitystat";
+            rimg.src = "//sojump.cn-hangzhou.log.aliyuncs.com/logstores/activitystat/track.gif?APIVersion=0.6.0&activity=" + 40211802 + "&type=nps&jointimes=" + currentJoinTimes;
+
+        }
+        addtolog();
+        function renderChart2(tableData, divResultCss, container, curObj) {
+            var index = $(curObj).attr("index");
+
+            if (divResultCss[0].lastObj == curObj && container.is(":visible")) {
+                container.hide();
+                $(curObj).removeClass("liSelect");
+                divResultCss[0].lastObj = null;
+                return;
+            }
+            else if (divResultCss[0].lastObj)
+                $(divResultCss[0].lastObj).removeClass("liSelect");
+
+            divResultCss[0].lastObj = curObj;
+            $(divResultCss[0].lastObj).addClass("liSelect");
+            var isPercent = false;
+            var highChartData = new Array();
+            var tableRows = tableData.rows;
+            var len = tableRows.length;
+            for (var i = 1; i < len; i++) {
+                if (tableRows[i].style.display == "none")
+                    continue;
+                var cells = tableRows[i].cells;
+                var namecell = $(cells[0]).text().replace("[详细]", "");
+                var valuecell = $(cells[1]).text();
+                var percentcell = $(cells[2]).attr("percent");
+                var val = parseFloat(valuecell);
+                if (isPercent && percentcell)
+                    val = parseFloat(percentcell);
+                highChartData.push({ "name": namecell, "group": 'group', "value": val });
+            }
+
+            var opt = null;
+
+            if (index == "2")
+                opt = HighChart.ChartOptionTemplates.Bars(highChartData, 2, isPercent, container[0].noStack);
+            else if (index == "3")
+                opt = HighChart.ChartOptionTemplates.Bars(highChartData, 3, isPercent, container[0].noStack);
+            else if (index == "4")
+                opt = HighChart.ChartOptionTemplates.Bars(highChartData, 4, isPercent, container[0].noStack);
+
+            container.show();
+            var nxtbutn = container.next();
+            nxtbutn.show();
+            HighChart.RenderChart(opt, container);
+        }
+        function ringChart() {
+            var settingScores = Number($("#lbAverage").html());
+            var scoreOpt = HighChart.ChartOptionTemplates.Ring(settingScores, 10),
+                scoreContainer = $("#scoreChart");
+            HighChart.RenderChart(scoreOpt, scoreContainer);
+        }
+
+        function initChart(tableE, callback) {
+            var divResultCss = tableE.parents(".cross-container").next().next(".sic_wrap").find(".divResultCss");
+
+            divResultCss.find("li").unbind("click");
+            divResultCss.find("li").click(function () {
+                var divResultCss = $(this).parent().parent();
+                var container = divResultCss.next();
+                var tableData = divResultCss.parent().prev().prev().find(".radiu-box").children()[0];
+
+                renderChart2(tableData, divResultCss, container, this);
+
+            });
+            divResultCss.find(".liSelect").trigger("click");
+            setTimeout(function () {
+                if (callback) callback();
+            }, 500)
+
+            var tableData = tableE[0];
+            var firstRow = tableData.rows[0];
+            firstRow.cells[0].parentTable = firstRow.cells[1].parentTable = firstRow.cells[2].parentTable = firstRow.cells[3].parentTable = tableData;
+            firstRow.cells[0].onclick = firstRow.cells[1].onclick = firstRow.cells[2].onclick = firstRow.cells[3].onclick = function () {
+                var img = this.getElementsByTagName("i")[0];
+                if (img) {
+                    if (img.className.toLowerCase().indexOf("icon-up") > -1) {
+                        img.className = "icon icon-down";
+                    }
+                    else if (img.className.toLowerCase().indexOf("icon-down") > -1) {
+                        img.className = "icon icon-up";
+                        img.alt = "↑";
+                    }
+                    else {
+                        img.className = "icon icon-down";
+                        img.alt = "↓";
+                    }
+                }
+                if (this.cellIndex == 0)
+                    tableData.sortType = 0;
+                else {
+                    var sortType = tableData.sortType;
+                    if (!sortType) sortType = 1;
+                    else if (sortType == 1) sortType = 2;
+                    else sortType = 1;
+                    tableData.sortType = sortType;
+                }
+                var jointime = false;
+                sortTable(tableData.tBodies[0], this.cellIndex, true, jointime); //倒序排序
+                var divResultCss = $(this).parents(".cross-container").next().next(".sic_wrap").find(".divResultCss");
+                if (divResultCss[0].lastObj) {
+                    var pobj = divResultCss[0].lastObj;
+                    divResultCss[0].lastObj = null;
+                    $(pobj).trigger("click");
+                }
+            };
+        };
+
+        function sortTable(id, col, rev, jointime) {
+
+            // Get the table or table section to sort.
+            var tblEl = (typeof (id) == 'object' ? id : document.getElementById(id));
+
+            // The first time this function is called for a given table, set up an
+            // array of reverse sort flags.
+            if (tblEl.reverseSort == null) {
+                tblEl.reverseSort = new Array();
+                // Also, assume the team name column is initially sorted.
+                tblEl.lastColumn = 2;
+            }
+
+            // If this column has not been sorted before, set the initial sort direction.else reverse;
+            if (tblEl.reverseSort[col] == null)
+                tblEl.reverseSort[col] = rev;
+            else
+                tblEl.reverseSort[col] = !tblEl.reverseSort[col];
+
+            // If this column was the last one sorted, reverse its sort direction.
+            //  if (col == tblEl.lastColumn)
+            //    tblEl.reverseSort[col] = !tblEl.reverseSort[col];
+
+            // Remember this column as the last one sorted.
+            tblEl.lastColumn = col;
+
+            // Set the table display style to "none" - necessary for Netscape 6 
+            // browsers.
+            var oldDsply = tblEl.style.display;
+            //tblEl.style.display = "none";
+
+            // Sort the rows based on the content of the specified column using a
+            // selection sort.
+
+            var tmpEl;
+            var i, j;
+            var minVal, minIdx;
+            var testVal;
+            var cmp;
+            //var tbody=tblEl.getElementsByTagName("tbody")[0];
+            var len = tblEl.rows.length;
+            if (jointime) len = len - 1;
+            for (i = 1; i < len - 1; i++) {
+
+                // Assume the current row has the minimum value.
+                minIdx = i;
+                minVal = getTextValue(tblEl.rows[i].cells[col]);
+
+                // Search the rows that follow the current one for a smaller value.
+                for (j = i + 1; j < len; j++) {
+                    testVal = getTextValue(tblEl.rows[j].cells[col]);
+                    cmp = compareValues(minVal, testVal);
+                    // Negate the comparison result if the reverse sort flag is set.
+                    if (tblEl.reverseSort[col])
+                        cmp = -cmp;
+                    // Sort by the second column (team name) if those values are equal.
+                    //      if (cmp == 0 && col != 1)
+                    //        cmp = compareValues(getTextValue(tblEl.rows[minIdx].cells[1]),
+                    //                            getTextValue(tblEl.rows[j].cells[1]));
+                    // If this row has a smaller value than the current minimum, remember its
+                    // position and update the current minimum value.
+                    if (cmp > 0) {
+                        minIdx = j;
+                        minVal = testVal;
+                    }
+                }
+
+                // By now, we have the row with the smallest value. Remove it from the
+                // table and insert it before the current row.
+                if (minIdx > i) {
+                    //tempEl=tblEl.rows[minIdx];
+                    //tempEl.style.display="none";
+                    //
+
+                    tmpEl = tblEl.removeChild(tblEl.rows[minIdx]);
+                    //tblEl.deleteRow(minIdx);
+                    //tblEl.insertRow(i);
+                    tblEl.insertBefore(tmpEl, tblEl.rows[i]);
+
+
+
+                }
+            }
+
+            // Make it look pretty.
+            //makePretty(tblEl, col);
+
+            // Set team rankings.
+            //setRanks(tblEl, col, rev);
+
+            // Restore the table's display style.
+            //tblEl.style.display = oldDsply;
+
+            return false;
+        }
+        function getTextValue(el) {
+            var val = el.getAttribute("val");
+            if (val)
+                return val;
+            var i;
+            var s;
+
+            // Find and concatenate the values of all text nodes contained within the
+            // element.
+            s = "";
+            for (i = 0; i < el.childNodes.length; i++)
+                if (el.childNodes[i].nodeType == document.TEXT_NODE)
+                    s += el.childNodes[i].nodeValue;
+                else if (el.childNodes[i].nodeType == document.ELEMENT_NODE &&
+                    el.childNodes[i].tagName == "BR")
+                    s += " ";
+                else
+                    // Use recursion to get text within sub-elements.
+                    s += getTextValue(el.childNodes[i]);
+            return normalizeString(s);
+        }
+        var whtSpEnds = new RegExp("^\\s*|\\s*$", "g");
+        var whtSpMult = new RegExp("\\s\\s+", "g");
+        function compareValues(v1, v2) {
+
+            var f1, f2;
+
+            // If the values are numeric, convert them to floats.
+
+            f1 = parseFloat(v1);
+            f2 = parseFloat(v2);
+            if (!isNaN(f1) && !isNaN(f2)) {
+                v1 = f1;
+                v2 = f2;
+            }
+
+            // Compare the two values.
+            if (v1 == v2)
+                return 0;
+            if (v1 > v2)
+                return 1;
+            return -1;
+        }
+        function normalizeString(s) {
+            s = s.replace(whtSpMult, " ");  // Collapse any multiple whites space.
+            s = s.replace(whtSpEnds, "");   // Remove leading or trailing white space.
+            return s;
+        }
+
+        function initData(success) {
+            //var url = "/wjx/activitystat/viewnps.aspx?activity=" + activityId + "&qindex=" + questionId + "&atype=1";
+            //$.getJSON(url, null, function (result) {
+            setTimeout(function () {
+                var result = $.parseJSON($('#hdBaseData').val());
+                if (result) {
+                    bindSelect(result.NpsOptions, $('#selectYQuestion'), result.QIndex);
+                    questionId = result.QIndex;
+                    if (result.NpsOptions.length > 1) {
+                        $('#yQuestionContainer').show();
+                    }
+                    else if (result.NpsOptions.length == 1) {
+                        var questionNameY = result.NpsOptions[0].Name;
+                        questionNameY = questionNameY.length > 40 ? questionNameY.substring(0, 40) + "..." : questionNameY;
+                        $('#selectYQuestionOne').html(questionNameY).show();
+                        $('#selectYQuestion').hide();
+                        $('#yQuestionContainer').show();
+                    }
+                    if (result.QuestionOptions.length <= 0) {
+                        $('#divContainerCustom').hide();
+                        $('#divChartCustom').hide();
+                        hasCustom = false;
+                    }
+                    if (result.IsShare) {
+                        $('#btnShare').remove();
+                        $('.shareDown').show();
+                    }
+                    else {
+                        $('#btnShare').show();
+                        $('.shareDown').css('margin-left', 480).show();
+                    }
+                    for (var i = 0; i < result.NpsOptions.length; i++) {//构建二维数组缓存
+                        dataCache[result.NpsOptions[i].Value] = [];
+                    }
+                    bindSelect(result.QuestionOptions, $('#selectXQuestionCustom'))
+                    if (success) {
+                        success();
+                    }
+                }
+            });
+
+            //});
+        }
+
+        function bindSelect(options, selectE, selVal) {
+            if (options && options.length > 0) {
+                for (var i = 0; i < options.length; i++) {
+                    var optionE = $('<option></option>');
+                    optionE.val(options[i].Value);
+                    optionE.text(options[i].Name.length > 40 ? options[i].Name.substring(0, 40) + "..." : options[i].Name);
+                    optionE.attr('type', options[i].Type);
+                    selectE.append(optionE);
+                }
+                if (selVal) {
+                    selectE.val(selVal);
+                }
+            }
+        }
+
+        function bindNpsData(npsItem) {
+            var nps = npsItem.NpsView.Nps;
+            myGaugeChart("chartDiv2", -100, 100, 50, nps, "NPS", nps);
+            var container = $("#chartDiv1");
+            renderChart(container, npsItem);
+            $("#lbJoinTimes").html(npsItem.NpsView.JoinTimes);
+            $("#lbNps").html(npsItem.NpsView.Nps);
+            $("#lbAverage").html(npsItem.NpsView.Average);
+            ringChart()
+        }
+
+        function bindResultDataTable(items, tableE, callback) {
+            var tbodyE = tableE.find('tbody');
+            tbodyE.empty();
+            if (!items || items.length <= 0) return;
+            tbodyE.append($('<tr align="center" style="font-weight:bold;background: #e4e7eb;color:#343434"><th title="点击按选项顺序排序" style="cursor: pointer;" class="arrge"><span style="vertical-align: middle;">选项 </span><i class="icon"></i></th><th title="点击按nps值顺序排序" style="cursor: pointer;" class="arrge"><span style="vertical-align: middle;">NPS值 </span><i class="icon"></i></th><th title="点击按平均分顺序排序" style="cursor: pointer;" class="arrge"><span style="vertical-align: middle;">平均分 </span><i class="icon"></i></th><th title="点击按答卷数顺序排序" style="cursor: pointer;" class="arrge"><span style="vertical-align: middle;">答卷数 </span><i class="icon"></i></th></tr>'));
+            for (var i = 0; i < items.length; i++) {
+                var trE;
+                if (i % 2 == 0)
+                    trE = $('<tr style="background:#fff;"></tr>');
+                else
+                    trE = $('<tr style="background:#f7fafc;"></tr>');
+
+                var tdName = $('<td val=' + (i + 1) + '></td>');
+                tdName.append(items[i].Name);
+                var tdNps = $('<td></td>');
+                tdNps.append(items[i].Nps);
+                var tdAverage = $('<td></td>');
+                tdAverage.append(items[i].Average);
+                var tdTotal = $('<td></td>');
+                tdTotal.append(items[i].Total);
+                trE.append(tdName).append(tdNps).append(tdAverage).append(tdTotal);
+                tbodyE.append(trE);
+            }
+            initChart(tableE, callback);
+        }
+
+        function getAnalysisData(xq, qtype, success, error) {
+            if (dataCache[questionId][xq]) {
+                if (success) {
+                    success(dataCache[questionId][xq]);
+                }
+            }
+            else if (xq == 0 && qtype == -1) { //nps数据
+                setTimeout(function () {
+                    var result = $.parseJSON($('#hdNpsData').val());
+                    //$('#hdNpsData').remove();
+                    if (result) {
+                        dataCache[questionId][xq] = result;
+                        if (success) {
+                            success(result);
+                        }
+                    }
+                });
+            }
+            else if (xq == -1 && qtype == 0) { //省份数据
+                setTimeout(function () {
+                    var result = $.parseJSON($('#hdProvinceData').val());
+                    //$('#hdProvinceData').remove();
+                    if (result) {
+                        dataCache[questionId][xq] = result;
+                        if (success) {
+                            success(result);
+                        }
+                    }
+                });
+            }
+            else {
+                var url = "/wjx/activitystat/viewnps.aspx?activity=" + activityId + "&qindex=" + questionId + "&atype=2&xq=" + xq + "&qtype=" + qtype;
+                $.getJSON(url, null, function (result) {
+                    if (result && result.success && result.data) {
+                        dataCache[questionId][xq] = result.data;
+                        if (success) {
+                            success(result.data);
+                        }
+                    }
+                    else {
+                        error(result);
+                    }
+                });
+            }
+        }
+
+        function getDataByLevel(data, parentName, level) {
+            var resultArray = [];
+            if (parentName == null) parentName = '';
+            for (var i = 0; i < data.length; i++) {
+                if (data[i].Path.startWith(parentName) && data[i].Level == level) {
+                    resultArray.push(data[i]);
+                }
+            }
+            return resultArray;
+        }
+
+        function getLevelTitle(titles, index) {
+            if (!titles || index > titles.length - 1) return '';
+            return titles[index];
+        }
+
+        function bindSelectDom(items, title, level) {
+            if (!items || items.length <= 0) return;
+            var container = $('<span class="select_zone"></span>');
+            container.append('<span>' + title + '</span>');
+            var selectO = $('<select></select>');
+            selectO.attr('level', level);
+            selectO.append('<option value="0">显示全部</option>');
+            for (var i = 0; i < items.length; i++) {
+                selectO.append('<option value="' + items[i].Name + '">' + items[i].Name + '</option>');
+            }
+            container.append(selectO);
+            selectO.on('change', function () {
+                $("#chartDivCustom").hide();
+                selectMultiDropChange(this);
+            });
+            $('#selectContainerCustom').append(container);
+        }
+
+        function getSelectPath() {
+            var pathArray = [];
+            $('#selectContainerCustom .select_zone select').each(function () {
+                var val = $(this).val();
+                if (val != '0') {
+                    pathArray.push(val);
+                }
+            });
+            return pathArray.join('§');
+        }
+
+        function selectMultiDropChange(obj) {
+            $(obj).parents('.select_zone').nextAll().remove();
+            var level = parseInt($(obj).attr('level'));
+            var parentName = $(obj).val();
+            var isDefault = false;
+            if (parentName == "0") {
+                var preName = $(obj).parents('.select_zone').prev('.select_zone').find('select').val();
+                if (!preName) parentName = null;
+                else {
+                    parentName = preName
+                };
+                isDefault = true;
+            }
+            else {
+                level = level + 1;
+            }
+            var currentXQ = $('#selectXQuestionCustom').val();
+            var data = dataCache[questionId][currentXQ];
+            parentName = getSelectPath();
+            bindMultiDropDom(data.MultiView, parentName, level, isDefault);
+        }
+
+        function bindMultiDropDom(data, parentName, level, isDefault, callback) {
+            var items = getDataByLevel(data.Items, parentName, level, isDefault);
+            var title = getLevelTitle(data.LevelTitles, level);
+            var maxLevel = data.LevelCount;
+            if (!isDefault && level < maxLevel - 1) {
+                bindSelectDom(items, title, level);
+            }
+            bindResultDataTable(items, $('#resultDataTableCustom'), callback);
+
+        }
+
+        function GenerateReport() {
+            if (!secondCharLoaded) {
+                $('#selectXQuestionTime').change();
+            }
+
+            if (hasCustom && !thirdCharLoaded) {
+                $('#selectXQuestionCustom').change();
+            }
+
+            var timers = 0;
+            var timer = setInterval(function () {
+                timers++;
+                if (timers > 20 || (secondCharLoaded && thirdCharLoaded)) {
+                    clearInterval(timer);
+                    var data = getDownloadData();
+                    var jsonStr = JSON.stringify(data);
+                    var url = '/wjx/activitystat/viewnpssave.aspx?activity=' + activityId;
+                    postFile(url, jsonStr);
+                    console.log(jsonStr);
+                }
+            }, 100);
+        }
+
+        function getDownloadTableData(selectE, tableE, charE) {
+            var item = {};
+            var itemTitle = selectE.find('option:selected').text();
+            selectE.siblings('.select_zone').find('select').each(function (index) {
+                if ($(this).val() != '0') {
+                    if (index == 0) {
+                        itemTitle += ":";
+                        itemTitle += $(this).find('option:selected').text();
+                    }
+                    else {
+                        itemTitle += "/";
+                        itemTitle += $(this).find('option:selected').text();
+                    }
+                }
+            });
+
+            item.title = itemTitle;
+            var table = tableE;
+            item.thead = [];
+            item.tbody = [];
+            table.find('tr').each(function (rowIndex) {
+                if (rowIndex == 0) {
+                    $(this).find('th').each(function (colIndex) {
+                        item.thead.push($(this).text());
+                    });
+                }
+                else {
+                    var td = [];
+                    $(this).find('td').each(function (colIndex) {
+                        td.push($(this).text());
+                    });
+                    item.tbody.push(td);
+                }
+            });
+            var chart = charE;
+            item.svg = '';
+            if (chart.is(':visible')) {
+                var chartToPrint = $(chart).highcharts();
+                if (chartToPrint && chartToPrint.getSVGForExport) {
+                    item.svg = chartToPrint.getSVGForExport();
+                }
+            }
+            return item;
+        }
+
+        function getDownloadData() {
+            var o = {};
+            o.qname = $('#selectYQuestion option:selected').text();
+            var npsData = dataCache[questionId][0].NpsView;
+            o.nps = npsData.Nps;
+            o.average = npsData.Average;
+            o.joinTimes = npsData.JoinTimes;
+            var data = [];
+            var itemNps = {};
+            var chartToPrintNps = $('#chartDiv2').highcharts();
+            if (chartToPrintNps && chartToPrintNps.getSVGForExport) {
+                itemNps.svg = chartToPrintNps.getSVGForExport();
+            }
+            data.push(itemNps);
+            var itemNpsBar = {};
+            var chartToPrintNpsBar = $('#chartDiv1').highcharts();
+            if (chartToPrintNpsBar && chartToPrintNpsBar.getSVGForExport) {
+                itemNpsBar.svg = chartToPrintNpsBar.getSVGForExport();
+            }
+            data.push(itemNpsBar);
+
+            var itemArea = getDownloadTableData($('#selectXQuestionArea'), $('#resultDataTableArea'), $('#chartDivArea'));
+            var itemTime = getDownloadTableData($('#selectXQuestionTime'), $('#resultDataTableTime'), $('#chartDivTime'));
+            data.push(itemArea);
+            data.push(itemTime);
+            var hasCustom = $('#selectXQuestionCustom').is(":visible");
+            if (hasCustom) {
+                var itemCustom = getDownloadTableData($('#selectXQuestionCustom'), $('#resultDataTableCustom'), $('#chartDivCustom'));
+                data.push(itemCustom);
+            }
+            o.items = data;
+            return o;
+        }
+
+        function postFile(downloadUrl, data) {
+            var form = $("<form>");
+            form.attr('style', 'display:none');
+            form.attr('target', '');
+            form.attr('method', 'post');
+            form.attr('action', downloadUrl);
+
+            var input = $('<input>');
+            input.attr('type', 'hidden');
+            input.attr('name', 'file_data');
+            input.attr('value', data);
+            $('body').append(form);
+            form.append(input);
+            form.submit();
+            form.remove();
+        }
+
+        function shareNpsPage() {
+            PDF_launch('/wjx/activitystat/shareviewstat.aspx?activity=' + activityId + '&st=3', 720, 520);
+        }
+
+        $(function () {
+            initData(function () {
+                getAnalysisData(0, -1, function (data) {
+                    bindNpsData(data);
+                    $('#selectXQuestionArea').change();
+                    lanLoad();
+                });
+            });
+            var selectXQuestionTimeLoad = false, selectXQuestionCustomLoad = false;
+
+            var selectXQuestionTimeTop;
+            var selectXQuestionCustomTop;
+
+            $('#selectYQuestion').on('change', function () {
+                questionId = $(this).val();
+                window.location.href = '/wjx/activitystat/viewnps.aspx?activity=' + activityId + "&qindex=" + questionId;
+
+            });
+            $('#selectXQuestionArea').on('change', function () {
+                $("#chartDivArea").hide();
+                var xq = $(this).val();
+                getAnalysisData(xq, 0, function (data) {
+                    bindResultDataTable(data.Items, $('#resultDataTableArea'), function () {
+                        selectXQuestionTimeTop = $('#selectXQuestionTime').offset().top;
+                    });
+                });
+            });
+            $('#selectXQuestionTime').on('change', function () {
+                $("#chartDivTime").hide();
+                var xq = $(this).val();
+                getAnalysisData(xq, 0, function (data) {
+                    bindResultDataTable(data.Items, $('#resultDataTableTime'), function () {
+                        selectXQuestionCustomTop = $('#selectXQuestionCustom').offset().top;
+                        secondCharLoaded = true;
+                    });
+                }, function () {
+                    selectXQuestionTimeLoad = false;
+                });
+            });
+            $('#selectXQuestionCustom').on('change', function () {
+                $("#chartDivCustom").hide();
+                var xq = $(this).val();
+                var qtype = $('#selectXQuestionCustom option:selected').attr('type');
+                $('.select_zone').remove();
+                getAnalysisData(xq, qtype, function (data) {
+                    if (qtype == 1) {
+                        bindMultiDropDom(data.MultiView, null, 0, false, function () {
+                            thirdCharLoaded = true;
+                        });
+                    }
+                    else {
+                        bindResultDataTable(data.Items, $('#resultDataTableCustom'), function () {
+                            thirdCharLoaded = true;
+                        });
+                    }
+                }, function () {
+                    selectXQuestionCustomLoad = false;
+                });
+            });
+
+            function lanLoad() {
+
+
+                $(document).scroll(function () {
+                    var scroH = $(document).scrollTop();  //滚动高度
+                    var viewH = $(window).height();  //可见高度 
+
+                    if (selectXQuestionTimeTop && selectXQuestionTimeTop - scroH < viewH && !selectXQuestionTimeLoad) {
+                        selectXQuestionTimeLoad = true;
+                        $('#selectXQuestionTime').change();
+                    }
+                    if (selectXQuestionCustomTop && selectXQuestionCustomTop - scroH < viewH && !selectXQuestionCustomLoad) {
+                        selectXQuestionCustomLoad = true;
+                        if (hasCustom) {
+                            $('#selectXQuestionCustom').change();
+                        }
+                    }
+
+                });
+
+            }
+        });
+
+
+    </script>
+
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+    </div>
+     
+</body>
+</html>

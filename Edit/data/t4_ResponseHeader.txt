@@ -1,0 +1,14 @@
+HTTP/1.1 200 OK
+Date: Wed, 12 Jun 2019 09:00:29 GMT
+Content-Type: text/html; charset=utf-8
+Content-Length: 3470
+Connection: keep-alive
+Set-Cookie: acw_tc=707c9fd415603300291078015e73ae0b6d5eec23c1216aac4049dc78aedbef;path=/;HttpOnly;Max-Age=2678401
+Cache-Control: private
+Content-Encoding: gzip
+Vary: Accept-Encoding
+X-AspNet-Version: 4.0.30319
+X-Powered-By: UrlRewriter.NET 2.0.0
+Set-Cookie: .ASPXANONYMOUS=KO4bH49X1QEkAAAAYmU0NWY1YjYtYzhlMi00ZjFiLWE3ODEtZjAzZmE0YTU0NzEzqdWu2Kk6Plixypz1_xT-iFLmMvw1; expires=Tue, 20-Aug-2019 19:40:29 GMT; path=/; HttpOnly
+X-Powered-By: ASP.NET
+

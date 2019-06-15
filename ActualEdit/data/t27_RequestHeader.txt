@@ -1,0 +1,13 @@
+POST /Handler/designqfinish.ashx?curID=40211802 HTTP/1.1
+Accept: */*
+Content-Type: application/x-www-form-urlencoded
+Referer: https://www.wjx.cn/mysojump/questionnairemng/designnew.aspx?version=7&openType=redesign&curid=40211802&nqt=
+Accept-Language: zh-Hans-CN,zh-Hans;q=0.8,en-US;q=0.5,en;q=0.3
+Accept-Encoding: gzip, deflate
+User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64; Trident/7.0; rv:11.0) like Gecko
+Host: www.wjx.cn
+Content-Length: 9
+Connection: Keep-Alive
+Cache-Control: no-cache
+Cookie: crudat=2019-05-22 17:56:15; WjxUser=UserName=webtest; LastCheckUpdateDate=1; LastCheckDesign=1; UM_distinctid=16b1dd9e27d89-0df50382fd90a6-293e1d4e-144000-16b1dd9e27e2f9; CNZZDATA4478442=cnzz_eid%3D1591451856-1559572098-%26ntime%3D1560561510; .ASPXANONYMOUS=FxyXsK5Q1QEkAAAAN2NiMzA4MDItMTcxMS00NGIzLWE2NjAtZDY1MGQxM2IwZjZkcqfiQRwHh9HGeWcvNsmUlY3KDlA1; _cnzz_CV4478442=%E7%94%A8%E6%88%B7%E7%89%88%E6%9C%AC%7C%E5%85%8D%E8%B4%B9%E7%89%88%7C1560566395047; acw_tc=707c9fcc15595739297887103e74ac419669d897e64ee666b0161f2a22ad8d; SojumpSurvey=010275EC382C3BF1D608FE758C4AB35CF1D6080007770065006200740065007300740000012F00FF52AD568DAAE2749E3B1AC37F3EB970017AA656ED; Hm_lvt_21be24c80829bd7a683b2c536fcf520b=1559609769,1560126211,1560566336,1560566589; Hm_lpvt_21be24c80829bd7a683b2c536fcf520b=1560566589
+

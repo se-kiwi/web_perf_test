@@ -132,7 +132,7 @@
     "IsWinInetMode": false,
     "MaxUsedConnections": 41,
     "RecordedBrowser": "Chrome",
-    "RecordingDate": "6月-10-2019",
+    "RecordingDate": "6闂?10-2019",
     "RecordingDuration": 164547,
     "RecordingMode": "N/A",
     "RecordingTimeStamp": 1560125321,
@@ -1284,5 +1284,5 @@
     "IncludeInScript": false,
     "IsScriptIncludeWebSocket": false
   },
-  "NumberOfCorrelations": 7
+  "NumberOfCorrelations": 3
 }

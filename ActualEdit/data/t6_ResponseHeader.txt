@@ -1,0 +1,11 @@
+HTTP/1.1 200 OK
+Cache-Control: public, max-age=15552000
+Content-Length: 1571
+Content-Type: text/html
+Content-Encoding: gzip
+Last-Modified: Thu, 03 Jan 2019 21:50:58 GMT
+Vary: Accept-Encoding
+Strict-Transport-Security: max-age=31536000; includeSubDomains; preload
+X-MSEdge-Ref: Ref A: FAF40A32928F4873810CAE00CEB6925F Ref B: TYAEDGE0518 Ref C: 2019-06-15T02:13:55Z
+Date: Sat, 15 Jun 2019 02:13:54 GMT
+

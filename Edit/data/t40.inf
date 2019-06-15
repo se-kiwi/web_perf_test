@@ -1,0 +1,11 @@
+[t40]
+FileName1=t40.json
+URL1=https://www.wjx.cn/wjx/activitystat/viewnps.aspx?activity=40211802&qindex=60000&atype=2&xq=-3&qtype=0
+Total=1
+RequestHeaderFile=t40_RequestHeader.txt
+RequestBodyFile=NONE
+ResponseHeaderFile=t40_ResponseHeader.txt
+ContentType=application/json
+SnapshotXmlFile=snapshot_40.xml
+[ProtocolInfo]
+ProtocolId=QTWeb

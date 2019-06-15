@@ -1,0 +1,13 @@
+[t4]
+FileName1=t4.html
+URL1=https://www.wjx.cn/Login.aspx
+Total=2
+RequestHeaderFile=t4_RequestHeader.txt
+RequestBodyFile=NONE
+ResponseHeaderFile=t4_ResponseHeader.txt
+ContentType=text/html
+SnapshotXmlFile=snapshot_4.xml
+FileName2=t4_collect.gif
+URL2=https://www.google-analytics.com/collect?_t=1560330009945&t=pageview&v=1&tid=UA-54537742-7&cid=e0a9e774-13d0-46d6-9af8-89a18b270e6e&sr=1536x864&sd=24-bits&ul=zh-CN&dl=chrome-extension%3A%2F%2Fdbfmnekepjoapopniengjbcpnbljalfg%2Fbackground%2Fbackground.html&dp=%2Fbackground%2Fbackground.html&dt=
+[ProtocolInfo]
+ProtocolId=QTWeb

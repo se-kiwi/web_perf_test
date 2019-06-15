@@ -1,0 +1,10 @@
+GET /newwjx/design/editquestionnaire.aspx?activity=40211802 HTTP/1.1
+Accept: text/html, application/xhtml+xml, image/jxr, */*
+Referer: https://www.wjx.cn/newwjx/manage/myquestionnaires.aspx
+Accept-Language: zh-Hans-CN,zh-Hans;q=0.8,en-US;q=0.5,en;q=0.3
+User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64; Trident/7.0; rv:11.0) like Gecko
+Accept-Encoding: gzip, deflate
+Host: www.wjx.cn
+Connection: Keep-Alive
+Cookie: UM_distinctid=16b1dd9e27d89-0df50382fd90a6-293e1d4e-144000-16b1dd9e27e2f9; CNZZDATA4478442=cnzz_eid%3D1591451856-1559572098-%26ntime%3D1560561510; .ASPXANONYMOUS=FxyXsK5Q1QEkAAAAN2NiMzA4MDItMTcxMS00NGIzLWE2NjAtZDY1MGQxM2IwZjZkcqfiQRwHh9HGeWcvNsmUlY3KDlA1; acw_tc=707c9fcc15595739297887103e74ac419669d897e64ee666b0161f2a22ad8d; crudat=2019-05-22 17:56:15; SojumpSurvey=0102D368B21337F1D608FED308C49A58F1D6080007770065006200740065007300740000012F00FF75C4AE075270ED4E2A65D0E1D822A9266ED77CFF; WjxUser=UserName=webtest; LastCheckUpdateDate=1; LastCheckDesign=1; Hm_lvt_21be24c80829bd7a683b2c536fcf520b=1559573958,1559608344,1559609769,1560126211
+

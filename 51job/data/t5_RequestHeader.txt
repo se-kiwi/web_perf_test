@@ -1,0 +1,13 @@
+POST /userset/ajax/whoviewme.php HTTP/1.1
+Accept: */*
+X-Requested-With: XMLHttpRequest
+Referer: https://i.51job.com/userset/my_51job.php
+Accept-Language: zh-Hans-CN,zh-Hans;q=0.8,en-US;q=0.5,en;q=0.3
+Accept-Encoding: gzip, deflate
+User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64; Trident/7.0; rv:11.0) like Gecko
+Host: i.51job.com
+Content-Length: 0
+Connection: Keep-Alive
+Cache-Control: no-cache
+Cookie: guid=99a1f5fd9691580e3e5168b4fd6f0cac; slife=lowbrowser%3Dnot%26%7C%26lastlogindate%3D20190615%26%7C%26; _ujz=MTU4NjAyNjkzMA%3D%3D; 51job=cuid%3D158602693%26%7C%26cusername%3Donemoresecond%2540163.com%26%7C%26cpassword%3D%26%7C%26cname%3D%26%7C%26cemail%3Donemoresecond%2540163.com%26%7C%26cemailstatus%3D0%26%7C%26cnickname%3D%26%7C%26ccry%3D.0a4U0PTMwbps%26%7C%26cconfirmkey%3DonS33mwVQj1FM%26%7C%26cresumeids%3D%26%7C%26cautologin%3D0%26%7C%26cenglish%3D0%26%7C%26sex%3D%26%7C%26cnamekey%3DonR0zq8sWoj2s%26%7C%26to%3Db3635dee6586ff4947106ec7e652904b5d04643f%26%7C%26; ps=needv%3D0
+

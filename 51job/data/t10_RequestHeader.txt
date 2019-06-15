@@ -1,0 +1,9 @@
+GET /logRecord.php?logCode=81&webId=2&version=1&logTime=1560568921709&ip=202.120.40.82&guid=99a1f5fd9691580e3e5168b4fd6f0cac&domain=i.51job.com&pageCode=11203&eventType=5&traceName=&cusParam=1%16158602693&vt=1560568922065&logType=event HTTP/1.1
+Accept: image/png, image/svg+xml, image/jxr, image/*;q=0.8, */*;q=0.5
+Referer: https://i.51job.com/userset/my_51job.php
+Accept-Language: zh-Hans-CN,zh-Hans;q=0.8,en-US;q=0.5,en;q=0.3
+User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64; Trident/7.0; rv:11.0) like Gecko
+Accept-Encoding: gzip, deflate
+Host: trace.51jingying.com
+Connection: Keep-Alive
+

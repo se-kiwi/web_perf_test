@@ -1,0 +1,15 @@
+[t6]
+FileName1=t6_adid=31493934.html
+URL1=https://www.51job.com/ex/page_view.php/adid=31493934
+Total=3
+ContentType=text/html
+SnapshotXmlFile=snapshot_6.xml
+RequestHeaderFile=t6_RequestHeader.txt
+RequestBodyFile=NONE
+ResponseHeaderFile=t6_ResponseHeader.txt
+FileName2=t6_icon_rse.png
+URL2=https://img01.51jobcdn.com/im/2017/my/icon_rse.png
+FileName3=t6_favicon.ico
+URL3=https://i.51job.com/favicon.ico
+[ProtocolInfo]
+ProtocolId=QTWeb

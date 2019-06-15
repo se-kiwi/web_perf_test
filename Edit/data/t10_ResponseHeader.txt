@@ -1,0 +1,12 @@
+HTTP/1.1 200 OK
+Server: nginx/1.10.3
+Date: Wed, 12 Jun 2019 09:00:30 GMT
+Content-Type: text/html; charset=UTF-8
+Content-Length: 215
+Connection: keep-alive
+X-Powered-By: PHP/7.1.10
+Cache-Control: private, must-revalidate
+pragma: no-cache
+expires: -1
+Set-Cookie: laravel_session=eyJpdiI6IlBobFNFbUhHcVpnSW5SZlZ2MVZmaHc9PSIsInZhbHVlIjoiQUh5T255TUp0NjFzU3l1MWNzcUMrd2xVNnVWNUhBanlFUlRSVmE4K0I0WUd4aWlDUXBQTTFqTTBPaEwwc3BMS3hwUlBaTUlaenRWQjlTcHdPSzBXVHc9PSIsIm1hYyI6IjI3NWY2NjhjY2E0ZDdhZTI1MTQ0ZDM2YTllNTU2ZmM2ZWQ0NGNiZDZmMDQ2ZDllNWNhZGVhM2Q0MjkxM2I0YzcifQ%3D%3D; expires=Wed, 12-Jun-2019 11:00:30 GMT; Max-Age=7200; path=/; HttpOnly
+

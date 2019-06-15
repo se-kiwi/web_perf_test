@@ -1,0 +1,9 @@
+GET /stat.htm?id=4478442&r=https%3A%2F%2Fwww.wjx.cn%2Fnewwjx%2Fdesign%2Feditquestionnaire.aspx%3Factivity%3D40211802&lg=zh-cn&ntime=1560561510&cnzz_eid=1591451856-1559572098-&showp=1536x864&p=https%3A%2F%2Fwww.wjx.cn%2Fmysojump%2Fquestionnairemng%2Fdesignnew.aspx%3Fversion%3D7%26openType%3Dredesign%26curid%3D40211802%26nqt%3D&ei=%25E5%25B1%258F%25E5%25B9%2595%25E5%25AE%25BD%25E5%25BA%25A6%7Cw1536%7C%7C0%7C&t=%E8%AE%BE%E8%AE%A1%E9%97%AE%E5%8D%B7%20%EF%BC%8D%20%E4%B8%93%E4%B8%9A%E7%9A%84%E5%9C%A8%E7%BA%BF%E9%97%AE%E5%8D%B7%E8%B0%83%E6%9F%A5%E5%B9%B3%E5%8F%B0&umuuid=16b1dd9e27d89-0df50382fd90a6-293e1d4e-144000-16b1dd9e27e2f9&h=1&rnd=1181562370 HTTP/1.1
+Accept: image/png, image/svg+xml, image/jxr, image/*;q=0.8, */*;q=0.5
+Host: ei.cnzz.com
+Connection: Keep-Alive
+Referer: https://www.wjx.cn/mysojump/questionnairemng/designnew.aspx?version=7&openType=redesign&curid=40211802&nqt=
+Accept-Language: zh-Hans-CN,zh-Hans;q=0.8,en-US;q=0.5,en;q=0.3
+User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64; Trident/7.0; rv:11.0) like Gecko
+Accept-Encoding: gzip, deflate
+

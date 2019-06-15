@@ -1,0 +1,126 @@
+/*显示未购买知己知彼服务弹层*/
+function showLayer()
+{
+	var content ='<div class="panel_lnp panel_py"><h2><p>提示</p><a href="javascript:void(0);" class="layer_close"><i></i></a></h2><div class="pannel_con"><div class="gp2"><p class="wd center c_666">对不起，你还没有购买知己知彼服务！</p></div></div><div class="but_box b2"><span onclick="javascript:window.open(\''+window.cfg.root_i+'/payservice/my_service.php\')" class="p_but">去购买</span></div></div>';
+
+	var oLayerSettings = jQuery.FLayer.init();
+
+	oLayerSettings['layer_after_close'] = function(){
+		$(".layer_class, .layer_back_drop_class").remove();
+	};
+
+	jQuery.FLayer.setContent(oLayerSettings,content);
+	jQuery.FLayer.open(oLayerSettings);
+}
+
+
+function initApply()
+{
+	var aCvInfo = {};
+	$.each($('input[name=cvlogid]'),function(){
+		var cvLogId = $(this).val();
+		var sd = $('#sd'+ cvLogId).val();
+		var pf = $('#pf' + cvLogId).val();
+
+		aCvInfo[cvLogId] = {cvlogid:cvLogId,time:sd,pass:pf};
+
+		var oCvDiv = $(this).parent('div .h_orange');
+		var oCvList = $(this).siblings('div .h_body');
+		var oCvListBtn = $(this).siblings('div .h_head').find('.view');
+
+		//下拉弹层
+		$('body').click(function(){
+			oCvDiv.removeClass('on');
+		});
+		oCvListBtn.click(function(event){
+			if (!oCvDiv.hasClass('on'))
+			{
+				$('div .h_orange.on').toggleClass('on');
+			}
+			oCvDiv.toggleClass('on');
+			$('li>.hpBox').removeClass('on');
+			event.stopPropagation();
+		});
+		oCvDiv.click(function(event){
+			event.stopPropagation();
+		});
+
+		oCvListBtn.click(function(){
+			var lock = $('#lock'+ cvLogId).val();
+			var oSendData = {};
+			oSendData[cvLogId] = {cvlogid:cvLogId,time:sd,pass:pf};
+			if(lock == 0)
+			{
+				$('#lock'+ cvLogId).val(1);
+				getApplyRecord(oSendData);
+			}
+		});
+	});
+
+	getApplyRecord(aCvInfo);
+}
+
+function getApplyRecord(p_aCvLogInfo)
+{
+	if (!$.isEmptyObject(p_aCvLogInfo))
+	{
+		var url = window.cfg.root_i + "/userset/ajax/apply.php?" + Math.random() + '&jsoncallback=?';
+		$.getJSON(url, {cvinfo:p_aCvLogInfo}, function (result) {
+			$.each(result.html, function(id, value){
+				var oCvInput = $('#cv' + id);
+				var oCvDiv = oCvInput.parent('div .h_orange');
+				var oCvList = oCvInput.siblings('div .h_body');
+				var oCvHead = oCvInput.siblings('div .h_head');
+				if ($('#lock'+ id).val() != 2)
+				{
+					$('#lock'+ id).val(2);
+					oCvList.empty().append(value);
+					var sHTitle = oCvList.find('label:last').text();
+					oCvHead.find('span').text(sHTitle);
+				}
+			});
+		});
+	}
+}
+
+/*我的申请异步请求校园申请和特殊申请数量*/
+$(document).ready(function(){
+	//初始化申请记录
+	initApply();
+	//说明
+	$('li>.hpBox').click(function(event){$('div .h_orange').removeClass('on');$(this).toggleClass('on');event.stopPropagation();});
+	$('li>.hpBox>.h_body').click(function(event){event.stopPropagation();});
+	$('body').click(function(){$('li>.hpBox').removeClass('on');});
+	var my_accountid = $("#accountid").val();
+	//特殊申请数量ajax
+	if($("#customer").length){
+		var c_url = $("#c_url").val() + "?" + Math.random();
+		var c_token = $("#c_token").val();
+		var c_func = $("#c_func").val();
+		var c_timestamp = $("#c_timestamp").val();
+		
+		$.post(c_url, {token:c_token,func:c_func,accountid:my_accountid,timestamp:c_timestamp}, function (result) {
+			var obj = JSON.parse(result);
+			if(obj.result == 1){
+				var specialNum = obj.data;
+				specialNum = specialNum > 99?"99+":specialNum;
+			}else{
+				specialNum = 0;
+			}
+			$("#customer").children("span").text(specialNum);
+			
+		});
+	}
+	//校园申请数量ajax
+	if($("#school").length){
+		var s_url = $("#s_url").val() + "?" + Math.random();
+		var s_sign = $("#s_sign").val();
+		
+		$.get(s_url, {strAccountID:my_accountid,strSign:s_sign}, function (result) {
+			var xmlText = $(result).text();
+			var data = JSON.parse(xmlText);	
+			data.Return = data.Return > 99?"99+":data.Return;
+			$("#school").children("span").text(data.Return);
+		});
+	}
+});

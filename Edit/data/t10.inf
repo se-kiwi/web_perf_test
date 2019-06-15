@@ -1,0 +1,17 @@
+[t10]
+FileName1=t10.html
+URL1=https://api.infinitynewtab.com/se.php?t=t1dd5el00fc4wzbcykgmprfkod9y
+Total=4
+RequestHeaderFile=t10_RequestHeader.txt
+RequestBodyFile=NONE
+ResponseHeaderFile=t10_ResponseHeader.txt
+ContentType=text/html
+SnapshotXmlFile=snapshot_10.xml
+FileName2=t10___utm.gif
+URL2=https://www.google-analytics.com/r/__utm.gif?utmwv=5.7.2&utms=5&utmn=2018940931&utmhn=chphlpgkkbolifaimnlloiipkdnihall&utmcs=UTF-8&utmsr=1536x864&utmsc=24-bit&utmul=zh-cn&utmje=0&utmfl=-&utmhid=1645352610&utmr=-&utmp=%2F_generated_background_page.html&utmht=1560330029533&utmac=UA-38573374-2&utmcc=__utma%3D140524640.1375607711.1542347206.1560326740.1560329198.863%3B%2B__utmz%3D140524640.1542347206.1.1.utmcsr%3D(direct)%7Cutmccn%3D(direct)%7Cutmcmd%3D(none)%3B&utmjid=409585095&utmredir=1&utmu=qAAAAAAAAAAAAAAAAAAAAAAE~
+FileName3=t10_zhezhao.html
+URL3=https://www.wjx.cn/js/zhezhao.js?v=3
+FileName4=t10_logo.png
+URL4=https://www.wjx.cn/images/register-login/logo.png
+[ProtocolInfo]
+ProtocolId=QTWeb

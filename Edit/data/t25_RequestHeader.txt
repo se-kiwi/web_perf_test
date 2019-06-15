@@ -1,0 +1,11 @@
+POST /ListAccounts?gpsia=1&source=ChromiumBrowser&json=standard HTTP/1.1
+Host: accounts.google.com
+Connection: keep-alive
+Content-Length: 1
+Origin: https://www.google.com
+Content-Type: application/x-www-form-urlencoded
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3729.169 Safari/537.36
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN,zh;q=0.9,en-US;q=0.8,en;q=0.7
+Cookie: CONSENT=YES+CN.zh-CN+20170409-18-0; ACCOUNT_CHOOSER=AFx_qI4Lj9gY-uMgOqMFU1UgM4dXfi_JN5l-pVZwV8ReSI1_eubhwLZ1gg9mzL4w2-Bd00ss6Dmf3dnVrKUSqbzgi0YwYfUu_H4vkH-IA7XrdcUCj2G7OCh014UfaCGK3drOGZGtGEnJ; LSOLH=Y3qYFU86cfIXgKtfiCR3q4DrHmL3oxY:25930729:d177; LSID=doritos|lso|o.console.cloud.google.com|o.mail.google.com|o.myaccount.google.com|o.notifications.google.com|o.smartlock.google.com|s.blogger|s.youtube|wise:eQdVb5zu5D69MTMyIr0Y09eBMn8ujpmlhBcxUxIqhBCYwzzmxj6BgMBID01x0JoXbYltiA.; HSID=AhaKg7NxZqA8jqMp6; SSID=A8mmjBW_olhLHMwEA; APISID=jhZR3FqfTHcZTzUA/AXjkUzbyxG2UsIZ3Z; SAPISID=oEXTV83zchwXusMr/AoPKhv0-l0FA5wtJs; SID=eQdVb0D3GEPtOlyRkToKfvIVl1e2xKiuXfWA5SDuiKwHP5vMF8mDV0eN95OT4ab0G2IG-g.; GAPS=1:zAKrPWGf2TmtAOTEVnpdyNUqCAlSYNf14BljpKja-ZpeJB6tKKjS6--XIvRo05RxI7a6pgjrnbzT5-44zEw1a9HBzI_xCg:xlhs1EfR8dca7rWs; NID=185=1IhE6aXLa8saXAZQbg-yImVl-JTFVNP_FrHcSTWH6zdPvEdqyZNdjk-XMKRx9lmDtQksNl0Wx-qDTwcy7AmVUb22cZWuOcUhzq097MZPxn4EQ3ekdXb9GsYyRBG_vjOphvCg5HXXeAgH_2ZytozX8_PdjXmaDp-drU-nzGNWBuODHN4EY5gLFsJaD0mdYNkH_RqzAjNn45-SAepd6AMyE8b3NQoNG3Og--EkCgtodsOLQp7jPt33YanZ14nbAA7AaBlTdAhwzgfx1FgC2JtSbYH3W_LxgupiBRVc_azCOy7KCh_z3ots2FuyTWxfBRHRiHp4; 1P_JAR=2019-6-12-8; SIDCC=AN0-TYu2iXS3HyV7g2PV5T_deHOxUgE5NaUe0vX7URglhg1S-2-0Qa0mkEHmZevHKWKX9tKr4A
+

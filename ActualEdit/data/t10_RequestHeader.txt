@@ -1,0 +1,9 @@
+GET /stat.htm?id=4478442&r=https%3A%2F%2Fwww.wjx.cn%2FLogin.aspx&lg=zh-cn&ntime=1560561510&cnzz_eid=1591451856-1559572098-&showp=1536x864&p=https%3A%2F%2Fwww.wjx.cn%2Fnewwjx%2Fmanage%2Fmyquestionnaires.aspx&t=%E6%88%91%E7%9A%84%E9%97%AE%E5%8D%B7%20-%20%E9%97%AE%E5%8D%B7%E6%98%9F%EF%BC%88%E5%85%8D%E8%B4%B9%E7%89%88%EF%BC%89&umuuid=16b1dd9e27d89-0df50382fd90a6-293e1d4e-144000-16b1dd9e27e2f9&h=1&rnd=1014746335 HTTP/1.1
+Accept: image/png, image/svg+xml, image/jxr, image/*;q=0.8, */*;q=0.5
+Host: gzs20.cnzz.com
+Connection: Keep-Alive
+Referer: https://www.wjx.cn/newwjx/manage/myquestionnaires.aspx
+Accept-Language: zh-Hans-CN,zh-Hans;q=0.8,en-US;q=0.5,en;q=0.3
+User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64; Trident/7.0; rv:11.0) like Gecko
+Accept-Encoding: gzip, deflate
+

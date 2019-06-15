@@ -1,0 +1,1226 @@
+[API Trapper      (1cb4:1374)] Recording in 64-bit mode: C:\Program Files (x86)\Google\Chrome\Application\chrome.exe
+[API Trapper      ( 648:2e68)] Recording in 64-bit mode: C:\Program Files (x86)\Google\Chrome\Application\chrome.exe
+[API Trapper      ( f2c:364c)] Recording in 64-bit mode: C:\Program Files (x86)\Google\Chrome\Application\chrome.exe
+[API Trapper      ( ec8:20ec)] Recording in 64-bit mode: C:\Program Files (x86)\Google\Chrome\Application\chrome.exe
+[Network Analyzer ( ec8: c60)] ------------------------------------------------------------------------------------------
+[Network Analyzer ( ec8: c60)] Load Network Traffic Analyzers:
+[Network Analyzer ( ec8: c60)]     Analyzer Module: WPLUS (value=)
+[Network Analyzer ( ec8: c60)]     Analyzer Module: WebBase (value=GetHttpProtocolAnalyzer:api_http_filter_x64.dll)
+[Network Analyzer ( ec8: c60)]     + Network Analyzer: api_http_filter_x64.dll @ GetHttpProtocolAnalyzer Loaded!
+[Network Analyzer ( ec8: c60)]     + Interception Auditors: WinInetWplusInterceptionAudit:api_http_filter_x64.dll
+[Network Analyzer ( ec8: c60)]     Analyzer Module: QTWeb (value=GetWebSocketProtocolAnalyzer:WebSocketAnalyzer_x64.dll)
+[Network Analyzer ( ec8: c60)]     + Network Analyzer: WebSocketAnalyzer_x64.dll @ GetWebSocketProtocolAnalyzer Loaded!
+[Network Analyzer ( ec8: c60)]     Analyzer Module: local_server (value=)
+[Network Analyzer ( ec8: c60)] ------------------------------------------------------------------------------------------
+[Network Analyzer ( ec8:2d34)] Address lookup for DESKTOP-624ASTC = 172.16.182.1
+[Network Analyzer ( ec8: c60)] Address lookup for DESKTOP-624ASTC = 172.16.182.1
+[Network Analyzer ( ec8: c60)] Request Connection: Remote Server @ 202.120.40.82:11235   (Service=)  (Sid=  1)  PROXIED!
+[Network Analyzer ( ec8: c60)] Address lookup for DESKTOP-624ASTC = 172.16.182.1
+[Web Request      ( ec8:2d34)] "CONNECT infinity-basic.infinitynewtab.com:443"   
+[Network Analyzer ( ec8:2d34)]   (Sid:  1) Client -> Server @ : 262 bytes (Service=HTTP)
+[Network Analyzer ( ec8: c60)] Request Connection: Remote Server @ 202.120.40.82:11235   (Service=)  (Sid=  2)  PROXIED!
+[Web Request      ( ec8:2d34)] "CONNECT api.infinitynewtab.com:443"   
+[Network Analyzer ( ec8:2d34)]   (Sid:  2) Client -> Server @ : 240 bytes (Service=HTTP)
+[Network Analyzer ( ec8: c60)] Address lookup for DESKTOP-624ASTC = 172.16.182.1
+[Network Analyzer ( ec8:2d34)]   (Sid:  2) Server -> Client : 35 bytes 
+[Network Analyzer ( ec8: c60)] Request Connection: Remote Server @ 202.120.40.82:11235   (Service=)  (Sid=  3)  PROXIED!
+[Web Request      ( ec8:2d34)] "CONNECT mtalk.google.com:5228"   
+[Network Analyzer ( ec8:2d34)]   (Sid:  3) Client -> Server @ : 101 bytes (Service=HTTP)
+[Network Analyzer ( ec8: c60)] Address lookup for DESKTOP-624ASTC = 172.16.182.1
+[Network Analyzer ( ec8:2d34)]   (Sid:  1) Server -> Client : 35 bytes 
+[Network Analyzer ( ec8:2d34)]   (Sid:  3) Server -> Client : 475 bytes  (Service=HTTP)
+[Network Analyzer ( ec8:2d34)]   (Sid:  3) Connection Terminated (by Server)
+[Network Analyzer ( ec8: c60)] Request Connection: Remote Server @ 202.120.40.82:11235   (Service=)  (Sid=  4)  PROXIED!
+[Network Analyzer ( ec8: c60)] Address lookup for DESKTOP-624ASTC = 172.16.182.1
+[Web Request      ( ec8:2d34)] "CONNECT www.googleapis.com:443"   
+[Network Analyzer ( ec8:2d34)]   (Sid:  4) Client -> Server @ : 232 bytes (Service=HTTP)
+[Network Analyzer ( ec8: c60)] Request Connection: Remote Server @ 202.120.40.82:11235   (Service=)  (Sid=  5)  PROXIED!
+[Web Request      ( ec8:2d34)] "CONNECT www.google-analytics.com:443"   
+[Network Analyzer ( ec8:2d34)]   (Sid:  5) Client -> Server @ : 244 bytes (Service=HTTP)
+[Network Analyzer ( ec8: c60)] Address lookup for DESKTOP-624ASTC = 172.16.182.1
+[Network Analyzer ( ec8:2d34)]   (Sid:  5) Server -> Client : 35 bytes 
+[Network Analyzer ( ec8:2d34)]   (Sid:  4) Server -> Client : 35 bytes 
+[Net An. Warning  ( ec8: c60)] Request Connection: Remote Server @ 127.0.0.1:63342 (Service=) Failed attempt #1. Unable to connect to remote server: rc = -1 , le = 10061)
+[Net An. Warning  ( ec8: c60)] Request Connection: Remote Server @ 127.0.0.1:63342 (Service=) Failed attempt #2. Unable to connect to remote server: rc = -1 , le = 10061)
+[Net An. Warning  ( ec8: c60)] Request Connection: Remote Server @ 127.0.0.1:63342 (Service=) Failed attempt #3. Unable to connect to remote server: rc = -1 , le = 10061)
+[Net An. Error    ( ec8: c60)] Request Connection: Remote Server @ 127.0.0.1:63342   (Service=)  NOT PROXIED! (REASON: Unable to connect to remote server: rc = -1 , le = 10061)
+[Network Analyzer ( ec8: c60)] Address lookup for DESKTOP-624ASTC = 172.16.182.1
+[Network Analyzer ( ec8: c60)] Request Connection: Remote Server @ 202.120.40.82:11235   (Service=)  (Sid=  6)  PROXIED!
+[Web Request      ( ec8:2d34)] "CONNECT accounts.google.com:443"   
+[Network Analyzer ( ec8:2d34)]   (Sid:  6) Client -> Server @ : 234 bytes (Service=HTTP)
+[Network Analyzer ( ec8: c60)] Address lookup for DESKTOP-624ASTC = 172.16.182.1
+[Network Analyzer ( ec8: c60)] Request Connection: Remote Server @ 202.120.40.82:11235   (Service=)  (Sid=  7)  PROXIED!
+[Network Analyzer ( ec8: c60)] Address lookup for DESKTOP-624ASTC = 172.16.182.1
+[Network Analyzer ( ec8:2d34)]   (Sid:  6) Server -> Client : 35 bytes 
+[Web Request      ( ec8:2d34)] "CONNECT www.wjx.cn:443"   
+[Network Analyzer ( ec8:2d34)]   (Sid:  7) Client -> Server @ : 216 bytes (Service=HTTP)
+[Network Analyzer ( ec8: c60)] Request Connection: Remote Server @ 202.120.40.82:11235   (Service=)  (Sid=  8)  PROXIED!
+[Network Analyzer ( ec8: c60)] Address lookup for DESKTOP-624ASTC = 172.16.182.1
+[Web Request      ( ec8:2d34)] "CONNECT clientservices.googleapis.com:443"   
+[Network Analyzer ( ec8:2d34)]   (Sid:  8) Client -> Server @ : 254 bytes (Service=HTTP)
+[Network Analyzer ( ec8: c60)] Request Connection: Remote Server @ 202.120.40.82:11235   (Service=)  (Sid=  9)  PROXIED!
+[Network Analyzer ( ec8:2d34)]   (Sid:  7) Server -> Client : 35 bytes 
+[Web Request      ( ec8:2d34)] "CONNECT ssl.gstatic.com:443"   
+[Network Analyzer ( ec8:2d34)]   (Sid:  9) Client -> Server @ : 226 bytes (Service=HTTP)
+[Network Analyzer ( ec8: c60)] Address lookup for DESKTOP-624ASTC = 172.16.182.1
+[Network Analyzer ( ec8:2d34)]   (Sid:  8) Server -> Client : 35 bytes 
+[Network Analyzer ( ec8:2d34)]   (Sid:  9) Server -> Client : 35 bytes 
+[Network Analyzer ( ec8: 3a4)]   (Sid:  2) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.2, ciphers:ECDHE-RSA-AES128-GCM-SHA256)
+[Network Analyzer ( ec8: c60)] Request Connection: Remote Server @ 202.120.40.82:11235   (Service=)  (Sid= 10)  PROXIED!
+[Network Analyzer ( ec8: c60)] Address lookup for DESKTOP-624ASTC = 172.16.182.1
+[Web Request      ( ec8:2d34)] "CONNECT ssl.gstatic.com:443"   
+[Network Analyzer ( ec8:2d34)]   (Sid: 10) Client -> Server @ : 226 bytes (Service=HTTP)
+[Network Analyzer ( ec8: c60)] Request Connection: Remote Server @ 202.120.40.82:11235   (Service=)  (Sid= 11)  PROXIED!
+[Web Request      ( ec8:2d34)] "CONNECT www.googleapis.com:443"   
+[Network Analyzer ( ec8:2d34)]   (Sid: 11) Client -> Server @ : 232 bytes (Service=HTTP)
+[Network Analyzer ( ec8:2d34)]   (Sid: 10) Server -> Client : 35 bytes 
+[Network Analyzer ( ec8:2d34)]   (Sid: 11) Server -> Client : 35 bytes 
+[Network Analyzer ( ec8: c60)] Address lookup for DESKTOP-624ASTC = 172.16.182.1
+[Network Analyzer ( ec8: 8a8)]   (Sid:  1) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.2, ciphers:ECDHE-RSA-AES128-GCM-SHA256)
+[Network Analyzer ( ec8: 728)]   (Sid:  5) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.2, ciphers:ECDHE-RSA-AES128-GCM-SHA256)
+[Network Analyzer ( ec8:1074)]   (Sid:  4) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.2, ciphers:ECDHE-ECDSA-AES128-GCM-SHA256)
+[Network Analyzer ( ec8:1dc8)]   (Sid:  6) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.2, ciphers:ECDHE-RSA-AES128-GCM-SHA256)
+[Network Analyzer ( ec8:2008)]   (Sid:  7) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.2, ciphers:ECDHE-RSA-AES128-GCM-SHA256)
+[Network Analyzer ( ec8:1a38)]   (Sid:  8) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.2, ciphers:ECDHE-ECDSA-AES128-GCM-SHA256)
+[API Trapper      (328c: 810)] Recording in 64-bit mode: C:\Program Files (x86)\Google\Chrome\Application\chrome.exe
+[Network Analyzer ( ec8:22b4)]   (Sid:  9) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.2, ciphers:ECDHE-ECDSA-AES128-GCM-SHA256)
+[Net An. Warning  ( ec8: c60)] Request Connection: Remote Server @ 127.0.0.1:63342 (Service=) Failed attempt #1. Unable to connect to remote server: rc = -1 , le = 10061)
+[Net An. Warning  ( ec8: c60)] Request Connection: Remote Server @ 127.0.0.1:63342 (Service=) Failed attempt #2. Unable to connect to remote server: rc = -1 , le = 10061)
+[Net An. Warning  ( ec8: c60)] Request Connection: Remote Server @ 127.0.0.1:63342 (Service=) Failed attempt #3. Unable to connect to remote server: rc = -1 , le = 10061)
+[Net An. Error    ( ec8: c60)] Request Connection: Remote Server @ 127.0.0.1:63342   (Service=)  NOT PROXIED! (REASON: Unable to connect to remote server: rc = -1 , le = 10061)
+[Network Analyzer ( ec8: c60)] Address lookup for DESKTOP-624ASTC = 172.16.182.1
+[Network Analyzer ( ec8: c60)] Request Connection: Remote Server @ 202.120.40.82:11235   (Service=)  (Sid= 12)  PROXIED!
+[Network Analyzer ( ec8: c60)] Address lookup for DESKTOP-624ASTC = 172.16.182.1
+[Web Request      ( ec8:2d34)] "CONNECT www.google-analytics.com:443"   
+[Network Analyzer ( ec8:2d34)]   (Sid: 12) Client -> Server @ : 244 bytes (Service=HTTP)
+[Network Analyzer ( ec8: c60)] Request Connection: Remote Server @ 202.120.40.82:11235   (Service=)  (Sid= 13)  PROXIED!
+[Web Request      ( ec8:2d34)] "CONNECT www.google-analytics.com:443"   
+[Network Analyzer ( ec8:2d34)]   (Sid: 13) Client -> Server @ : 244 bytes (Service=HTTP)
+[Network Analyzer ( ec8: c60)] Address lookup for DESKTOP-624ASTC = 172.16.182.1
+[Network Analyzer ( ec8:2d34)]   (Sid: 12) Server -> Client : 35 bytes 
+[Network Analyzer ( ec8:2d34)]   (Sid: 13) Server -> Client : 35 bytes 
+[Network Analyzer ( ec8: c60)] Request Connection: Remote Server @ 202.120.40.82:11235   (Service=)  (Sid= 14)  PROXIED!
+[Network Analyzer ( ec8: c60)] Address lookup for DESKTOP-624ASTC = 172.16.182.1
+[Web Request      ( ec8:2d34)] "CONNECT www.google-analytics.com:443"   
+[Network Analyzer ( ec8:2d34)]   (Sid: 14) Client -> Server @ : 244 bytes (Service=HTTP)
+[Network Analyzer ( ec8: c60)] Request Connection: Remote Server @ 202.120.40.82:11235   (Service=)  (Sid= 15)  PROXIED!
+[Web Request      ( ec8:2d34)] "CONNECT www.google-analytics.com:443"   
+[Network Analyzer ( ec8:2d34)]   (Sid: 15) Client -> Server @ : 244 bytes (Service=HTTP)
+[Network Analyzer ( ec8:2d34)]   (Sid: 14) Server -> Client : 35 bytes 
+[Network Analyzer ( ec8:2d34)]   (Sid: 15) Server -> Client : 35 bytes 
+[Network Analyzer ( ec8: c60)] Address lookup for DESKTOP-624ASTC = 172.16.182.1
+[Network Analyzer ( ec8: c60)] Request Connection: Remote Server @ 202.120.40.82:11235   (Service=)  (Sid= 16)  PROXIED!
+[Network Analyzer ( ec8: c60)] Address lookup for DESKTOP-624ASTC = 172.16.182.1
+[Web Request      ( ec8:2d34)] "CONNECT www.googleapis.com:443"   
+[Network Analyzer ( ec8:2d34)]   (Sid: 16) Client -> Server @ : 232 bytes (Service=HTTP)
+[Network Analyzer ( ec8: c60)] Request Connection: Remote Server @ 202.120.40.82:11235   (Service=)  (Sid= 17)  PROXIED!
+[Web Request      ( ec8:2d34)] "CONNECT www.googleapis.com:443"   
+[Network Analyzer ( ec8:2d34)]   (Sid: 17) Client -> Server @ : 232 bytes (Service=HTTP)
+[Network Analyzer ( ec8: c60)] Address lookup for DESKTOP-624ASTC = 172.16.182.1
+[Network Analyzer ( ec8:2d34)]   (Sid: 16) Server -> Client : 35 bytes 
+[Network Analyzer ( ec8:2d34)]   (Sid: 17) Server -> Client : 35 bytes 
+[Network Analyzer ( ec8:1978)]   (Sid: 10) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.2, ciphers:ECDHE-ECDSA-AES128-GCM-SHA256)
+[Network Analyzer ( ec8: c60)] Request Connection: Remote Server @ 202.120.40.82:11235   (Service=)  (Sid= 18)  PROXIED!
+[Web Request      ( ec8:2d34)] "CONNECT www.yahoo.com:443"   
+[Network Analyzer ( ec8:2d34)]   (Sid: 18) Client -> Server @ : 222 bytes (Service=HTTP)
+[Network Analyzer ( ec8:2008)]   (Sid:  7) Negotiate Client -> Proxy SSL Handshake (ssl:TLSv1.2, ciphers:ECDHE-RSA-AES128-GCM-SHA256)
+[Network Analyzer ( ec8:1a38)]   (Sid:  8) Negotiate Client -> Proxy SSL Handshake (ssl:TLSv1.2, ciphers:ECDHE-RSA-AES128-GCM-SHA256)
+[Network Analyzer ( ec8:22b4)]   (Sid:  9) Negotiate Client -> Proxy SSL Handshake (ssl:TLSv1.2, ciphers:ECDHE-RSA-AES128-GCM-SHA256)
+[Network Analyzer ( ec8:1978)]   (Sid: 10) Negotiate Client -> Proxy SSL Handshake (ssl:TLSv1.2, ciphers:ECDHE-RSA-AES128-GCM-SHA256)
+[Network Analyzer ( ec8: 8a8)]   (Sid:  1) Negotiate Client -> Proxy SSL Handshake (ssl:TLSv1.2, ciphers:ECDHE-RSA-AES128-GCM-SHA256)
+[Network Analyzer ( ec8:1dc8)]   (Sid:  6) Negotiate Client -> Proxy SSL Handshake (ssl:TLSv1.2, ciphers:ECDHE-RSA-AES128-GCM-SHA256)
+[Network Analyzer ( ec8:1074)]   (Sid:  4) Negotiate Client -> Proxy SSL Handshake (ssl:TLSv1.2, ciphers:ECDHE-RSA-AES128-GCM-SHA256)
+[Network Analyzer ( ec8:1eac)]   (Sid: 11) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.2, ciphers:ECDHE-ECDSA-AES128-GCM-SHA256)
+[Network Analyzer ( ec8: 3a4)]   (Sid:  2) Negotiate Client -> Proxy SSL Handshake (ssl:TLSv1.2, ciphers:ECDHE-RSA-AES128-GCM-SHA256)
+[Network Analyzer ( ec8: 728)]   (Sid:  5) Negotiate Client -> Proxy SSL Handshake (ssl:TLSv1.2, ciphers:ECDHE-RSA-AES128-GCM-SHA256)
+[Network Analyzer ( ec8:1eac)]   (Sid: 11) Negotiate Client -> Proxy SSL Handshake (ssl:TLSv1.2, ciphers:ECDHE-RSA-AES128-GCM-SHA256)
+[Network Analyzer ( ec8:2044)]   (Sid: 12) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.2, ciphers:ECDHE-RSA-AES128-GCM-SHA256)
+[Network Analyzer ( ec8:2044)]   (Sid: 12) Negotiate Client -> Proxy SSL Handshake (ssl:TLSv1.2, ciphers:ECDHE-RSA-AES128-GCM-SHA256)
+[Network Analyzer ( ec8:2d34)]   (Sid: 18) Server -> Client : 35 bytes 
+[Web Request      ( ec8:2d34)] "GET /basic-api/update-time.json?_=1560330313070"   
+[Network Analyzer ( ec8:2d34)]   (Sid:  1) Client -> Server @ : 400 bytes (SSL)(Service=HTTP)
+[Web Request      ( ec8:2d34)] "GET /se.php?t=t1dd5eu7nmei8b21l8etdmd7t6c9"   
+[Network Analyzer ( ec8:2d34)]   (Sid:  2) Client -> Server @ : 688 bytes (SSL)(Service=HTTP)
+[Web Request      ( ec8:2d34)] "POST /oauth2/v4/token"   
+[Network Analyzer ( ec8:2d34)]   (Sid:  4) Client -> Server @ : 545 bytes (SSL)(Service=HTTP)
+[Web Request      ( ec8:2d34)] "GET /collect?_t=1560330313136&t=pageview&v=1&tid=UA-54537742-7&cid=e0a9e774-13d0-46d6-9af8-89a18b270e6e&sr=1536x864&sd=24-bits&ul=zh-CN&dl=chrome-extension%3A%2F%2Fdbfmnekepjoapopniengjbcpnbljalfg%2Fbackground%2Fbackground.html&dp=%2Fbackground%2Fbackground.html&dt="   
+[Network Analyzer ( ec8:2d34)]   (Sid:  5) Client -> Server @ : 567 bytes (SSL)(Service=HTTP)
+[Network Analyzer ( ec8:2d34)]   (Sid:  6) Client -> Server @ : 1702 bytes (SSL)(Service=HTTP)
+[Web Request      ( ec8:2d34)] "GET /Login.aspx"   
+[Network Analyzer ( ec8:2d34)]   (Sid:  7) Client -> Server @ : 447 bytes (SSL)(Service=HTTP)
+[Web Request      ( ec8:2d34)] "GET /chrome-variations/seed?osname=win&channel=stable&milestone=74"   
+[Network Analyzer ( ec8:2d34)]   (Sid:  8) Client -> Server @ : 379 bytes (SSL)(Service=HTTP)
+[Web Request      ( ec8:2d34)] "GET /safebrowsing/csd/client_model_v5_variation_0.pb"   
+[Network Analyzer ( ec8:2d34)]   (Sid:  9) Client -> Server @ : 277 bytes (SSL)(Service=HTTP)
+[Web Request      ( ec8:2d34)] "GET /safebrowsing/csd/client_model_v5_ext_variation_0.pb"   
+[Network Analyzer ( ec8:2d34)]   (Sid: 10) Client -> Server @ : 281 bytes (SSL)(Service=HTTP)
+[Web Request      ( ec8:2d34)] "POST /oauth2/v4/token"   
+[Network Analyzer ( ec8:2d34)]   (Sid: 11) Client -> Server @ : 600 bytes (SSL)(Service=HTTP)
+[Web Request      ( ec8:2d34)] "GET /collect?_t=1560330313137&t=event&v=1&tid=UA-54537742-7&cid=e0a9e774-13d0-46d6-9af8-89a18b270e6e&sr=1536x864&sd=24-bits&ul=zh-CN&ec=%E7%89%88%E6%9C%AC&ea=7.3.9&dl=chrome-extension%3A%2F%2Fdbfmnekepjoapopniengjbcpnbljalfg%2Fbackground%2Fbackground.html"   
+[Network Analyzer ( ec8:2d34)]   (Sid: 12) Client -> Server @ : 556 bytes (SSL)(Service=HTTP)
+[Network Analyzer ( ec8:2d34)]   (Sid:  2) Server -> Client : 857 bytes (SSL) (Service=HTTP)
+[Network Analyzer ( ec8:2d34)]   (Sid:  5) Server -> Client : 437 bytes (SSL) (Service=HTTP)
+[Web Request      ( ec8:2d34)] "POST /ListAccounts?gpsia=1&source=ChromiumBrowser&json=standard"   
+[Network Analyzer ( ec8:2d34)]   (Sid:  6) Client -> Server @ : 1 bytes (SSL)(Service=HTTP)
+[Network Analyzer ( ec8:2d34)]   (Sid:  7) Server -> Client : 1400 bytes (SSL) (Service=HTTP)
+[Network Analyzer ( ec8:2d34)]   (Sid:  9) Server -> Client : 1380 bytes (SSL) (Service=HTTP)
+[Network Analyzer ( ec8:2d34)]   (Sid: 10) Server -> Client : 1380 bytes (SSL) (Service=HTTP)
+[Network Analyzer ( ec8:2d34)]   (Sid:  4) Server -> Client : 1389 bytes (SSL) (Service=HTTP)
+[Network Analyzer ( ec8:2d34)]   (Sid:  6) Server -> Client : 1389 bytes (SSL) (Service=HTTP)
+[Network Analyzer ( ec8:2d34)]   (Sid:  7) Server -> Client : 1400 bytes (SSL) (Service=HTTP)
+[Network Analyzer ( ec8:2d34)]   (Sid:  9) Server -> Client : 1380 bytes (SSL) (Service=HTTP)
+[Network Analyzer ( ec8:2d34)]   (Sid: 10) Server -> Client : 1380 bytes (SSL) (Service=HTTP)
+[Network Analyzer ( ec8:2d34)]   (Sid: 12) Server -> Client : 437 bytes (SSL) (Service=HTTP)
+[Network Analyzer ( ec8:29fc)]   (Sid: 13) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.2, ciphers:ECDHE-RSA-AES128-GCM-SHA256)
+[Network Analyzer ( ec8:2d34)]   (Sid:  4) Server -> Client : 35 bytes (SSL) (Service=HTTP)
+[Network Analyzer ( ec8:2d34)]   (Sid:  6) Server -> Client : 4 bytes (SSL) (Service=HTTP)
+[Network Analyzer ( ec8:2d34)]   (Sid:  7) Server -> Client : 189 bytes (SSL) (Service=HTTP)
+[Network Analyzer ( ec8:2d34)]   (Sid:  9) Server -> Client : 1380 bytes (SSL) (Service=HTTP)
+[Network Analyzer ( ec8:2d34)]   (Sid: 10) Server -> Client : 1380 bytes (SSL) (Service=HTTP)
+[Network Analyzer ( ec8:2d34)]   (Sid:  4) Server -> Client : 5 bytes (SSL) (Service=HTTP)
+[Network Analyzer ( ec8:2d34)]   (Sid:  6) Server -> Client : 83 bytes (SSL) (Service=HTTP)
+[Network Analyzer ( ec8:2d34)]   (Sid:  7) Server -> Client : 1076 bytes (SSL) (Service=HTTP)
+[Network Analyzer ( ec8:2d34)]   (Sid:  9) Server -> Client : 1380 bytes (SSL) (Service=HTTP)
+[Network Analyzer ( ec8:2d34)]   (Sid: 10) Server -> Client : 1380 bytes (SSL) (Service=HTTP)
+[Network Analyzer ( ec8:2d34)]   (Sid:  6) Server -> Client : 5 bytes (SSL) (Service=HTTP)
+[Network Analyzer ( ec8:2d34)]   (Sid:  9) Server -> Client : 1380 bytes (SSL) (Service=HTTP)
+[Network Analyzer ( ec8:2d34)]   (Sid: 10) Server -> Client : 1380 bytes (SSL) (Service=HTTP)
+[Network Analyzer ( ec8:2d34)]   (Sid:  8) Server -> Client : 212 bytes (SSL) (Service=HTTP)
+[Network Analyzer ( ec8:2d34)]   (Sid:  9) Server -> Client : 1380 bytes (SSL) (Service=HTTP)
+[Network Analyzer ( ec8:2d34)]   (Sid: 10) Server -> Client : 1380 bytes (SSL) (Service=HTTP)
+[Network Analyzer ( ec8:2d34)]   (Sid:  9) Server -> Client : 1380 bytes (SSL) (Service=HTTP)
+[Network Analyzer ( ec8:2d34)]   (Sid: 10) Server -> Client : 1380 bytes (SSL) (Service=HTTP)
+[Network Analyzer ( ec8:2d34)]   (Sid:  9) Server -> Client : 1380 bytes (SSL) (Service=HTTP)
+[Network Analyzer ( ec8:2d34)]   (Sid: 10) Server -> Client : 1380 bytes (SSL) (Service=HTTP)
+[Network Analyzer ( ec8:2d34)]   (Sid:  9) Server -> Client : 1380 bytes (SSL) (Service=HTTP)
+[Network Analyzer ( ec8:2d34)]   (Sid: 10) Server -> Client : 1380 bytes (SSL) (Service=HTTP)
+[Network Analyzer ( ec8:2d34)]   (Sid:  9) Server -> Client : 1380 bytes (SSL) (Service=HTTP)
+[Network Analyzer ( ec8:2d34)]   (Sid: 10) Server -> Client : 1380 bytes (SSL) (Service=HTTP)
+[Network Analyzer ( ec8:2d34)]   (Sid:  9) Server -> Client : 1380 bytes (SSL) (Service=HTTP)
+[Network Analyzer ( ec8:2d34)]   (Sid: 10) Server -> Client : 1380 bytes (SSL) (Service=HTTP)
+[Network Analyzer ( ec8:2d34)]   (Sid:  9) Server -> Client : 1380 bytes (SSL) (Service=HTTP)
+[Network Analyzer ( ec8:2d34)]   (Sid: 10) Server -> Client : 1380 bytes (SSL) (Service=HTTP)
+[Network Analyzer ( ec8:2d34)]   (Sid:  9) Server -> Client : 1380 bytes (SSL) (Service=HTTP)
+[Network Analyzer ( ec8:2d34)]   (Sid: 10) Server -> Client : 1380 bytes (SSL) (Service=HTTP)
+[Network Analyzer ( ec8:2d34)]   (Sid:  9) Server -> Client : 1380 bytes (SSL) (Service=HTTP)
+[Network Analyzer ( ec8:2d34)]   (Sid: 10) Server -> Client : 1380 bytes (SSL) (Service=HTTP)
+[Network Analyzer ( ec8:29fc)]   (Sid: 13) Negotiate Client -> Proxy SSL Handshake (ssl:TLSv1.2, ciphers:ECDHE-RSA-AES128-GCM-SHA256)
+[Web Request      ( ec8:2d34)] "GET /r/collect?v=1&_v=j76&a=1351604418&t=pageview&_s=1&dl=chrome-extension%3A%2F%2Fhflefjhkfeiaignkclmphmokmmbhbhik%2F_generated_background_page.html&dp=%2Fbackground%2F1.5.21%2FOn&ul=zh-cn&de=UTF-8&sd=24-bit&sr=1536x864&vp=&je=0&_u=SACAAEAB~&jid=232307240&gjid=639460598&cid=1508949300.1559633806&tid=UA-93290101-2&_gid=867776080.1560092489&_r=1&cd1=1.5.21&cd2=On&z=2095306766"   
+[Network Analyzer ( ec8:2d34)]   (Sid:  5) Client -> Server @ : 714 bytes (SSL)(Service=HTTP)
+[Network Analyzer ( ec8:2d34)]   (Sid:  9) Server -> Client : 1380 bytes (SSL) (Service=HTTP)
+[Network Analyzer ( ec8:2d34)]   (Sid: 10) Server -> Client : 1380 bytes (SSL) (Service=HTTP)
+[Network Analyzer ( ec8:1774)]   (Sid: 14) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.2, ciphers:ECDHE-RSA-AES128-GCM-SHA256)
+[Network Analyzer ( ec8:2d34)]   (Sid:  9) Server -> Client : 1380 bytes (SSL) (Service=HTTP)
+[Network Analyzer ( ec8:2d34)]   (Sid: 10) Server -> Client : 1380 bytes (SSL) (Service=HTTP)
+[Network Analyzer ( ec8:2d34)]   (Sid:  9) Server -> Client : 1380 bytes (SSL) (Service=HTTP)
+[Network Analyzer ( ec8:2d34)]   (Sid: 10) Server -> Client : 1380 bytes (SSL) (Service=HTTP)
+[Web Request      ( ec8:2d34)] "POST /oauth2/v4/token"   
+[Network Analyzer ( ec8:2d34)]   (Sid:  4) Client -> Server @ : 594 bytes (SSL)(Service=HTTP)
+[Network Analyzer ( ec8:2d34)]   (Sid:  9) Server -> Client : 1380 bytes (SSL) (Service=HTTP)
+[Network Analyzer ( ec8:2d34)]   (Sid: 10) Server -> Client : 1380 bytes (SSL) (Service=HTTP)
+[Network Analyzer ( ec8:2d34)]   (Sid:  9) Server -> Client : 1380 bytes (SSL) (Service=HTTP)
+[Network Analyzer ( ec8:2d34)]   (Sid: 10) Server -> Client : 1380 bytes (SSL) (Service=HTTP)
+[Network Analyzer ( ec8:2d34)]   (Sid:  5) Server -> Client : 984 bytes (SSL) (Service=HTTP)
+[Network Analyzer ( ec8:2d34)]   (Sid:  9) Server -> Client : 1380 bytes (SSL) (Service=HTTP)
+[Network Analyzer ( ec8:2d34)]   (Sid: 10) Server -> Client : 1380 bytes (SSL) (Service=HTTP)
+[Network Analyzer ( ec8:2d34)]   (Sid:  9) Server -> Client : 1380 bytes (SSL) (Service=HTTP)
+[Network Analyzer ( ec8:2d34)]   (Sid: 10) Server -> Client : 1380 bytes (SSL) (Service=HTTP)
+[Network Analyzer ( ec8:2d34)]   (Sid:  9) Server -> Client : 1380 bytes (SSL) (Service=HTTP)
+[Network Analyzer ( ec8:2d34)]   (Sid: 10) Server -> Client : 1380 bytes (SSL) (Service=HTTP)
+[Network Analyzer ( ec8:2d34)]   (Sid:  9) Server -> Client : 1380 bytes (SSL) (Service=HTTP)
+[Network Analyzer ( ec8:2d34)]   (Sid: 10) Server -> Client : 1380 bytes (SSL) (Service=HTTP)
+[Web Request      ( ec8:2d34)] "GET /__utm.gif?utmwv=5.7.2&utms=1&utmn=1529123026&utmhn=fngmhnnpilhplaeedifhccceomclgfbg&utmcs=UTF-8&utmsr=1536x864&utmsc=24-bit&utmul=zh-cn&utmje=0&utmfl=-&utmhid=582744442&utmr=-&utmp=%2F_generated_background_page.html&utmht=1560330313025&utmac=UA-33054271-5&utmcc=__utma%3D168020214.2045260896.1542347209.1560330185.1560330313.1324%3B%2B__utmz%3D168020214.1542347209.1.1.utmcsr%3D(direct)%7Cutmccn%3D(direct)%7Cutmcmd%3D(none)%3B&utmjid=&utmu=qAAAEAAAAAAAAAAAAAAAAAAE~"   
+[Network Analyzer ( ec8:2d34)]   (Sid: 12) Client -> Server @ : 808 bytes (SSL)(Service=HTTP)
+[Network Analyzer ( ec8:2d34)]   (Sid:  9) Server -> Client : 1380 bytes (SSL) (Service=HTTP)
+[Network Analyzer ( ec8:2d34)]   (Sid: 10) Server -> Client : 1380 bytes (SSL) (Service=HTTP)
+[Network Analyzer ( ec8:2d34)]   (Sid:  9) Server -> Client : 93 bytes (SSL) (Service=HTTP)
+[Network Analyzer ( ec8:2d34)]   (Sid: 10) Server -> Client : 92 bytes (SSL) (Service=HTTP)
+[Network Analyzer ( ec8:2d34)]   (Sid:  9) Server -> Client : 1380 bytes (SSL) (Service=HTTP)
+[Network Analyzer ( ec8:2d34)]   (Sid: 10) Server -> Client : 1380 bytes (SSL) (Service=HTTP)
+[Web Request      ( ec8:2d34)] "GET /__utm.gif?utmwv=5.7.2&utms=8&utmn=1813179904&utmhn=chphlpgkkbolifaimnlloiipkdnihall&utmcs=UTF-8&utmsr=1536x864&utmsc=24-bit&utmul=zh-cn&utmje=0&utmfl=-&utmhid=292195575&utmr=-&utmp=%2F_generated_background_page.html&utmht=1560330313010&utmac=UA-38573374-2&utmcc=__utma%3D140524640.1375607711.1542347206.1560326740.1560329198.863%3B%2B__utmz%3D140524640.1542347206.1.1.utmcsr%3D(direct)%7Cutmccn%3D(direct)%7Cutmcmd%3D(none)%3B&utmjid=&utmu=qAAAAAAAAAAAAAAAAAAAAAAE~"   
+[Network Analyzer ( ec8:2d34)]   (Sid: 13) Client -> Server @ : 807 bytes (SSL)(Service=HTTP)
+[Network Analyzer ( ec8:2d34)]   (Sid:  1) Server -> Client : 1195 bytes (SSL) (Service=HTTP)
+[Network Analyzer ( ec8:2d34)]   (Sid:  9) Server -> Client : 1380 bytes (SSL) (Service=HTTP)
+[Network Analyzer ( ec8:2d34)]   (Sid: 10) Server -> Client : 1380 bytes (SSL) (Service=HTTP)
+[Network Analyzer ( ec8:2d34)]   (Sid:  4) Server -> Client : 849 bytes (SSL) (Service=HTTP)
+[Network Analyzer ( ec8:2d34)]   (Sid:  9) Server -> Client : 1380 bytes (SSL) (Service=HTTP)
+[Network Analyzer ( ec8:2d34)]   (Sid: 10) Server -> Client : 1380 bytes (SSL) (Service=HTTP)
+[Network Analyzer ( ec8:2d34)]   (Sid: 12) Server -> Client : 437 bytes (SSL) (Service=HTTP)
+[Network Analyzer ( ec8:2d34)]   (Sid:  4) Server -> Client : 5 bytes (SSL) (Service=HTTP)
+[Network Analyzer ( ec8:2d34)]   (Sid:  9) Server -> Client : 1380 bytes (SSL) (Service=HTTP)
+[Network Analyzer ( ec8:2d34)]   (Sid: 10) Server -> Client : 1380 bytes (SSL) (Service=HTTP)
+[Network Analyzer ( ec8:1178)]   (Sid: 15) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.2, ciphers:ECDHE-RSA-AES128-GCM-SHA256)
+[Network Analyzer ( ec8:2d34)]   (Sid:  9) Server -> Client : 1380 bytes (SSL) (Service=HTTP)
+[Network Analyzer ( ec8:2d34)]   (Sid: 10) Server -> Client : 1380 bytes (SSL) (Service=HTTP)
+[Network Analyzer ( ec8:2d34)]   (Sid: 13) Server -> Client : 436 bytes (SSL) (Service=HTTP)
+[Network Analyzer ( ec8:1774)]   (Sid: 14) Negotiate Client -> Proxy SSL Handshake (ssl:TLSv1.2, ciphers:ECDHE-RSA-AES128-GCM-SHA256)
+[Network Analyzer ( ec8:2d34)]   (Sid:  9) Server -> Client : 1380 bytes (SSL) (Service=HTTP)
+[Network Analyzer ( ec8:2d34)]   (Sid: 10) Server -> Client : 1380 bytes (SSL) (Service=HTTP)
+[Network Analyzer ( ec8:2d34)]   (Sid:  9) Server -> Client : 1380 bytes (SSL) (Service=HTTP)
+[Network Analyzer ( ec8:2d34)]   (Sid: 10) Server -> Client : 1380 bytes (SSL) (Service=HTTP)
+[Network Analyzer ( ec8:2d34)]   (Sid:  9) Server -> Client : 1380 bytes (SSL) (Service=HTTP)
+[Network Analyzer ( ec8:2d34)]   (Sid: 10) Server -> Client : 1380 bytes (SSL) (Service=HTTP)
+[Network Analyzer ( ec8:2d34)]   (Sid:  9) Server -> Client : 1380 bytes (SSL) (Service=HTTP)
+[Network Analyzer ( ec8:2d34)]   (Sid: 10) Server -> Client : 1380 bytes (SSL) (Service=HTTP)
+[Network Analyzer ( ec8:2d34)]   (Sid:  9) Server -> Client : 1380 bytes (SSL) (Service=HTTP)
+[Network Analyzer ( ec8:2d34)]   (Sid: 10) Server -> Client : 1380 bytes (SSL) (Service=HTTP)
+[Network Analyzer ( ec8:2d34)]   (Sid:  9) Server -> Client : 1380 bytes (SSL) (Service=HTTP)
+[Network Analyzer ( ec8:2d34)]   (Sid: 10) Server -> Client : 1380 bytes (SSL) (Service=HTTP)
+[Network Analyzer ( ec8:2d34)]   (Sid: 11) Server -> Client : 1371 bytes (SSL) (Service=HTTP)
+[Network Analyzer ( ec8:2d34)]   (Sid:  9) Server -> Client : 1380 bytes (SSL) (Service=HTTP)
+[Network Analyzer ( ec8:2d34)]   (Sid: 10) Server -> Client : 1380 bytes (SSL) (Service=HTTP)
+[Network Analyzer ( ec8:2d34)]   (Sid: 11) Server -> Client : 5 bytes (SSL) (Service=HTTP)
+[Network Analyzer ( ec8:2d34)]   (Sid:  9) Server -> Client : 1380 bytes (SSL) (Service=HTTP)
+[Network Analyzer ( ec8:2d34)]   (Sid: 10) Server -> Client : 1380 bytes (SSL) (Service=HTTP)
+[Network Analyzer ( ec8:2d34)]   (Sid:  9) Server -> Client : 1380 bytes (SSL) (Service=HTTP)
+[Network Analyzer ( ec8:2d34)]   (Sid: 10) Server -> Client : 1380 bytes (SSL) (Service=HTTP)
+[Network Analyzer ( ec8:2d34)]   (Sid:  9) Server -> Client : 1380 bytes (SSL) (Service=HTTP)
+[Network Analyzer ( ec8:2d34)]   (Sid: 10) Server -> Client : 1380 bytes (SSL) (Service=HTTP)
+[Network Analyzer ( ec8:2d34)]   (Sid:  9) Server -> Client : 1380 bytes (SSL) (Service=HTTP)
+[Network Analyzer ( ec8:2d34)]   (Sid: 10) Server -> Client : 1380 bytes (SSL) (Service=HTTP)
+[Network Analyzer ( ec8:2d34)]   (Sid:  9) Server -> Client : 1380 bytes (SSL) (Service=HTTP)
+[Network Analyzer ( ec8:2d34)]   (Sid: 10) Server -> Client : 1380 bytes (SSL) (Service=HTTP)
+[Network Analyzer ( ec8:1178)]   (Sid: 15) Negotiate Client -> Proxy SSL Handshake (ssl:TLSv1.2, ciphers:ECDHE-RSA-AES128-GCM-SHA256)
+[Network Analyzer ( ec8:2d34)]   (Sid:  9) Server -> Client : 1380 bytes (SSL) (Service=HTTP)
+[Network Analyzer ( ec8:2d34)]   (Sid: 10) Server -> Client : 1380 bytes (SSL) (Service=HTTP)
+[Web Request      ( ec8:2d34)] "POST /oauth2/v4/token"   
+[Network Analyzer ( ec8:2d34)]   (Sid:  4) Client -> Server @ : 602 bytes (SSL)(Service=HTTP)
+[Network Analyzer ( ec8:2d34)]   (Sid:  9) Server -> Client : 1380 bytes (SSL) (Service=HTTP)
+[Network Analyzer ( ec8:2d34)]   (Sid: 10) Server -> Client : 1380 bytes (SSL) (Service=HTTP)
+[Network Analyzer ( ec8:2d34)]   (Sid:  9) Server -> Client : 1380 bytes (SSL) (Service=HTTP)
+[Network Analyzer ( ec8:2d34)]   (Sid: 10) Server -> Client : 1380 bytes (SSL) (Service=HTTP)
+[Network Analyzer ( ec8:2d34)]   (Sid:  9) Server -> Client : 1380 bytes (SSL) (Service=HTTP)
+[Network Analyzer ( ec8:2d34)]   (Sid: 10) Server -> Client : 1380 bytes (SSL) (Service=HTTP)
+[Network Analyzer ( ec8:2d34)]   (Sid:  9) Server -> Client : 1380 bytes (SSL) (Service=HTTP)
+[Network Analyzer ( ec8:2d34)]   (Sid: 10) Server -> Client : 1380 bytes (SSL) (Service=HTTP)
+[Network Analyzer ( ec8: c60)] Address lookup for DESKTOP-624ASTC = 172.16.182.1
+[Network Analyzer ( ec8:2d34)]   (Sid:  9) Server -> Client : 1380 bytes (SSL) (Service=HTTP)
+[Network Analyzer ( ec8:2d34)]   (Sid: 10) Server -> Client : 1380 bytes (SSL) (Service=HTTP)
+[Network Analyzer ( ec8:2d34)]   (Sid:  9) Server -> Client : 1028 bytes (SSL) (Service=HTTP)
+[Network Analyzer ( ec8:2d34)]   (Sid: 10) Server -> Client : 1028 bytes (SSL) (Service=HTTP)
+[Network Analyzer ( ec8:2d34)]   (Sid:  9) Server -> Client : 352 bytes (SSL) (Service=HTTP)
+[Network Analyzer ( ec8:2d34)]   (Sid: 10) Server -> Client : 352 bytes (SSL) (Service=HTTP)
+[Network Analyzer ( ec8:2d34)]   (Sid:  9) Server -> Client : 1380 bytes (SSL) (Service=HTTP)
+[Network Analyzer ( ec8:2d34)]   (Sid: 10) Server -> Client : 1380 bytes (SSL) (Service=HTTP)
+[Network Analyzer ( ec8: c60)] Request Connection: Remote Server @ 202.120.40.82:11235   (Service=)  (Sid= 19)  PROXIED!
+[Network Analyzer ( ec8:2d34)]   (Sid:  9) Server -> Client : 1380 bytes (SSL) (Service=HTTP)
+[Network Analyzer ( ec8:2d34)]   (Sid: 10) Server -> Client : 1380 bytes (SSL) (Service=HTTP)
+[Network Analyzer ( ec8:2d34)]   (Sid:  9) Server -> Client : 899 bytes (SSL) (Service=HTTP)
+[Network Analyzer ( ec8:2d34)]   (Sid: 10) Server -> Client : 899 bytes (SSL) (Service=HTTP)
+[Web Request      ( ec8:2d34)] "CONNECT oauthaccountmanager.googleapis.com:443"   
+[Network Analyzer ( ec8:2d34)]   (Sid: 19) Client -> Server @ : 264 bytes (Service=HTTP)
+[Network Analyzer ( ec8:2978)]   (Sid: 16) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.2, ciphers:ECDHE-ECDSA-AES128-GCM-SHA256)
+[Network Analyzer ( ec8: c60)] Address lookup for DESKTOP-624ASTC = 172.16.182.1
+[Network Analyzer ( ec8: c60)] Request Connection: Remote Server @ 202.120.40.82:11235   (Service=)  (Sid= 20)  PROXIED!
+[Network Analyzer ( ec8: c60)] Address lookup for DESKTOP-624ASTC = 172.16.182.1
+[Web Request      ( ec8:2d34)] "CONNECT www.wjx.cn:443"   
+[Network Analyzer ( ec8:2d34)]   (Sid: 20) Client -> Server @ : 216 bytes (Service=HTTP)
+[Network Analyzer ( ec8: c60)] Request Connection: Remote Server @ 202.120.40.82:11235   (Service=)  (Sid= 21)  PROXIED!
+[Web Request      ( ec8:2d34)] "CONNECT www.wjx.cn:443"   
+[Network Analyzer ( ec8:2d34)]   (Sid: 21) Client -> Server @ : 216 bytes (Service=HTTP)
+[Web Request      ( ec8:2d34)] "GET /css/index.css?v=3"   
+[Network Analyzer ( ec8:2d34)]   (Sid:  7) Client -> Server @ : 552 bytes (SSL)(Service=HTTP)
+[Network Analyzer ( ec8:2d34)]   (Sid: 20) Server -> Client : 35 bytes 
+[Network Analyzer ( ec8: c60)] Address lookup for DESKTOP-624ASTC = 172.16.182.1
+[Network Analyzer ( ec8:2d34)]   (Sid: 19) Server -> Client : 35 bytes 
+[Network Analyzer ( ec8:2d34)]   (Sid: 21) Server -> Client : 35 bytes 
+[Network Analyzer ( ec8:2d34)]   (Sid:  7) Server -> Client : 1400 bytes (SSL) (Service=HTTP)
+[Network Analyzer ( ec8:2d34)]   (Sid:  7) Server -> Client : 26 bytes (SSL) (Service=HTTP)
+[Network Analyzer ( ec8:2d34)]   (Sid:  7) Server -> Client : 1400 bytes (SSL) (Service=HTTP)
+[Network Analyzer ( ec8: c60)] Request Connection: Remote Server @ 202.120.40.82:11235   (Service=)  (Sid= 22)  PROXIED!
+[Network Analyzer ( ec8:2d34)]   (Sid:  7) Server -> Client : 48 bytes (SSL) (Service=HTTP)
+[Network Analyzer ( ec8:2d34)]   (Sid:  7) Server -> Client : 1400 bytes (SSL) (Service=HTTP)
+[Web Request      ( ec8:2d34)] "CONNECT clients4.google.com:443"   
+[Network Analyzer ( ec8:2d34)]   (Sid: 22) Client -> Server @ : 234 bytes (Service=HTTP)
+[Network Analyzer ( ec8:2d34)]   (Sid:  7) Server -> Client : 1400 bytes (SSL) (Service=HTTP)
+[Network Analyzer ( ec8:2d34)]   (Sid:  7) Server -> Client : 1400 bytes (SSL) (Service=HTTP)
+[Network Analyzer ( ec8:2d34)]   (Sid:  7) Server -> Client : 864 bytes (SSL) (Service=HTTP)
+[Network Analyzer ( ec8:2978)]   (Sid: 16) Negotiate Client -> Proxy SSL Handshake (ssl:TLSv1.2, ciphers:ECDHE-RSA-AES128-GCM-SHA256)
+[Web Request      ( ec8:2d34)] "GET /oauth2/v1/userinfo"   
+[Network Analyzer ( ec8:2d34)]   (Sid: 11) Client -> Server @ : 552 bytes (SSL)(Service=HTTP)
+[Network Analyzer ( ec8: c60)] Address lookup for DESKTOP-624ASTC = 172.16.182.1
+[Network Analyzer ( ec8: c60)] Request Connection: Remote Server @ 202.120.40.82:11235   (Service=)  (Sid= 23)  PROXIED!
+[Web Request      ( ec8:2d34)] "GET /js/jquery-1.8.3.min.js"   
+[Network Analyzer ( ec8:2d34)]   (Sid:  7) Client -> Server @ : 542 bytes (SSL)(Service=HTTP)
+[Network Analyzer ( ec8: c60)] Address lookup for DESKTOP-624ASTC = 172.16.182.1
+[Network Analyzer ( ec8:2d34)]   (Sid: 22) Server -> Client : 35 bytes 
+[Web Request      ( ec8:2d34)] "CONNECT stats.g.doubleclick.net:443"   
+[Network Analyzer ( ec8:2d34)]   (Sid: 23) Client -> Server @ : 242 bytes (Service=HTTP)
+[Network Analyzer ( ec8:2d34)]   (Sid:  7) Server -> Client : 1400 bytes (SSL) (Service=HTTP)
+[Network Analyzer ( ec8:2d34)]   (Sid:  7) Server -> Client : 1400 bytes (SSL) (Service=HTTP)
+[Network Analyzer ( ec8:2fb4)]   (Sid: 17) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.2, ciphers:ECDHE-ECDSA-AES128-GCM-SHA256)
+[Network Analyzer ( ec8:2d34)]   (Sid:  7) Server -> Client : 74 bytes (SSL) (Service=HTTP)
+[Network Analyzer ( ec8: c60)] Request Connection: Remote Server @ 202.120.40.82:11235   (Service=)  (Sid= 24)  PROXIED!
+[Network Analyzer ( ec8:2d34)]   (Sid:  7) Server -> Client : 1400 bytes (SSL) (Service=HTTP)
+[Network Analyzer ( ec8:2d34)]   (Sid: 23) Server -> Client : 35 bytes 
+[Network Analyzer ( ec8:2d34)]   (Sid:  7) Server -> Client : 1400 bytes (SSL) (Service=HTTP)
+[Network Analyzer ( ec8:2d34)]   (Sid: 11) Server -> Client : 845 bytes (SSL) (Service=HTTP)
+[Web Request      ( ec8:2d34)] "CONNECT www.wjx.cn:443"   
+[Network Analyzer ( ec8:2d34)]   (Sid: 24) Client -> Server @ : 216 bytes (Service=HTTP)
+[Network Analyzer ( ec8:2d34)]   (Sid:  7) Server -> Client : 1400 bytes (SSL) (Service=HTTP)
+[Network Analyzer ( ec8:2d34)]   (Sid: 11) Server -> Client : 5 bytes (SSL) (Service=HTTP)
+[Network Analyzer ( ec8:2d34)]   (Sid:  7) Server -> Client : 1400 bytes (SSL) (Service=HTTP)
+[Network Analyzer ( ec8:2d34)]   (Sid:  7) Server -> Client : 192 bytes (SSL) (Service=HTTP)
+[Network Analyzer ( ec8:2d34)]   (Sid: 24) Server -> Client : 35 bytes 
+[Network Analyzer ( ec8:2d34)]   (Sid:  7) Server -> Client : 1400 bytes (SSL) (Service=HTTP)
+[Network Analyzer ( ec8:2d34)]   (Sid:  7) Server -> Client : 1400 bytes (SSL) (Service=HTTP)
+[Network Analyzer ( ec8:2d34)]   (Sid:  7) Server -> Client : 1400 bytes (SSL) (Service=HTTP)
+[Network Analyzer ( ec8:2d34)]   (Sid:  7) Server -> Client : 1400 bytes (SSL) (Service=HTTP)
+[Network Analyzer ( ec8:2d34)]   (Sid:  7) Server -> Client : 1400 bytes (SSL) (Service=HTTP)
+[Network Analyzer ( ec8:2fb4)]   (Sid: 17) Negotiate Client -> Proxy SSL Handshake (ssl:TLSv1.2, ciphers:ECDHE-RSA-AES128-GCM-SHA256)
+[Network Analyzer ( ec8:2d34)]   (Sid:  7) Server -> Client : 1400 bytes (SSL) (Service=HTTP)
+[Network Analyzer ( ec8:2d34)]   (Sid:  7) Server -> Client : 1400 bytes (SSL) (Service=HTTP)
+[Network Analyzer ( ec8:2d34)]   (Sid:  7) Server -> Client : 1400 bytes (SSL) (Service=HTTP)
+[Network Analyzer ( ec8:2d34)]   (Sid:  7) Server -> Client : 384 bytes (SSL) (Service=HTTP)
+[Network Analyzer ( ec8:2d34)]   (Sid:  7) Server -> Client : 1400 bytes (SSL) (Service=HTTP)
+[Network Analyzer ( ec8:2d34)]   (Sid:  7) Server -> Client : 1400 bytes (SSL) (Service=HTTP)
+[Network Analyzer ( ec8:2d34)]   (Sid:  7) Server -> Client : 1400 bytes (SSL) (Service=HTTP)
+[Network Analyzer ( ec8:2d34)]   (Sid:  7) Server -> Client : 1400 bytes (SSL) (Service=HTTP)
+[Network Analyzer ( ec8:2d34)]   (Sid:  7) Server -> Client : 1400 bytes (SSL) (Service=HTTP)
+[Network Analyzer ( ec8:2d34)]   (Sid:  7) Server -> Client : 1400 bytes (SSL) (Service=HTTP)
+[Network Analyzer ( ec8:2d34)]   (Sid:  7) Server -> Client : 1400 bytes (SSL) (Service=HTTP)
+[Network Analyzer ( ec8:2d34)]   (Sid:  7) Server -> Client : 1400 bytes (SSL) (Service=HTTP)
+[Network Analyzer ( ec8:2d34)]   (Sid:  7) Server -> Client : 1400 bytes (SSL) (Service=HTTP)
+[Network Analyzer ( ec8:2d34)]   (Sid:  7) Server -> Client : 1002 bytes (SSL) (Service=HTTP)
+[Web Request      ( ec8:2d34)] "GET /js/zhezhao.js?v=3"   
+[Network Analyzer ( ec8:2d34)]   (Sid:  7) Client -> Server @ : 537 bytes (SSL)(Service=HTTP)
+[Network Analyzer ( ec8:2d34)]   (Sid:  7) Server -> Client : 1400 bytes (SSL) (Service=HTTP)
+[Network Analyzer ( ec8:2d34)]   (Sid:  7) Server -> Client : 1400 bytes (SSL) (Service=HTTP)
+[Network Analyzer ( ec8:2d34)]   (Sid:  7) Server -> Client : 74 bytes (SSL) (Service=HTTP)
+[Network Analyzer ( ec8:2d34)]   (Sid:  7) Server -> Client : 188 bytes (SSL) (Service=HTTP)
+[Web Request      ( ec8:2d34)] "GET /images/register-login/logo.png"   
+[Network Analyzer ( ec8:2d34)]   (Sid:  7) Client -> Server @ : 586 bytes (SSL)(Service=HTTP)
+[Network Analyzer ( ec8: c60)] Address lookup for DESKTOP-624ASTC = 172.16.182.1
+[Network Analyzer ( ec8: c60)] Request Connection: Remote Server @ 202.120.40.82:11235   (Service=)  (Sid= 25)  PROXIED!
+[Network Analyzer ( ec8: c60)] Address lookup for DESKTOP-624ASTC = 172.16.182.1
+[Network Analyzer ( ec8:2d34)]   (Sid:  7) Server -> Client : 1400 bytes (SSL) (Service=HTTP)
+[Network Analyzer ( ec8:2d34)]   (Sid:  7) Server -> Client : 1400 bytes (SSL) (Service=HTTP)
+[Web Request      ( ec8:2d34)] "CONNECT image.wjx.com:443"   
+[Network Analyzer ( ec8:2d34)]   (Sid: 25) Client -> Server @ : 222 bytes (Service=HTTP)
+[Network Analyzer ( ec8:2d34)]   (Sid:  7) Server -> Client : 1400 bytes (SSL) (Service=HTTP)
+[Network Analyzer ( ec8: c60)] Request Connection: Remote Server @ 202.120.40.82:11235   (Service=)  (Sid= 26)  PROXIED!
+[Network Analyzer ( ec8:2d34)]   (Sid:  7) Server -> Client : 745 bytes (SSL) (Service=HTTP)
+[Web Request      ( ec8:2d34)] "CONNECT image.wjx.com:443"   
+[Network Analyzer ( ec8:2d34)]   (Sid: 26) Client -> Server @ : 222 bytes (Service=HTTP)
+[Network Analyzer ( ec8: c60)] Address lookup for DESKTOP-624ASTC = 172.16.182.1
+[Network Analyzer ( ec8: c60)] Request Connection: Remote Server @ 202.120.40.82:11235   (Service=)  (Sid= 27)  PROXIED!
+[Network Analyzer ( ec8: c60)] Address lookup for DESKTOP-624ASTC = 172.16.182.1
+[Network Analyzer ( ec8:2d34)]   (Sid: 25) Server -> Client : 35 bytes 
+[Network Analyzer ( ec8:2d34)]   (Sid:  4) Server -> Client : 795 bytes (SSL) (Service=HTTP)
+[Network Analyzer ( ec8:2d34)]   (Sid: 26) Server -> Client : 35 bytes 
+[Web Request      ( ec8:2d34)] "CONNECT image.wjx.com:443"   
+[Network Analyzer ( ec8:2d34)]   (Sid: 27) Client -> Server @ : 222 bytes (Service=HTTP)
+[Network Analyzer ( ec8:2d34)]   (Sid:  4) Server -> Client : 5 bytes (SSL) (Service=HTTP)
+[Network Analyzer ( ec8: c60)] Request Connection: Remote Server @ 202.120.40.82:11235   (Service=)  (Sid= 28)  PROXIED!
+[Web Request      ( ec8:2d34)] "CONNECT image.wjx.com:443"   
+[Network Analyzer ( ec8:2d34)]   (Sid: 28) Client -> Server @ : 222 bytes (Service=HTTP)
+[Network Analyzer ( ec8: c60)] Address lookup for DESKTOP-624ASTC = 172.16.182.1
+[Network Analyzer ( ec8: c60)] Request Connection: Remote Server @ 202.120.40.82:11235   (Service=)  (Sid= 29)  PROXIED!
+[Network Analyzer ( ec8: c60)] Address lookup for DESKTOP-624ASTC = 172.16.182.1
+[Network Analyzer ( ec8:2d34)]   (Sid: 27) Server -> Client : 35 bytes 
+[Network Analyzer ( ec8:2d34)]   (Sid: 28) Server -> Client : 35 bytes 
+[Web Request      ( ec8:2d34)] "CONNECT image.wjx.com:443"   
+[Network Analyzer ( ec8:2d34)]   (Sid: 29) Client -> Server @ : 222 bytes (Service=HTTP)
+[Network Analyzer ( ec8: c60)] Request Connection: Remote Server @ 202.120.40.82:11235   (Service=)  (Sid= 30)  PROXIED!
+[Web Request      ( ec8:2d34)] "CONNECT image.wjx.com:443"   
+[Network Analyzer ( ec8:2d34)]   (Sid: 30) Client -> Server @ : 222 bytes (Service=HTTP)
+[Network Analyzer ( ec8: c60)] Address lookup for DESKTOP-624ASTC = 172.16.182.1
+[Network Analyzer ( ec8: c60)] Request Connection: Remote Server @ 202.120.40.82:11235   (Service=)  (Sid= 31)  PROXIED!
+[Network Analyzer ( ec8:2d34)]   (Sid: 29) Server -> Client : 35 bytes 
+[Network Analyzer ( ec8:2d34)]   (Sid: 30) Server -> Client : 35 bytes 
+[Web Request      ( ec8:2d34)] "CONNECT clients1.google.com:443"   
+[Network Analyzer ( ec8:2d34)]   (Sid: 31) Client -> Server @ : 234 bytes (Service=HTTP)
+[Network Analyzer ( ec8:2d34)]   (Sid: 31) Server -> Client : 35 bytes 
+[Network Analyzer ( ec8: 3c8)]   (Sid: 18) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.2, ciphers:ECDHE-RSA-AES128-GCM-SHA256)
+[Network Analyzer ( ec8:3590)]   (Sid: 20) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.2, ciphers:ECDHE-RSA-AES128-GCM-SHA256)
+[Network Analyzer ( ec8:3590)]   (Sid: 20) Negotiate Client -> Proxy SSL Handshake (ssl:TLSv1.2, ciphers:ECDHE-RSA-AES128-GCM-SHA256)
+[Network Analyzer ( ec8: 3c8)]   (Sid: 18) Negotiate Client -> Proxy SSL Handshake (ssl:TLSv1.2, ciphers:ECDHE-RSA-AES128-GCM-SHA256)
+[Network Analyzer ( ec8:  d0)]   (Sid: 19) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.2, ciphers:ECDHE-ECDSA-AES128-GCM-SHA256)
+[Network Analyzer ( ec8:2040)]   (Sid: 21) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.2, ciphers:ECDHE-RSA-AES128-GCM-SHA256)
+[Network Analyzer ( ec8:2040)]   (Sid: 21) Negotiate Client -> Proxy SSL Handshake (ssl:TLSv1.2, ciphers:ECDHE-RSA-AES128-GCM-SHA256)
+[Network Analyzer ( ec8:  d0)]   (Sid: 19) Negotiate Client -> Proxy SSL Handshake (ssl:TLSv1.2, ciphers:ECDHE-RSA-AES128-GCM-SHA256)
+[Network Analyzer ( ec8: f74)]   (Sid: 22) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.2, ciphers:ECDHE-ECDSA-AES128-GCM-SHA256)
+[Network Analyzer ( ec8: f74)]   (Sid: 22) Negotiate Client -> Proxy SSL Handshake (ssl:TLSv1.2, ciphers:ECDHE-RSA-AES128-GCM-SHA256)
+[Network Analyzer ( ec8:2f90)]   (Sid: 23) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.2, ciphers:ECDHE-ECDSA-AES128-GCM-SHA256)
+[Network Analyzer ( ec8:2180)]   (Sid: 24) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.2, ciphers:ECDHE-RSA-AES128-GCM-SHA256)
+[Network Analyzer ( ec8:2180)]   (Sid: 24) Negotiate Client -> Proxy SSL Handshake (ssl:TLSv1.2, ciphers:ECDHE-RSA-AES128-GCM-SHA256)
+[Network Analyzer ( ec8:2f90)]   (Sid: 23) Negotiate Client -> Proxy SSL Handshake (ssl:TLSv1.2, ciphers:ECDHE-RSA-AES128-GCM-SHA256)
+[Network Analyzer ( ec8: e78)]   (Sid: 25) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.2, ciphers:ECDHE-RSA-AES128-GCM-SHA256)
+[Network Analyzer ( ec8: e78)]   (Sid: 25) Negotiate Client -> Proxy SSL Handshake (ssl:TLSv1.2, ciphers:ECDHE-RSA-AES128-GCM-SHA256)
+[Network Analyzer ( ec8:2aac)]   (Sid: 26) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.2, ciphers:ECDHE-RSA-AES128-GCM-SHA256)
+[Network Analyzer ( ec8:2aac)]   (Sid: 26) Negotiate Client -> Proxy SSL Handshake (ssl:TLSv1.2, ciphers:ECDHE-RSA-AES128-GCM-SHA256)
+[Network Analyzer ( ec8:20a0)]   (Sid: 27) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.2, ciphers:ECDHE-RSA-AES128-GCM-SHA256)
+[Network Analyzer ( ec8:20a0)]   (Sid: 27) Negotiate Client -> Proxy SSL Handshake (ssl:TLSv1.2, ciphers:ECDHE-RSA-AES128-GCM-SHA256)
+[Network Analyzer ( ec8:3080)]   (Sid: 28) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.2, ciphers:ECDHE-RSA-AES128-GCM-SHA256)
+[Network Analyzer ( ec8:3080)]   (Sid: 28) Negotiate Client -> Proxy SSL Handshake (ssl:TLSv1.2, ciphers:ECDHE-RSA-AES128-GCM-SHA256)
+[Network Analyzer ( ec8:117c)]   (Sid: 29) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.2, ciphers:ECDHE-RSA-AES128-GCM-SHA256)
+[Network Analyzer ( ec8:117c)]   (Sid: 29) Negotiate Client -> Proxy SSL Handshake (ssl:TLSv1.2, ciphers:ECDHE-RSA-AES128-GCM-SHA256)
+[Network Analyzer ( ec8:2430)]   (Sid: 30) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.2, ciphers:ECDHE-RSA-AES128-GCM-SHA256)
+[Network Analyzer ( ec8:2430)]   (Sid: 30) Negotiate Client -> Proxy SSL Handshake (ssl:TLSv1.2, ciphers:ECDHE-RSA-AES128-GCM-SHA256)
+[Web Request      ( ec8:2d34)] "GET /news/_tdnews/api/resource/WeatherService;woeids=%5B2151849%5D?t=1560330313622"   
+[Network Analyzer ( ec8:2d34)]   (Sid: 18) Client -> Server @ : 499 bytes (SSL)(Service=HTTP)
+[Web Request      ( ec8:2d34)] "POST /v1/issuetoken"   
+[Network Analyzer ( ec8:2d34)]   (Sid: 19) Client -> Server @ : 1262 bytes (SSL)(Service=HTTP)
+[Web Request      ( ec8:2d34)] "POST /invalidation/android/request/CHES4QEStwFBUEE5MWJGejNhY09hWWRyN3lJZEZ0VWtxTkhiM1pOcW5sREZ5bXZLQUQyRU1BcUZjd1Z4VV8xZGp5WGxOTHBYemQ5blhqcGQyRFpKTjk3a3ZzVWNKc3RFZVROcFR6M09RN21RYjdJVjQtSHdobUJLU3Z6eHQtYmZ1dkxUdlFHdzlPdDNHeGs4a19VZ0dTako2OTZpT01UTE5GLUpNdDUxanhDVXFpNmJOMVd6cDE4Mno5XzlTNk0aACoCCAAyH2NvbS5nb29nbGUuY2hyb21lLmludmFsaWRhdGlvbnM"   
+[Network Analyzer ( ec8:2d34)]   (Sid: 22) Client -> Server @ : 1183 bytes (SSL)(Service=HTTP)
+[Web Request      ( ec8:2d34)] "GET /r/collect?v=1&aip=1&t=dc&_r=3&tid=UA-93290101-2&cid=1508949300.1559633806&jid=232307240&_gid=867776080.1560092489&gjid=639460598&_v=j76&z=2095306766"   
+[Network Analyzer ( ec8:2d34)]   (Sid: 23) Client -> Server @ : 602 bytes (SSL)(Service=HTTP)
+[Web Request      ( ec8:2d34)] "GET /images/register-login/qq.png"   
+[Network Analyzer ( ec8:2d34)]   (Sid: 25) Client -> Server @ : 406 bytes (SSL)(Service=HTTP)
+[Web Request      ( ec8:2d34)] "GET /images/register-login/weixin-nor.png"   
+[Network Analyzer ( ec8:2d34)]   (Sid: 26) Client -> Server @ : 407 bytes (SSL)(Service=HTTP)
+[Web Request      ( ec8:2d34)] "GET /images/register-login/qiye-nor.png"   
+[Network Analyzer ( ec8:2d34)]   (Sid: 27) Client -> Server @ : 405 bytes (SSL)(Service=HTTP)
+[Web Request      ( ec8:2d34)] "GET /images/newimg/register-login/bacg.jpg"   
+[Network Analyzer ( ec8:2d34)]   (Sid: 28) Client -> Server @ : 415 bytes (SSL)(Service=HTTP)
+[Web Request      ( ec8:2d34)] "GET /images/register-login/user.png"   
+[Network Analyzer ( ec8:2d34)]   (Sid: 29) Client -> Server @ : 408 bytes (SSL)(Service=HTTP)
+[Web Request      ( ec8:2d34)] "GET /images/register-login/password.png"   
+[Network Analyzer ( ec8:2d34)]   (Sid: 30) Client -> Server @ : 412 bytes (SSL)(Service=HTTP)
+[Network Analyzer ( ec8:2d34)]   (Sid: 25) Server -> Client : 1509 bytes (SSL) (Service=HTTP)
+[Network Analyzer ( ec8:2d34)]   (Sid: 26) Server -> Client : 2847 bytes (SSL) (Service=HTTP)
+[Network Analyzer ( ec8:1fec)]   (Sid: 31) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.2, ciphers:ECDHE-ECDSA-AES128-GCM-SHA256)
+[Network Analyzer ( ec8:2d34)]   (Sid: 23) Server -> Client : 497 bytes (SSL) (Service=HTTP)
+[Network Analyzer ( ec8:2d34)]   (Sid: 25) Server -> Client : 1026 bytes (SSL) (Service=HTTP)
+[Network Analyzer ( ec8:2d34)]   (Sid: 27) Server -> Client : 1510 bytes (SSL) (Service=HTTP)
+[Network Analyzer ( ec8:2d34)]   (Sid: 28) Server -> Client : 1509 bytes (SSL) (Service=HTTP)
+[Network Analyzer ( ec8:2d34)]   (Sid: 29) Server -> Client : 1509 bytes (SSL) (Service=HTTP)
+[Network Analyzer ( ec8:2d34)]   (Sid: 19) Server -> Client : 1009 bytes (SSL) (Service=HTTP)
+[Network Analyzer ( ec8:2d34)]   (Sid: 22) Server -> Client : 128 bytes (SSL) (Service=HTTP)
+[Network Analyzer ( ec8:2d34)]   (Sid: 27) Server -> Client : 1312 bytes (SSL) (Service=HTTP)
+[Network Analyzer ( ec8:2d34)]   (Sid: 28) Server -> Client : 16384 bytes (SSL) (Service=HTTP)
+[Network Analyzer ( ec8:2d34)]   (Sid: 29) Server -> Client : 432 bytes (SSL) (Service=HTTP)
+[Network Analyzer ( ec8:2d34)]   (Sid: 30) Server -> Client : 1866 bytes (SSL) (Service=HTTP)
+[Network Analyzer ( ec8:2d34)]   (Sid: 19) Server -> Client : 5 bytes (SSL) (Service=HTTP)
+[Network Analyzer ( ec8:2d34)]   (Sid: 28) Server -> Client : 16384 bytes (SSL) (Service=HTTP)
+[Network Analyzer ( ec8:2d34)]   (Sid: 28) Server -> Client : 16384 bytes (SSL) (Service=HTTP)
+[Network Analyzer ( ec8:2d34)]   (Sid: 28) Server -> Client : 13628 bytes (SSL) (Service=HTTP)
+[Network Analyzer ( ec8:2d34)]   (Sid: 28) Server -> Client : 7300 bytes (SSL) (Service=HTTP)
+[Network Analyzer ( ec8:2d34)]   (Sid: 28) Server -> Client : 16384 bytes (SSL) (Service=HTTP)
+[Network Analyzer ( ec8:2d34)]   (Sid: 28) Server -> Client : 16384 bytes (SSL) (Service=HTTP)
+[Network Analyzer ( ec8:2d34)]   (Sid: 28) Server -> Client : 16384 bytes (SSL) (Service=HTTP)
+[Network Analyzer ( ec8:2d34)]   (Sid: 28) Server -> Client : 16384 bytes (SSL) (Service=HTTP)
+[Network Analyzer ( ec8:2d34)]   (Sid: 28) Server -> Client : 16384 bytes (SSL) (Service=HTTP)
+[Network Analyzer ( ec8:2d34)]   (Sid: 28) Server -> Client : 16384 bytes (SSL) (Service=HTTP)
+[Network Analyzer ( ec8:2d34)]   (Sid: 28) Server -> Client : 16384 bytes (SSL) (Service=HTTP)
+[Network Analyzer ( ec8:2d34)]   (Sid: 28) Server -> Client : 16384 bytes (SSL) (Service=HTTP)
+[Network Analyzer ( ec8:2d34)]   (Sid: 28) Server -> Client : 16384 bytes (SSL) (Service=HTTP)
+[Network Analyzer ( ec8:2d34)]   (Sid: 28) Server -> Client : 13863 bytes (SSL) (Service=HTTP)
+[Network Analyzer ( ec8:1fec)]   (Sid: 31) Negotiate Client -> Proxy SSL Handshake (ssl:TLSv1.2, ciphers:ECDHE-RSA-AES128-GCM-SHA256)
+[Network Analyzer ( ec8:2d34)]   (Sid: 18) Server -> Client : 878 bytes (SSL) (Service=HTTP)
+[Network Analyzer ( ec8:2d34)]   (Sid: 18) Server -> Client : 15 bytes (SSL) (Service=HTTP)
+[Web Request      ( ec8:2d34)] "GET /tbproxy/af/query?q=Chc2LjEuMTcxNS4xNDQyL2VuIChHR0xMKRMZ2sVeOg6EbN8jLZFh1L0kIy1lIZnqJBQ="   
+[Network Analyzer ( ec8:2d34)]   (Sid: 31) Client -> Server @ : 432 bytes (SSL)(Service=HTTP)
+[Network Analyzer ( ec8:2d34)]   (Sid: 18) Server -> Client : 1300 bytes (SSL) (Service=HTTP)
+[Network Analyzer ( ec8:2d34)]   (Sid: 18) Server -> Client : 848 bytes (SSL) (Service=HTTP)
+[Network Analyzer ( ec8:2d34)]   (Sid: 31) Server -> Client : 375 bytes (SSL) (Service=HTTP)
+[Network Analyzer ( ec8: c60)] Address lookup for DESKTOP-624ASTC = 172.16.182.1
+[Net An. Warning  ( ec8: c60)] Request Connection: Remote Server @ 127.0.0.1:63342 (Service=) Failed attempt #1. Unable to connect to remote server: rc = -1 , le = 10061)
+[Net An. Warning  ( ec8: c60)] Request Connection: Remote Server @ 127.0.0.1:63342 (Service=) Failed attempt #2. Unable to connect to remote server: rc = -1 , le = 10061)
+[Net An. Warning  ( ec8: c60)] Request Connection: Remote Server @ 127.0.0.1:63342 (Service=) Failed attempt #3. Unable to connect to remote server: rc = -1 , le = 10061)
+[Net An. Error    ( ec8: c60)] Request Connection: Remote Server @ 127.0.0.1:63342   (Service=)  NOT PROXIED! (REASON: Unable to connect to remote server: rc = -1 , le = 10061)
+[Network Analyzer ( ec8: c60)] Address lookup for DESKTOP-624ASTC = 172.16.182.1
+[Net An. Warning  ( ec8: c60)] Request Connection: Remote Server @ 127.0.0.1:63342 (Service=) Failed attempt #1. Unable to connect to remote server: rc = -1 , le = 10061)
+[Network Analyzer ( ec8:2d34)]   (Sid: 18) Connection Terminated (by Server)
+[Net An. Warning  ( ec8: c60)] Request Connection: Remote Server @ 127.0.0.1:63342 (Service=) Failed attempt #2. Unable to connect to remote server: rc = -1 , le = 10061)
+[Net An. Warning  ( ec8: c60)] Request Connection: Remote Server @ 127.0.0.1:63342 (Service=) Failed attempt #3. Unable to connect to remote server: rc = -1 , le = 10061)
+[Net An. Error    ( ec8: c60)] Request Connection: Remote Server @ 127.0.0.1:63342   (Service=)  NOT PROXIED! (REASON: Unable to connect to remote server: rc = -1 , le = 10061)
+[Network Analyzer ( ec8: c60)] Address lookup for DESKTOP-624ASTC = 172.16.182.1
+[Network Analyzer ( ec8: c60)] Request Connection: Remote Server @ 202.120.40.82:11235   (Service=)  (Sid= 32)  PROXIED!
+[Web Request      ( ec8:2d34)] "CONNECT clients2.google.com:443"   
+[Network Analyzer ( ec8:2d34)]   (Sid: 32) Client -> Server @ : 234 bytes (Service=HTTP)
+[Network Analyzer ( ec8:2d34)]   (Sid: 32) Server -> Client : 35 bytes 
+[Network Analyzer ( ec8:3640)]   (Sid: 32) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.2, ciphers:ECDHE-ECDSA-AES128-GCM-SHA256)
+[Network Analyzer ( ec8:3640)]   (Sid: 32) Negotiate Client -> Proxy SSL Handshake (ssl:TLSv1.2, ciphers:ECDHE-RSA-AES128-GCM-SHA256)
+[Web Request      ( ec8:2d34)] "GET /service/update2/crx?os=win&arch=x64&os_arch=x86_64&nacl_arch=x86-64&prod=chromecrx&prodchannel=&prodversion=74.0.3729.169&lang=zh-CN&acceptformat=crx2,crx3&x=id%3Dmgndgikekgjfcpckkfioiadnlibdjbkf%26v%3D0.0.0.0%26installedby%3Dinternal%26uc%26brand%3DSQJL&x=id%3Daapbdbdomjkkjkaonfhkkikfgjllcleb%26v%3D2.0.7%26installedby%3Dinternal%26uc%26brand%3DSQJL&x=id%3Daeajloomjeoncelkceelhhpkgbcgafek%26v%3D0.1%26installedby%3Dinternal%26uc%26brand%3DSQJL&x=id%3Dcfhdojbkjhnklbpkdaibdccddilifddb%26v%3D3.5.2%26installedby%3Dinternal%26uc%26brand%3DSQJL&x=id%3Dchphlpgkkbolifaimnlloiipkdnihall%26v%3D1.18%26installedby%3Dinternal%26uc%26brand%3DSQJL&x=id%3Ddbfmnekepjoapopniengjbcpnbljalfg%26v%3D7.3.9%26installedby%3Dinternal%26uc%26brand%3DSQJL&x=id%3Ddgjhfomjieaadpoljlnidmbgkdffpack%26v%3D19.6.6.2105%26installedby%3Dinternal%26uc%26brand%3DSQJL&x=id%3Deeeningnfkaonkonalpcicgemnnijjhn%26v%3D0.0.1.3%26installedby%3Dinternal%26uc%26brand%3DSQJL&x=id%3Defaidnbmnnnibpcajpcglclefindmkaj%26v%3D15.1.1.1%26installedby%3Dexternal%26uc%26brand%3DSQJL&x=id%3Dffabmkklhbepgcgfonabamgnfafbdlkn%26v%3D0.3.2%26installedby%3Dinternal%26uc%26brand%3DSQJL&x=id%3Dfngmhnnpilhplaeedifhccceomclgfbg%26v%3D1.5.0%26installedby%3Dinternal%26uc%26brand%3DSQJL&x=id%3Dhflefjhkfeiaignkclmphmokmmbhbhik%26v%3D1.5.21%26installedby%3Dinternal%26uc%26brand%3DSQJL&x=id%3Dhmhgeddbohgjknpmjagkdomcpobmllji%26v%3D2.0.10%26installedby%3Dinternal%26uc%26brand%3DSQJL&x=id%3Dilmpacenmcgknoogkhpigakpoocpjmpl%26v%3D2.6.1%26installedby%3Dinternal%26uc%26brand%3DSQJL&x=id%3Djlgkpaicikihijadgifklkbpdajbkhjo%26v%3D4.4.2%26installedby%3Dinternal%26uc%26brand%3DSQJL&x=id%3Dlloccabjgblebdmncjndmiibianflabo%26v%3D2.4.4%26installedby%3Dinternal%26uc%26brand%3DSQJL&x=id%3Dmcbpblocgmgfnpjjppndjkmgjaogfceg%26v%3D0.98.96%26installedby%3Dinternal%26uc%26brand%3DSQJL&x=id%3Dnmmhkkegccagdldgiimedpiccmgmieda%26v%3D1.0.0.4%26installedby%3Dother%26uc%26brand%3DSQJL"   
+[Network Analyzer ( ec8:2d34)]   (Sid: 32) Client -> Server @ : 2899 bytes (SSL)(Service=HTTP)
+[Network Analyzer ( ec8:2d34)]   (Sid: 32) Server -> Client : 686 bytes (SSL) (Service=HTTP)
+[Network Analyzer ( ec8:2d34)]   (Sid: 32) Server -> Client : 840 bytes (SSL) (Service=HTTP)
+[Network Analyzer ( ec8:2d34)]   (Sid: 32) Server -> Client : 5 bytes (SSL) (Service=HTTP)
+[Web Request      ( ec8:2d34)] "GET /service/update2/crx?os=win&arch=x64&os_arch=x86_64&nacl_arch=x86-64&prod=chromecrx&prodchannel=&prodversion=74.0.3729.169&lang=zh-CN&acceptformat=crx2,crx3&x=id%3Dpkedcjkdefgpdelpbcmbmeomcjbeemfm%26v%3D7419.311.0.1%26installedby%3Dother%26uc%26brand%3DSQJL"   
+[Network Analyzer ( ec8:2d34)]   (Sid: 32) Client -> Server @ : 680 bytes (SSL)(Service=HTTP)
+[Network Analyzer ( ec8:2d34)]   (Sid: 32) Server -> Client : 686 bytes (SSL) (Service=HTTP)
+[Network Analyzer ( ec8:2d34)]   (Sid: 32) Server -> Client : 364 bytes (SSL) (Service=HTTP)
+[Network Analyzer ( ec8:2d34)]   (Sid: 32) Server -> Client : 5 bytes (SSL) (Service=HTTP)
+[Network Analyzer ( ec8:2d34)]   (Sid: 14) Connection Terminated (by Client)
+[Network Analyzer ( ec8:2d34)]   (Sid: 15) Connection Terminated (by Client)
+[Network Analyzer ( ec8:2d34)]   (Sid: 16) Connection Terminated (by Client)
+[Network Analyzer ( ec8:2d34)]   (Sid: 17) Connection Terminated (by Client)
+[Network Analyzer ( ec8: c60)] Address lookup for DESKTOP-624ASTC = 172.16.182.1
+[Net An. Warning  ( ec8: c60)] Request Connection: Remote Server @ 127.0.0.1:63342 (Service=) Failed attempt #1. Unable to connect to remote server: rc = -1 , le = 10061)
+[API Trapper      (1128:1d28)] Recording in 64-bit mode: C:\Program Files (x86)\Google\Chrome\Application\chrome.exe
+[Net An. Warning  ( ec8: c60)] Request Connection: Remote Server @ 127.0.0.1:63342 (Service=) Failed attempt #2. Unable to connect to remote server: rc = -1 , le = 10061)
+[Net An. Warning  ( ec8: c60)] Request Connection: Remote Server @ 127.0.0.1:63342 (Service=) Failed attempt #3. Unable to connect to remote server: rc = -1 , le = 10061)
+[Net An. Error    ( ec8: c60)] Request Connection: Remote Server @ 127.0.0.1:63342   (Service=)  NOT PROXIED! (REASON: Unable to connect to remote server: rc = -1 , le = 10061)
+[Network Analyzer ( ec8: c60)] Address lookup for DESKTOP-624ASTC = 172.16.182.1
+[Network Analyzer ( ec8: c60)] Request Connection: Remote Server @ 202.120.40.82:11235   (Service=)  (Sid= 33)  PROXIED!
+[Web Request      ( ec8:2d34)] "CONNECT mtalk.google.com:443"   
+[Network Analyzer ( ec8:2d34)]   (Sid: 33) Client -> Server @ : 99 bytes (Service=HTTP)
+[Web Request      ( ec8:2d34)] "POST /Login.aspx"   
+[Network Analyzer ( ec8:2d34)]   (Sid:  7) Client -> Server @ : 1254 bytes (SSL)(Service=HTTP)
+[Network Analyzer ( ec8:2d34)]   (Sid: 33) Server -> Client : 35 bytes 
+[Network Analyzer ( ec8:2d34)]   (Sid:  7) Server -> Client : 795 bytes (SSL) (Service=HTTP)
+[Web Request      ( ec8:2d34)] "GET /newwjx/manage/myquestionnaires.aspx"   
+[Network Analyzer ( ec8:2d34)]   (Sid:  7) Client -> Server @ : 915 bytes (SSL)(Service=HTTP)
+[Network Analyzer ( ec8:2d34)]   (Sid:  7) Server -> Client : 1400 bytes (SSL) (Service=HTTP)
+[Network Analyzer ( ec8:2d34)]   (Sid:  7) Server -> Client : 1400 bytes (SSL) (Service=HTTP)
+[Network Analyzer ( ec8:2d34)]   (Sid:  7) Server -> Client : 74 bytes (SSL) (Service=HTTP)
+[Network Analyzer ( ec8:2d34)]   (Sid:  7) Server -> Client : 1400 bytes (SSL) (Service=HTTP)
+[Network Analyzer ( ec8:2d34)]   (Sid:  7) Server -> Client : 1400 bytes (SSL) (Service=HTTP)
+[Network Analyzer ( ec8:2d34)]   (Sid:  7) Server -> Client : 1400 bytes (SSL) (Service=HTTP)
+[Network Analyzer ( ec8:2d34)]   (Sid:  7) Server -> Client : 1400 bytes (SSL) (Service=HTTP)
+[Network Analyzer ( ec8:2d34)]   (Sid:  7) Server -> Client : 192 bytes (SSL) (Service=HTTP)
+[Network Analyzer ( ec8:2d34)]   (Sid:  7) Server -> Client : 1400 bytes (SSL) (Service=HTTP)
+[Network Analyzer ( ec8:2d34)]   (Sid:  7) Server -> Client : 1400 bytes (SSL) (Service=HTTP)
+[Network Analyzer ( ec8:2d34)]   (Sid:  7) Server -> Client : 1400 bytes (SSL) (Service=HTTP)
+[Network Analyzer ( ec8:2d34)]   (Sid:  7) Server -> Client : 1400 bytes (SSL) (Service=HTTP)
+[Network Analyzer ( ec8:2d34)]   (Sid:  7) Server -> Client : 1400 bytes (SSL) (Service=HTTP)
+[Network Analyzer ( ec8:2d34)]   (Sid:  7) Server -> Client : 1400 bytes (SSL) (Service=HTTP)
+[Network Analyzer ( ec8:2d34)]   (Sid:  7) Server -> Client : 1400 bytes (SSL) (Service=HTTP)
+[Network Analyzer ( ec8:2d34)]   (Sid:  7) Server -> Client : 815 bytes (SSL) (Service=HTTP)
+[Network Analyzer ( ec8:1570)]   (Sid: 33) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.2, ciphers:ECDHE-ECDSA-AES128-GCM-SHA256)
+[Network Analyzer ( ec8:2d34)]   (Sid: 20) Connection Terminated (by Server)
+[Network Analyzer ( ec8:2d34)]   (Sid: 21) Connection Terminated (by Server)
+[Network Analyzer ( ec8:2d34)]   (Sid: 24) Connection Terminated (by Client)
+[Network Analyzer ( ec8: c60)] Address lookup for DESKTOP-624ASTC = 172.16.182.1
+[Net An. Warning  ( ec8: c60)] Request Connection: Remote Server @ 127.0.0.1:63342 (Service=) Failed attempt #1. Unable to connect to remote server: rc = -1 , le = 10061)
+[Net An. Warning  ( ec8: c60)] Request Connection: Remote Server @ 127.0.0.1:63342 (Service=) Failed attempt #2. Unable to connect to remote server: rc = -1 , le = 10061)
+[Net An. Warning  ( ec8: c60)] Request Connection: Remote Server @ 127.0.0.1:63342 (Service=) Failed attempt #3. Unable to connect to remote server: rc = -1 , le = 10061)
+[Net An. Error    ( ec8: c60)] Request Connection: Remote Server @ 127.0.0.1:63342   (Service=)  NOT PROXIED! (REASON: Unable to connect to remote server: rc = -1 , le = 10061)
+[Network Analyzer ( ec8:1570)]   (Sid: 33) Negotiate Client -> Proxy SSL Handshake (ssl:TLSv1.2, ciphers:ECDHE-RSA-AES128-GCM-SHA256)
+[Web Request      ( ec8:2d34)] "GET /wjxUI/src/wjxUI.css?v=5"   
+[Network Analyzer ( ec8:2d34)]   (Sid:  7) Client -> Server @ : 814 bytes (SSL)(Service=HTTP)
+[Network Analyzer ( ec8:2d34)]   (Sid: 33) Client -> Server @ : 228 bytes (SSL)
+[Network Analyzer ( ec8: c60)] Address lookup for DESKTOP-624ASTC = 172.16.182.1
+[Network Analyzer ( ec8: c60)] Request Connection: Remote Server @ 202.120.40.82:11235   (Service=)  (Sid= 34)  PROXIED!
+[Network Analyzer ( ec8: c60)] Address lookup for DESKTOP-624ASTC = 172.16.182.1
+[Network Analyzer ( ec8:2d34)]   (Sid:  7) Server -> Client : 1400 bytes (SSL) (Service=HTTP)
+[Network Analyzer ( ec8:2d34)]   (Sid:  7) Server -> Client : 1400 bytes (SSL) (Service=HTTP)
+[Web Request      ( ec8:2d34)] "CONNECT www.wjx.cn:443"   
+[Network Analyzer ( ec8:2d34)]   (Sid: 34) Client -> Server @ : 216 bytes (Service=HTTP)
+[Network Analyzer ( ec8:2d34)]   (Sid:  7) Server -> Client : 26 bytes (SSL) (Service=HTTP)
+[Network Analyzer ( ec8:2d34)]   (Sid:  7) Server -> Client : 48 bytes (SSL) (Service=HTTP)
+[Network Analyzer ( ec8: c60)] Request Connection: Remote Server @ 202.120.40.82:11235   (Service=)  (Sid= 35)  PROXIED!
+[Network Analyzer ( ec8:2d34)]   (Sid:  7) Server -> Client : 1400 bytes (SSL) (Service=HTTP)
+[Network Analyzer ( ec8:2d34)]   (Sid: 34) Server -> Client : 35 bytes 
+[Network Analyzer ( ec8:2d34)]   (Sid:  7) Server -> Client : 48 bytes (SSL) (Service=HTTP)
+[Web Request      ( ec8:2d34)] "CONNECT www.wjx.cn:443"   
+[Network Analyzer ( ec8:2d34)]   (Sid: 35) Client -> Server @ : 216 bytes (Service=HTTP)
+[Network Analyzer ( ec8:2d34)]   (Sid:  7) Server -> Client : 1400 bytes (SSL) (Service=HTTP)
+[Network Analyzer ( ec8:2d34)]   (Sid:  7) Server -> Client : 1335 bytes (SSL) (Service=HTTP)
+[Network Analyzer ( ec8:2d34)]   (Sid: 35) Server -> Client : 35 bytes 
+[Network Analyzer ( ec8: c60)] Address lookup for DESKTOP-624ASTC = 172.16.182.1
+[Network Analyzer ( ec8: c60)] Request Connection: Remote Server @ 202.120.40.82:11235   (Service=)  (Sid= 36)  PROXIED!
+[Network Analyzer ( ec8: c60)] Address lookup for DESKTOP-624ASTC = 172.16.182.1
+[Network Analyzer ( ec8: 25c)]   (Sid: 34) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.2, ciphers:ECDHE-RSA-AES128-GCM-SHA256)
+[Web Request      ( ec8:2d34)] "CONNECT www.wjx.cn:443"   
+[Network Analyzer ( ec8:2d34)]   (Sid: 36) Client -> Server @ : 216 bytes (Service=HTTP)
+[Network Analyzer ( ec8: c60)] Request Connection: Remote Server @ 202.120.40.82:11235   (Service=)  (Sid= 37)  PROXIED!
+[Web Request      ( ec8:2d34)] "CONNECT www.wjx.cn:443"   
+[Network Analyzer ( ec8:2d34)]   (Sid: 37) Client -> Server @ : 216 bytes (Service=HTTP)
+[Network Analyzer ( ec8: c60)] Address lookup for DESKTOP-624ASTC = 172.16.182.1
+[Network Analyzer ( ec8:2d34)]   (Sid: 36) Server -> Client : 35 bytes 
+[Network Analyzer ( ec8:2d34)]   (Sid: 37) Server -> Client : 35 bytes 
+[Network Analyzer ( ec8: c60)] Request Connection: Remote Server @ 202.120.40.82:11235   (Service=)  (Sid= 38)  PROXIED!
+[Web Request      ( ec8:2d34)] "CONNECT www.wjx.cn:443"   
+[Network Analyzer ( ec8:2d34)]   (Sid: 38) Client -> Server @ : 216 bytes (Service=HTTP)
+[Network Analyzer ( ec8: 25c)]   (Sid: 34) Negotiate Client -> Proxy SSL Handshake (ssl:TLSv1.2, ciphers:ECDHE-RSA-AES128-GCM-SHA256)
+[Web Request      ( ec8:2d34)] "GET /newwjx/css/myquestionnaires.css?v=467"   
+[Network Analyzer ( ec8:2d34)]   (Sid:  7) Client -> Server @ : 828 bytes (SSL)(Service=HTTP)
+[Web Request      ( ec8:2d34)] "GET /newwjx/css/default.css?v=4"   
+[Network Analyzer ( ec8:2d34)]   (Sid: 34) Client -> Server @ : 817 bytes (SSL)(Service=HTTP)
+[Network Analyzer ( ec8:2d34)]   (Sid: 38) Server -> Client : 35 bytes 
+[Network Analyzer ( ec8:2d34)]   (Sid:  7) Server -> Client : 1400 bytes (SSL) (Service=HTTP)
+[Network Analyzer ( ec8:2d34)]   (Sid: 34) Server -> Client : 1400 bytes (SSL) (Service=HTTP)
+[Network Analyzer ( ec8:2d34)]   (Sid:  7) Server -> Client : 1400 bytes (SSL) (Service=HTTP)
+[Network Analyzer ( ec8:2d34)]   (Sid: 34) Server -> Client : 1400 bytes (SSL) (Service=HTTP)
+[Network Analyzer ( ec8:2d34)]   (Sid:  7) Server -> Client : 74 bytes (SSL) (Service=HTTP)
+[Network Analyzer ( ec8:2d34)]   (Sid: 34) Server -> Client : 74 bytes (SSL) (Service=HTTP)
+[Network Analyzer ( ec8:2d34)]   (Sid:  7) Server -> Client : 1400 bytes (SSL) (Service=HTTP)
+[Network Analyzer ( ec8:2d34)]   (Sid: 34) Server -> Client : 1400 bytes (SSL) (Service=HTTP)
+[Network Analyzer ( ec8:2850)]   (Sid: 35) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.2, ciphers:ECDHE-RSA-AES128-GCM-SHA256)
+[Network Analyzer ( ec8:2d34)]   (Sid:  7) Server -> Client : 48 bytes (SSL) (Service=HTTP)
+[Network Analyzer ( ec8:2d34)]   (Sid: 34) Server -> Client : 48 bytes (SSL) (Service=HTTP)
+[Network Analyzer ( ec8:2d34)]   (Sid:  7) Server -> Client : 1165 bytes (SSL) (Service=HTTP)
+[Network Analyzer ( ec8:2d34)]   (Sid: 34) Server -> Client : 1400 bytes (SSL) (Service=HTTP)
+[Network Analyzer ( ec8:2d34)]   (Sid: 34) Server -> Client : 48 bytes (SSL) (Service=HTTP)
+[Network Analyzer ( ec8:2d34)]   (Sid: 34) Server -> Client : 1400 bytes (SSL) (Service=HTTP)
+[Network Analyzer ( ec8:2d34)]   (Sid: 34) Server -> Client : 818 bytes (SSL) (Service=HTTP)
+[Network Analyzer ( ec8:2850)]   (Sid: 35) Negotiate Client -> Proxy SSL Handshake (ssl:TLSv1.2, ciphers:ECDHE-RSA-AES128-GCM-SHA256)
+[Web Request      ( ec8:2d34)] "GET /newwjx/css/folder-set.css?v=3"   
+[Network Analyzer ( ec8:2d34)]   (Sid:  7) Client -> Server @ : 820 bytes (SSL)(Service=HTTP)
+[Web Request      ( ec8:2d34)] "GET /layer/layer.js?v=8"   
+[Network Analyzer ( ec8:2d34)]   (Sid: 34) Client -> Server @ : 794 bytes (SSL)(Service=HTTP)
+[Web Request      ( ec8:2d34)] "GET /newwjx/css/wjxmaster.css?v=4"   
+[Network Analyzer ( ec8:2d34)]   (Sid: 35) Client -> Server @ : 819 bytes (SSL)(Service=HTTP)
+[Network Analyzer ( ec8:2d34)]   (Sid:  7) Server -> Client : 1400 bytes (SSL) (Service=HTTP)
+[Network Analyzer ( ec8:13f0)]   (Sid: 36) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.2, ciphers:ECDHE-RSA-AES128-GCM-SHA256)
+[Network Analyzer ( ec8:2d34)]   (Sid:  7) Server -> Client : 1138 bytes (SSL) (Service=HTTP)
+[Network Analyzer ( ec8:2d34)]   (Sid: 34) Server -> Client : 1400 bytes (SSL) (Service=HTTP)
+[Network Analyzer ( ec8:2d34)]   (Sid: 34) Server -> Client : 1400 bytes (SSL) (Service=HTTP)
+[Network Analyzer ( ec8:2d34)]   (Sid: 35) Server -> Client : 1400 bytes (SSL) (Service=HTTP)
+[Network Analyzer ( ec8:2d34)]   (Sid: 34) Server -> Client : 74 bytes (SSL) (Service=HTTP)
+[Network Analyzer ( ec8:2d34)]   (Sid: 35) Server -> Client : 387 bytes (SSL) (Service=HTTP)
+[Network Analyzer ( ec8:2d34)]   (Sid: 34) Server -> Client : 1400 bytes (SSL) (Service=HTTP)
+[Network Analyzer ( ec8:2d34)]   (Sid: 34) Server -> Client : 1400 bytes (SSL) (Service=HTTP)
+[Network Analyzer ( ec8:2d34)]   (Sid: 34) Server -> Client : 1400 bytes (SSL) (Service=HTTP)
+[Network Analyzer ( ec8:13f0)]   (Sid: 36) Negotiate Client -> Proxy SSL Handshake (ssl:TLSv1.2, ciphers:ECDHE-RSA-AES128-GCM-SHA256)
+[Web Request      ( ec8:2d34)] "GET /newwjx/js/myquestionnaires.js?v=467"   
+[Network Analyzer ( ec8:2d34)]   (Sid:  7) Client -> Server @ : 811 bytes (SSL)(Service=HTTP)
+[Network Analyzer ( ec8:2d34)]   (Sid: 34) Server -> Client : 96 bytes (SSL) (Service=HTTP)
+[Network Analyzer ( ec8:2d34)]   (Sid: 34) Server -> Client : 1400 bytes (SSL) (Service=HTTP)
+[Web Request      ( ec8:2d34)] "GET /newwjx/js/selectpick.js?v=4"   
+[Network Analyzer ( ec8:2d34)]   (Sid: 36) Client -> Server @ : 803 bytes (SSL)(Service=HTTP)
+[Network Analyzer ( ec8:2d34)]   (Sid: 34) Server -> Client : 96 bytes (SSL) (Service=HTTP)
+[Network Analyzer ( ec8:2d34)]   (Sid: 34) Server -> Client : 1400 bytes (SSL) (Service=HTTP)
+[Network Analyzer ( ec8:1d38)]   (Sid: 37) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.2, ciphers:ECDHE-RSA-AES128-GCM-SHA256)
+[Network Analyzer ( ec8:2d34)]   (Sid:  7) Server -> Client : 1400 bytes (SSL) (Service=HTTP)
+[Network Analyzer ( ec8:2d34)]   (Sid: 34) Server -> Client : 813 bytes (SSL) (Service=HTTP)
+[Network Analyzer ( ec8:2d34)]   (Sid:  7) Server -> Client : 26 bytes (SSL) (Service=HTTP)
+[Network Analyzer ( ec8:2d34)]   (Sid: 36) Server -> Client : 1400 bytes (SSL) (Service=HTTP)
+[Network Analyzer ( ec8:2d34)]   (Sid:  7) Server -> Client : 1293 bytes (SSL) (Service=HTTP)
+[Network Analyzer ( ec8:2d34)]   (Sid: 36) Server -> Client : 84 bytes (SSL) (Service=HTTP)
+[Network Analyzer ( ec8:1d38)]   (Sid: 37) Negotiate Client -> Proxy SSL Handshake (ssl:TLSv1.2, ciphers:ECDHE-RSA-AES128-GCM-SHA256)
+[Web Request      ( ec8:2d34)] "GET /Images/newimg/pic-1/service1.png"   
+[Network Analyzer ( ec8:2d34)]   (Sid:  7) Client -> Server @ : 844 bytes (SSL)(Service=HTTP)
+[Web Request      ( ec8:2d34)] "GET /Images/newimg/pic-1/WeChat1.png"   
+[Network Analyzer ( ec8:2d34)]   (Sid: 34) Client -> Server @ : 843 bytes (SSL)(Service=HTTP)
+[Network Analyzer ( ec8:201c)]   (Sid: 38) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.2, ciphers:ECDHE-RSA-AES128-GCM-SHA256)
+[Network Analyzer ( ec8:201c)]   (Sid: 38) Negotiate Client -> Proxy SSL Handshake (ssl:TLSv1.2, ciphers:ECDHE-RSA-AES128-GCM-SHA256)
+[Network Analyzer ( ec8:2d34)]   (Sid:  7) Server -> Client : 1400 bytes (SSL) (Service=HTTP)
+[Network Analyzer ( ec8:2d34)]   (Sid:  7) Server -> Client : 407 bytes (SSL) (Service=HTTP)
+[Network Analyzer ( ec8:2d34)]   (Sid: 34) Server -> Client : 1400 bytes (SSL) (Service=HTTP)
+[Network Analyzer ( ec8:2d34)]   (Sid: 34) Server -> Client : 507 bytes (SSL) (Service=HTTP)
+[Network Analyzer ( ec8: c60)] Address lookup for DESKTOP-624ASTC = 172.16.182.1
+[Network Analyzer ( ec8: c60)] Request Connection: Remote Server @ 202.120.40.82:11235   (Service=)  (Sid= 39)  PROXIED!
+[Web Request      ( ec8:2d34)] "GET /layer/theme/default/layer.css?v=3.1.0"   
+[Network Analyzer ( ec8:2d34)]   (Sid: 34) Client -> Server @ : 828 bytes (SSL)(Service=HTTP)
+[Web Request      ( ec8:2d34)] "GET /newwjx/js/modernizr.js"   
+[Network Analyzer ( ec8:2d34)]   (Sid:  7) Client -> Server @ : 798 bytes (SSL)(Service=HTTP)
+[Web Request      ( ec8:2d34)] "CONNECT s6.cnzz.com:443"   
+[Network Analyzer ( ec8:2d34)]   (Sid: 39) Client -> Server @ : 218 bytes (Service=HTTP)
+[Web Request      ( ec8:2d34)] "GET /Images/newimg/pic-1/question1.png"   
+[Network Analyzer ( ec8:2d34)]   (Sid: 36) Client -> Server @ : 845 bytes (SSL)(Service=HTTP)
+[Network Analyzer ( ec8:2d34)]   (Sid: 34) Server -> Client : 1400 bytes (SSL) (Service=HTTP)
+[Web Request      ( ec8:2d34)] "GET /Images/newimg/pic-1/advice1.png"   
+[Network Analyzer ( ec8:2d34)]   (Sid: 35) Client -> Server @ : 843 bytes (SSL)(Service=HTTP)
+[Network Analyzer ( ec8:2d34)]   (Sid:  7) Server -> Client : 1400 bytes (SSL) (Service=HTTP)
+[Network Analyzer ( ec8:2d34)]   (Sid: 34) Server -> Client : 1400 bytes (SSL) (Service=HTTP)
+[Web Request      ( ec8:2d34)] "GET /Images/newimg/pic-1/service.png"   
+[Network Analyzer ( ec8:2d34)]   (Sid: 37) Client -> Server @ : 843 bytes (SSL)(Service=HTTP)
+[Network Analyzer ( ec8:2d34)]   (Sid:  7) Server -> Client : 1400 bytes (SSL) (Service=HTTP)
+[Network Analyzer ( ec8:2d34)]   (Sid: 34) Server -> Client : 74 bytes (SSL) (Service=HTTP)
+[Network Analyzer ( ec8:2d34)]   (Sid: 35) Server -> Client : 1400 bytes (SSL) (Service=HTTP)
+[Network Analyzer ( ec8:2d34)]   (Sid: 36) Server -> Client : 1400 bytes (SSL) (Service=HTTP)
+[Network Analyzer ( ec8:2d34)]   (Sid:  7) Server -> Client : 1400 bytes (SSL) (Service=HTTP)
+[Network Analyzer ( ec8:2d34)]   (Sid: 34) Server -> Client : 212 bytes (SSL) (Service=HTTP)
+[Network Analyzer ( ec8:2d34)]   (Sid: 35) Server -> Client : 367 bytes (SSL) (Service=HTTP)
+[Network Analyzer ( ec8:2d34)]   (Sid: 36) Server -> Client : 498 bytes (SSL) (Service=HTTP)
+[Network Analyzer ( ec8:2d34)]   (Sid: 37) Server -> Client : 1400 bytes (SSL) (Service=HTTP)
+[Network Analyzer ( ec8:2d34)]   (Sid:  7) Server -> Client : 1400 bytes (SSL) (Service=HTTP)
+[Network Analyzer ( ec8:2d34)]   (Sid: 37) Server -> Client : 243 bytes (SSL) (Service=HTTP)
+[Network Analyzer ( ec8:2d34)]   (Sid:  7) Server -> Client : 1400 bytes (SSL) (Service=HTTP)
+[Network Analyzer ( ec8:2d34)]   (Sid:  7) Server -> Client : 1400 bytes (SSL) (Service=HTTP)
+[Web Request      ( ec8:2d34)] "GET /images/newimg/index/mobieindexnew.png"   
+[Network Analyzer ( ec8:2d34)]   (Sid: 38) Client -> Server @ : 842 bytes (SSL)(Service=HTTP)
+[Network Analyzer ( ec8:2d34)]   (Sid:  7) Server -> Client : 266 bytes (SSL) (Service=HTTP)
+[Network Analyzer ( ec8:2d34)]   (Sid:  7) Server -> Client : 1400 bytes (SSL) (Service=HTTP)
+[Network Analyzer ( ec8:2d34)]   (Sid:  7) Server -> Client : 1400 bytes (SSL) (Service=HTTP)
+[Network Analyzer ( ec8:2d34)]   (Sid:  7) Server -> Client : 344 bytes (SSL) (Service=HTTP)
+[Web Request      ( ec8:2d34)] "GET /Images/newimg/user.png"   
+[Network Analyzer ( ec8:2d34)]   (Sid: 34) Client -> Server @ : 827 bytes (SSL)(Service=HTTP)
+[Web Request      ( ec8:2d34)] "GET /Images/newimg/home24.png"   
+[Network Analyzer ( ec8:2d34)]   (Sid: 35) Client -> Server @ : 829 bytes (SSL)(Service=HTTP)
+[Web Request      ( ec8:2d34)] "GET /Images/newimg/news.png"   
+[Network Analyzer ( ec8:2d34)]   (Sid: 37) Client -> Server @ : 827 bytes (SSL)(Service=HTTP)
+[Network Analyzer ( ec8:2d34)]   (Sid: 38) Server -> Client : 1400 bytes (SSL) (Service=HTTP)
+[Web Request      ( ec8:2d34)] "GET /Images/newimg/exit.png"   
+[Network Analyzer ( ec8:2d34)]   (Sid: 36) Client -> Server @ : 827 bytes (SSL)(Service=HTTP)
+[Network Analyzer ( ec8:2d34)]   (Sid: 38) Server -> Client : 1400 bytes (SSL) (Service=HTTP)
+[Web Request      ( ec8:2d34)] "GET /images/newimg/pic-1/create_15.png"   
+[Network Analyzer ( ec8:2d34)]   (Sid:  7) Client -> Server @ : 847 bytes (SSL)(Service=HTTP)
+[Network Analyzer ( ec8:2d34)]   (Sid: 34) Server -> Client : 1400 bytes (SSL) (Service=HTTP)
+[Network Analyzer ( ec8:2d34)]   (Sid: 38) Server -> Client : 74 bytes (SSL) (Service=HTTP)
+[Network Analyzer ( ec8:2d34)]   (Sid: 34) Server -> Client : 364 bytes (SSL) (Service=HTTP)
+[Network Analyzer ( ec8:2d34)]   (Sid: 35) Server -> Client : 1400 bytes (SSL) (Service=HTTP)
+[Network Analyzer ( ec8:2d34)]   (Sid: 37) Server -> Client : 1400 bytes (SSL) (Service=HTTP)
+[Network Analyzer ( ec8:2d34)]   (Sid: 38) Server -> Client : 1400 bytes (SSL) (Service=HTTP)
+[Network Analyzer ( ec8:2d34)]   (Sid:  7) Server -> Client : 1295 bytes (SSL) (Service=HTTP)
+[Network Analyzer ( ec8:2d34)]   (Sid: 35) Server -> Client : 3 bytes (SSL) (Service=HTTP)
+[Network Analyzer ( ec8:2d34)]   (Sid: 36) Server -> Client : 1400 bytes (SSL) (Service=HTTP)
+[Network Analyzer ( ec8:2d34)]   (Sid: 37) Server -> Client : 106 bytes (SSL) (Service=HTTP)
+[Network Analyzer ( ec8:2d34)]   (Sid: 38) Server -> Client : 1171 bytes (SSL) (Service=HTTP)
+[Network Analyzer ( ec8:2d34)]   (Sid: 36) Server -> Client : 295 bytes (SSL) (Service=HTTP)
+[Web Request      ( ec8:2d34)] "GET /images/newimg/pic-1/search-gray.png"   
+[Network Analyzer ( ec8:2d34)]   (Sid: 38) Client -> Server @ : 849 bytes (SSL)(Service=HTTP)
+[Web Request      ( ec8:2d34)] "GET /images/newimg/pic-1/delete-gray.png"   
+[Network Analyzer ( ec8:2d34)]   (Sid: 37) Client -> Server @ : 849 bytes (SSL)(Service=HTTP)
+[Web Request      ( ec8:2d34)] "GET /images/newimg/pic-1/design.png"   
+[Network Analyzer ( ec8:2d34)]   (Sid:  7) Client -> Server @ : 844 bytes (SSL)(Service=HTTP)
+[Web Request      ( ec8:2d34)] "GET /images/newimg/pic-1/download.png"   
+[Network Analyzer ( ec8:2d34)]   (Sid: 34) Client -> Server @ : 846 bytes (SSL)(Service=HTTP)
+[Web Request      ( ec8:2d34)] "GET /images/newimg/pic-1/recovery.png"   
+[Network Analyzer ( ec8:2d34)]   (Sid: 36) Client -> Server @ : 846 bytes (SSL)(Service=HTTP)
+[Web Request      ( ec8:2d34)] "GET /images/newimg/pic-1/stop.png"   
+[Network Analyzer ( ec8:2d34)]   (Sid: 35) Client -> Server @ : 842 bytes (SSL)(Service=HTTP)
+[Network Analyzer ( ec8:2d34)]   (Sid: 36) Server -> Client : 1400 bytes (SSL) (Service=HTTP)
+[Network Analyzer ( ec8:2d34)]   (Sid:  7) Server -> Client : 1400 bytes (SSL) (Service=HTTP)
+[Network Analyzer ( ec8:2d34)]   (Sid: 34) Server -> Client : 1400 bytes (SSL) (Service=HTTP)
+[Network Analyzer ( ec8:2d34)]   (Sid: 36) Server -> Client : 295 bytes (SSL) (Service=HTTP)
+[Network Analyzer ( ec8:2d34)]   (Sid: 37) Server -> Client : 1400 bytes (SSL) (Service=HTTP)
+[Network Analyzer ( ec8:2d34)]   (Sid: 38) Server -> Client : 1400 bytes (SSL) (Service=HTTP)
+[Network Analyzer ( ec8:2d34)]   (Sid:  7) Server -> Client : 233 bytes (SSL) (Service=HTTP)
+[Network Analyzer ( ec8:2d34)]   (Sid: 34) Server -> Client : 299 bytes (SSL) (Service=HTTP)
+[Network Analyzer ( ec8:2d34)]   (Sid: 35) Server -> Client : 1400 bytes (SSL) (Service=HTTP)
+[Network Analyzer ( ec8:2d34)]   (Sid: 37) Server -> Client : 73 bytes (SSL) (Service=HTTP)
+[Network Analyzer ( ec8:2d34)]   (Sid: 38) Server -> Client : 210 bytes (SSL) (Service=HTTP)
+[Network Analyzer ( ec8:2d34)]   (Sid: 35) Server -> Client : 26 bytes (SSL) (Service=HTTP)
+[Network Analyzer ( ec8:2d34)]   (Sid: 35) Server -> Client : 128 bytes (SSL) (Service=HTTP)
+[Web Request      ( ec8:2d34)] "GET /images/newimg/pic-1/copy.png"   
+[Network Analyzer ( ec8:2d34)]   (Sid: 36) Client -> Server @ : 842 bytes (SSL)(Service=HTTP)
+[Web Request      ( ec8:2d34)] "GET /images/newimg/pic-1/delete.png"   
+[Network Analyzer ( ec8:2d34)]   (Sid: 34) Client -> Server @ : 844 bytes (SSL)(Service=HTTP)
+[Web Request      ( ec8:2d34)] "GET /images/newimg/pic-1/folder.png"   
+[Network Analyzer ( ec8:2d34)]   (Sid:  7) Client -> Server @ : 844 bytes (SSL)(Service=HTTP)
+[Network Analyzer ( ec8:2d34)]   (Sid: 36) Server -> Client : 1400 bytes (SSL) (Service=HTTP)
+[Web Request      ( ec8:2d34)] "GET /images/newimg/pic-1/remind.png"   
+[Network Analyzer ( ec8:2d34)]   (Sid: 37) Client -> Server @ : 844 bytes (SSL)(Service=HTTP)
+[Network Analyzer ( ec8:2d34)]   (Sid:  7) Server -> Client : 1400 bytes (SSL) (Service=HTTP)
+[Network Analyzer ( ec8:2d34)]   (Sid: 34) Server -> Client : 1400 bytes (SSL) (Service=HTTP)
+[Web Request      ( ec8:2d34)] "GET /Images/newimg/pic-1/advice.png"   
+[Network Analyzer ( ec8:2d34)]   (Sid: 35) Client -> Server @ : 842 bytes (SSL)(Service=HTTP)
+[Network Analyzer ( ec8:2d34)]   (Sid: 36) Server -> Client : 69 bytes (SSL) (Service=HTTP)
+[Network Analyzer ( ec8:2d34)]   (Sid:  7) Server -> Client : 25 bytes (SSL) (Service=HTTP)
+[Network Analyzer ( ec8:2d34)]   (Sid: 34) Server -> Client : 56 bytes (SSL) (Service=HTTP)
+[Network Analyzer ( ec8:2d34)]   (Sid: 37) Server -> Client : 1400 bytes (SSL) (Service=HTTP)
+[Network Analyzer ( ec8:2d34)]   (Sid: 35) Server -> Client : 1400 bytes (SSL) (Service=HTTP)
+[Network Analyzer ( ec8:2d34)]   (Sid: 37) Server -> Client : 103 bytes (SSL) (Service=HTTP)
+[Network Analyzer ( ec8:2d34)]   (Sid: 35) Server -> Client : 207 bytes (SSL) (Service=HTTP)
+[Web Request      ( ec8:2d34)] "GET /images/newimg/pic-1/logo-small.png"   
+[Network Analyzer ( ec8:2d34)]   (Sid: 38) Client -> Server @ : 846 bytes (SSL)(Service=HTTP)
+[Web Request      ( ec8:2d34)] "GET /Images/newimg/first-new@2x.png"   
+[Network Analyzer ( ec8:2d34)]   (Sid: 35) Client -> Server @ : 833 bytes (SSL)(Service=HTTP)
+[Web Request      ( ec8:2d34)] "GET /Images/newimg/previous1-new@2x.png"   
+[Network Analyzer ( ec8:2d34)]   (Sid: 37) Client -> Server @ : 837 bytes (SSL)(Service=HTTP)
+[Web Request      ( ec8:2d34)] "GET /Images/newimg/next-new@2x.png"   
+[Network Analyzer ( ec8:2d34)]   (Sid:  7) Client -> Server @ : 832 bytes (SSL)(Service=HTTP)
+[Network Analyzer ( ec8:2d34)]   (Sid: 38) Server -> Client : 1400 bytes (SSL) (Service=HTTP)
+[Network Analyzer ( ec8:2d34)]   (Sid: 35) Server -> Client : 547 bytes (SSL) (Service=HTTP)
+[Web Request      ( ec8:2d34)] "GET /Images/newimg/last1-new@2x.png"   
+[Network Analyzer ( ec8:2d34)]   (Sid: 36) Client -> Server @ : 833 bytes (SSL)(Service=HTTP)
+[Network Analyzer ( ec8:2d34)]   (Sid: 38) Server -> Client : 470 bytes (SSL) (Service=HTTP)
+[Network Analyzer ( ec8:2d34)]   (Sid:  7) Server -> Client : 527 bytes (SSL) (Service=HTTP)
+[Network Analyzer ( ec8:2d34)]   (Sid: 37) Server -> Client : 529 bytes (SSL) (Service=HTTP)
+[Network Analyzer ( ec8:2d34)]   (Sid: 36) Server -> Client : 557 bytes (SSL) (Service=HTTP)
+[Network Analyzer ( ec8:2d34)]   (Sid: 39) Server -> Client : 35 bytes 
+[Network Analyzer ( ec8:294c)]   (Sid: 39) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.2, ciphers:ECDHE-RSA-AES128-GCM-SHA256)
+[Network Analyzer ( ec8:294c)]   (Sid: 39) Negotiate Client -> Proxy SSL Handshake (ssl:TLSv1.2, ciphers:ECDHE-RSA-AES128-GCM-SHA256)
+[Network Analyzer ( ec8: c60)] Address lookup for DESKTOP-624ASTC = 172.16.182.1
+[Web Request      ( ec8:2d34)] "GET /z_stat.php?id=4478442&web_id=4478442"   
+[Network Analyzer ( ec8:2d34)]   (Sid: 39) Client -> Server @ : 394 bytes (SSL)(Service=HTTP)
+[Network Analyzer ( ec8:2d34)]   (Sid: 39) Server -> Client : 4697 bytes (SSL) (Service=HTTP)
+[Net An. Warning  ( ec8: c60)] Request Connection: Remote Server @ 127.0.0.1:63342 (Service=) Failed attempt #1. Unable to connect to remote server: rc = -1 , le = 10061)
+[Net An. Warning  ( ec8: c60)] Request Connection: Remote Server @ 127.0.0.1:63342 (Service=) Failed attempt #2. Unable to connect to remote server: rc = -1 , le = 10061)
+[Net An. Warning  ( ec8: c60)] Request Connection: Remote Server @ 127.0.0.1:63342 (Service=) Failed attempt #3. Unable to connect to remote server: rc = -1 , le = 10061)
+[Net An. Error    ( ec8: c60)] Request Connection: Remote Server @ 127.0.0.1:63342   (Service=)  NOT PROXIED! (REASON: Unable to connect to remote server: rc = -1 , le = 10061)
+[Network Analyzer ( ec8: c60)] Address lookup for DESKTOP-624ASTC = 172.16.182.1
+[Network Analyzer ( ec8: c60)] Request Connection: Remote Server @ 202.120.40.82:11235   (Service=)  (Sid= 40)  PROXIED!
+[Network Analyzer ( ec8: c60)] Address lookup for DESKTOP-624ASTC = 172.16.182.1
+[Web Request      ( ec8:2d34)] "CONNECT c.cnzz.com:443"   
+[Network Analyzer ( ec8:2d34)]   (Sid: 40) Client -> Server @ : 216 bytes (Service=HTTP)
+[Network Analyzer ( ec8: c60)] Request Connection: Remote Server @ 202.120.40.82:11235   (Service=)  (Sid= 41)  PROXIED!
+[Web Request      ( ec8:2d34)] "CONNECT gzs20.cnzz.com:443"   
+[Network Analyzer ( ec8:2d34)]   (Sid: 41) Client -> Server @ : 224 bytes (Service=HTTP)
+[Network Analyzer ( ec8:2d34)]   (Sid: 40) Server -> Client : 35 bytes 
+[Network Analyzer ( ec8:2d34)]   (Sid: 41) Server -> Client : 35 bytes 
+[Network Analyzer ( ec8: c60)] Address lookup for DESKTOP-624ASTC = 172.16.182.1
+[Network Analyzer ( ec8:2b74)]   (Sid: 40) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.2, ciphers:ECDHE-RSA-AES128-GCM-SHA256)
+[Network Analyzer ( ec8:2b48)]   (Sid: 41) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.2, ciphers:ECDHE-RSA-AES128-GCM-SHA256)
+[Net An. Warning  ( ec8: c60)] Request Connection: Remote Server @ 127.0.0.1:63342 (Service=) Failed attempt #1. Unable to connect to remote server: rc = -1 , le = 10061)
+[Net An. Warning  ( ec8: c60)] Request Connection: Remote Server @ 127.0.0.1:63342 (Service=) Failed attempt #2. Unable to connect to remote server: rc = -1 , le = 10061)
+[Net An. Warning  ( ec8: c60)] Request Connection: Remote Server @ 127.0.0.1:63342 (Service=) Failed attempt #3. Unable to connect to remote server: rc = -1 , le = 10061)
+[Net An. Error    ( ec8: c60)] Request Connection: Remote Server @ 127.0.0.1:63342   (Service=)  NOT PROXIED! (REASON: Unable to connect to remote server: rc = -1 , le = 10061)
+[Network Analyzer ( ec8:2b48)]   (Sid: 41) Negotiate Client -> Proxy SSL Handshake (ssl:TLSv1.2, ciphers:ECDHE-RSA-AES128-GCM-SHA256)
+[Network Analyzer ( ec8:2b74)]   (Sid: 40) Negotiate Client -> Proxy SSL Handshake (ssl:TLSv1.2, ciphers:ECDHE-RSA-AES128-GCM-SHA256)
+[Web Request      ( ec8:2d34)] "GET /core.php?web_id=4478442&t=z"   
+[Network Analyzer ( ec8:2d34)]   (Sid: 40) Client -> Server @ : 472 bytes (SSL)(Service=HTTP)
+[Web Request      ( ec8:2d34)] "GET /stat.htm?id=4478442&r=https%3A%2F%2Fwww.wjx.cn%2FLogin.aspx&lg=zh-cn&ntime=none&cnzz_eid=2027245396-1560329066-https%3A%2F%2Fwww.wjx.cn%2F&showp=1536x864&p=https%3A%2F%2Fwww.wjx.cn%2Fnewwjx%2Fmanage%2Fmyquestionnaires.aspx&t=%E6%88%91%E7%9A%84%E9%97%AE%E5%8D%B7%20-%20%E9%97%AE%E5%8D%B7%E6%98%9F%EF%BC%88%E5%85%8D%E8%B4%B9%E7%89%88%EF%BC%89&umuuid=16b4af024d8e4-092e879fed8989-e353165-144000-16b4af024d9160&h=1&rnd=2082027922"   
+[Network Analyzer ( ec8:2d34)]   (Sid: 41) Client -> Server @ : 822 bytes (SSL)(Service=HTTP)
+[Network Analyzer ( ec8:2d34)]   (Sid: 41) Server -> Client : 245 bytes (SSL) (Service=HTTP)
+[Network Analyzer ( ec8:2d34)]   (Sid: 40) Server -> Client : 1258 bytes (SSL) (Service=HTTP)
+[Network Analyzer ( ec8: c60)] Address lookup for DESKTOP-624ASTC = 172.16.182.1
+[Network Analyzer ( ec8: c60)] Request Connection: Remote Server @ 202.120.40.82:11235   (Service=)  (Sid= 42)  PROXIED!
+[Web Request      ( ec8:2d34)] "GET /tbproxy/af/query?q=Chc2LjEuMTcxNS4xNDQyL2VuIChHR0xMKRMZx7147VYKfcMjLeMbDGwkIy3J0gWGJBQ="   
+[Network Analyzer ( ec8:2d34)]   (Sid: 31) Client -> Server @ : 432 bytes (SSL)(Service=HTTP)
+[Web Request      ( ec8:2d34)] "CONNECT hm.baidu.com:443"   
+[Network Analyzer ( ec8:2d34)]   (Sid: 42) Client -> Server @ : 220 bytes (Service=HTTP)
+[Network Analyzer ( ec8:2d34)]   (Sid: 42) Server -> Client : 35 bytes 
+[Network Analyzer ( ec8:2d34)]   (Sid: 31) Server -> Client : 364 bytes (SSL) (Service=HTTP)
+[Network Analyzer ( ec8:1388)]   (Sid: 42) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.2, ciphers:ECDHE-RSA-AES128-GCM-SHA256)
+[Network Analyzer ( ec8:1388)]   (Sid: 42) Negotiate Client -> Proxy SSL Handshake (ssl:TLSv1.2, ciphers:ECDHE-RSA-AES128-GCM-SHA256)
+[Web Request      ( ec8:2d34)] "GET /hm.js?21be24c80829bd7a683b2c536fcf520b"   
+[Network Analyzer ( ec8:2d34)]   (Sid: 42) Client -> Server @ : 397 bytes (SSL)(Service=HTTP)
+[Network Analyzer ( ec8:2d34)]   (Sid: 42) Server -> Client : 4000 bytes (SSL) (Service=HTTP)
+[Network Analyzer ( ec8:2d34)]   (Sid: 42) Server -> Client : 96 bytes (SSL) (Service=HTTP)
+[Network Analyzer ( ec8:2d34)]   (Sid: 42) Server -> Client : 24 bytes (SSL) (Service=HTTP)
+[Network Analyzer ( ec8:2d34)]   (Sid: 42) Server -> Client : 4000 bytes (SSL) (Service=HTTP)
+[Network Analyzer ( ec8:2d34)]   (Sid: 42) Server -> Client : 4000 bytes (SSL) (Service=HTTP)
+[Network Analyzer ( ec8:2d34)]   (Sid: 42) Server -> Client : 233 bytes (SSL) (Service=HTTP)
+[Web Request      ( ec8:2d34)] "GET /hm.gif?cc=1&ck=1&cl=24-bit&ds=1536x864&vl=722&et=0&ja=0&ln=zh-cn&lo=0&rnd=663436844&si=21be24c80829bd7a683b2c536fcf520b&su=https%3A%2F%2Fwww.wjx.cn%2FLogin.aspx&v=1.2.51&lv=1&sn=7574&ct=!!&tt=%E6%88%91%E7%9A%84%E9%97%AE%E5%8D%B7%20-%20%E9%97%AE%E5%8D%B7%E6%98%9F%EF%BC%88%E5%85%8D%E8%B4%B9%E7%89%88%EF%BC%89"   
+[Network Analyzer ( ec8:2d34)]   (Sid: 42) Client -> Server @ : 738 bytes (SSL)(Service=HTTP)
+[Network Analyzer ( ec8:2d34)]   (Sid: 42) Server -> Client : 299 bytes (SSL) (Service=HTTP)
+[Network Analyzer ( ec8:2d34)]   (Sid: 41) Connection Terminated (by Server)
+[Web Request      ( ec8:2d34)] "GET /images/newimg/pic-1/download-hover.png"   
+[Network Analyzer ( ec8:2d34)]   (Sid: 36) Client -> Server @ : 1238 bytes (SSL)(Service=HTTP)
+[Network Analyzer ( ec8:2d34)]   (Sid: 36) Server -> Client : 1400 bytes (SSL) (Service=HTTP)
+[Network Analyzer ( ec8:2d34)]   (Sid: 36) Server -> Client : 310 bytes (SSL) (Service=HTTP)
+[Web Request      ( ec8:2d34)] "GET /images/newimg/pic-1/recovery-hover.png"   
+[Network Analyzer ( ec8:2d34)]   (Sid: 36) Client -> Server @ : 1238 bytes (SSL)(Service=HTTP)
+[Network Analyzer ( ec8:2d34)]   (Sid: 36) Server -> Client : 1400 bytes (SSL) (Service=HTTP)
+[Network Analyzer ( ec8:2d34)]   (Sid: 36) Server -> Client : 294 bytes (SSL) (Service=HTTP)
+[Web Request      ( ec8:2d34)] "GET /images/newimg/pic-1/design-hover.png"   
+[Network Analyzer ( ec8:2d34)]   (Sid: 36) Client -> Server @ : 1236 bytes (SSL)(Service=HTTP)
+[Network Analyzer ( ec8:2d34)]   (Sid: 36) Server -> Client : 1400 bytes (SSL) (Service=HTTP)
+[Network Analyzer ( ec8:2d34)]   (Sid: 36) Server -> Client : 231 bytes (SSL) (Service=HTTP)
+[Network Analyzer ( ec8: c60)] Address lookup for DESKTOP-624ASTC = 172.16.182.1
+[Network Analyzer ( ec8:2d34)]   (Sid:  2) Connection Terminated (by Server)
+[Net An. Warning  ( ec8: c60)] Request Connection: Remote Server @ 127.0.0.1:63342 (Service=) Failed attempt #1. Unable to connect to remote server: rc = -1 , le = 10061)
+[Net An. Warning  ( ec8: c60)] Request Connection: Remote Server @ 127.0.0.1:63342 (Service=) Failed attempt #2. Unable to connect to remote server: rc = -1 , le = 10061)
+[Net An. Warning  ( ec8: c60)] Request Connection: Remote Server @ 127.0.0.1:63342 (Service=) Failed attempt #3. Unable to connect to remote server: rc = -1 , le = 10061)
+[Net An. Error    ( ec8: c60)] Request Connection: Remote Server @ 127.0.0.1:63342   (Service=)  NOT PROXIED! (REASON: Unable to connect to remote server: rc = -1 , le = 10061)
+[Web Request      ( ec8:2d34)] "GET /wjx/activitystat/reporttransfer.aspx?activity=40211802"   
+[Network Analyzer ( ec8:2d34)]   (Sid: 36) Client -> Server @ : 1361 bytes (SSL)(Service=HTTP)
+[Network Analyzer ( ec8:2d34)]   (Sid: 36) Server -> Client : 482 bytes (SSL) (Service=HTTP)
+[Web Request      ( ec8:2d34)] "GET /wjx/activitystat/viewnps.aspx?activity=40211802"   
+[Network Analyzer ( ec8:2d34)]   (Sid: 36) Client -> Server @ : 1354 bytes (SSL)(Service=HTTP)
+[Network Analyzer ( ec8:2d34)]   (Sid: 36) Server -> Client : 1400 bytes (SSL) (Service=HTTP)
+[Network Analyzer ( ec8: c60)] Address lookup for DESKTOP-624ASTC = 172.16.182.1
+[Network Analyzer ( ec8:2d34)]   (Sid: 36) Server -> Client : 1400 bytes (SSL) (Service=HTTP)
+[Network Analyzer ( ec8:2d34)]   (Sid: 36) Server -> Client : 74 bytes (SSL) (Service=HTTP)
+[Network Analyzer ( ec8:2d34)]   (Sid: 36) Server -> Client : 1400 bytes (SSL) (Service=HTTP)
+[Network Analyzer ( ec8:2d34)]   (Sid: 36) Server -> Client : 1400 bytes (SSL) (Service=HTTP)
+[Network Analyzer ( ec8:2d34)]   (Sid: 36) Server -> Client : 1400 bytes (SSL) (Service=HTTP)
+[Network Analyzer ( ec8:2d34)]   (Sid: 36) Server -> Client : 96 bytes (SSL) (Service=HTTP)
+[Network Analyzer ( ec8:2d34)]   (Sid: 36) Server -> Client : 1400 bytes (SSL) (Service=HTTP)
+[Network Analyzer ( ec8:2d34)]   (Sid: 36) Server -> Client : 96 bytes (SSL) (Service=HTTP)
+[Network Analyzer ( ec8:2d34)]   (Sid: 36) Server -> Client : 1400 bytes (SSL) (Service=HTTP)
+[Network Analyzer ( ec8:2d34)]   (Sid: 36) Server -> Client : 1400 bytes (SSL) (Service=HTTP)
+[Network Analyzer ( ec8:2d34)]   (Sid: 36) Server -> Client : 1400 bytes (SSL) (Service=HTTP)
+[Network Analyzer ( ec8:2d34)]   (Sid: 36) Server -> Client : 1400 bytes (SSL) (Service=HTTP)
+[Network Analyzer ( ec8:2d34)]   (Sid: 36) Server -> Client : 1400 bytes (SSL) (Service=HTTP)
+[Network Analyzer ( ec8:2d34)]   (Sid: 36) Server -> Client : 96 bytes (SSL) (Service=HTTP)
+[Network Analyzer ( ec8:2d34)]   (Sid: 36) Server -> Client : 1400 bytes (SSL) (Service=HTTP)
+[Network Analyzer ( ec8:2d34)]   (Sid: 36) Server -> Client : 1400 bytes (SSL) (Service=HTTP)
+[Network Analyzer ( ec8:2d34)]   (Sid: 36) Server -> Client : 1400 bytes (SSL) (Service=HTTP)
+[Network Analyzer ( ec8:2d34)]   (Sid: 36) Server -> Client : 288 bytes (SSL) (Service=HTTP)
+[Network Analyzer ( ec8:2d34)]   (Sid: 36) Server -> Client : 1292 bytes (SSL) (Service=HTTP)
+[Network Analyzer ( ec8:2d34)]   (Sid: 42) Connection Terminated (by Server)
+[Net An. Warning  ( ec8: c60)] Request Connection: Remote Server @ 127.0.0.1:63342 (Service=) Failed attempt #1. Unable to connect to remote server: rc = -1 , le = 10061)
+[Net An. Warning  ( ec8: c60)] Request Connection: Remote Server @ 127.0.0.1:63342 (Service=) Failed attempt #2. Unable to connect to remote server: rc = -1 , le = 10061)
+[Net An. Warning  ( ec8: c60)] Request Connection: Remote Server @ 127.0.0.1:63342 (Service=) Failed attempt #3. Unable to connect to remote server: rc = -1 , le = 10061)
+[Net An. Error    ( ec8: c60)] Request Connection: Remote Server @ 127.0.0.1:63342   (Service=)  NOT PROXIED! (REASON: Unable to connect to remote server: rc = -1 , le = 10061)
+[Network Analyzer ( ec8: c60)] Address lookup for DESKTOP-624ASTC = 172.16.182.1
+[Network Analyzer ( ec8: c60)] Request Connection: Remote Server @ 202.120.40.82:11235   (Service=)  (Sid= 43)  PROXIED!
+[Web Request      ( ec8:2d34)] "CONNECT hm.baidu.com:443"   
+[Network Analyzer ( ec8:2d34)]   (Sid: 43) Client -> Server @ : 220 bytes (Service=HTTP)
+[Web Request      ( ec8:2d34)] "GET /newwjx/css/NewDefault.css?v=12"   
+[Network Analyzer ( ec8:2d34)]   (Sid: 36) Client -> Server @ : 1219 bytes (SSL)(Service=HTTP)
+[Web Request      ( ec8:2d34)] "GET /newwjx/css/wjxdesign360.css?v=16"   
+[Network Analyzer ( ec8:2d34)]   (Sid: 37) Client -> Server @ : 1221 bytes (SSL)(Service=HTTP)
+[Network Analyzer ( ec8: c60)] Address lookup for DESKTOP-624ASTC = 172.16.182.1
+[Network Analyzer ( ec8:2d34)]   (Sid: 43) Server -> Client : 35 bytes 
+[Network Analyzer ( ec8: c60)] Request Connection: Remote Server @ 202.120.40.82:11235   (Service=)  (Sid= 44)  PROXIED!
+[Web Request      ( ec8:2d34)] "CONNECT staticfile.qnssl.com:443"   
+[Network Analyzer ( ec8:2d34)]   (Sid: 44) Client -> Server @ : 236 bytes (Service=HTTP)
+[Web Request      ( ec8:2d34)] "GET /css/single-item-count.css?v=4"   
+[Network Analyzer ( ec8:2d34)]   (Sid:  7) Client -> Server @ : 1218 bytes (SSL)(Service=HTTP)
+[Network Analyzer ( ec8:2d34)]   (Sid: 36) Server -> Client : 1400 bytes (SSL) (Service=HTTP)
+[Network Analyzer ( ec8:2d34)]   (Sid: 36) Server -> Client : 1400 bytes (SSL) (Service=HTTP)
+[Network Analyzer ( ec8:2d34)]   (Sid: 36) Server -> Client : 1400 bytes (SSL) (Service=HTTP)
+[Network Analyzer ( ec8:2d34)]   (Sid: 37) Server -> Client : 1400 bytes (SSL) (Service=HTTP)
+[Web Request      ( ec8:2d34)] "GET /Images/newimg/answer.png"   
+[Network Analyzer ( ec8:2d34)]   (Sid: 38) Client -> Server @ : 1234 bytes (SSL)(Service=HTTP)
+[Web Request      ( ec8:2d34)] "GET /js/highchartsall.js?v=467"   
+[Network Analyzer ( ec8:2d34)]   (Sid: 30) Client -> Server @ : 397 bytes (SSL)(Service=HTTP)
+[Network Analyzer ( ec8:2d34)]   (Sid: 36) Server -> Client : 74 bytes (SSL) (Service=HTTP)
+[Network Analyzer ( ec8:2d34)]   (Sid: 37) Server -> Client : 1400 bytes (SSL) (Service=HTTP)
+[Network Analyzer ( ec8:2d34)]   (Sid: 44) Server -> Client : 35 bytes 
+[Network Analyzer ( ec8:2d34)]   (Sid:  7) Server -> Client : 1400 bytes (SSL) (Service=HTTP)
+[Network Analyzer ( ec8:2d34)]   (Sid: 30) Server -> Client : 16384 bytes (SSL) (Service=HTTP)
+[Network Analyzer ( ec8:2d34)]   (Sid: 36) Server -> Client : 1400 bytes (SSL) (Service=HTTP)
+[Network Analyzer ( ec8:2d34)]   (Sid: 37) Server -> Client : 74 bytes (SSL) (Service=HTTP)
+[Network Analyzer ( ec8:2d34)]   (Sid: 38) Server -> Client : 1007 bytes (SSL) (Service=HTTP)
+[Network Analyzer ( ec8:2d34)]   (Sid:  7) Server -> Client : 1400 bytes (SSL) (Service=HTTP)
+[Network Analyzer ( ec8:2d34)]   (Sid: 30) Server -> Client : 16384 bytes (SSL) (Service=HTTP)
+[Network Analyzer ( ec8:2d34)]   (Sid: 36) Server -> Client : 1400 bytes (SSL) (Service=HTTP)
+[Network Analyzer ( ec8:2d34)]   (Sid: 37) Server -> Client : 1400 bytes (SSL) (Service=HTTP)
+[Network Analyzer ( ec8:2d34)]   (Sid:  7) Server -> Client : 74 bytes (SSL) (Service=HTTP)
+[Network Analyzer ( ec8:2d34)]   (Sid: 30) Server -> Client : 48 bytes (SSL) (Service=HTTP)
+[Network Analyzer ( ec8:2d34)]   (Sid: 36) Server -> Client : 1400 bytes (SSL) (Service=HTTP)
+[Network Analyzer ( ec8:2d34)]   (Sid: 37) Server -> Client : 1400 bytes (SSL) (Service=HTTP)
+[Network Analyzer ( ec8:2d34)]   (Sid:  7) Server -> Client : 1400 bytes (SSL) (Service=HTTP)
+[Network Analyzer ( ec8:2d34)]   (Sid: 30) Server -> Client : 16384 bytes (SSL) (Service=HTTP)
+[Network Analyzer ( ec8:2d34)]   (Sid: 36) Server -> Client : 192 bytes (SSL) (Service=HTTP)
+[Network Analyzer ( ec8:2d34)]   (Sid: 37) Server -> Client : 1400 bytes (SSL) (Service=HTTP)
+[Network Analyzer ( ec8:2d34)]   (Sid:  7) Server -> Client : 1400 bytes (SSL) (Service=HTTP)
+[Network Analyzer ( ec8:2d34)]   (Sid: 30) Server -> Client : 16384 bytes (SSL) (Service=HTTP)
+[Network Analyzer ( ec8:2d34)]   (Sid: 36) Server -> Client : 1400 bytes (SSL) (Service=HTTP)
+[Network Analyzer ( ec8:2d34)]   (Sid: 37) Server -> Client : 1400 bytes (SSL) (Service=HTTP)
+[Network Analyzer ( ec8:2d34)]   (Sid:  7) Server -> Client : 1367 bytes (SSL) (Service=HTTP)
+[Network Analyzer ( ec8:2d34)]   (Sid: 30) Server -> Client : 13539 bytes (SSL) (Service=HTTP)
+[Network Analyzer ( ec8:2d34)]   (Sid: 36) Server -> Client : 1400 bytes (SSL) (Service=HTTP)
+[Network Analyzer ( ec8:2d34)]   (Sid: 37) Server -> Client : 192 bytes (SSL) (Service=HTTP)
+[Network Analyzer ( ec8:29dc)]   (Sid: 43) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.2, ciphers:ECDHE-RSA-AES128-GCM-SHA256)
+[Network Analyzer ( ec8:2d34)]   (Sid: 36) Server -> Client : 431 bytes (SSL) (Service=HTTP)
+[Network Analyzer ( ec8:2d34)]   (Sid: 37) Server -> Client : 1400 bytes (SSL) (Service=HTTP)
+[Network Analyzer ( ec8:2d34)]   (Sid: 37) Server -> Client : 1400 bytes (SSL) (Service=HTTP)
+[Network Analyzer ( ec8:2d34)]   (Sid: 37) Server -> Client : 837 bytes (SSL) (Service=HTTP)
+[Network Analyzer ( ec8:29dc)]   (Sid: 43) Negotiate Client -> Proxy SSL Handshake (ssl:TLSv1.2, ciphers:ECDHE-RSA-AES128-GCM-SHA256)
+[Web Request      ( ec8:2d34)] "GET /hm.gif?cc=1&ck=1&cl=24-bit&ds=1536x864&vl=722&ep=15711%2C15710&et=3&ja=0&ln=zh-cn&lo=0&rnd=987796918&si=21be24c80829bd7a683b2c536fcf520b&su=https%3A%2F%2Fwww.wjx.cn%2FLogin.aspx&v=1.2.51&lv=1&sn=7574"   
+[Network Analyzer ( ec8:2d34)]   (Sid: 43) Client -> Server @ : 620 bytes (SSL)(Service=HTTP)
+[Network Analyzer ( ec8:2d34)]   (Sid: 43) Server -> Client : 299 bytes (SSL) (Service=HTTP)
+[Web Request      ( ec8:2d34)] "GET /Images/newimg/home.png"   
+[Network Analyzer ( ec8:2d34)]   (Sid: 37) Client -> Server @ : 1217 bytes (SSL)(Service=HTTP)
+[Web Request      ( ec8:2d34)] "GET /Images/newimg/online-exam/design.png"   
+[Network Analyzer ( ec8:2d34)]   (Sid: 36) Client -> Server @ : 1231 bytes (SSL)(Service=HTTP)
+[Web Request      ( ec8:2d34)] "GET /Images/newimg/online-exam/recycling.png"   
+[Network Analyzer ( ec8:2d34)]   (Sid: 38) Client -> Server @ : 1234 bytes (SSL)(Service=HTTP)
+[Web Request      ( ec8:2d34)] "GET /Images/newimg/online-exam/analysis.png"   
+[Network Analyzer ( ec8:2d34)]   (Sid:  7) Client -> Server @ : 1233 bytes (SSL)(Service=HTTP)
+[Web Request      ( ec8:2d34)] "GET /Images/newimg/service-gray.png"   
+[Network Analyzer ( ec8:2d34)]   (Sid: 35) Client -> Server @ : 1225 bytes (SSL)(Service=HTTP)
+[Web Request      ( ec8:2d34)] "GET /Images/newimg/question-gray.png"   
+[Network Analyzer ( ec8:2d34)]   (Sid: 34) Client -> Server @ : 1226 bytes (SSL)(Service=HTTP)
+[Network Analyzer ( ec8:25ec)]   (Sid: 44) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.2, ciphers:ECDHE-RSA-AES128-GCM-SHA256)
+[Network Analyzer ( ec8:2d34)]   (Sid: 37) Server -> Client : 1400 bytes (SSL) (Service=HTTP)
+[Network Analyzer ( ec8:2d34)]   (Sid: 37) Server -> Client : 26 bytes (SSL) (Service=HTTP)
+[Network Analyzer ( ec8:2d34)]   (Sid: 36) Server -> Client : 1400 bytes (SSL) (Service=HTTP)
+[Network Analyzer ( ec8:2d34)]   (Sid: 37) Server -> Client : 29 bytes (SSL) (Service=HTTP)
+[Network Analyzer ( ec8:2d34)]   (Sid:  7) Server -> Client : 1400 bytes (SSL) (Service=HTTP)
+[Network Analyzer ( ec8:2d34)]   (Sid: 36) Server -> Client : 26 bytes (SSL) (Service=HTTP)
+[Network Analyzer ( ec8:2d34)]   (Sid: 38) Server -> Client : 1400 bytes (SSL) (Service=HTTP)
+[Network Analyzer ( ec8:2d34)]   (Sid:  7) Server -> Client : 26 bytes (SSL) (Service=HTTP)
+[Network Analyzer ( ec8:2d34)]   (Sid: 34) Server -> Client : 1400 bytes (SSL) (Service=HTTP)
+[Network Analyzer ( ec8:2d34)]   (Sid: 35) Server -> Client : 1400 bytes (SSL) (Service=HTTP)
+[Network Analyzer ( ec8:2d34)]   (Sid: 36) Server -> Client : 344 bytes (SSL) (Service=HTTP)
+[Network Analyzer ( ec8:2d34)]   (Sid: 38) Server -> Client : 439 bytes (SSL) (Service=HTTP)
+[Network Analyzer ( ec8:2d34)]   (Sid:  7) Server -> Client : 440 bytes (SSL) (Service=HTTP)
+[Network Analyzer ( ec8:2d34)]   (Sid: 34) Server -> Client : 469 bytes (SSL) (Service=HTTP)
+[Network Analyzer ( ec8:2d34)]   (Sid: 35) Server -> Client : 349 bytes (SSL) (Service=HTTP)
+[Web Request      ( ec8:2d34)] "GET /Images/newimg/online-exam/link.png"   
+[Network Analyzer ( ec8:2d34)]   (Sid: 37) Client -> Server @ : 1229 bytes (SSL)(Service=HTTP)
+[Web Request      ( ec8:2d34)] "GET /Images/newimg/online-exam/default-nor.png"   
+[Network Analyzer ( ec8:2d34)]   (Sid: 36) Client -> Server @ : 1236 bytes (SSL)(Service=HTTP)
+[Web Request      ( ec8:2d34)] "GET /Images/newimg/online-exam/download.png"   
+[Network Analyzer ( ec8:2d34)]   (Sid: 38) Client -> Server @ : 1233 bytes (SSL)(Service=HTTP)
+[Web Request      ( ec8:2d34)] "GET /Images/newimg/online-exam/correct.png"   
+[Network Analyzer ( ec8:2d34)]   (Sid:  7) Client -> Server @ : 1232 bytes (SSL)(Service=HTTP)
+[Web Request      ( ec8:2d34)] "GET /Images/newimg/online-exam/analysis-hover.png"   
+[Network Analyzer ( ec8:2d34)]   (Sid: 34) Client -> Server @ : 1239 bytes (SSL)(Service=HTTP)
+[Web Request      ( ec8:2d34)] "GET /Images/newimg/online-exam/source.png"   
+[Network Analyzer ( ec8:2d34)]   (Sid: 35) Client -> Server @ : 1231 bytes (SSL)(Service=HTTP)
+[Network Analyzer ( ec8:2d34)]   (Sid: 37) Server -> Client : 853 bytes (SSL) (Service=HTTP)
+[Network Analyzer ( ec8:2d34)]   (Sid: 36) Server -> Client : 1312 bytes (SSL) (Service=HTTP)
+[Web Request      ( ec8:2d34)] "GET /Images/newimg/online-exam/report-pre.png"   
+[Network Analyzer ( ec8:2d34)]   (Sid: 37) Client -> Server @ : 1235 bytes (SSL)(Service=HTTP)
+[Network Analyzer ( ec8:2d34)]   (Sid: 38) Server -> Client : 1400 bytes (SSL) (Service=HTTP)
+[Network Analyzer ( ec8:2d34)]   (Sid:  7) Server -> Client : 758 bytes (SSL) (Service=HTTP)
+[Network Analyzer ( ec8:2d34)]   (Sid: 34) Server -> Client : 1400 bytes (SSL) (Service=HTTP)
+[Network Analyzer ( ec8:2d34)]   (Sid: 38) Server -> Client : 65 bytes (SSL) (Service=HTTP)
+[Network Analyzer ( ec8:2d34)]   (Sid: 34) Server -> Client : 436 bytes (SSL) (Service=HTTP)
+[Network Analyzer ( ec8:2d34)]   (Sid: 35) Server -> Client : 1400 bytes (SSL) (Service=HTTP)
+[Network Analyzer ( ec8:2d34)]   (Sid: 35) Server -> Client : 287 bytes (SSL) (Service=HTTP)
+[Network Analyzer ( ec8:25ec)]   (Sid: 44) Negotiate Client -> Proxy SSL Handshake (ssl:TLSv1.2, ciphers:ECDHE-RSA-AES128-GCM-SHA256)
+[Web Request      ( ec8:2d34)] "GET /jquery/1.8.3/jquery.min.js"   
+[Network Analyzer ( ec8:2d34)]   (Sid: 44) Client -> Server @ : 405 bytes (SSL)(Service=HTTP)
+[Web Request      ( ec8:2d34)] "GET /Images/newimg/online-exam/complete.png"   
+[Network Analyzer ( ec8:2d34)]   (Sid: 36) Client -> Server @ : 1233 bytes (SSL)(Service=HTTP)
+[Network Analyzer ( ec8:2d34)]   (Sid: 37) Server -> Client : 851 bytes (SSL) (Service=HTTP)
+[Network Analyzer ( ec8:2d34)]   (Sid: 44) Server -> Client : 1585 bytes (SSL) (Service=HTTP)
+[Network Analyzer ( ec8:2d34)]   (Sid: 44) Server -> Client : 16384 bytes (SSL) (Service=HTTP)
+[Network Analyzer ( ec8:2d34)]   (Sid: 36) Server -> Client : 1400 bytes (SSL) (Service=HTTP)
+[Network Analyzer ( ec8:2d34)]   (Sid: 44) Server -> Client : 16384 bytes (SSL) (Service=HTTP)
+[Network Analyzer ( ec8:2d34)]   (Sid: 36) Server -> Client : 374 bytes (SSL) (Service=HTTP)
+[Network Analyzer ( ec8:2d34)]   (Sid: 44) Server -> Client : 366 bytes (SSL) (Service=HTTP)
+[Web Request      ( ec8:2d34)] "GET /images/wjx/viewstat/column-s.png"   
+[Network Analyzer ( ec8:2d34)]   (Sid: 30) Client -> Server @ : 422 bytes (SSL)(Service=HTTP)
+[Web Request      ( ec8:2d34)] "GET /images/wjx/viewstat/broken-line.png"   
+[Network Analyzer ( ec8:2d34)]   (Sid: 28) Client -> Server @ : 425 bytes (SSL)(Service=HTTP)
+[Web Request      ( ec8:2d34)] "GET /images/wjx/viewstat/strip-nor.png"   
+[Network Analyzer ( ec8:2d34)]   (Sid: 29) Client -> Server @ : 423 bytes (SSL)(Service=HTTP)
+[Network Analyzer ( ec8:2d34)]   (Sid: 30) Server -> Client : 1508 bytes (SSL) (Service=HTTP)
+[Network Analyzer ( ec8:2d34)]   (Sid: 28) Server -> Client : 1782 bytes (SSL) (Service=HTTP)
+[Network Analyzer ( ec8:2d34)]   (Sid: 30) Server -> Client : 166 bytes (SSL) (Service=HTTP)
+[Network Analyzer ( ec8:2d34)]   (Sid: 29) Server -> Client : 1507 bytes (SSL) (Service=HTTP)
+[Network Analyzer ( ec8:2d34)]   (Sid: 29) Server -> Client : 211 bytes (SSL) (Service=HTTP)
+[Network Analyzer ( ec8: c60)] Address lookup for DESKTOP-624ASTC = 172.16.182.1
+[Network Analyzer ( ec8: c60)] Request Connection: Remote Server @ 202.120.40.82:11235   (Service=)  (Sid= 45)  PROXIED!
+[Web Request      ( ec8:2d34)] "CONNECT sojump.cn-hangzhou.log.aliyuncs.com:443"   
+[Network Analyzer ( ec8:2d34)]   (Sid: 45) Client -> Server @ : 266 bytes (Service=HTTP)
+[Web Request      ( ec8:2d34)] "GET /images/newimg/single-icon.png"   
+[Network Analyzer ( ec8:2d34)]   (Sid: 36) Client -> Server @ : 1221 bytes (SSL)(Service=HTTP)
+[Network Analyzer ( ec8: c60)] Address lookup for DESKTOP-624ASTC = 172.16.182.1
+[Network Analyzer ( ec8: c60)] Request Connection: Remote Server @ 202.120.40.82:11235   (Service=)  (Sid= 46)  PROXIED!
+[Web Request      ( ec8:2d34)] "CONNECT at.alicdn.com:443"   
+[Network Analyzer ( ec8:2d34)]   (Sid: 46) Client -> Server @ : 222 bytes (Service=HTTP)
+[Network Analyzer ( ec8:2d34)]   (Sid: 45) Server -> Client : 35 bytes 
+[Network Analyzer ( ec8:2d34)]   (Sid: 36) Server -> Client : 1400 bytes (SSL) (Service=HTTP)
+[Network Analyzer ( ec8:2d34)]   (Sid: 46) Server -> Client : 35 bytes 
+[Network Analyzer ( ec8:2d34)]   (Sid: 36) Server -> Client : 1400 bytes (SSL) (Service=HTTP)
+[Network Analyzer ( ec8:2d34)]   (Sid: 36) Server -> Client : 26 bytes (SSL) (Service=HTTP)
+[Network Analyzer ( ec8:2d34)]   (Sid: 36) Server -> Client : 48 bytes (SSL) (Service=HTTP)
+[Network Analyzer ( ec8:2d34)]   (Sid: 36) Server -> Client : 1400 bytes (SSL) (Service=HTTP)
+[Network Analyzer ( ec8:2d34)]   (Sid: 36) Server -> Client : 1400 bytes (SSL) (Service=HTTP)
+[Network Analyzer ( ec8:2d34)]   (Sid: 36) Server -> Client : 1400 bytes (SSL) (Service=HTTP)
+[Network Analyzer ( ec8:2d34)]   (Sid: 36) Server -> Client : 96 bytes (SSL) (Service=HTTP)
+[Network Analyzer ( ec8:2d34)]   (Sid: 36) Server -> Client : 1400 bytes (SSL) (Service=HTTP)
+[Network Analyzer ( ec8:2d34)]   (Sid: 36) Server -> Client : 96 bytes (SSL) (Service=HTTP)
+[Network Analyzer ( ec8:2d34)]   (Sid: 36) Server -> Client : 1400 bytes (SSL) (Service=HTTP)
+[Network Analyzer ( ec8:2d34)]   (Sid: 36) Server -> Client : 1400 bytes (SSL) (Service=HTTP)
+[Network Analyzer ( ec8:2d34)]   (Sid: 36) Server -> Client : 1400 bytes (SSL) (Service=HTTP)
+[Network Analyzer ( ec8:2d34)]   (Sid: 36) Server -> Client : 1400 bytes (SSL) (Service=HTTP)
+[Network Analyzer ( ec8:2d34)]   (Sid: 36) Server -> Client : 96 bytes (SSL) (Service=HTTP)
+[Network Analyzer ( ec8:2d34)]   (Sid: 36) Server -> Client : 1400 bytes (SSL) (Service=HTTP)
+[Network Analyzer ( ec8:2fcc)]   (Sid: 45) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.2, ciphers:ECDHE-RSA-AES128-GCM-SHA256)
+[Network Analyzer ( ec8:2d34)]   (Sid: 36) Server -> Client : 1400 bytes (SSL) (Service=HTTP)
+[Network Analyzer ( ec8:2d34)]   (Sid: 36) Server -> Client : 192 bytes (SSL) (Service=HTTP)
+[Network Analyzer ( ec8:2d34)]   (Sid: 36) Server -> Client : 1400 bytes (SSL) (Service=HTTP)
+[Network Analyzer ( ec8:2d34)]   (Sid: 36) Server -> Client : 1400 bytes (SSL) (Service=HTTP)
+[Network Analyzer ( ec8:2d34)]   (Sid: 36) Server -> Client : 96 bytes (SSL) (Service=HTTP)
+[Network Analyzer ( ec8:2d34)]   (Sid: 36) Server -> Client : 1103 bytes (SSL) (Service=HTTP)
+[Network Analyzer ( ec8:100c)]   (Sid: 46) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.2, ciphers:ECDHE-RSA-AES128-GCM-SHA256)
+[Network Analyzer ( ec8:2fcc)]   (Sid: 45) Negotiate Client -> Proxy SSL Handshake (ssl:TLSv1.2, ciphers:ECDHE-RSA-AES128-GCM-SHA256)
+[Web Request      ( ec8:2d34)] "GET /logstores/activitystat/track.gif?APIVersion=0.6.0&activity=40211802&type=nps&jointimes=2"   
+[Network Analyzer ( ec8:2d34)]   (Sid: 45) Client -> Server @ : 518 bytes (SSL)(Service=HTTP)
+[Network Analyzer ( ec8:2d34)]   (Sid: 45) Server -> Client : 250 bytes (SSL) (Service=HTTP)
+[Network Analyzer ( ec8:2d34)]   (Sid: 45) Connection Terminated (by Server)
+[Network Analyzer ( ec8:100c)]   (Sid: 46) Negotiate Client -> Proxy SSL Handshake (ssl:TLSv1.2, ciphers:ECDHE-RSA-AES128-GCM-SHA256)
+[Web Request      ( ec8:2d34)] "GET /t/font_1066834_87xmm2dp4hk.woff2"   
+[Network Analyzer ( ec8:2d34)]   (Sid: 46) Client -> Server @ : 408 bytes (SSL)(Service=HTTP)
+[Network Analyzer ( ec8:2d34)]   (Sid: 46) Server -> Client : 8257 bytes (SSL) (Service=HTTP)
+[Network Analyzer ( ec8:2d34)]   (Sid: 33) Connection Terminated (by Client)
+[Network Analyzer ( ec8: c60)] Address lookup for DESKTOP-624ASTC = 172.16.182.1
+[Net An. Warning  ( ec8: c60)] Request Connection: Remote Server @ 127.0.0.1:63342 (Service=) Failed attempt #1. Unable to connect to remote server: rc = -1 , le = 10061)
+[Net An. Warning  ( ec8: c60)] Request Connection: Remote Server @ 127.0.0.1:63342 (Service=) Failed attempt #2. Unable to connect to remote server: rc = -1 , le = 10061)
+[Network Analyzer ( ec8:2d34)]   (Sid: 43) Connection Terminated (by Server)
+[Net An. Warning  ( ec8: c60)] Request Connection: Remote Server @ 127.0.0.1:63342 (Service=) Failed attempt #3. Unable to connect to remote server: rc = -1 , le = 10061)
+[Net An. Error    ( ec8: c60)] Request Connection: Remote Server @ 127.0.0.1:63342   (Service=)  NOT PROXIED! (REASON: Unable to connect to remote server: rc = -1 , le = 10061)
+[Web Request      ( ec8:2d34)] "GET /wjx/activitystat/viewnps.aspx?activity=40211802&qindex=60000&atype=2&xq=-3&qtype=0"   
+[Network Analyzer ( ec8:2d34)]   (Sid: 36) Client -> Server @ : 1333 bytes (SSL)(Service=HTTP)
+[Network Analyzer ( ec8: c60)] Address lookup for DESKTOP-624ASTC = 172.16.182.1
+[Network Analyzer ( ec8: c60)] Request Connection: Remote Server @ 202.120.40.82:11235   (Service=)  (Sid= 47)  PROXIED!
+[Network Analyzer ( ec8:2d34)]   (Sid: 36) Server -> Client : 371 bytes (SSL) (Service=HTTP)
+[Web Request      ( ec8:2d34)] "CONNECT img.infinitynewtab.com:443"   
+[Network Analyzer ( ec8: c60)] Address lookup for DESKTOP-624ASTC = 172.16.182.1
+[Network Analyzer ( ec8:2d34)]   (Sid: 47) Client -> Server @ : 240 bytes (Service=HTTP)
+[Network Analyzer ( ec8:2d34)]   (Sid: 47) Server -> Client : 35 bytes 
+[Net An. Warning  ( ec8: c60)] Request Connection: Remote Server @ 127.0.0.1:63342 (Service=) Failed attempt #1. Unable to connect to remote server: rc = -1 , le = 10061)
+[Network Analyzer ( ec8:2d34)]   (Sid: 39) Connection Terminated (by Server)
+[Net An. Warning  ( ec8: c60)] Request Connection: Remote Server @ 127.0.0.1:63342 (Service=) Failed attempt #2. Unable to connect to remote server: rc = -1 , le = 10061)
+[Net An. Warning  ( ec8: c60)] Request Connection: Remote Server @ 127.0.0.1:63342 (Service=) Failed attempt #3. Unable to connect to remote server: rc = -1 , le = 10061)
+[Net An. Error    ( ec8: c60)] Request Connection: Remote Server @ 127.0.0.1:63342   (Service=)  NOT PROXIED! (REASON: Unable to connect to remote server: rc = -1 , le = 10061)
+[Network Analyzer ( ec8:3468)]   (Sid: 47) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.2, ciphers:ECDHE-RSA-AES128-GCM-SHA256)
+[Network Analyzer ( ec8:3468)]   (Sid: 47) Negotiate Client -> Proxy SSL Handshake (ssl:TLSv1.2, ciphers:ECDHE-RSA-AES128-GCM-SHA256)
+[Web Request      ( ec8:2d34)] "GET /bingWallpaper/md5.json?t=1560330413079"   
+[Network Analyzer ( ec8:2d34)]   (Sid: 47) Client -> Server @ : 385 bytes (SSL)(Service=HTTP)
+[Network Analyzer ( ec8:2d34)]   (Sid: 47) Server -> Client : 882 bytes (SSL) (Service=HTTP)
+[Network Analyzer ( ec8:2d34)]   (Sid: 47) Server -> Client : 70 bytes (SSL) (Service=HTTP)
+[Web Request      ( ec8:2d34)] "GET /wjx/activitystat/viewurl.aspx?activity=40211802"   
+[Network Analyzer ( ec8:2d34)]   (Sid: 36) Client -> Server @ : 1366 bytes (SSL)(Service=HTTP)
+[Network Analyzer ( ec8:2d34)]   (Sid: 36) Server -> Client : 1400 bytes (SSL) (Service=HTTP)
+[Network Analyzer ( ec8:2d34)]   (Sid: 36) Server -> Client : 1400 bytes (SSL) (Service=HTTP)
+[Network Analyzer ( ec8:2d34)]   (Sid: 36) Server -> Client : 1400 bytes (SSL) (Service=HTTP)
+[Network Analyzer ( ec8:2d34)]   (Sid: 36) Server -> Client : 1400 bytes (SSL) (Service=HTTP)
+[Network Analyzer ( ec8:2d34)]   (Sid: 36) Server -> Client : 1400 bytes (SSL) (Service=HTTP)
+[Network Analyzer ( ec8:2d34)]   (Sid: 36) Server -> Client : 1400 bytes (SSL) (Service=HTTP)
+[Network Analyzer ( ec8:2d34)]   (Sid: 36) Server -> Client : 180 bytes (SSL) (Service=HTTP)
+[Web Request      ( ec8:2d34)] "GET /images/Master_Images/WjxVip/chart_bar.gif"   
+[Network Analyzer ( ec8:2d34)]   (Sid: 36) Client -> Server @ : 1251 bytes (SSL)(Service=HTTP)
+[Web Request      ( ec8:2d34)] "GET /images/Master_Images/WjxVip/application_view_list.gif"   
+[Network Analyzer ( ec8:2d34)]   (Sid: 37) Client -> Server @ : 1263 bytes (SSL)(Service=HTTP)
+[Network Analyzer ( ec8:2d34)]   (Sid: 36) Server -> Client : 1289 bytes (SSL) (Service=HTTP)
+[Web Request      ( ec8:2d34)] "GET /js/highchartother.js"   
+[Network Analyzer ( ec8:2d34)]   (Sid: 35) Client -> Server @ : 1194 bytes (SSL)(Service=HTTP)
+[Network Analyzer ( ec8:2d34)]   (Sid: 37) Server -> Client : 863 bytes (SSL) (Service=HTTP)
+[Web Request      ( ec8:2d34)] "GET /Images/newimg/online-exam/report.png"   
+[Network Analyzer ( ec8:2d34)]   (Sid: 37) Client -> Server @ : 1231 bytes (SSL)(Service=HTTP)
+[Web Request      ( ec8:2d34)] "GET /Images/newimg/online-exam/source-hover.png"   
+[Network Analyzer ( ec8:2d34)]   (Sid: 36) Client -> Server @ : 1237 bytes (SSL)(Service=HTTP)
+[Network Analyzer ( ec8:2d34)]   (Sid: 35) Server -> Client : 1400 bytes (SSL) (Service=HTTP)
+[Network Analyzer ( ec8:2d34)]   (Sid: 35) Server -> Client : 1106 bytes (SSL) (Service=HTTP)
+[Network Analyzer ( ec8:2d34)]   (Sid: 37) Server -> Client : 902 bytes (SSL) (Service=HTTP)
+[Network Analyzer ( ec8:2d34)]   (Sid: 36) Server -> Client : 1400 bytes (SSL) (Service=HTTP)
+[Network Analyzer ( ec8:2d34)]   (Sid: 36) Server -> Client : 26 bytes (SSL) (Service=HTTP)
+[Network Analyzer ( ec8:2d34)]   (Sid: 36) Server -> Client : 168 bytes (SSL) (Service=HTTP)
+[Web Request      ( ec8:2d34)] "GET /images/wjx/viewstat/pie-nor.png"   
+[Network Analyzer ( ec8:2d34)]   (Sid: 29) Client -> Server @ : 421 bytes (SSL)(Service=HTTP)
+[Web Request      ( ec8:2d34)] "GET /images/wjx/viewstat/ring-nor.png"   
+[Network Analyzer ( ec8:2d34)]   (Sid: 28) Client -> Server @ : 422 bytes (SSL)(Service=HTTP)
+[Web Request      ( ec8:2d34)] "GET /images/wjx/viewstat/column-nor.png"   
+[Network Analyzer ( ec8:2d34)]   (Sid: 30) Client -> Server @ : 424 bytes (SSL)(Service=HTTP)
+[Web Request      ( ec8:2d34)] "GET /images/wjx/viewstat/pie-s.png"   
+[Network Analyzer ( ec8:2d34)]   (Sid: 27) Client -> Server @ : 419 bytes (SSL)(Service=HTTP)
+[Network Analyzer ( ec8:2d34)]   (Sid: 29) Server -> Client : 1763 bytes (SSL) (Service=HTTP)
+[Network Analyzer ( ec8:2d34)]   (Sid: 28) Server -> Client : 1871 bytes (SSL) (Service=HTTP)
+[Network Analyzer ( ec8:2d34)]   (Sid: 30) Server -> Client : 1509 bytes (SSL) (Service=HTTP)
+[Network Analyzer ( ec8:2d34)]   (Sid: 27) Server -> Client : 1756 bytes (SSL) (Service=HTTP)
+[Network Analyzer ( ec8:2d34)]   (Sid: 30) Server -> Client : 182 bytes (SSL) (Service=HTTP)
+[Network Analyzer ( ec8: c60)] Address lookup for DESKTOP-624ASTC = 172.16.182.1
+[Net An. Warning  ( ec8: c60)] Request Connection: Remote Server @ 127.0.0.1:63342 (Service=) Failed attempt #1. Unable to connect to remote server: rc = -1 , le = 10061)
+[Net An. Warning  ( ec8: c60)] Request Connection: Remote Server @ 127.0.0.1:63342 (Service=) Failed attempt #2. Unable to connect to remote server: rc = -1 , le = 10061)
+[Net An. Warning  ( ec8: c60)] Request Connection: Remote Server @ 127.0.0.1:63342 (Service=) Failed attempt #3. Unable to connect to remote server: rc = -1 , le = 10061)
+[Net An. Error    ( ec8: c60)] Request Connection: Remote Server @ 127.0.0.1:63342   (Service=)  NOT PROXIED! (REASON: Unable to connect to remote server: rc = -1 , le = 10061)
+[Web Request      ( ec8:2d34)] "GET /wjx/activitystat/visiturl.aspx?activity=40211802"   
+[Network Analyzer ( ec8:2d34)]   (Sid: 36) Client -> Server @ : 1367 bytes (SSL)(Service=HTTP)
+[Network Analyzer ( ec8:2d34)]   (Sid: 36) Server -> Client : 986 bytes (SSL) (Service=HTTP)
+[Web Request      ( ec8:2d34)] "GET /wjxUI/src/wjxUI.css"   
+[Network Analyzer ( ec8:2d34)]   (Sid: 36) Client -> Server @ : 1209 bytes (SSL)(Service=HTTP)
+[Web Request      ( ec8:2d34)] "GET /layer/layer.js?v=6"   
+[Network Analyzer ( ec8:2d34)]   (Sid: 37) Client -> Server @ : 1193 bytes (SSL)(Service=HTTP)
+[Network Analyzer ( ec8:2d34)]   (Sid: 36) Server -> Client : 1400 bytes (SSL) (Service=HTTP)
+[Network Analyzer ( ec8:2d34)]   (Sid: 36) Server -> Client : 1400 bytes (SSL) (Service=HTTP)
+[Network Analyzer ( ec8:2d34)]   (Sid: 37) Server -> Client : 1400 bytes (SSL) (Service=HTTP)
+[Network Analyzer ( ec8:2d34)]   (Sid: 36) Server -> Client : 74 bytes (SSL) (Service=HTTP)
+[Network Analyzer ( ec8:2d34)]   (Sid: 37) Server -> Client : 1400 bytes (SSL) (Service=HTTP)
+[Network Analyzer ( ec8:2d34)]   (Sid: 36) Server -> Client : 1400 bytes (SSL) (Service=HTTP)
+[Network Analyzer ( ec8:2d34)]   (Sid: 37) Server -> Client : 74 bytes (SSL) (Service=HTTP)
+[Network Analyzer ( ec8:2d34)]   (Sid: 36) Server -> Client : 1400 bytes (SSL) (Service=HTTP)
+[Network Analyzer ( ec8:2d34)]   (Sid: 37) Server -> Client : 1400 bytes (SSL) (Service=HTTP)
+[Network Analyzer ( ec8:2d34)]   (Sid: 36) Server -> Client : 1383 bytes (SSL) (Service=HTTP)
+[Network Analyzer ( ec8:2d34)]   (Sid: 37) Server -> Client : 1400 bytes (SSL) (Service=HTTP)
+[Network Analyzer ( ec8:2d34)]   (Sid: 37) Server -> Client : 1400 bytes (SSL) (Service=HTTP)
+[Network Analyzer ( ec8:2d34)]   (Sid: 37) Server -> Client : 1400 bytes (SSL) (Service=HTTP)
+[Network Analyzer ( ec8: c60)] Address lookup for DESKTOP-624ASTC = 172.16.182.1
+[Network Analyzer ( ec8:2d34)]   (Sid: 37) Server -> Client : 192 bytes (SSL) (Service=HTTP)
+[Network Analyzer ( ec8:2d34)]   (Sid: 37) Server -> Client : 1400 bytes (SSL) (Service=HTTP)
+[Network Analyzer ( ec8:2d34)]   (Sid: 37) Server -> Client : 813 bytes (SSL) (Service=HTTP)
+[Net An. Warning  ( ec8: c60)] Request Connection: Remote Server @ 127.0.0.1:63342 (Service=) Failed attempt #1. Unable to connect to remote server: rc = -1 , le = 10061)
+[Net An. Warning  ( ec8: c60)] Request Connection: Remote Server @ 127.0.0.1:63342 (Service=) Failed attempt #2. Unable to connect to remote server: rc = -1 , le = 10061)
+[Net An. Warning  ( ec8: c60)] Request Connection: Remote Server @ 127.0.0.1:63342 (Service=) Failed attempt #3. Unable to connect to remote server: rc = -1 , le = 10061)
+[Net An. Error    ( ec8: c60)] Request Connection: Remote Server @ 127.0.0.1:63342   (Service=)  NOT PROXIED! (REASON: Unable to connect to remote server: rc = -1 , le = 10061)
+[Web Request      ( ec8:2d34)] "GET /layer/theme/default/icon.png"   
+[Network Analyzer ( ec8:2d34)]   (Sid: 37) Client -> Server @ : 1228 bytes (SSL)(Service=HTTP)
+[Network Analyzer ( ec8:2d34)]   (Sid: 37) Server -> Client : 1400 bytes (SSL) (Service=HTTP)
+[Network Analyzer ( ec8:2d34)]   (Sid: 37) Server -> Client : 1400 bytes (SSL) (Service=HTTP)
+[Network Analyzer ( ec8:2d34)]   (Sid: 37) Server -> Client : 74 bytes (SSL) (Service=HTTP)
+[Network Analyzer ( ec8:2d34)]   (Sid: 37) Server -> Client : 1400 bytes (SSL) (Service=HTTP)
+[Network Analyzer ( ec8:2d34)]   (Sid: 37) Server -> Client : 1400 bytes (SSL) (Service=HTTP)
+[Network Analyzer ( ec8:2d34)]   (Sid: 37) Server -> Client : 1400 bytes (SSL) (Service=HTTP)
+[Network Analyzer ( ec8:2d34)]   (Sid: 37) Server -> Client : 144 bytes (SSL) (Service=HTTP)
+[Network Analyzer ( ec8:2d34)]   (Sid: 37) Server -> Client : 1400 bytes (SSL) (Service=HTTP)
+[Network Analyzer ( ec8:2d34)]   (Sid: 37) Server -> Client : 48 bytes (SSL) (Service=HTTP)
+[Network Analyzer ( ec8:2d34)]   (Sid: 37) Server -> Client : 1400 bytes (SSL) (Service=HTTP)
+[Network Analyzer ( ec8:2d34)]   (Sid: 37) Server -> Client : 1400 bytes (SSL) (Service=HTTP)
+[Network Analyzer ( ec8:2d34)]   (Sid: 37) Server -> Client : 273 bytes (SSL) (Service=HTTP)
+[Web Request      ( ec8:2d34)] "GET /wjx/activitystat/viewurl.aspx?activity=40211802"   
+[Network Analyzer ( ec8:2d34)]   (Sid: 37) Client -> Server @ : 1367 bytes (SSL)(Service=HTTP)
+[Network Analyzer ( ec8:2d34)]   (Sid: 37) Server -> Client : 1400 bytes (SSL) (Service=HTTP)
+[Network Analyzer ( ec8:2d34)]   (Sid: 37) Server -> Client : 1400 bytes (SSL) (Service=HTTP)
+[Network Analyzer ( ec8:2d34)]   (Sid: 37) Server -> Client : 1400 bytes (SSL) (Service=HTTP)
+[Network Analyzer ( ec8:2d34)]   (Sid: 37) Server -> Client : 1400 bytes (SSL) (Service=HTTP)
+[Network Analyzer ( ec8:2d34)]   (Sid: 37) Server -> Client : 1400 bytes (SSL) (Service=HTTP)
+[Network Analyzer ( ec8:2d34)]   (Sid: 37) Server -> Client : 1400 bytes (SSL) (Service=HTTP)
+[Network Analyzer ( ec8:2d34)]   (Sid: 37) Server -> Client : 181 bytes (SSL) (Service=HTTP)
+[Network Analyzer ( ec8: c60)] Address lookup for DESKTOP-624ASTC = 172.16.182.1
+[Net An. Warning  ( ec8: c60)] Request Connection: Remote Server @ 127.0.0.1:63342 (Service=) Failed attempt #1. Unable to connect to remote server: rc = -1 , le = 10061)
+[Net An. Warning  ( ec8: c60)] Request Connection: Remote Server @ 127.0.0.1:63342 (Service=) Failed attempt #2. Unable to connect to remote server: rc = -1 , le = 10061)

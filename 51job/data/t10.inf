@@ -1,0 +1,11 @@
+[t10]
+FileName1=t10.html
+URL1=https://trace.51jingying.com/logRecord.php?logCode=81&webId=2&version=1&logTime=1560568921709&ip=202.120.40.82&guid=99a1f5fd9691580e3e5168b4fd6f0cac&domain=i.51job.com&pageCode=11203&eventType=5&traceName=&cusParam=1%16158602693&vt=1560568922065&logType=event
+Total=1
+RequestHeaderFile=t10_RequestHeader.txt
+RequestBodyFile=NONE
+ResponseHeaderFile=t10_ResponseHeader.txt
+ContentType=text/html
+SnapshotXmlFile=snapshot_10.xml
+[ProtocolInfo]
+ProtocolId=QTWeb

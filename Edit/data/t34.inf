@@ -1,0 +1,13 @@
+[t34]
+FileName1=t34_WeatherService;woeids=%5B2151849%5D.json
+URL1=https://www.yahoo.com/news/_tdnews/api/resource/WeatherService;woeids=%5B2151849%5D?t=1560330313622
+Total=2
+ContentType=application/json
+SnapshotXmlFile=snapshot_34.xml
+RequestHeaderFile=t34_RequestHeader.txt
+RequestBodyFile=NONE
+ResponseHeaderFile=t34_ResponseHeader.txt
+FileName2=t34_query.html
+URL2=https://clients1.google.com/tbproxy/af/query?q=Chc2LjEuMTcxNS4xNDQyL2VuIChHR0xMKRMZ2sVeOg6EbN8jLZFh1L0kIy1lIZnqJBQ=
+[ProtocolInfo]
+ProtocolId=QTWeb

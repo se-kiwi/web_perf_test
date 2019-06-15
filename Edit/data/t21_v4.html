@@ -1,0 +1,378 @@
+/*
+ * chuangkit.com
+ *
+ * api v1.1.0
+ *
+ */
+;(function() {
+  // 全局对象
+  window.ChuangkitIframe = function(option) {
+    var data = {
+      access_id: option['data-access'],
+      exp: option['data-exp'],
+      design_id: option['data-design-id'],
+      template_id: option['data-template-id'],
+      kind_id: option['data-kind'],
+      kind_width: option['data-width'],
+      kind_height: option['data-height'],
+      design_unit: option['data-unit'],
+      definition: option['data-definition'],
+      change: option['data-change'],
+      z_index: option['data-zIndex'],
+      close_copyright: option['data-close-copyright'],
+      allow_login: option['data-allow-login'],
+      auto_save: option['data-auto-save'],
+      image_logo: option['data-logo'],
+      img_kind: option['data-imgkind'],
+      sign: option['sign'],
+      sign_type: option['signType'],
+      style: option['data-style'] || '',
+      title:
+        '*本功能由创客贴在线设计平台提供技术支持，使用更多设计场景和模板请访问官网<a style="color:#C3C3C3;" target="_blank" href="https://www.chuangkit.com">www.chuangkit.com</a>',
+      upload_img: option['upload-img'],
+      upload_img_width: option['data-upload-img-width'],
+      upload_img_top: option['data-upload-img-top'],
+      upload_img_left: option['data-upload-img-left'],
+      finish_btn_name: option['data-finish-btn-name'],
+      charged_template_show: option['data-charged-template-show'],
+      ext_ref_user_flag: option['data-ext-ref-user-flag'],
+      add_img_list: option['data-extra-add-img-list'],
+      add_text_list: option['data-extra-add-text-list'],
+      add_svg_frame: option['data-extra-add-svg-frame'],
+      hide_service: option['data-hideservice'],
+      header_bg: option['data-extra-header-bg'],
+      hide_copyright_fonts: option['data-extra-hide-copyright-fonts'],
+      hide_upload_capacity: option['data-extra-hide-upload-capacity'],
+      hide_text_group: option['data-extra-hide-text-group']
+    }
+
+    this.option = data
+  }
+
+  // 添加开启api方法
+  ChuangkitIframe.prototype.openIframe = function() {
+    chuangkitOpenIframe(this.option)
+  }
+
+  var buttons = document.getElementsByClassName('chuangkit-design-button')
+
+  // 调起api按钮监听点击事件
+  for (var i = 0; i < buttons.length; i++) {
+    chuangkitAddEvent(buttons[i], 'click', function() {
+      chuangkitOpenIframe(this)
+    })
+  }
+
+  chuangkitAddEvent(document.getElementById('chuangkit-design-button'), 'click', function() {
+    chuangkitOpenIframe(this)
+  })
+
+  // 监听message事件
+  chuangkitAddEvent(window, 'message', function(eve) {
+    if (eve && eve.data && eve.data.cktMessage) {
+      // console.log(eve.data)
+      // cktMessage ckt信息标记
+      // kind 相应类型 1保存设计成功 2生成缩略图成功 -1 apiToken错误 10请求api额外信息
+      // design-id 设计id
+      // error 错误信息
+      // thumb-exp 缩略图过期时间（秒）
+
+      // kind为10表示请求api额外信息
+      if (eve.data.kind === 10) {
+        if (chuangkit_api_option.add_img_list) {
+          var imgs = JSON.parse(chuangkit_api_option.add_img_list)
+          chuangkit_iframe.contentWindow.postMessage(
+            {
+              chuangkit_api_data: true,
+              data: imgs,
+              type: 'img-list'
+            },
+            '*'
+          )
+        }
+        if (chuangkit_api_option.add_text_list) {
+          var texts = JSON.parse(chuangkit_api_option.add_text_list)
+          chuangkit_iframe.contentWindow.postMessage(
+            {
+              chuangkit_api_data: true,
+              data: texts,
+              type: 'text-list'
+            },
+            '*'
+          )
+        }
+        if (chuangkit_api_option.add_svg_frame) {
+          var svg_frame = chuangkit_api_option.add_svg_frame
+          chuangkit_iframe.contentWindow.postMessage(
+            {
+              chuangkit_api_data: true,
+              data: svg_frame,
+              type: 'svg-frame'
+            },
+            '*'
+          )
+        }
+        return
+      }
+
+      try {
+        chuangkitComplete(eve.data)
+      } catch (err) {
+        chuangkitComplate(eve.data)
+      }
+
+      if (eve.data.kind != 1) {
+        chuangkitCloseIframe.call(this, eve)
+      }
+    }
+  })
+
+  var pop_ad, pop_black, close_btn, chuangkit_iframe, chuangkit_api_option
+
+  // 打开api
+  function chuangkitOpenIframe(_this) {
+    var option
+    if (_this.getAttribute) {
+      option = {
+        access_id: _this.getAttribute('data-access'),
+        exp: _this.getAttribute('data-exp'),
+        design_id: _this.getAttribute('data-design-id'),
+        template_id: _this.getAttribute('data-template-id'),
+        kind_id: _this.getAttribute('data-kind'),
+        kind_width: _this.getAttribute('data-width'),
+        kind_height: _this.getAttribute('data-height'),
+        design_unit: _this.getAttribute('data-unit'),
+        definition: _this.getAttribute('data-definition'),
+        change: _this.getAttribute('data-change'),
+        z_index: _this.getAttribute('data-zIndex'),
+        close_copyright: _this.getAttribute('data-close-copyright'),
+        allow_login: _this.getAttribute('data-allow-login'),
+        auto_save: _this.getAttribute('data-auto-save'),
+        image_logo: _this.getAttribute('data-logo'),
+        img_kind: _this.getAttribute('data-imgkind'),
+        sign: _this.getAttribute('sign'),
+        sign_type: _this.getAttribute('signType'),
+        style: _this.getAttribute('data-style') || '',
+        title:
+          '*本功能由创客贴在线设计平台提供技术支持，使用更多设计场景和模板请访问官网<a style="color:#C3C3C3;" target="_blank" href="https://www.chuangkit.com">www.chuangkit.com</a>',
+        upload_img: _this.getAttribute('upload-img'),
+        upload_img_width: _this.getAttribute('data-upload-img-width'),
+        upload_img_top: _this.getAttribute('data-upload-img-top'),
+        upload_img_left: _this.getAttribute('data-upload-img-left'),
+        finish_btn_name: _this.getAttribute('data-finish-btn-name'),
+        charged_template_show: _this.getAttribute('data-charged-template-show'),
+        ext_ref_user_flag: _this.getAttribute('data-ext-ref-user-flag'),
+        add_img_list: _this.getAttribute('data-extra-add-img-list'),
+        add_text_list: _this.getAttribute('data-extra-add-text-list'),
+        add_svg_frame: _this.getAttribute('data-extra-add-svg-frame'),
+        hide_service: _this.getAttribute('data-hideservice')
+      }
+    } else {
+      option = _this
+    }
+
+    chuangkit_api_option = option
+
+    if (!option.access_id || !option.exp || !option.sign || !option.sign_type) {
+      console.error('创客贴api缺少必要参数！')
+      return
+    }
+
+    // api的路径
+    var iframe_src = 'https://www.chuangkit.com/createDesign'
+    if (location.host.indexOf('chuangkit.com') > -1) {
+      if (location.host === 'local.chuangkit.com') {
+        iframe_src = 'https://moniwww.chuangkit.com/createDesign'
+      } else {
+        iframe_src = location.origin + '/createDesign'
+      }
+    }
+    var urlPms = {
+      access: option.access_id,
+      exp: option.exp,
+      definition: option.definition,
+      change: option.change,
+      zindex: option.z_index,
+      cc: option.close_copyright,
+      al: option.allow_login,
+      as: option.auto_save,
+      logo: option.image_logo,
+      img_k: option.img_kind,
+      sign: option.sign,
+      sign_type: option.sign_type,
+      upload_img: option.upload_img,
+      img_w: option.upload_img_width,
+      img_t: option.upload_img_top,
+      img_l: option.upload_img_left,
+      fbn: option.finish_btn_name,
+      cts: option.charged_template_show,
+      eruf: option.ext_ref_user_flag,
+      hide_service: option.hide_service,
+      header_bg: option.header_bg,
+      hide_copyright_fonts: option.hide_copyright_fonts,
+      hide_upload_capacity: option.hide_upload_capacity,
+      hide_text_group: option.hide_text_group,
+    }
+
+    if (urlPms.upload_img) {
+      urlPms.upload_img = encodeURIComponent(urlPms.upload_img)
+    }
+
+    if (option.design_id) {
+      urlPms['design_id'] = option.design_id
+    } else if (option.kind_id) {
+      urlPms['k'] = option.kind_id
+    } else if (option.template_id) {
+      urlPms['t'] = option.template_id
+    } else {
+      urlPms['k'] = 127
+      urlPms['w'] = option.kind_width
+      urlPms['h'] = option.kind_height
+      urlPms['unit'] = option.design_unit
+    }
+
+    iframe_src = buildUrl(iframe_src, urlPms)
+
+    iframe_src = iframe_src + '&reptile=1'
+
+    chuangkit_iframe = document.getElementById('chuangkit-design-iframe')
+
+    // 当前iframe没有加载
+    if (chuangkit_iframe == null) {
+      chuangkit_iframe = document.createElement('iframe')
+      chuangkit_iframe.id = 'chuangkit-design-iframe'
+      chuangkit_iframe.style.position = 'fixed'
+      chuangkit_iframe.style.top = '50px'
+      chuangkit_iframe.style.left = '50px'
+      chuangkit_iframe.setAttribute('frameborder', '0')
+      // console.log(iframe_src)
+      document.body.appendChild(chuangkit_iframe)
+    }
+
+    var draw_frame_z_index = option.z_index || 10000
+    var window_width = document.documentElement.clientWidth
+    var window_height = document.documentElement.clientHeight
+    chuangkit_iframe.width = window_width - 100
+    chuangkit_iframe.height = window_height - 100
+    chuangkit_iframe.style.zIndex = draw_frame_z_index
+    chuangkit_iframe.src = iframe_src
+    chuangkit_iframe.style.display = 'block'
+
+    // 覆盖层
+    pop_black = document.createElement('div')
+
+    pop_black.style.width = window_width + 'px'
+    pop_black.style.height = window_height + 'px'
+    pop_black.style.position = 'fixed'
+    pop_black.style.top = '0px'
+    pop_black.style.left = '0px'
+    pop_black.style.zIndex = parseFloat(draw_frame_z_index) - 1
+    pop_black.style.backgroundColor = '#000'
+    pop_black.style.opacity = '.7'
+
+    document.body.appendChild(pop_black)
+
+    // 广告层
+    pop_ad = document.getElementById('apiexplain')
+
+    if (pop_ad == null) {
+      pop_ad = document.createElement('div')
+      pop_ad.id = 'apiexplain'
+      if (option.style != 'acfun') {
+        pop_ad.style.fontSize = '13px'
+        pop_ad.style.position = 'fixed'
+        pop_ad.style.top = '27px'
+        pop_ad.style.left = '50px'
+        pop_ad.style.color = '#A3A3A3'
+        pop_ad.style.zIndex = draw_frame_z_index
+        pop_ad.innerHTML = option.title
+      } else {
+        pop_ad.style.fontSize = '15px'
+        pop_ad.style.position = 'fixed'
+        pop_ad.style.bottom = '12px'
+        pop_ad.style.left = '50px'
+        pop_ad.style.color = '#A3A3A3'
+        pop_ad.style.zIndex = draw_frame_z_index
+
+        pop_ad.innerHTML =
+          'Powered&nbsp;by&nbsp;<img src="https://www.chuangkit.com/img/static/logo.svg">&nbsp;<a style="color:#C3C3C3;" target="_blank" href="https://www.chuangkit.com">www.chuangkit.com</a>'
+      }
+
+      document.body.appendChild(pop_ad)
+    }
+
+    if (option.close_copyright != 1) {
+      pop_ad.style.display = 'block'
+    } else {
+      pop_ad.style.display = 'none'
+    }
+
+    // 退出按钮
+    close_btn = document.createElement('div')
+
+    close_btn.setAttribute('class', 'chuangkit-api-close')
+    close_btn.style.fontSize = '13px'
+    close_btn.style.width = '50px'
+    close_btn.style.textAlign = 'right'
+    close_btn.style.position = 'fixed'
+    close_btn.style.right = '53px'
+    close_btn.style.top = '27px'
+    close_btn.style.color = '#A2A2A2'
+    close_btn.style.cursor = 'pointer'
+    close_btn.style.zIndex = draw_frame_z_index
+    close_btn.style.backgroundImage = 'url(https://www.chuangkit.com/img/static/api-03.svg)'
+    close_btn.style.backgroundRepeat = 'no-repeat'
+
+    close_btn.innerHTML = '退出'
+    if (option.style == 'acfun') {
+      close_btn.innerHTML = '关闭'
+    }
+
+    document.body.appendChild(close_btn)
+
+    chuangkitAddEvent(close_btn, 'click', function(eve) {
+      chuangkitCloseIframe.call(this)
+    })
+  }
+
+  function chuangkitAddEvent(obj, ev, fn) {
+    if (obj == null) return
+
+    if (document.addEventListener) {
+      obj.addEventListener(ev, fn, false)
+    } else {
+      obj.attachEvent('on' + ev, fn)
+    }
+  }
+
+  function buildUrl(url, urlPms) {
+    for (var key in urlPms) {
+      if (urlPms[key] !== null && urlPms[key] !== undefined) {
+        if (url.indexOf('?') > 0) {
+          url += '&'
+        } else {
+          url += '?'
+        }
+        url += key + '=' + urlPms[key]
+      }
+    }
+
+    return url
+  }
+
+  // 关闭api弹窗
+  function chuangkitCloseIframe() {
+    // 隐藏操作
+    // chuangkit_iframe.style.display = 'none'
+    chuangkit_iframe.parentNode && chuangkit_iframe.parentNode.removeChild(chuangkit_iframe)
+
+    // 隐藏广告
+    pop_ad.style.display = 'none'
+
+    // 删除遮罩
+    document.body.removeChild(pop_black)
+
+    // 删除退出
+    document.body.removeChild(close_btn)
+  }
+})()

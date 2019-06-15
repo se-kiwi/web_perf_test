@@ -1,0 +1,11 @@
+[t23]
+FileName1=t23.html
+URL1=https://ei.cnzz.com/stat.htm?id=4478442&r=https%3A%2F%2Fwww.wjx.cn%2Fnewwjx%2Fdesign%2Feditquestionnaire.aspx%3Factivity%3D40211802&lg=zh-cn&ntime=1560561510&cnzz_eid=1591451856-1559572098-&showp=1536x864&p=https%3A%2F%2Fwww.wjx.cn%2Fmysojump%2Fquestionnairemng%2Fdesignnew.aspx%3Fversion%3D7%26openType%3Dredesign%26curid%3D40211802%26nqt%3D&ei=%25E7%25BC%2596%25E8%25BE%2591%25E9%25A1%25B5%25E9%259D%25A2%7C%25E7%25BC%2596%25E8%25BE%2591%25E9%25A2%2598%25E7%259B%25AE%7C%25E7%25BC%2596%25E8%25BE%2591%25E6%258C%2589%25E9%2592%25AE%7C0%7C&t=%E8%AE%BE%E8%AE%A1%E9%97%AE%E5%8D%B7%20%EF%BC%8D%20%E4%B8%93%E4%B8%9A%E7%9A%84%E5%9C%A8%E7%BA%BF%E9%97%AE%E5%8D%B7%E8%B0%83%E6%9F%A5%E5%B9%B3%E5%8F%B0&umuuid=16b1dd9e27d89-0df50382fd90a6-293e1d4e-144000-16b1dd9e27e2f9&h=1&rnd=1067330947
+Total=1
+RequestHeaderFile=t23_RequestHeader.txt
+RequestBodyFile=NONE
+ResponseHeaderFile=t23_ResponseHeader.txt
+ContentType=text/html
+SnapshotXmlFile=snapshot_23.xml
+[ProtocolInfo]
+ProtocolId=QTWeb

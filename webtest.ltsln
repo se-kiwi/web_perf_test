@@ -18,6 +18,38 @@ Project("B0524D19-B7DF-4E1B-9F72-EF14736330B4") = "Edit", "Edit\Edit.usr", "B052
 		Value = True
 	EndProjectSection
 EndProject
+Project("D0022B2F-DF15-4271-9A8B-D7907D338A0C") = "ActualEdit", "ActualEdit\ActualEdit.usr", "D0022B2F-DF15-4271-9A8B-D7907D338A0C"
+	ProjectSection(CustomLoading) = Data
+		Token = PD94bWwgdmVyc2lvbj0iMS4wIj8+DQo8UGVyc2lzdGVuY2VUb2tlbj4NCiAgPExvYWREYXRhPkU6XGNvZGVcT3RoZXJzXHZzY3JpcHRcd2VidGVzdFxBY3R1YWxFZGl0XEFjdHVhbEVkaXQudXNyPC9Mb2FkRGF0YT4NCiAgPEZpbGVzPg0KICAgIDxGaWxlPkU6XGNvZGVcT3RoZXJzXHZzY3JpcHRcd2VidGVzdFxBY3R1YWxFZGl0XEFjdHVhbEVkaXQudXNyPC9GaWxlPg0KICA8L0ZpbGVzPg0KICA8TW9kaWZpZWQ+MjAxOS0wNi0xNVQxMDoxMjowMy41MTQzNjg5KzA4OjAwPC9Nb2RpZmllZD4NCjwvUGVyc2lzdGVuY2VUb2tlbj4_
+	EndProjectSection
+	ProjectSection(ExpandInVugen) = Data
+		Value = True
+	EndProjectSection
+EndProject
+Project("7B8E6102-432A-49B9-96AE-99DAB821F565") = "51job", "51job\51job.usr", "7B8E6102-432A-49B9-96AE-99DAB821F565"
+	ProjectSection(CustomLoading) = Data
+		Token = PD94bWwgdmVyc2lvbj0iMS4wIj8+DQo8UGVyc2lzdGVuY2VUb2tlbj4NCiAgPExvYWREYXRhPkU6XGNvZGVcT3RoZXJzXHZzY3JpcHRcd2VidGVzdFw1MWpvYlw1MWpvYi51c3I8L0xvYWREYXRhPg0KICA8RmlsZXM+DQogICAgPEZpbGU+RTpcY29kZVxPdGhlcnNcdnNjcmlwdFx3ZWJ0ZXN0XDUxam9iXDUxam9iLnVzcjwvRmlsZT4NCiAgPC9GaWxlcz4NCiAgPE1vZGlmaWVkPjIwMTktMDYtMTVUMTE6MjA6MDguNzUwMjU4MSswODowMDwvTW9kaWZpZWQ+DQo8L1BlcnNpc3RlbmNlVG9rZW4+
+	EndProjectSection
+	ProjectSection(ExpandInVugen) = Data
+		Value = True
+	EndProjectSection
+EndProject
+Project("ED080EF4-411B-4CB0-9534-E01C948F0C90") = "lagou", "C:\Users\byWind\Documents\VuGen\Scripts\lagou\lagou.usr", "ED080EF4-411B-4CB0-9534-E01C948F0C90"
+	ProjectSection(CustomLoading) = Data
+		Token = PD94bWwgdmVyc2lvbj0iMS4wIj8+DQo8UGVyc2lzdGVuY2VUb2tlbj4NCiAgPExvYWREYXRhPkM6XFVzZXJzXGJ5V2luZFxEb2N1bWVudHNcVnVHZW5cU2NyaXB0c1xsYWdvdVxsYWdvdS51c3I8L0xvYWREYXRhPg0KICA8RmlsZXM+DQogICAgPEZpbGU+QzpcVXNlcnNcYnlXaW5kXERvY3VtZW50c1xWdUdlblxTY3JpcHRzXGxhZ291XGxhZ291LnVzcjwvRmlsZT4NCiAgPC9GaWxlcz4NCiAgPE1vZGlmaWVkPjIwMTktMDYtMTVUMTE6NDY6MDAuMTEzNjY1NCswODowMDwvTW9kaWZpZWQ+DQo8L1BlcnNpc3RlbmNlVG9rZW4+
+	EndProjectSection
+	ProjectSection(ExpandInVugen) = Data
+		Value = True
+	EndProjectSection
+EndProject
+Project("1A9B5712-712D-4C75-95C1-4ECB90F1A96F") = "douban", "C:\Users\byWind\Documents\VuGen\Scripts\douban\douban.usr", "1A9B5712-712D-4C75-95C1-4ECB90F1A96F"
+	ProjectSection(CustomLoading) = Data
+		Token = PD94bWwgdmVyc2lvbj0iMS4wIj8+DQo8UGVyc2lzdGVuY2VUb2tlbj4NCiAgPExvYWREYXRhPkM6XFVzZXJzXGJ5V2luZFxEb2N1bWVudHNcVnVHZW5cU2NyaXB0c1xkb3ViYW5cZG91YmFuLnVzcjwvTG9hZERhdGE+DQogIDxGaWxlcz4NCiAgICA8RmlsZT5DOlxVc2Vyc1xieVdpbmRcRG9jdW1lbnRzXFZ1R2VuXFNjcmlwdHNcZG91YmFuXGRvdWJhbi51c3I8L0ZpbGU+DQogIDwvRmlsZXM+DQogIDxNb2RpZmllZD4yMDE5LTA2LTE1VDE0OjQzOjA0LjAzMzE3MTYrMDg6MDA8L01vZGlmaWVkPg0KPC9QZXJzaXN0ZW5jZVRva2VuPg__
+	EndProjectSection
+	ProjectSection(ExpandInVugen) = Data
+		Value = True
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -32,5 +64,21 @@ Global
 		B0524D19-B7DF-4E1B-9F72-EF14736330B4.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		B0524D19-B7DF-4E1B-9F72-EF14736330B4.Release|Any CPU.Build.0 = Release|Any CPU
 		B0524D19-B7DF-4E1B-9F72-EF14736330B4.Release|Any CPU.ActiveCfg = Release|Any CPU
+		D0022B2F-DF15-4271-9A8B-D7907D338A0C.Debug|Any CPU.Build.0 = Debug|Any CPU
+		D0022B2F-DF15-4271-9A8B-D7907D338A0C.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		D0022B2F-DF15-4271-9A8B-D7907D338A0C.Release|Any CPU.Build.0 = Release|Any CPU
+		D0022B2F-DF15-4271-9A8B-D7907D338A0C.Release|Any CPU.ActiveCfg = Release|Any CPU
+		7B8E6102-432A-49B9-96AE-99DAB821F565.Debug|Any CPU.Build.0 = Debug|Any CPU
+		7B8E6102-432A-49B9-96AE-99DAB821F565.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		7B8E6102-432A-49B9-96AE-99DAB821F565.Release|Any CPU.Build.0 = Release|Any CPU
+		7B8E6102-432A-49B9-96AE-99DAB821F565.Release|Any CPU.ActiveCfg = Release|Any CPU
+		ED080EF4-411B-4CB0-9534-E01C948F0C90.Debug|Any CPU.Build.0 = Debug|Any CPU
+		ED080EF4-411B-4CB0-9534-E01C948F0C90.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		ED080EF4-411B-4CB0-9534-E01C948F0C90.Release|Any CPU.Build.0 = Release|Any CPU
+		ED080EF4-411B-4CB0-9534-E01C948F0C90.Release|Any CPU.ActiveCfg = Release|Any CPU
+		1A9B5712-712D-4C75-95C1-4ECB90F1A96F.Debug|Any CPU.Build.0 = Debug|Any CPU
+		1A9B5712-712D-4C75-95C1-4ECB90F1A96F.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		1A9B5712-712D-4C75-95C1-4ECB90F1A96F.Release|Any CPU.Build.0 = Release|Any CPU
+		1A9B5712-712D-4C75-95C1-4ECB90F1A96F.Release|Any CPU.ActiveCfg = Release|Any CPU
 	EndGlobalSection
 EndGlobal

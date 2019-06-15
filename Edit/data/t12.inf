@@ -1,0 +1,15 @@
+[t12]
+FileName1=t12.json
+URL1=https://oauthaccountmanager.googleapis.com/v1/issuetoken
+Total=3
+RequestHeaderFile=t12_RequestHeader.txt
+RequestBodyFile=t12_RequestBody.txt
+ResponseHeaderFile=t12_ResponseHeader.txt
+ContentType=application/json
+SnapshotXmlFile=snapshot_12.xml
+FileName2=t12_s58836398081046.gif
+URL2=https://sstats.adobe.com/b/ss/adbcreatepdfplugin.prod/1/JS-1.6/s58836398081046?AQB=1&ndh=1&pf=1&t=12%2F5%2F2019%2017%3A0%3A12%203%20-480&fid=250CB031EE2F8E17-2372BBCB13C3A857&ce=UTF-8&pageName=DCBrowserExt%3AShim%3AVersion%3AUnknown%3AOp&g=chrome-extension%3A%2F%2Fefaidnbmnnnibpcajpcglclefindmkaj%2F_generated_background_page.html&v1=15.1.1.1&v2=sideload&v3=prod&v4=not_set&s=1536x864&c=24&j=1.6&v=N&k=Y&bh=8&AQE=1
+FileName3=t12_collect.gif
+URL3=https://stats.g.doubleclick.net/r/collect?v=1&aip=1&t=dc&_r=3&tid=UA-93290101-2&cid=1508949300.1559633806&jid=1184058288&_gid=867776080.1560092489&gjid=1961258850&_v=j76&z=966071644
+[ProtocolInfo]
+ProtocolId=QTWeb

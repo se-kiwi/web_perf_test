@@ -1,0 +1,13 @@
+HTTP/1.1 200 OK
+Date: Sat, 15 Jun 2019 03:21:50 GMT
+Server: Apache
+Cache-control: no-cache,no-store
+Pragma: no-cache
+Expires: Thu, 01 Jan 1970 00:00:01 GMT
+ntCoent-Length: 127
+Keep-Alive: timeout=10, max=131
+Connection: Keep-Alive
+Content-Type: text/html; charset=gbk
+Content-Encoding: gzip
+Content-Length:        120
+

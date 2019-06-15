@@ -1,0 +1,986 @@
+[API Trapper      (1e6c:2e80)] Recording in 64-bit mode: C:\Program Files\Internet Explorer\IEXPLORE.EXE
+[API Trapper      (2294: c70)] Recording in 32-bit mode: C:\Program Files (x86)\Internet Explorer\IEXPLORE.EXE
+[Network Analyzer (2294:2fdc)] ------------------------------------------------------------------------------------------
+[Network Analyzer (2294:2fdc)] Load Network Traffic Analyzers:
+[Network Analyzer (2294:2fdc)]     Analyzer Module: WPLUS (value=)
+[Network Analyzer (2294:2fdc)]     Analyzer Module: WebBase (value=GetHttpProtocolAnalyzer:api_http_filter.dll)
+[Network Analyzer (2294:2fdc)]     + Network Analyzer: api_http_filter.dll @ GetHttpProtocolAnalyzer Loaded!
+[Network Analyzer (2294:2fdc)]     + Interception Auditors: WinInetWplusInterceptionAudit:api_http_filter.dll
+[Network Analyzer (2294:2fdc)]     Analyzer Module: QTWeb (value=GetWebSocketProtocolAnalyzer:WebSocketAnalyzer.dll)
+[Network Analyzer (2294:2fdc)]     + Network Analyzer: WebSocketAnalyzer.dll @ GetWebSocketProtocolAnalyzer Loaded!
+[Network Analyzer (2294:2fdc)]     Analyzer Module: local_server (value=)
+[Network Analyzer (2294:2fdc)] ------------------------------------------------------------------------------------------
+[Network Analyzer (2294: 2c8)] Address lookup for DESKTOP-624ASTC = 172.16.182.1
+[Network Analyzer (2294:2fdc)] Address lookup for DESKTOP-624ASTC = 172.16.182.1
+[Network Analyzer (2294:2fdc)] Request Connection: Remote Server @ 202.120.40.82:11235   (Service=)  (Sid=  1)  PROXIED!
+[Web Request      (2294: 2c8)] "CONNECT login.51job.com:443"   
+[Network Analyzer (2294: 2c8)]   (Sid:  1) Client -> Server @ : 213 bytes (Service=HTTP)
+[Network Analyzer (2294: 2c8)]   (Sid:  1) Server -> Client : 35 bytes 
+[Network Analyzer (2294:13a4)]   (Sid:  1) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.2, ciphers:DES-CBC3-SHA)
+[Network Analyzer (2294:362c)] Address lookup for DESKTOP-624ASTC = 172.16.182.1
+[Network Analyzer (2294:362c)] Request Connection: Remote Server @ 202.120.40.82:11235   (Service=)  (Sid=  2)  PROXIED!
+[Web Request      (2294: 2c8)] "GET http://ocsp.dcocsp.cn/MFEwTzBNMEswSTAJBgUrDgMCGgUABBR0AkbyWlxCEiC1vV12Caa6XKNH3wQUJPIuTg%2B9yvc%2BKVXKco1ph1ZE6XoCEAIqAO%2Fqkvjj8aA0o3Al8ow%3D"   
+[Network Analyzer (2294: 2c8)]   (Sid:  2) Client -> Server @ : 262 bytes (Service=HTTP)
+[Network Analyzer (2294: 2c8)]   (Sid:  2) Server -> Client : 1210 bytes  (Service=HTTP)
+[Web Request      (2294: 2c8)] "GET http://ocsp.dcocsp.cn/MFEwTzBNMEswSTAJBgUrDgMCGgUABBR0AkbyWlxCEiC1vV12Caa6XKNH3wQUJPIuTg%2B9yvc%2BKVXKco1ph1ZE6XoCEAIqAO%2Fqkvjj8aA0o3Al8ow%3D"   
+[Network Analyzer (2294: 2c8)]   (Sid:  2) Client -> Server @ : 305 bytes (Service=HTTP)
+[Network Analyzer (2294: 2c8)]   (Sid:  2) Server -> Client : 745 bytes  (Service=HTTP)
+[Network Analyzer (2294: 2c8)]   (Sid:  2) Server -> Client : 471 bytes  (Service=HTTP)
+[Web Request      (2294: 2c8)] "GET http://cdp1.digicert.com/SecureSiteCA-1.crl"   
+[Network Analyzer (2294: 2c8)]   (Sid:  2) Client -> Server @ : 166 bytes (Service=HTTP)
+[Network Analyzer (2294: 2c8)]   (Sid:  2) Server -> Client : 4470 bytes  (Service=HTTP)
+[Web Request      (2294: 2c8)] "GET http://cdp1.digicert.com/SecureSiteCA-1.crl"   
+[Network Analyzer (2294: 2c8)]   (Sid:  2) Client -> Server @ : 209 bytes (Service=HTTP)
+[Network Analyzer (2294: 2c8)]   (Sid:  2) Server -> Client : 361 bytes  (Service=HTTP)
+[Network Analyzer (2294: 2c8)]   (Sid:  2) Server -> Client : 4109 bytes  (Service=HTTP)
+[Net An. Error    (2294:13a4)] SSLAccept(ssl_id = 304321512 = 122393E8) Failed, ctx = 080695D8, err = "SSLv3/TLS write server done", err code = 5, err msg= "error:00000005:lib(0):func(0):DH lib
+" 
+[Net An. Error    (2294:13a4)]   (Sid:  1) Negotiate Client -> Proxy SSL Handshake Failed!!!
+[Network Analyzer (2294: 2c8)]   (Sid:  1) Connection Terminated (by Client)
+[Network Analyzer (2294:2fdc)] Address lookup for DESKTOP-624ASTC = 172.16.182.1
+[Network Analyzer (2294:2fdc)] Request Connection: Remote Server @ 202.120.40.82:11235   (Service=)  (Sid=  3)  PROXIED!
+[Web Request      (2294: 2c8)] "CONNECT login.51job.com:443"   
+[Network Analyzer (2294: 2c8)]   (Sid:  3) Client -> Server @ : 213 bytes (Service=HTTP)
+[Network Analyzer (2294: 2c8)]   (Sid:  3) Server -> Client : 35 bytes 
+[Network Analyzer (2294:1d80)]   (Sid:  3) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.2, ciphers:DES-CBC3-SHA)
+[Network Analyzer (2294:1d80)]   (Sid:  3) Negotiate Client -> Proxy SSL Handshake (ssl:TLSv1.2, ciphers:ECDHE-RSA-AES256-GCM-SHA384)
+[Web Request      (2294: 2c8)] "GET /login.php"   
+[Network Analyzer (2294: 2c8)]   (Sid:  3) Client -> Server @ : 311 bytes (SSL)(Service=HTTP)
+[Network Analyzer (2294: 2c8)]   (Sid:  3) Server -> Client : 4973 bytes (SSL) (Service=HTTP)
+[Network Analyzer (2294:362c)] Address lookup for DESKTOP-624ASTC = 172.16.182.1
+[Network Analyzer (2294:2fdc)] Address lookup for DESKTOP-624ASTC = 172.16.182.1
+[Network Analyzer (2294:362c)] Request Connection: Remote Server @ 202.120.40.82:11235   (Service=)  (Sid=  4)  PROXIED!
+[Web Request      (2294: 2c8)] "GET /ajax/verifycode.php?type=33&from_domain=i&t=1190389214"   
+[Network Analyzer (2294:1ae8)] Address lookup for DESKTOP-624ASTC = 172.16.182.1
+[Network Analyzer (2294: 2c8)]   (Sid:  3) Client -> Server @ : 493 bytes (SSL)(Service=HTTP)
+[Web Request      (2294: 2c8)] "CONNECT js.51jobcdn.com:443"   
+[Network Analyzer (2294: 2c8)]   (Sid:  4) Client -> Server @ : 213 bytes (Service=HTTP)
+[Network Analyzer (2294: 840)] Address lookup for DESKTOP-624ASTC = 172.16.182.1
+[Network Analyzer (2294:2fdc)] Request Connection: Remote Server @ 202.120.40.82:11235   (Service=)  (Sid=  5)  PROXIED!
+[Web Request      (2294: 2c8)] "CONNECT js.51jobcdn.com:443"   
+[Network Analyzer (2294: 2c8)]   (Sid:  5) Client -> Server @ : 213 bytes (Service=HTTP)
+[Network Analyzer (2294:1ae8)] Request Connection: Remote Server @ 202.120.40.82:11235   (Service=)  (Sid=  6)  PROXIED!
+[Network Analyzer (2294:33e8)] Address lookup for DESKTOP-624ASTC = 172.16.182.1
+[Web Request      (2294: 2c8)] "CONNECT js.51jobcdn.com:443"   
+[Network Analyzer (2294: 2c8)]   (Sid:  6) Client -> Server @ : 213 bytes (Service=HTTP)
+[Network Analyzer (2294: 840)] Request Connection: Remote Server @ 202.120.40.82:11235   (Service=)  (Sid=  7)  PROXIED!
+[Web Request      (2294: 2c8)] "CONNECT js.51jobcdn.com:443"   
+[Network Analyzer (2294: 2c8)]   (Sid:  7) Client -> Server @ : 213 bytes (Service=HTTP)
+[Network Analyzer (2294:33e8)] Request Connection: Remote Server @ 202.120.40.82:11235   (Service=)  (Sid=  8)  PROXIED!
+[Network Analyzer (2294:362c)] Address lookup for DESKTOP-624ASTC = 172.16.182.1
+[Network Analyzer (2294:2fdc)] Address lookup for DESKTOP-624ASTC = 172.16.182.1
+[Network Analyzer (2294:17dc)] Address lookup for DESKTOP-624ASTC = 172.16.182.1
+[Web Request      (2294: 2c8)] "CONNECT img05.51jobcdn.com:443"   
+[Network Analyzer (2294: 2c8)]   (Sid:  8) Client -> Server @ : 219 bytes (Service=HTTP)
+[Network Analyzer (2294: 2c8)]   (Sid:  3) Server -> Client : 2811 bytes (SSL) (Service=HTTP)
+[Network Analyzer (2294:17dc)] Request Connection: Remote Server @ 202.120.40.82:11235   (Service=)  (Sid=  9)  PROXIED!
+[Web Request      (2294: 2c8)] "CONNECT img06.51jobcdn.com:443"   
+[Network Analyzer (2294: 2c8)]   (Sid:  9) Client -> Server @ : 219 bytes (Service=HTTP)
+[Network Analyzer (2294:362c)] Request Connection: Remote Server @ 202.120.40.82:11235   (Service=)  (Sid= 10)  PROXIED!
+[Network Analyzer (2294: 2c8)]   (Sid:  4) Server -> Client : 35 bytes 
+[Network Analyzer (2294: 2c8)]   (Sid:  5) Server -> Client : 35 bytes 
+[Network Analyzer (2294: 2c8)]   (Sid:  6) Server -> Client : 35 bytes 
+[Network Analyzer (2294: 2c8)]   (Sid:  7) Server -> Client : 35 bytes 
+[Network Analyzer (2294: 2c8)]   (Sid:  8) Server -> Client : 35 bytes 
+[Network Analyzer (2294: 2c8)]   (Sid:  9) Server -> Client : 35 bytes 
+[Web Request      (2294: 2c8)] "CONNECT js.51jobcdn.com:443"   
+[Network Analyzer (2294: 2c8)]   (Sid: 10) Client -> Server @ : 213 bytes (Service=HTTP)
+[Network Analyzer (2294:2fdc)] Request Connection: Remote Server @ 202.120.40.82:11235   (Service=)  (Sid= 11)  PROXIED!
+[Web Request      (2294: 2c8)] "CONNECT js.51jobcdn.com:443"   
+[Network Analyzer (2294: 2c8)]   (Sid: 11) Client -> Server @ : 213 bytes (Service=HTTP)
+[Network Analyzer (2294: 2c8)]   (Sid: 10) Server -> Client : 35 bytes 
+[Network Analyzer (2294: 2c8)]   (Sid: 11) Server -> Client : 35 bytes 
+[Network Analyzer (2294:3274)]   (Sid:  4) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.2, ciphers:DES-CBC3-SHA)
+[Network Analyzer (2294:3234)]   (Sid:  5) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.2, ciphers:DES-CBC3-SHA)
+[Network Analyzer (2294:36ac)]   (Sid:  6) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.2, ciphers:DES-CBC3-SHA)
+[Web Request      (2294: 2c8)] "GET http://ocsp1.digicert.com/MFEwTzBNMEswSTAJBgUrDgMCGgUABBR0AkbyWlxCEiC1vV12Caa6XKNH3wQUJPIuTg%2B9yvc%2BKVXKco1ph1ZE6XoCEAl4pOxEmBNOiWgv4jRwaNM%3D"   
+[Network Analyzer (2294: 2c8)]   (Sid:  2) Client -> Server @ : 268 bytes (Service=HTTP)
+[Network Analyzer (2294:1fac)]   (Sid:  7) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.2, ciphers:DES-CBC3-SHA)
+[Network Analyzer (2294:319c)]   (Sid:  8) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.2, ciphers:ECDHE-RSA-AES128-GCM-SHA256)
+[Network Analyzer (2294:10f8)]   (Sid:  9) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.2, ciphers:ECDHE-RSA-AES128-GCM-SHA256)
+[Network Analyzer (2294:3484)]   (Sid: 10) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.2, ciphers:DES-CBC3-SHA)
+[Network Analyzer (2294:20f0)]   (Sid: 11) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.2, ciphers:DES-CBC3-SHA)
+[Network Analyzer (2294: 2c8)]   (Sid:  2) Server -> Client : 342 bytes  (Service=HTTP)
+[Network Analyzer (2294: 2c8)]   (Sid:  2) Server -> Client : 471 bytes  (Service=HTTP)
+[Web Request      (2294: 2c8)] "GET http://ocsp1.digicert.com/MFEwTzBNMEswSTAJBgUrDgMCGgUABBR0AkbyWlxCEiC1vV12Caa6XKNH3wQUJPIuTg%2B9yvc%2BKVXKco1ph1ZE6XoCEAl4pOxEmBNOiWgv4jRwaNM%3D"   
+[Network Analyzer (2294: 2c8)]   (Sid:  2) Client -> Server @ : 311 bytes (Service=HTTP)
+[Network Analyzer (2294: 2c8)]   (Sid:  2) Server -> Client : 836 bytes  (Service=HTTP)
+[Net An. Error    (2294:3274)] SSLAccept(ssl_id = 307037664 = 124D05E0) Failed, ctx = 122CC230, err = "SSLv3/TLS write server done", err code = 5, err msg= "error:00000005:lib(0):func(0):DH lib
+" 
+[Net An. Error    (2294:3274)]   (Sid:  4) Negotiate Client -> Proxy SSL Handshake Failed!!!
+[Net An. Error    (2294:20f0)] SSLAccept(ssl_id = 355728240 = 1533FB70) Failed, ctx = 122CC230, err = "SSLv3/TLS write server done", err code = 5, err msg= "error:00000005:lib(0):func(0):DH lib
+" 
+[Net An. Error    (2294:20f0)]   (Sid: 11) Negotiate Client -> Proxy SSL Handshake Failed!!!
+[Net An. Error    (2294:10f8)] SSLAccept(ssl_id = 307790448 = 12588270) Failed, ctx = 122CC230, err = "SSLv3/TLS write server done", err code = 5, err msg= "error:00000005:lib(0):func(0):DH lib
+" 
+[Net An. Error    (2294:10f8)]   (Sid:  9) Negotiate Client -> Proxy SSL Handshake Failed!!!
+[Net An. Error    (2294:36ac)] SSLAccept(ssl_id = 307044088 = 124D1EF8) Failed, ctx = 122CC230, err = "SSLv3/TLS write server done", err code = 5, err msg= "error:00000005:lib(0):func(0):DH lib
+" 
+[Net An. Error    (2294:36ac)]   (Sid:  6) Negotiate Client -> Proxy SSL Handshake Failed!!!
+[Net An. Error    (2294:319c)] SSLAccept(ssl_id = 307676688 = 1256C610) Failed, ctx = 122CC230, err = "SSLv3/TLS write server done", err code = 5, err msg= "error:00000005:lib(0):func(0):DH lib
+" 
+[Net An. Error    (2294:319c)]   (Sid:  8) Negotiate Client -> Proxy SSL Handshake Failed!!!
+[Net An. Error    (2294:3234)] SSLAccept(ssl_id = 307146832 = 124EB050) Failed, ctx = 122CC230, err = "SSLv3/TLS write server done", err code = 5, err msg= "error:00000005:lib(0):func(0):DH lib
+" 
+[Net An. Error    (2294:1fac)] SSLAccept(ssl_id = 307464640 = 125389C0) Failed, ctx = 122CC230, err = "SSLv3/TLS write server done", err code = 5, err msg= "error:00000005:lib(0):func(0):DH lib
+" 
+[Net An. Error    (2294:3484)] SSLAccept(ssl_id = 307975408 = 125B54F0) Failed, ctx = 122CC230, err = "SSLv3/TLS write server done", err code = 5, err msg= "error:00000005:lib(0):func(0):DH lib
+" 
+[Net An. Error    (2294:3234)]   (Sid:  5) Negotiate Client -> Proxy SSL Handshake Failed!!!
+[Net An. Error    (2294:1fac)]   (Sid:  7) Negotiate Client -> Proxy SSL Handshake Failed!!!
+[Net An. Error    (2294:3484)]   (Sid: 10) Negotiate Client -> Proxy SSL Handshake Failed!!!
+[Network Analyzer (2294:362c)] Address lookup for DESKTOP-624ASTC = 172.16.182.1
+[Network Analyzer (2294:1e44)] Address lookup for DESKTOP-624ASTC = 172.16.182.1
+[Network Analyzer (2294: 2c8)]   (Sid:  4) Connection Terminated (by Client)
+[Network Analyzer (2294: 2c8)]   (Sid:  5) Connection Terminated (by Client)
+[Network Analyzer (2294: 2c8)]   (Sid:  6) Connection Terminated (by Client)
+[Network Analyzer (2294: 2c8)]   (Sid:  7) Connection Terminated (by Client)
+[Network Analyzer (2294: 2c8)]   (Sid:  8) Connection Terminated (by Client)
+[Network Analyzer (2294: 2c8)]   (Sid:  9) Connection Terminated (by Client)
+[Network Analyzer (2294: 2c8)]   (Sid: 10) Connection Terminated (by Client)
+[Network Analyzer (2294: 2c8)]   (Sid: 11) Connection Terminated (by Client)
+[Network Analyzer (2294:1e44)] Request Connection: Remote Server @ 202.120.40.82:11235   (Service=)  (Sid= 12)  PROXIED!
+[Web Request      (2294: 2c8)] "CONNECT js.51jobcdn.com:443"   
+[Network Analyzer (2294: 2c8)]   (Sid: 12) Client -> Server @ : 213 bytes (Service=HTTP)
+[Network Analyzer (2294:362c)] Request Connection: Remote Server @ 202.120.40.82:11235   (Service=)  (Sid= 13)  PROXIED!
+[Web Request      (2294: 2c8)] "CONNECT img05.51jobcdn.com:443"   
+[Network Analyzer (2294: 2c8)]   (Sid: 13) Client -> Server @ : 219 bytes (Service=HTTP)
+[Network Analyzer (2294:3780)] Address lookup for DESKTOP-624ASTC = 172.16.182.1
+[Network Analyzer (2294:17dc)] Address lookup for DESKTOP-624ASTC = 172.16.182.1
+[Network Analyzer (2294:33e8)] Address lookup for DESKTOP-624ASTC = 172.16.182.1
+[Network Analyzer (2294: 2c8)]   (Sid: 12) Server -> Client : 35 bytes 
+[Network Analyzer (2294:3780)] Request Connection: Remote Server @ 202.120.40.82:11235   (Service=)  (Sid= 14)  PROXIED!
+[Network Analyzer (2294:1ae8)] Address lookup for DESKTOP-624ASTC = 172.16.182.1
+[Network Analyzer (2294:2fdc)] Address lookup for DESKTOP-624ASTC = 172.16.182.1
+[Network Analyzer (2294: 840)] Address lookup for DESKTOP-624ASTC = 172.16.182.1
+[Web Request      (2294: 2c8)] "CONNECT js.51jobcdn.com:443"   
+[Network Analyzer (2294: 2c8)]   (Sid: 14) Client -> Server @ : 213 bytes (Service=HTTP)
+[Network Analyzer (2294:17dc)] Request Connection: Remote Server @ 202.120.40.82:11235   (Service=)  (Sid= 15)  PROXIED!
+[Network Analyzer (2294: 2c8)]   (Sid: 13) Server -> Client : 35 bytes 
+[Network Analyzer (2294: 2c8)]   (Sid: 14) Server -> Client : 35 bytes 
+[Network Analyzer (2294:33e8)] Request Connection: Remote Server @ 202.120.40.82:11235   (Service=)  (Sid= 16)  PROXIED!
+[Web Request      (2294: 2c8)] "CONNECT js.51jobcdn.com:443"   
+[Network Analyzer (2294: 2c8)]   (Sid: 15) Client -> Server @ : 213 bytes (Service=HTTP)
+[Web Request      (2294: 2c8)] "CONNECT img06.51jobcdn.com:443"   
+[Network Analyzer (2294: 2c8)]   (Sid: 16) Client -> Server @ : 219 bytes (Service=HTTP)
+[Network Analyzer (2294:1ae8)] Request Connection: Remote Server @ 202.120.40.82:11235   (Service=)  (Sid= 17)  PROXIED!
+[Web Request      (2294: 2c8)] "CONNECT js.51jobcdn.com:443"   
+[Network Analyzer (2294: 2c8)]   (Sid: 17) Client -> Server @ : 213 bytes (Service=HTTP)
+[Network Analyzer (2294:2fdc)] Request Connection: Remote Server @ 202.120.40.82:11235   (Service=)  (Sid= 18)  PROXIED!
+[Network Analyzer (2294:232c)]   (Sid: 12) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.2, ciphers:DES-CBC3-SHA)
+[Web Request      (2294: 2c8)] "CONNECT js.51jobcdn.com:443"   
+[Network Analyzer (2294: 2c8)]   (Sid: 18) Client -> Server @ : 213 bytes (Service=HTTP)
+[Network Analyzer (2294: 840)] Request Connection: Remote Server @ 202.120.40.82:11235   (Service=)  (Sid= 19)  PROXIED!
+[Web Request      (2294: 2c8)] "CONNECT js.51jobcdn.com:443"   
+[Network Analyzer (2294: 2c8)]   (Sid: 19) Client -> Server @ : 213 bytes (Service=HTTP)
+[Network Analyzer (2294: 2c8)]   (Sid: 15) Server -> Client : 35 bytes 
+[Network Analyzer (2294: 2c8)]   (Sid: 17) Server -> Client : 35 bytes 
+[Network Analyzer (2294: 2c8)]   (Sid: 18) Server -> Client : 35 bytes 
+[Network Analyzer (2294: 2c8)]   (Sid: 16) Server -> Client : 35 bytes 
+[Network Analyzer (2294: 2c8)]   (Sid: 19) Server -> Client : 35 bytes 
+[Network Analyzer (2294:232c)]   (Sid: 12) Negotiate Client -> Proxy SSL Handshake (ssl:TLSv1.2, ciphers:ECDHE-RSA-AES256-GCM-SHA384)
+[Network Analyzer (2294:354c)]   (Sid: 13) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.2, ciphers:ECDHE-RSA-AES128-GCM-SHA256)
+[Network Analyzer (2294:354c)]   (Sid: 13) Negotiate Client -> Proxy SSL Handshake (ssl:TLSv1.2, ciphers:ECDHE-RSA-AES256-GCM-SHA384)
+[Network Analyzer (2294:2b20)]   (Sid: 14) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.2, ciphers:DES-CBC3-SHA)
+[Network Analyzer (2294:2b20)]   (Sid: 14) Negotiate Client -> Proxy SSL Handshake (ssl:TLSv1.2, ciphers:ECDHE-RSA-AES256-GCM-SHA384)
+[Network Analyzer (2294:36d0)]   (Sid: 15) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.2, ciphers:DES-CBC3-SHA)
+[Network Analyzer (2294:36d0)]   (Sid: 15) Negotiate Client -> Proxy SSL Handshake (ssl:TLSv1.2, ciphers:ECDHE-RSA-AES256-GCM-SHA384)
+[Network Analyzer (2294: 260)]   (Sid: 17) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.2, ciphers:DES-CBC3-SHA)
+[Network Analyzer (2294: 260)]   (Sid: 17) Negotiate Client -> Proxy SSL Handshake (ssl:TLSv1.2, ciphers:ECDHE-RSA-AES256-GCM-SHA384)
+[Network Analyzer (2294:3164)]   (Sid: 16) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.2, ciphers:ECDHE-RSA-AES128-GCM-SHA256)
+[Network Analyzer (2294:3164)]   (Sid: 16) Negotiate Client -> Proxy SSL Handshake (ssl:TLSv1.2, ciphers:ECDHE-RSA-AES256-GCM-SHA384)
+[Network Analyzer (2294: 8f8)]   (Sid: 18) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.2, ciphers:DES-CBC3-SHA)
+[Network Analyzer (2294:3560)]   (Sid: 19) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.2, ciphers:DES-CBC3-SHA)
+[Network Analyzer (2294: 8f8)]   (Sid: 18) Negotiate Client -> Proxy SSL Handshake (ssl:TLSv1.2, ciphers:ECDHE-RSA-AES256-GCM-SHA384)
+[Network Analyzer (2294:3560)]   (Sid: 19) Negotiate Client -> Proxy SSL Handshake (ssl:TLSv1.2, ciphers:ECDHE-RSA-AES256-GCM-SHA384)
+[Web Request      (2294: 2c8)] "GET /in/resource/css/2019/login/login.0d2bb609.css"   
+[Network Analyzer (2294: 2c8)]   (Sid: 12) Client -> Server @ : 356 bytes (SSL)(Service=HTTP)
+[Web Request      (2294: 2c8)] "GET /im/2016/logo/logo_blue.png"   
+[Network Analyzer (2294: 2c8)]   (Sid: 13) Client -> Server @ : 388 bytes (SSL)(Service=HTTP)
+[Web Request      (2294: 2c8)] "GET /in/resource/js/2019/login/login.c733169c.js"   
+[Network Analyzer (2294: 2c8)]   (Sid: 14) Client -> Server @ : 374 bytes (SSL)(Service=HTTP)
+[Web Request      (2294: 2c8)] "GET /in/js/2016/pointtrack.js?20180605"   
+[Network Analyzer (2294: 2c8)]   (Sid: 15) Client -> Server @ : 364 bytes (SSL)(Service=HTTP)
+[Web Request      (2294: 2c8)] "GET /im/2016/header/slogen.png"   
+[Network Analyzer (2294: 2c8)]   (Sid: 16) Client -> Server @ : 387 bytes (SSL)(Service=HTTP)
+[Web Request      (2294: 2c8)] "GET /in/resource/js/2019/login/common.c1187a0d.js"   
+[Network Analyzer (2294: 2c8)]   (Sid: 17) Client -> Server @ : 375 bytes (SSL)(Service=HTTP)
+[Web Request      (2294: 2c8)] "GET /in/js/2016/jquery.js?20180319"   
+[Network Analyzer (2294: 2c8)]   (Sid: 18) Client -> Server @ : 360 bytes (SSL)(Service=HTTP)
+[Web Request      (2294: 2c8)] "GET /in/resource/css/2019/login/common.629de74b.css"   
+[Network Analyzer (2294: 2c8)]   (Sid: 19) Client -> Server @ : 357 bytes (SSL)(Service=HTTP)
+[Network Analyzer (2294: 2c8)]   (Sid: 12) Server -> Client : 1798 bytes (SSL) (Service=HTTP)
+[Network Analyzer (2294: 2c8)]   (Sid: 13) Server -> Client : 3505 bytes (SSL) (Service=HTTP)
+[Network Analyzer (2294: 2c8)]   (Sid: 14) Server -> Client : 7259 bytes (SSL) (Service=HTTP)
+[Network Analyzer (2294: 2c8)]   (Sid: 15) Server -> Client : 1658 bytes (SSL) (Service=HTTP)
+[Network Analyzer (2294: 2c8)]   (Sid: 17) Server -> Client : 865 bytes (SSL) (Service=HTTP)
+[Network Analyzer (2294: 2c8)]   (Sid: 14) Server -> Client : 7259 bytes (SSL) (Service=HTTP)
+[Network Analyzer (2294: 2c8)]   (Sid: 16) Server -> Client : 1712 bytes (SSL) (Service=HTTP)
+[Network Analyzer (2294: 2c8)]   (Sid: 18) Server -> Client : 7259 bytes (SSL) (Service=HTTP)
+[Network Analyzer (2294: 2c8)]   (Sid: 19) Server -> Client : 7259 bytes (SSL) (Service=HTTP)
+[Network Analyzer (2294: 2c8)]   (Sid: 14) Server -> Client : 1038 bytes (SSL) (Service=HTTP)
+[Network Analyzer (2294: 2c8)]   (Sid: 18) Server -> Client : 7259 bytes (SSL) (Service=HTTP)
+[Network Analyzer (2294: 2c8)]   (Sid: 19) Server -> Client : 7259 bytes (SSL) (Service=HTTP)
+[Network Analyzer (2294: 2c8)]   (Sid: 18) Server -> Client : 7259 bytes (SSL) (Service=HTTP)
+[Network Analyzer (2294: 2c8)]   (Sid: 19) Server -> Client : 4044 bytes (SSL) (Service=HTTP)
+[Network Analyzer (2294: 2c8)]   (Sid: 18) Server -> Client : 123 bytes (SSL) (Service=HTTP)
+[Network Analyzer (2294: 2c8)]   (Sid: 18) Server -> Client : 7259 bytes (SSL) (Service=HTTP)
+[Network Analyzer (2294: 2c8)]   (Sid: 18) Server -> Client : 7259 bytes (SSL) (Service=HTTP)
+[Network Analyzer (2294: 2c8)]   (Sid: 18) Server -> Client : 345 bytes (SSL) (Service=HTTP)
+[Network Analyzer (2294: 840)] Address lookup for DESKTOP-624ASTC = 172.16.182.1
+[Network Analyzer (2294: 840)] Request Connection: Remote Server @ 202.120.40.82:11235   (Service=)  (Sid= 20)  PROXIED!
+[Web Request      (2294: 2c8)] "GET /ajax/verifymethod.php?callback=jsoncallback&_=1560568870586"   
+[Network Analyzer (2294: 2c8)]   (Sid:  3) Client -> Server @ : 573 bytes (SSL)(Service=HTTP)
+[Web Request      (2294: 2c8)] "CONNECT img01.51jobcdn.com:443"   
+[Network Analyzer (2294: 2c8)]   (Sid: 20) Client -> Server @ : 219 bytes (Service=HTTP)
+[Network Analyzer (2294: 840)] Address lookup for DESKTOP-624ASTC = 172.16.182.1
+[Network Analyzer (2294:2fdc)] Address lookup for DESKTOP-624ASTC = 172.16.182.1
+[Network Analyzer (2294: 840)] Request Connection: Remote Server @ 202.120.40.82:11235   (Service=)  (Sid= 21)  PROXIED!
+[Network Analyzer (2294: 2c8)]   (Sid:  3) Server -> Client : 361 bytes (SSL) (Service=HTTP)
+[Web Request      (2294: 2c8)] "CONNECT img01.51jobcdn.com:443"   
+[Network Analyzer (2294: 2c8)]   (Sid: 21) Client -> Server @ : 219 bytes (Service=HTTP)
+[Network Analyzer (2294:2fdc)] Request Connection: Remote Server @ 202.120.40.82:11235   (Service=)  (Sid= 22)  PROXIED!
+[Network Analyzer (2294: 2c8)]   (Sid: 20) Server -> Client : 35 bytes 
+[Network Analyzer (2294: 2c8)]   (Sid: 21) Server -> Client : 35 bytes 
+[Web Request      (2294: 2c8)] "CONNECT img01.51jobcdn.com:443"   
+[Network Analyzer (2294: 2c8)]   (Sid: 22) Client -> Server @ : 219 bytes (Service=HTTP)
+[Network Analyzer (2294: 2c8)]   (Sid: 22) Server -> Client : 35 bytes 
+[Network Analyzer (2294:3540)]   (Sid: 20) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.2, ciphers:ECDHE-RSA-AES128-GCM-SHA256)
+[Net An. Error    (2294:3540)] SSLAccept(ssl_id = 307838872 = 12593F98) Failed, ctx = 122CC230, err = "SSLv3/TLS write server done", err code = 5, err msg= "error:00000005:lib(0):func(0):DH lib
+" 
+[Net An. Error    (2294:3540)]   (Sid: 20) Negotiate Client -> Proxy SSL Handshake Failed!!!
+[Network Analyzer (2294:1ae8)] Address lookup for DESKTOP-624ASTC = 172.16.182.1
+[Network Analyzer (2294: 2c8)]   (Sid: 20) Connection Terminated (by Client)
+[Network Analyzer (2294:1ae8)] Request Connection: Remote Server @ 202.120.40.82:11235   (Service=)  (Sid= 23)  PROXIED!
+[Web Request      (2294: 2c8)] "CONNECT img01.51jobcdn.com:443"   
+[Network Analyzer (2294: 2c8)]   (Sid: 23) Client -> Server @ : 219 bytes (Service=HTTP)
+[Network Analyzer (2294:3080)]   (Sid: 21) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.2, ciphers:ECDHE-RSA-AES128-GCM-SHA256)
+[Network Analyzer (2294: 2c8)]   (Sid: 23) Server -> Client : 35 bytes 
+[Net An. Error    (2294:3080)] SSLAccept(ssl_id = 307815256 = 1258E358) Failed, ctx = 122CC230, err = "SSLv3/TLS write server done", err code = 5, err msg= "error:00000005:lib(0):func(0):DH lib
+" 
+[Net An. Error    (2294:3080)]   (Sid: 21) Negotiate Client -> Proxy SSL Handshake Failed!!!
+[Network Analyzer (2294:2fdc)] Address lookup for DESKTOP-624ASTC = 172.16.182.1
+[Network Analyzer (2294: 2c8)]   (Sid: 21) Connection Terminated (by Client)
+[Network Analyzer (2294:2fdc)] Request Connection: Remote Server @ 202.120.40.82:11235   (Service=)  (Sid= 24)  PROXIED!
+[Web Request      (2294: 2c8)] "CONNECT img01.51jobcdn.com:443"   
+[Network Analyzer (2294: 2c8)]   (Sid: 24) Client -> Server @ : 219 bytes (Service=HTTP)
+[Network Analyzer (2294:355c)]   (Sid: 22) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.2, ciphers:ECDHE-RSA-AES128-GCM-SHA256)
+[Network Analyzer (2294: 2c8)]   (Sid: 24) Server -> Client : 35 bytes 
+[Net An. Error    (2294:355c)] SSLAccept(ssl_id = 307821160 = 1258FA68) Failed, ctx = 122CC230, err = "SSLv3/TLS write server done", err code = 5, err msg= "error:00000005:lib(0):func(0):DH lib
+" 
+[Net An. Error    (2294:355c)]   (Sid: 22) Negotiate Client -> Proxy SSL Handshake Failed!!!
+[Network Analyzer (2294:2fdc)] Address lookup for DESKTOP-624ASTC = 172.16.182.1
+[Network Analyzer (2294:185c)]   (Sid: 23) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.2, ciphers:ECDHE-RSA-AES128-GCM-SHA256)
+[Network Analyzer (2294: 2c8)]   (Sid: 22) Connection Terminated (by Client)
+[Network Analyzer (2294:2fdc)] Request Connection: Remote Server @ 202.120.40.82:11235   (Service=)  (Sid= 25)  PROXIED!
+[Web Request      (2294: 2c8)] "CONNECT img01.51jobcdn.com:443"   
+[Network Analyzer (2294: 2c8)]   (Sid: 25) Client -> Server @ : 219 bytes (Service=HTTP)
+[Network Analyzer (2294:185c)]   (Sid: 23) Negotiate Client -> Proxy SSL Handshake (ssl:TLSv1.2, ciphers:ECDHE-RSA-AES256-GCM-SHA384)
+[Network Analyzer (2294: 2c8)]   (Sid: 25) Server -> Client : 35 bytes 
+[Web Request      (2294: 2c8)] "GET /im/2019/login/newbg.a1df1775.png"   
+[Network Analyzer (2294: 2c8)]   (Sid: 23) Client -> Server @ : 394 bytes (SSL)(Service=HTTP)
+[Network Analyzer (2294:29c8)]   (Sid: 24) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.2, ciphers:ECDHE-RSA-AES128-GCM-SHA256)
+[Network Analyzer (2294: 2c8)]   (Sid: 23) Server -> Client : 13739 bytes (SSL) (Service=HTTP)
+[Network Analyzer (2294:29c8)]   (Sid: 24) Negotiate Client -> Proxy SSL Handshake (ssl:TLSv1.2, ciphers:ECDHE-RSA-AES256-GCM-SHA384)
+[Network Analyzer (2294:1730)]   (Sid: 25) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.2, ciphers:ECDHE-RSA-AES128-GCM-SHA256)
+[Network Analyzer (2294:1730)]   (Sid: 25) Negotiate Client -> Proxy SSL Handshake (ssl:TLSv1.2, ciphers:ECDHE-RSA-AES256-GCM-SHA384)
+[Web Request      (2294: 2c8)] "GET /im/2019/2016/temp/icon_lr.497a7ae2.png"   
+[Network Analyzer (2294: 2c8)]   (Sid: 24) Client -> Server @ : 400 bytes (SSL)(Service=HTTP)
+[Web Request      (2294: 2c8)] "GET /im/2019/login/foot-icon.a9aa2473.png"   
+[Network Analyzer (2294: 2c8)]   (Sid: 25) Client -> Server @ : 398 bytes (SSL)(Service=HTTP)
+[Network Analyzer (2294: 2c8)]   (Sid: 24) Server -> Client : 1929 bytes (SSL) (Service=HTTP)
+[Network Analyzer (2294: 2c8)]   (Sid: 25) Server -> Client : 3524 bytes (SSL) (Service=HTTP)
+[Web Request      (2294: 2c8)] "GET /favicon.ico"   
+[Network Analyzer (2294: 2c8)]   (Sid:  3) Client -> Server @ : 284 bytes (SSL)(Service=HTTP)
+[Network Analyzer (2294: 2c8)]   (Sid:  3) Server -> Client : 1396 bytes (SSL) (Service=HTTP)
+[Web Request      (2294: 2c8)] "GET /in/js/2016/trace/trackData.js?20180206"   
+[Network Analyzer (2294: 2c8)]   (Sid: 18) Client -> Server @ : 369 bytes (SSL)(Service=HTTP)
+[Network Analyzer (2294: 2c8)]   (Sid: 18) Server -> Client : 1232 bytes (SSL) (Service=HTTP)
+[Network Analyzer (2294: 2c8)]   (Sid: 12) Connection Terminated (by Client)
+[Network Analyzer (2294:1ae8)] Address lookup for DESKTOP-624ASTC = 172.16.182.1
+[Network Analyzer (2294:1ae8)] Request Connection: Remote Server @ 202.120.40.82:11235   (Service=)  (Sid= 26)  PROXIED!
+[Web Request      (2294: 2c8)] "CONNECT trace.51jingying.com:443"   
+[Network Analyzer (2294: 2c8)]   (Sid: 26) Client -> Server @ : 223 bytes (Service=HTTP)
+[Network Analyzer (2294: 2c8)]   (Sid: 26) Server -> Client : 35 bytes 
+[Network Analyzer (2294:1d5c)]   (Sid: 26) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.2, ciphers:DES-CBC3-SHA)
+[Web Request      (2294: 2c8)] "GET http://ocsp.dcocsp.cn/MFEwTzBNMEswSTAJBgUrDgMCGgUABBR0AkbyWlxCEiC1vV12Caa6XKNH3wQUJPIuTg%2B9yvc%2BKVXKco1ph1ZE6XoCEAjOfBjE30DopoUvALGobmQ%3D"   
+[Network Analyzer (2294: 2c8)]   (Sid:  2) Client -> Server @ : 260 bytes (Service=HTTP)
+[Network Analyzer (2294: 2c8)]   (Sid:  2) Server -> Client : 1209 bytes  (Service=HTTP)
+[Web Request      (2294: 2c8)] "GET http://ocsp.dcocsp.cn/MFEwTzBNMEswSTAJBgUrDgMCGgUABBR0AkbyWlxCEiC1vV12Caa6XKNH3wQUJPIuTg%2B9yvc%2BKVXKco1ph1ZE6XoCEAjOfBjE30DopoUvALGobmQ%3D"   
+[Network Analyzer (2294: 2c8)]   (Sid:  2) Client -> Server @ : 303 bytes (Service=HTTP)
+[Network Analyzer (2294: 2c8)]   (Sid:  2) Server -> Client : 1215 bytes  (Service=HTTP)
+[Net An. Error    (2294:1d5c)] SSLAccept(ssl_id = 307868392 = 1259B2E8) Failed, ctx = 154E6A70, err = "SSLv3/TLS write server done", err code = 5, err msg= "error:00000005:lib(0):func(0):DH lib
+" 
+[Net An. Error    (2294:1d5c)]   (Sid: 26) Negotiate Client -> Proxy SSL Handshake Failed!!!
+[Network Analyzer (2294:1ae8)] Address lookup for DESKTOP-624ASTC = 172.16.182.1
+[Network Analyzer (2294: 2c8)]   (Sid: 26) Connection Terminated (by Client)
+[Network Analyzer (2294:1ae8)] Request Connection: Remote Server @ 202.120.40.82:11235   (Service=)  (Sid= 27)  PROXIED!
+[Web Request      (2294: 2c8)] "CONNECT trace.51jingying.com:443"   
+[Network Analyzer (2294: 2c8)]   (Sid: 27) Client -> Server @ : 223 bytes (Service=HTTP)
+[Network Analyzer (2294: 2c8)]   (Sid: 27) Server -> Client : 35 bytes 
+[Network Analyzer (2294:3460)]   (Sid: 27) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.2, ciphers:DES-CBC3-SHA)
+[Network Analyzer (2294:3460)]   (Sid: 27) Negotiate Client -> Proxy SSL Handshake (ssl:TLSv1.2, ciphers:ECDHE-RSA-AES256-GCM-SHA384)
+[Web Request      (2294: 2c8)] "GET /logRecord.php?VerType=3&webId=2&logTime=1560568871598&ip=202.120.40.82&guid=99a1f5fd9691580e3e5168b4fd6f0cac&domain=login.51job.com&pageCode=19999&cusParam=1%16%1651job_web%16%160%16&vt=1560568874392&logType=pageView"   
+[Network Analyzer (2294: 2c8)]   (Sid: 27) Client -> Server @ : 580 bytes (SSL)(Service=HTTP)
+[Network Analyzer (2294: 2c8)]   (Sid: 27) Server -> Client : 338 bytes (SSL) (Service=HTTP)
+[Network Analyzer (2294: 2c8)]   (Sid:  2) Server -> Client : 430 bytes  (Service=HTTP)
+[Network Analyzer (2294: 2c8)]   (Sid:  2) Connection Terminated (by Server)
+[Web Request      (2294: 2c8)] "POST /login.php"   
+[Network Analyzer (2294: 2c8)]   (Sid:  3) Client -> Server @ : 629 bytes (SSL)(Service=HTTP)
+[Network Analyzer (2294: 2c8)]   (Sid:  3) Server -> Client : 7159 bytes (SSL) (Service=HTTP)
+[Network Analyzer (2294: 2c8)]   (Sid:  3) Server -> Client : 820 bytes (SSL) (Service=HTTP)
+[Network Analyzer (2294: 2c8)]   (Sid: 13) Connection Terminated (by Client)
+[Network Analyzer (2294:1ae8)] Address lookup for DESKTOP-624ASTC = 172.16.182.1
+[Network Analyzer (2294:1ae8)] Request Connection: Remote Server @ 202.120.40.82:11235   (Service=)  (Sid= 28)  PROXIED!
+[Web Request      (2294: 2c8)] "CONNECT i.51job.com:443"   
+[Network Analyzer (2294: 2c8)]   (Sid: 28) Client -> Server @ : 209 bytes (Service=HTTP)
+[Network Analyzer (2294: 2c8)]   (Sid: 28) Server -> Client : 35 bytes 
+[Network Analyzer (2294:36d4)]   (Sid: 28) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.2, ciphers:DES-CBC3-SHA)
+[Network Analyzer (2294: 840)] Address lookup for DESKTOP-624ASTC = 172.16.182.1
+[Network Analyzer (2294: 840)] Request Connection: Remote Server @ 202.120.40.82:11235   (Service=)  (Sid= 29)  PROXIED!
+[Web Request      (2294: 2c8)] "GET http://ocsp.dcocsp.cn/MFEwTzBNMEswSTAJBgUrDgMCGgUABBR0AkbyWlxCEiC1vV12Caa6XKNH3wQUJPIuTg%2B9yvc%2BKVXKco1ph1ZE6XoCEAIqAO%2Fqkvjj8aA0o3Al8ow%3D"   
+[Network Analyzer (2294: 2c8)]   (Sid: 29) Client -> Server @ : 262 bytes (Service=HTTP)
+[Network Analyzer (2294: 2c8)]   (Sid: 29) Server -> Client : 1104 bytes  (Service=HTTP)
+[Web Request      (2294: 2c8)] "GET http://ocsp.dcocsp.cn/MFEwTzBNMEswSTAJBgUrDgMCGgUABBR0AkbyWlxCEiC1vV12Caa6XKNH3wQUJPIuTg%2B9yvc%2BKVXKco1ph1ZE6XoCEAIqAO%2Fqkvjj8aA0o3Al8ow%3D"   
+[Network Analyzer (2294: 2c8)]   (Sid: 29) Client -> Server @ : 305 bytes (Service=HTTP)
+[Network Analyzer (2294: 2c8)]   (Sid: 29) Server -> Client : 1110 bytes  (Service=HTTP)
+[Web Request      (2294: 2c8)] "GET http://cdp1.digicert.com/SecureSiteCA-1.crl"   
+[Network Analyzer (2294: 2c8)]   (Sid: 29) Client -> Server @ : 166 bytes (Service=HTTP)
+[Network Analyzer (2294: 2c8)]   (Sid: 29) Server -> Client : 4414 bytes  (Service=HTTP)
+[Web Request      (2294: 2c8)] "GET http://cdp1.digicert.com/SecureSiteCA-1.crl"   
+[Network Analyzer (2294: 2c8)]   (Sid: 29) Client -> Server @ : 209 bytes (Service=HTTP)
+[Network Analyzer (2294: 2c8)]   (Sid: 29) Server -> Client : 4414 bytes  (Service=HTTP)
+[Net An. Error    (2294:36d4)] SSLAccept(ssl_id = 307865440 = 1259A760) Failed, ctx = 080695D8, err = "SSLv3/TLS write server done", err code = 5, err msg= "error:00000005:lib(0):func(0):DH lib
+" 
+[Net An. Error    (2294:36d4)]   (Sid: 28) Negotiate Client -> Proxy SSL Handshake Failed!!!
+[Network Analyzer (2294: 2c8)]   (Sid: 24) Connection Terminated (by Server)
+[Network Analyzer (2294: 2c8)]   (Sid: 28) Connection Terminated (by Client)
+[Network Analyzer (2294:1ae8)] Address lookup for DESKTOP-624ASTC = 172.16.182.1
+[Network Analyzer (2294:1ae8)] Request Connection: Remote Server @ 202.120.40.82:11235   (Service=)  (Sid= 30)  PROXIED!
+[Web Request      (2294: 2c8)] "CONNECT i.51job.com:443"   
+[Network Analyzer (2294: 2c8)]   (Sid: 30) Client -> Server @ : 209 bytes (Service=HTTP)
+[Network Analyzer (2294: 2c8)]   (Sid: 30) Server -> Client : 35 bytes 
+[Network Analyzer (2294:2c30)]   (Sid: 30) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.2, ciphers:DES-CBC3-SHA)
+[Network Analyzer (2294:2c30)]   (Sid: 30) Negotiate Client -> Proxy SSL Handshake (ssl:TLSv1.2, ciphers:ECDHE-RSA-AES256-GCM-SHA384)
+[Web Request      (2294: 2c8)] "GET /userset/my_51job.php"   
+[Network Analyzer (2294: 2c8)]   (Sid: 30) Client -> Server @ : 980 bytes (SSL)(Service=HTTP)
+[Network Analyzer (2294: 2c8)]   (Sid: 30) Server -> Client : 7159 bytes (SSL) (Service=HTTP)
+[Network Analyzer (2294: 2c8)]   (Sid: 30) Server -> Client : 1808 bytes (SSL) (Service=HTTP)
+[Web Request      (2294: 2c8)] "GET /in/css/2017/public/panel-pop.css?20180408"   
+[Network Analyzer (2294: 2c8)]   (Sid: 14) Client -> Server @ : 359 bytes (SSL)(Service=HTTP)
+[Web Request      (2294: 2c8)] "GET /in/css/2017/my/my51.css?20180408"   
+[Network Analyzer (2294: 2c8)]   (Sid: 17) Client -> Server @ : 350 bytes (SSL)(Service=HTTP)
+[Web Request      (2294: 2c8)] "GET /in/css/2017/public/base.css?20180408"   
+[Network Analyzer (2294: 2c8)]   (Sid: 18) Client -> Server @ : 354 bytes (SSL)(Service=HTTP)
+[Web Request      (2294: 2c8)] "GET /in/css/2017/public/form.css?20190524"   
+[Network Analyzer (2294: 2c8)]   (Sid: 19) Client -> Server @ : 354 bytes (SSL)(Service=HTTP)
+[Network Analyzer (2294: 2c8)]   (Sid: 14) Server -> Client : 7259 bytes (SSL) (Service=HTTP)
+[Web Request      (2294: 2c8)] "GET /in/js/2016/login/auth.js?20180727"   
+[Network Analyzer (2294: 2c8)]   (Sid: 15) Client -> Server @ : 371 bytes (SSL)(Service=HTTP)
+[Network Analyzer (2294: 2c8)]   (Sid: 14) Server -> Client : 415 bytes (SSL) (Service=HTTP)
+[Network Analyzer (2294: 2c8)]   (Sid: 17) Server -> Client : 7259 bytes (SSL) (Service=HTTP)
+[Network Analyzer (2294: 2c8)]   (Sid: 18) Server -> Client : 3754 bytes (SSL) (Service=HTTP)
+[Network Analyzer (2294: 2c8)]   (Sid: 15) Server -> Client : 7259 bytes (SSL) (Service=HTTP)
+[Network Analyzer (2294: 2c8)]   (Sid: 17) Server -> Client : 5881 bytes (SSL) (Service=HTTP)
+[Network Analyzer (2294: 2c8)]   (Sid: 19) Server -> Client : 2272 bytes (SSL) (Service=HTTP)
+[Network Analyzer (2294:2fdc)] Address lookup for DESKTOP-624ASTC = 172.16.182.1
+[Network Analyzer (2294:1e44)] Address lookup for DESKTOP-624ASTC = 172.16.182.1
+[Network Analyzer (2294: 2c8)]   (Sid: 15) Server -> Client : 535 bytes (SSL) (Service=HTTP)
+[Network Analyzer (2294: 2c8)]   (Sid: 17) Server -> Client : 1754 bytes (SSL) (Service=HTTP)
+[Web Request      (2294: 2c8)] "GET /in/js/2016/my/resume_browsed.js?20180319"   
+[Network Analyzer (2294: 2c8)]   (Sid: 15) Client -> Server @ : 378 bytes (SSL)(Service=HTTP)
+[Web Request      (2294: 2c8)] "GET /in/js/2016/my/apply.js?20180319"   
+[Network Analyzer (2294: 2c8)]   (Sid: 18) Client -> Server @ : 369 bytes (SSL)(Service=HTTP)
+[Web Request      (2294: 2c8)] "GET /in/js/2016/my/my_service.js?20180504"   
+[Network Analyzer (2294: 2c8)]   (Sid: 19) Client -> Server @ : 374 bytes (SSL)(Service=HTTP)
+[Network Analyzer (2294:2fdc)] Request Connection: Remote Server @ 202.120.40.82:11235   (Service=)  (Sid= 31)  PROXIED!
+[Network Analyzer (2294: 840)] Address lookup for DESKTOP-624ASTC = 172.16.182.1
+[Network Analyzer (2294:3464)] Address lookup for DESKTOP-624ASTC = 172.16.182.1
+[Web Request      (2294: 2c8)] "CONNECT js.51jobcdn.com:443"   
+[Network Analyzer (2294: 2c8)]   (Sid: 31) Client -> Server @ : 213 bytes (Service=HTTP)
+[Network Analyzer (2294:1e44)] Request Connection: Remote Server @ 202.120.40.82:11235   (Service=)  (Sid= 32)  PROXIED!
+[Network Analyzer (2294:365c)] Address lookup for DESKTOP-624ASTC = 172.16.182.1
+[Network Analyzer (2294:17dc)] Address lookup for DESKTOP-624ASTC = 172.16.182.1
+[Network Analyzer (2294:33e8)] Address lookup for DESKTOP-624ASTC = 172.16.182.1
+[Network Analyzer (2294: 2c8)]   (Sid: 15) Server -> Client : 795 bytes (SSL) (Service=HTTP)
+[Network Analyzer (2294: 2c8)]   (Sid: 18) Server -> Client : 2008 bytes (SSL) (Service=HTTP)
+[Network Analyzer (2294: 2c8)]   (Sid: 19) Server -> Client : 7259 bytes (SSL) (Service=HTTP)
+[Network Analyzer (2294: 2c8)]   (Sid: 31) Server -> Client : 35 bytes 
+[Web Request      (2294: 2c8)] "CONNECT js.51jobcdn.com:443"   
+[Network Analyzer (2294: 2c8)]   (Sid: 32) Client -> Server @ : 213 bytes (Service=HTTP)
+[Network Analyzer (2294:2ad0)] Address lookup for DESKTOP-624ASTC = 172.16.182.1
+[Network Analyzer (2294:3780)] Address lookup for DESKTOP-624ASTC = 172.16.182.1
+[Network Analyzer (2294: 2c8)]   (Sid: 19) Server -> Client : 41 bytes (SSL) (Service=HTTP)
+[Network Analyzer (2294: 840)] Request Connection: Remote Server @ 202.120.40.82:11235   (Service=)  (Sid= 33)  PROXIED!
+[Network Analyzer (2294: 2c8)]   (Sid: 19) Server -> Client : 4262 bytes (SSL) (Service=HTTP)
+[Web Request      (2294: 2c8)] "CONNECT js.51jobcdn.com:443"   
+[Network Analyzer (2294: 2c8)]   (Sid: 33) Client -> Server @ : 213 bytes (Service=HTTP)
+[Network Analyzer (2294:3464)] Request Connection: Remote Server @ 202.120.40.82:11235   (Service=)  (Sid= 34)  PROXIED!
+[Network Analyzer (2294:1e44)] Address lookup for DESKTOP-624ASTC = 172.16.182.1
+[Network Analyzer (2294: 2c8)]   (Sid: 32) Server -> Client : 35 bytes 
+[Web Request      (2294: 2c8)] "CONNECT js.51jobcdn.com:443"   
+[Network Analyzer (2294:2958)] Address lookup for DESKTOP-624ASTC = 172.16.182.1
+[Network Analyzer (2294: 840)] Address lookup for DESKTOP-624ASTC = 172.16.182.1
+[Network Analyzer (2294: 2c8)]   (Sid: 34) Client -> Server @ : 213 bytes (Service=HTTP)
+[Network Analyzer (2294:33e8)] Request Connection: Remote Server @ 202.120.40.82:11235   (Service=)  (Sid= 35)  PROXIED!
+[Network Analyzer (2294: 2c8)]   (Sid: 33) Server -> Client : 35 bytes 
+[Web Request      (2294: 2c8)] "CONNECT js.51jobcdn.com:443"   
+[Network Analyzer (2294: 2c8)]   (Sid: 35) Client -> Server @ : 213 bytes (Service=HTTP)
+[Network Analyzer (2294:365c)] Request Connection: Remote Server @ 202.120.40.82:11235   (Service=)  (Sid= 36)  PROXIED!
+[Network Analyzer (2294: 2c8)]   (Sid: 34) Server -> Client : 35 bytes 
+[Network Analyzer (2294:17dc)] Request Connection: Remote Server @ 202.120.40.82:11235   (Service=)  (Sid= 37)  PROXIED!
+[Web Request      (2294: 2c8)] "CONNECT js.51jobcdn.com:443"   
+[Network Analyzer (2294: 2c8)]   (Sid: 36) Client -> Server @ : 213 bytes (Service=HTTP)
+[Network Analyzer (2294: 2c8)]   (Sid: 35) Server -> Client : 35 bytes 
+[Web Request      (2294: 2c8)] "CONNECT js.51jobcdn.com:443"   
+[Network Analyzer (2294: 2c8)]   (Sid: 37) Client -> Server @ : 213 bytes (Service=HTTP)
+[Network Analyzer (2294:1e44)] Request Connection: Remote Server @ 202.120.40.82:11235   (Service=)  (Sid= 38)  PROXIED!
+[Network Analyzer (2294:37d8)]   (Sid: 31) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.2, ciphers:DES-CBC3-SHA)
+[Network Analyzer (2294: 2c8)]   (Sid: 36) Server -> Client : 35 bytes 
+[Network Analyzer (2294:2958)] Request Connection: Remote Server @ 202.120.40.82:11235   (Service=)  (Sid= 39)  PROXIED!
+[Network Analyzer (2294: 2c8)]   (Sid: 37) Server -> Client : 35 bytes 
+[Web Request      (2294: 2c8)] "CONNECT js.51jobcdn.com:443"   
+[Network Analyzer (2294: 2c8)]   (Sid: 38) Client -> Server @ : 213 bytes (Service=HTTP)
+[Web Request      (2294: 2c8)] "CONNECT img01.51jobcdn.com:443"   
+[Network Analyzer (2294: 2c8)]   (Sid: 39) Client -> Server @ : 219 bytes (Service=HTTP)
+[Network Analyzer (2294: 840)] Request Connection: Remote Server @ 202.120.40.82:11235   (Service=)  (Sid= 40)  PROXIED!
+[Network Analyzer (2294:37d8)]   (Sid: 31) Negotiate Client -> Proxy SSL Handshake (ssl:TLSv1.2, ciphers:ECDHE-RSA-AES256-GCM-SHA384)
+[Web Request      (2294: 2c8)] "CONNECT img06.51jobcdn.com:443"   
+[Network Analyzer (2294: 2c8)]   (Sid: 40) Client -> Server @ : 219 bytes (Service=HTTP)
+[Web Request      (2294: 2c8)] "GET /in/js/2016/layer/layer.js?20180319"   
+[Network Analyzer (2294: 2c8)]   (Sid: 31) Client -> Server @ : 372 bytes (SSL)(Service=HTTP)
+[Network Analyzer (2294: 2c8)]   (Sid: 38) Server -> Client : 35 bytes 
+[Network Analyzer (2294:19f0)]   (Sid: 32) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.2, ciphers:DES-CBC3-SHA)
+[Network Analyzer (2294:19f0)]   (Sid: 32) Negotiate Client -> Proxy SSL Handshake (ssl:TLSv1.2, ciphers:ECDHE-RSA-AES256-GCM-SHA384)
+[Web Request      (2294: 2c8)] "GET /in/js/2016/my/my_collection.js?20180413"   
+[Network Analyzer (2294: 2c8)]   (Sid: 32) Client -> Server @ : 377 bytes (SSL)(Service=HTTP)
+[Network Analyzer (2294: 2c8)]   (Sid: 31) Server -> Client : 1958 bytes (SSL) (Service=HTTP)
+[Network Analyzer (2294: 2c8)]   (Sid: 32) Server -> Client : 2335 bytes (SSL) (Service=HTTP)
+[Network Analyzer (2294: 2c8)]   (Sid: 40) Server -> Client : 35 bytes 
+[Network Analyzer (2294:2958)] Address lookup for DESKTOP-624ASTC = 172.16.182.1
+[Network Analyzer (2294: 2c8)]   (Sid: 39) Server -> Client : 35 bytes 
+[Network Analyzer (2294:2dc8)]   (Sid: 33) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.2, ciphers:DES-CBC3-SHA)
+[Network Analyzer (2294:2dc8)]   (Sid: 33) Negotiate Client -> Proxy SSL Handshake (ssl:TLSv1.2, ciphers:ECDHE-RSA-AES256-GCM-SHA384)
+[Web Request      (2294: 2c8)] "GET /in/js/2016/resume/RefreshResume.js?20180319"   
+[Network Analyzer (2294: 2c8)]   (Sid: 33) Client -> Server @ : 381 bytes (SSL)(Service=HTTP)
+[Network Analyzer (2294:2958)] Request Connection: Remote Server @ 202.120.40.82:11235   (Service=)  (Sid= 41)  PROXIED!
+[Web Request      (2294: 2c8)] "CONNECT img06.51jobcdn.com:443"   
+[Network Analyzer (2294: 2c8)]   (Sid: 41) Client -> Server @ : 219 bytes (Service=HTTP)
+[Network Analyzer (2294: 2c8)]   (Sid: 33) Server -> Client : 1005 bytes (SSL) (Service=HTTP)
+[Network Analyzer (2294:18b8)]   (Sid: 34) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.2, ciphers:DES-CBC3-SHA)
+[Network Analyzer (2294:18b8)]   (Sid: 34) Negotiate Client -> Proxy SSL Handshake (ssl:TLSv1.2, ciphers:ECDHE-RSA-AES256-GCM-SHA384)
+[Web Request      (2294: 2c8)] "GET /in/js/2016/my/pointtrack_my.js?20180319"   
+[Network Analyzer (2294: 2c8)]   (Sid: 34) Client -> Server @ : 377 bytes (SSL)(Service=HTTP)
+[Network Analyzer (2294:1e44)] Address lookup for DESKTOP-624ASTC = 172.16.182.1
+[Network Analyzer (2294:1e44)] Request Connection: Remote Server @ 202.120.40.82:11235   (Service=)  (Sid= 42)  PROXIED!
+[Web Request      (2294: 2c8)] "CONNECT img02.51jobcdn.com:443"   
+[Network Analyzer (2294: 2c8)]   (Sid: 42) Client -> Server @ : 219 bytes (Service=HTTP)
+[Network Analyzer (2294: 2c8)]   (Sid: 34) Server -> Client : 1250 bytes (SSL) (Service=HTTP)
+[Network Analyzer (2294: 2c8)]   (Sid: 41) Server -> Client : 35 bytes 
+[Network Analyzer (2294: 2c8)]   (Sid: 42) Server -> Client : 35 bytes 
+[Network Analyzer (2294:3668)]   (Sid: 35) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.2, ciphers:DES-CBC3-SHA)
+[Network Analyzer (2294:3668)]   (Sid: 35) Negotiate Client -> Proxy SSL Handshake (ssl:TLSv1.2, ciphers:ECDHE-RSA-AES256-GCM-SHA384)
+[Web Request      (2294: 2c8)] "GET /in/js/2016/my/my_51job.js?20180327"   
+[Network Analyzer (2294: 2c8)]   (Sid: 35) Client -> Server @ : 372 bytes (SSL)(Service=HTTP)
+[Network Analyzer (2294: 2c8)]   (Sid: 35) Server -> Client : 2173 bytes (SSL) (Service=HTTP)
+[Network Analyzer (2294:36c4)]   (Sid: 36) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.2, ciphers:DES-CBC3-SHA)
+[Network Analyzer (2294:36c4)]   (Sid: 36) Negotiate Client -> Proxy SSL Handshake (ssl:TLSv1.2, ciphers:ECDHE-RSA-AES256-GCM-SHA384)
+[Web Request      (2294: 2c8)] "GET /in/js/2016/delivery/delivery.js?20180419"   
+[Network Analyzer (2294: 2c8)]   (Sid: 36) Client -> Server @ : 378 bytes (SSL)(Service=HTTP)
+[Network Analyzer (2294: 2c8)]   (Sid: 36) Server -> Client : 4071 bytes (SSL) (Service=HTTP)
+[Network Analyzer (2294: a70)]   (Sid: 37) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.2, ciphers:DES-CBC3-SHA)
+[Network Analyzer (2294: a70)]   (Sid: 37) Negotiate Client -> Proxy SSL Handshake (ssl:TLSv1.2, ciphers:ECDHE-RSA-AES256-GCM-SHA384)
+[Web Request      (2294: 2c8)] "GET /in/js/2016/login/mobile_original.js?20180319"   
+[Network Analyzer (2294: 2c8)]   (Sid: 37) Client -> Server @ : 382 bytes (SSL)(Service=HTTP)
+[Network Analyzer (2294: 2c8)]   (Sid: 37) Server -> Client : 3558 bytes (SSL) (Service=HTTP)
+[Network Analyzer (2294:1364)]   (Sid: 38) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.2, ciphers:DES-CBC3-SHA)
+[Network Analyzer (2294:1364)]   (Sid: 38) Negotiate Client -> Proxy SSL Handshake (ssl:TLSv1.2, ciphers:ECDHE-RSA-AES256-GCM-SHA384)
+[Web Request      (2294: 2c8)] "GET /in/js/2016/my/my.js?20180319"   
+[Network Analyzer (2294: 2c8)]   (Sid: 38) Client -> Server @ : 366 bytes (SSL)(Service=HTTP)
+[Network Analyzer (2294: 2c8)]   (Sid: 38) Server -> Client : 2682 bytes (SSL) (Service=HTTP)
+[Network Analyzer (2294:2eec)]   (Sid: 40) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.2, ciphers:ECDHE-RSA-AES128-GCM-SHA256)
+[Network Analyzer (2294:2eec)]   (Sid: 40) Negotiate Client -> Proxy SSL Handshake (ssl:TLSv1.2, ciphers:ECDHE-RSA-AES256-GCM-SHA384)
+[Web Request      (2294: 2c8)] "GET /im/2016/logo/logo_blue.png"   
+[Network Analyzer (2294: 2c8)]   (Sid: 40) Client -> Server @ : 395 bytes (SSL)(Service=HTTP)
+[Network Analyzer (2294: 2c8)]   (Sid: 40) Server -> Client : 3505 bytes (SSL) (Service=HTTP)
+[Network Analyzer (2294: c64)]   (Sid: 39) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.2, ciphers:ECDHE-RSA-AES128-GCM-SHA256)
+[Network Analyzer (2294: c64)]   (Sid: 39) Negotiate Client -> Proxy SSL Handshake (ssl:TLSv1.2, ciphers:ECDHE-RSA-AES256-GCM-SHA384)
+[Web Request      (2294: 2c8)] "GET /im/2016/header/slogen.png?1544426366"   
+[Network Analyzer (2294: 2c8)]   (Sid: 39) Client -> Server @ : 405 bytes (SSL)(Service=HTTP)
+[Network Analyzer (2294: 2c8)]   (Sid: 39) Server -> Client : 1712 bytes (SSL) (Service=HTTP)
+[Network Analyzer (2294: 2c8)]   (Sid: 39) Connection Terminated (by Server)
+[Network Analyzer (2294:1ca8)]   (Sid: 41) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.2, ciphers:ECDHE-RSA-AES128-GCM-SHA256)
+[Network Analyzer (2294:1ca8)]   (Sid: 41) Negotiate Client -> Proxy SSL Handshake (ssl:TLSv1.2, ciphers:ECDHE-RSA-AES256-GCM-SHA384)
+[Web Request      (2294: 2c8)] "GET /im/2016/code/web_fuwuhao_bottom.png"   
+[Network Analyzer (2294: 2c8)]   (Sid: 41) Client -> Server @ : 404 bytes (SSL)(Service=HTTP)
+[Network Analyzer (2294: 2c8)]   (Sid: 41) Server -> Client : 10343 bytes (SSL) (Service=HTTP)
+[Network Analyzer (2294:35fc)]   (Sid: 42) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.2, ciphers:ECDHE-RSA-AES128-GCM-SHA256)
+[Web Request      (2294: 2c8)] "GET http://ocsp1.digicert.com/MFEwTzBNMEswSTAJBgUrDgMCGgUABBR0AkbyWlxCEiC1vV12Caa6XKNH3wQUJPIuTg%2B9yvc%2BKVXKco1ph1ZE6XoCEAl4pOxEmBNOiWgv4jRwaNM%3D"   
+[Network Analyzer (2294: 2c8)]   (Sid: 29) Client -> Server @ : 268 bytes (Service=HTTP)
+[Network Analyzer (2294: 2c8)]   (Sid: 29) Server -> Client : 836 bytes  (Service=HTTP)
+[Web Request      (2294: 2c8)] "GET http://ocsp1.digicert.com/MFEwTzBNMEswSTAJBgUrDgMCGgUABBR0AkbyWlxCEiC1vV12Caa6XKNH3wQUJPIuTg%2B9yvc%2BKVXKco1ph1ZE6XoCEAl4pOxEmBNOiWgv4jRwaNM%3D"   
+[Network Analyzer (2294: 2c8)]   (Sid: 29) Client -> Server @ : 311 bytes (Service=HTTP)
+[Network Analyzer (2294: 2c8)]   (Sid: 29) Server -> Client : 836 bytes  (Service=HTTP)
+[Net An. Error    (2294:35fc)] SSLAccept(ssl_id = 360478432 = 157C76E0) Failed, ctx = 122CC230, err = "SSLv3/TLS write server done", err code = 5, err msg= "error:00000005:lib(0):func(0):DH lib
+" 
+[Net An. Error    (2294:35fc)]   (Sid: 42) Negotiate Client -> Proxy SSL Handshake Failed!!!
+[Network Analyzer (2294: 2c8)]   (Sid: 42) Connection Terminated (by Client)
+[Network Analyzer (2294:1e44)] Address lookup for DESKTOP-624ASTC = 172.16.182.1
+[Network Analyzer (2294:1e44)] Request Connection: Remote Server @ 202.120.40.82:11235   (Service=)  (Sid= 43)  PROXIED!
+[Web Request      (2294: 2c8)] "CONNECT img02.51jobcdn.com:443"   
+[Network Analyzer (2294: 2c8)]   (Sid: 43) Client -> Server @ : 219 bytes (Service=HTTP)
+[Network Analyzer (2294: 2c8)]   (Sid: 43) Server -> Client : 35 bytes 
+[Network Analyzer (2294:3714)]   (Sid: 43) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.2, ciphers:ECDHE-RSA-AES128-GCM-SHA256)
+[Network Analyzer (2294:3714)]   (Sid: 43) Negotiate Client -> Proxy SSL Handshake (ssl:TLSv1.2, ciphers:ECDHE-RSA-AES256-GCM-SHA384)
+[Web Request      (2294: 2c8)] "GET /im/2016/code/web_bottom.png"   
+[Network Analyzer (2294: 2c8)]   (Sid: 43) Client -> Server @ : 396 bytes (SSL)(Service=HTTP)
+[Network Analyzer (2294: 2c8)]   (Sid: 43) Server -> Client : 3209 bytes (SSL) (Service=HTTP)
+[Network Analyzer (2294: 2c8)]   (Sid: 23) Connection Terminated (by Server)
+[Network Analyzer (2294: 2c8)]   (Sid: 16) Connection Terminated (by Client)
+[Network Analyzer (2294: 2c8)]   (Sid: 25) Connection Terminated (by Client)
+[Network Analyzer (2294: 2c8)]   (Sid: 27) Connection Terminated (by Client)
+[Network Analyzer (2294: 2c8)]   (Sid:  3) Connection Terminated (by Client)
+[Network Analyzer (2294: 2c8)]   (Sid: 30) Connection Terminated (by Client)
+[Network Analyzer (2294: 2c8)]   (Sid: 14) Connection Terminated (by Client)
+[Network Analyzer (2294: 2c8)]   (Sid: 17) Connection Terminated (by Client)
+[Network Analyzer (2294: 2c8)]   (Sid: 15) Connection Terminated (by Client)
+[Network Analyzer (2294: 2c8)]   (Sid: 18) Connection Terminated (by Client)
+[Network Analyzer (2294: 2c8)]   (Sid: 19) Connection Terminated (by Client)
+[Network Analyzer (2294:2ad0)] Request Connection: Remote Server @ 202.120.40.82:11235   (Service=)  (Sid= 44)  PROXIED!
+[Web Request      (2294: 2c8)] "CONNECT js.51jobcdn.com:443"   
+[Network Analyzer (2294: 2c8)]   (Sid: 44) Client -> Server @ : 213 bytes (Service=HTTP)
+[Network Analyzer (2294: 2c8)]   (Sid: 31) Connection Terminated (by Client)
+[Network Analyzer (2294: 2c8)]   (Sid: 32) Connection Terminated (by Client)
+[Network Analyzer (2294:3780)] Request Connection: Remote Server @ 202.120.40.82:11235   (Service=)  (Sid= 45)  PROXIED!
+[Web Request      (2294: 2c8)] "CONNECT js.51jobcdn.com:443"   
+[Network Analyzer (2294: 2c8)]   (Sid: 45) Client -> Server @ : 213 bytes (Service=HTTP)
+[Network Analyzer (2294: 2c8)]   (Sid: 44) Server -> Client : 35 bytes 
+[Network Analyzer (2294: 2c8)]   (Sid: 33) Connection Terminated (by Client)
+[Network Analyzer (2294: 2c8)]   (Sid: 45) Server -> Client : 35 bytes 
+[Network Analyzer (2294:2564)] Address lookup for DESKTOP-624ASTC = 172.16.182.1
+[Network Analyzer (2294:2564)] Request Connection: Remote Server @ 202.120.40.82:11235   (Service=)  (Sid= 46)  PROXIED!
+[Network Analyzer (2294:30f0)]   (Sid: 44) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.2, ciphers:DES-CBC3-SHA)
+[Network Analyzer (2294:30f0)]   (Sid: 44) Negotiate Client -> Proxy SSL Handshake (ssl:TLSv1.2, ciphers:ECDHE-RSA-AES256-GCM-SHA384)
+[Network Analyzer (2294:18b0)]   (Sid: 45) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.2, ciphers:DES-CBC3-SHA)
+[Network Analyzer (2294:18b0)]   (Sid: 45) Negotiate Client -> Proxy SSL Handshake (ssl:TLSv1.2, ciphers:ECDHE-RSA-AES256-GCM-SHA384)
+[Web Request      (2294: 2c8)] "GET /in/js/2016/resume/modify_userinfo.js?20180801"   
+[Network Analyzer (2294: 2c8)]   (Sid: 44) Client -> Server @ : 383 bytes (SSL)(Service=HTTP)
+[Web Request      (2294: 2c8)] "GET /in/js/2016/login/d_nation.js?20180319"   
+[Network Analyzer (2294: 2c8)]   (Sid: 45) Client -> Server @ : 375 bytes (SSL)(Service=HTTP)
+[Web Request      (2294: 2c8)] "CONNECT img05.51jobcdn.com:443"   
+[Network Analyzer (2294: 2c8)]   (Sid: 46) Client -> Server @ : 219 bytes (Service=HTTP)
+[Network Analyzer (2294: 2c8)]   (Sid: 44) Server -> Client : 7259 bytes (SSL) (Service=HTTP)
+[Network Analyzer (2294: 2c8)]   (Sid: 44) Server -> Client : 1693 bytes (SSL) (Service=HTTP)
+[Network Analyzer (2294: 2c8)]   (Sid: 45) Server -> Client : 5057 bytes (SSL) (Service=HTTP)
+[Network Analyzer (2294: 2c8)]   (Sid: 46) Server -> Client : 35 bytes 
+[Network Analyzer (2294:2564)] Address lookup for DESKTOP-624ASTC = 172.16.182.1
+[Network Analyzer (2294:2564)] Request Connection: Remote Server @ 202.120.40.82:11235   (Service=)  (Sid= 47)  PROXIED!
+[Web Request      (2294: 2c8)] "CONNECT img01.51jobcdn.com:443"   
+[Network Analyzer (2294: 2c8)]   (Sid: 47) Client -> Server @ : 219 bytes (Service=HTTP)
+[Network Analyzer (2294:2ad0)] Address lookup for DESKTOP-624ASTC = 172.16.182.1
+[Network Analyzer (2294:2958)] Address lookup for DESKTOP-624ASTC = 172.16.182.1
+[Network Analyzer (2294:2ad0)] Request Connection: Remote Server @ 202.120.40.82:11235   (Service=)  (Sid= 48)  PROXIED!
+[Network Analyzer (2294:33e8)] Address lookup for DESKTOP-624ASTC = 172.16.182.1
+[Web Request      (2294: 2c8)] "CONNECT img01.51jobcdn.com:443"   
+[Network Analyzer (2294: 2c8)]   (Sid: 48) Client -> Server @ : 219 bytes (Service=HTTP)
+[Network Analyzer (2294:2958)] Request Connection: Remote Server @ 202.120.40.82:11235   (Service=)  (Sid= 49)  PROXIED!
+[Network Analyzer (2294: 2c8)]   (Sid: 47) Server -> Client : 35 bytes 
+[Network Analyzer (2294:2304)]   (Sid: 46) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.2, ciphers:ECDHE-RSA-AES128-GCM-SHA256)
+[Web Request      (2294: 2c8)] "CONNECT img01.51jobcdn.com:443"   
+[Network Analyzer (2294: 2c8)]   (Sid: 49) Client -> Server @ : 219 bytes (Service=HTTP)
+[Network Analyzer (2294:2304)]   (Sid: 46) Negotiate Client -> Proxy SSL Handshake (ssl:TLSv1.2, ciphers:ECDHE-RSA-AES256-GCM-SHA384)
+[Web Request      (2294: 2c8)] "GET /im/2016/code/web_top.png"   
+[Network Analyzer (2294: 2c8)]   (Sid: 46) Client -> Server @ : 393 bytes (SSL)(Service=HTTP)
+[Network Analyzer (2294:33e8)] Request Connection: Remote Server @ 202.120.40.82:11235   (Service=)  (Sid= 50)  PROXIED!
+[Web Request      (2294: 2c8)] "CONNECT img01.51jobcdn.com:443"   
+[Network Analyzer (2294: 2c8)]   (Sid: 50) Client -> Server @ : 219 bytes (Service=HTTP)
+[Network Analyzer (2294: 2c8)]   (Sid: 48) Server -> Client : 35 bytes 
+[Network Analyzer (2294: 2c8)]   (Sid: 49) Server -> Client : 35 bytes 
+[Network Analyzer (2294: 2c8)]   (Sid: 46) Server -> Client : 3300 bytes (SSL) (Service=HTTP)
+[Network Analyzer (2294: 2c8)]   (Sid: 50) Server -> Client : 35 bytes 
+[Network Analyzer (2294:1ae8)] Address lookup for DESKTOP-624ASTC = 172.16.182.1
+[Network Analyzer (2294:1ae8)] Request Connection: Remote Server @ 202.120.40.82:11235   (Service=)  (Sid= 51)  PROXIED!
+[Web Request      (2294: 2c8)] "CONNECT img01.51jobcdn.com:443"   
+[Network Analyzer (2294: 2c8)]   (Sid: 51) Client -> Server @ : 219 bytes (Service=HTTP)
+[Network Analyzer (2294:343c)]   (Sid: 47) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.2, ciphers:ECDHE-RSA-AES128-GCM-SHA256)
+[Network Analyzer (2294:343c)]   (Sid: 47) Negotiate Client -> Proxy SSL Handshake (ssl:TLSv1.2, ciphers:ECDHE-RSA-AES256-GCM-SHA384)
+[Web Request      (2294: 2c8)] "GET /im/mkt/zn/banner/mqzp/5-770-65.jpg"   
+[Network Analyzer (2294: 2c8)]   (Sid: 47) Client -> Server @ : 403 bytes (SSL)(Service=HTTP)
+[Network Analyzer (2294: 2c8)]   (Sid: 51) Server -> Client : 35 bytes 
+[Network Analyzer (2294: 2c8)]   (Sid: 47) Server -> Client : 16384 bytes (SSL) (Service=HTTP)
+[Network Analyzer (2294: 2c8)]   (Sid: 47) Server -> Client : 6363 bytes (SSL) (Service=HTTP)
+[Network Analyzer (2294:2ad0)] Address lookup for DESKTOP-624ASTC = 172.16.182.1
+[Network Analyzer (2294:2ad0)] Request Connection: Remote Server @ 202.120.40.82:11235   (Service=)  (Sid= 52)  PROXIED!
+[Web Request      (2294: 2c8)] "CONNECT img01.51jobcdn.com:443"   
+[Network Analyzer (2294: 2c8)]   (Sid: 52) Client -> Server @ : 219 bytes (Service=HTTP)
+[Network Analyzer (2294:37c0)]   (Sid: 48) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.2, ciphers:ECDHE-RSA-AES128-GCM-SHA256)
+[Network Analyzer (2294:37c0)]   (Sid: 48) Negotiate Client -> Proxy SSL Handshake (ssl:TLSv1.2, ciphers:ECDHE-RSA-AES256-GCM-SHA384)
+[Web Request      (2294: 2c8)] "GET /im/2017/my/ns2.png"   
+[Network Analyzer (2294: 2c8)]   (Sid: 48) Client -> Server @ : 387 bytes (SSL)(Service=HTTP)
+[Network Analyzer (2294: 2c8)]   (Sid: 52) Server -> Client : 35 bytes 
+[Network Analyzer (2294: 2c8)]   (Sid: 48) Server -> Client : 1124 bytes (SSL) (Service=HTTP)
+[Network Analyzer (2294:1ae8)] Address lookup for DESKTOP-624ASTC = 172.16.182.1
+[Network Analyzer (2294:1ae8)] Request Connection: Remote Server @ 202.120.40.82:11235   (Service=)  (Sid= 53)  PROXIED!
+[Web Request      (2294: 2c8)] "CONNECT img01.51jobcdn.com:443"   
+[Network Analyzer (2294: 2c8)]   (Sid: 53) Client -> Server @ : 219 bytes (Service=HTTP)
+[Network Analyzer (2294:3534)]   (Sid: 50) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.2, ciphers:ECDHE-RSA-AES128-GCM-SHA256)
+[Network Analyzer (2294:3534)]   (Sid: 50) Negotiate Client -> Proxy SSL Handshake (ssl:TLSv1.2, ciphers:ECDHE-RSA-AES256-GCM-SHA384)
+[Web Request      (2294: 2c8)] "GET /im/resume/iconMain.png"   
+[Network Analyzer (2294: 2c8)]   (Sid: 50) Client -> Server @ : 391 bytes (SSL)(Service=HTTP)
+[Network Analyzer (2294: 2c8)]   (Sid: 50) Server -> Client : 4298 bytes (SSL) (Service=HTTP)
+[Network Analyzer (2294: 2c8)]   (Sid: 53) Server -> Client : 35 bytes 
+[Network Analyzer (2294:33e8)] Address lookup for DESKTOP-624ASTC = 172.16.182.1
+[Network Analyzer (2294:33e8)] Request Connection: Remote Server @ 202.120.40.82:11235   (Service=)  (Sid= 54)  PROXIED!
+[Web Request      (2294: 2c8)] "CONNECT img01.51jobcdn.com:443"   
+[Network Analyzer (2294: 2c8)]   (Sid: 54) Client -> Server @ : 219 bytes (Service=HTTP)
+[Network Analyzer (2294:3664)]   (Sid: 49) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.2, ciphers:ECDHE-RSA-AES128-GCM-SHA256)
+[Network Analyzer (2294:3664)]   (Sid: 49) Negotiate Client -> Proxy SSL Handshake (ssl:TLSv1.2, ciphers:ECDHE-RSA-AES256-GCM-SHA384)
+[Web Request      (2294: 2c8)] "GET /im/2017/my/hot.png"   
+[Network Analyzer (2294: 2c8)]   (Sid: 49) Client -> Server @ : 387 bytes (SSL)(Service=HTTP)
+[Network Analyzer (2294: 2c8)]   (Sid: 54) Server -> Client : 35 bytes 
+[Network Analyzer (2294: 2c8)]   (Sid: 49) Server -> Client : 628 bytes (SSL) (Service=HTTP)
+[Network Analyzer (2294:3660)]   (Sid: 51) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.2, ciphers:ECDHE-RSA-AES128-GCM-SHA256)
+[Network Analyzer (2294:3660)]   (Sid: 51) Negotiate Client -> Proxy SSL Handshake (ssl:TLSv1.2, ciphers:ECDHE-RSA-AES256-GCM-SHA384)
+[Web Request      (2294: 2c8)] "GET /im/jobs/fb_img.png"   
+[Network Analyzer (2294: 2c8)]   (Sid: 51) Client -> Server @ : 387 bytes (SSL)(Service=HTTP)
+[Network Analyzer (2294: 2c8)]   (Sid: 51) Server -> Client : 687 bytes (SSL) (Service=HTTP)
+[Network Analyzer (2294:1970)]   (Sid: 52) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.2, ciphers:ECDHE-RSA-AES128-GCM-SHA256)
+[Network Analyzer (2294:1970)]   (Sid: 52) Negotiate Client -> Proxy SSL Handshake (ssl:TLSv1.2, ciphers:ECDHE-RSA-AES256-GCM-SHA384)
+[Web Request      (2294: 2c8)] "GET /im/2017/my/icon_close.png"   
+[Network Analyzer (2294: 2c8)]   (Sid: 52) Client -> Server @ : 394 bytes (SSL)(Service=HTTP)
+[Network Analyzer (2294: 2c8)]   (Sid: 52) Server -> Client : 605 bytes (SSL) (Service=HTTP)
+[Network Analyzer (2294:2e8c)]   (Sid: 53) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.2, ciphers:ECDHE-RSA-AES128-GCM-SHA256)
+[Network Analyzer (2294:2e8c)]   (Sid: 53) Negotiate Client -> Proxy SSL Handshake (ssl:TLSv1.2, ciphers:ECDHE-RSA-AES256-GCM-SHA384)
+[Web Request      (2294: 2c8)] "GET /im/2016/icon/header.png"   
+[Network Analyzer (2294: 2c8)]   (Sid: 53) Client -> Server @ : 392 bytes (SSL)(Service=HTTP)
+[Network Analyzer (2294: 2c8)]   (Sid: 53) Server -> Client : 1597 bytes (SSL) (Service=HTTP)
+[Network Analyzer (2294:367c)]   (Sid: 54) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.2, ciphers:ECDHE-RSA-AES128-GCM-SHA256)
+[Network Analyzer (2294:367c)]   (Sid: 54) Negotiate Client -> Proxy SSL Handshake (ssl:TLSv1.2, ciphers:ECDHE-RSA-AES256-GCM-SHA384)
+[Web Request      (2294: 2c8)] "GET /im/jobs/img_top.png"   
+[Network Analyzer (2294: 2c8)]   (Sid: 54) Client -> Server @ : 388 bytes (SSL)(Service=HTTP)
+[Network Analyzer (2294: 2c8)]   (Sid: 54) Server -> Client : 583 bytes (SSL) (Service=HTTP)
+[Network Analyzer (2294: 2c8)]   (Sid: 34) Connection Terminated (by Client)
+[Network Analyzer (2294:3780)] Address lookup for DESKTOP-624ASTC = 172.16.182.1
+[Network Analyzer (2294:3780)] Request Connection: Remote Server @ 202.120.40.82:11235   (Service=)  (Sid= 55)  PROXIED!
+[Web Request      (2294: 2c8)] "CONNECT www.51job.com:443"   
+[Network Analyzer (2294: 2c8)]   (Sid: 55) Client -> Server @ : 209 bytes (Service=HTTP)
+[Network Analyzer (2294: 2c8)]   (Sid: 55) Server -> Client : 35 bytes 
+[Network Analyzer (2294: 674)]   (Sid: 55) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.2, ciphers:DES-CBC3-SHA)
+[Network Analyzer (2294: 2c8)]   (Sid: 35) Connection Terminated (by Client)
+[Network Analyzer (2294: 2c8)]   (Sid: 36) Connection Terminated (by Client)
+[Network Analyzer (2294: 2c8)]   (Sid: 37) Connection Terminated (by Client)
+[Network Analyzer (2294:2564)] Address lookup for DESKTOP-624ASTC = 172.16.182.1
+[Network Analyzer (2294: 2c8)]   (Sid: 38) Connection Terminated (by Client)
+[Network Analyzer (2294: 2c8)]   (Sid: 40) Connection Terminated (by Client)
+[Network Analyzer (2294: 2c8)]   (Sid: 41) Connection Terminated (by Client)
+[Network Analyzer (2294:2564)] Request Connection: Remote Server @ 202.120.40.82:11235   (Service=)  (Sid= 56)  PROXIED!
+[Network Analyzer (2294: 2c8)]   (Sid: 43) Connection Terminated (by Client)
+[Web Request      (2294: 2c8)] "CONNECT i.51job.com:443"   
+[Network Analyzer (2294:1e44)] Address lookup for DESKTOP-624ASTC = 172.16.182.1
+[Network Analyzer (2294: 2c8)]   (Sid: 56) Client -> Server @ : 205 bytes (Service=HTTP)
+[Network Analyzer (2294: 2c8)]   (Sid: 44) Connection Terminated (by Client)
+[Network Analyzer (2294: 2c8)]   (Sid: 45) Connection Terminated (by Client)
+[Network Analyzer (2294: 2c8)]   (Sid: 56) Server -> Client : 35 bytes 
+[Network Analyzer (2294: 840)] Address lookup for DESKTOP-624ASTC = 172.16.182.1
+[Network Analyzer (2294:17dc)] Address lookup for DESKTOP-624ASTC = 172.16.182.1
+[Network Analyzer (2294:1e44)] Request Connection: Remote Server @ 202.120.40.82:11235   (Service=)  (Sid= 57)  PROXIED!
+[Net An. Error    (2294: 674)] SSLAccept(ssl_id = 307865440 = 1259A760) Failed, ctx = 080695D8, err = "SSLv3/TLS write server done", err code = 5, err msg= "error:00000005:lib(0):func(0):DH lib
+" 
+[Web Request      (2294: 2c8)] "CONNECT img01.51jobcdn.com:443"   
+[Net An. Error    (2294: 674)]   (Sid: 55) Negotiate Client -> Proxy SSL Handshake Failed!!!
+[Network Analyzer (2294: 2c8)]   (Sid: 57) Client -> Server @ : 219 bytes (Service=HTTP)
+[Network Analyzer (2294: 2c8)]   (Sid: 55) Connection Terminated (by Client)
+[Network Analyzer (2294:3464)] Address lookup for DESKTOP-624ASTC = 172.16.182.1
+[Network Analyzer (2294:365c)] Address lookup for DESKTOP-624ASTC = 172.16.182.1
+[Network Analyzer (2294: 840)] Request Connection: Remote Server @ 202.120.40.82:11235   (Service=)  (Sid= 58)  PROXIED!
+[Web Request      (2294: 2c8)] "CONNECT img01.51jobcdn.com:443"   
+[Network Analyzer (2294: 2c8)]   (Sid: 58) Client -> Server @ : 219 bytes (Service=HTTP)
+[Network Analyzer (2294:17dc)] Request Connection: Remote Server @ 202.120.40.82:11235   (Service=)  (Sid= 59)  PROXIED!
+[Network Analyzer (2294:3780)] Address lookup for DESKTOP-624ASTC = 172.16.182.1
+[Web Request      (2294: 2c8)] "CONNECT img01.51jobcdn.com:443"   
+[Network Analyzer (2294: 2c8)]   (Sid: 59) Client -> Server @ : 219 bytes (Service=HTTP)
+[Network Analyzer (2294:3464)] Request Connection: Remote Server @ 202.120.40.82:11235   (Service=)  (Sid= 60)  PROXIED!
+[Network Analyzer (2294: 6dc)]   (Sid: 56) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.2, ciphers:DES-CBC3-SHA)
+[Web Request      (2294: 2c8)] "CONNECT img01.51jobcdn.com:443"   
+[Network Analyzer (2294: 2c8)]   (Sid: 60) Client -> Server @ : 219 bytes (Service=HTTP)
+[Network Analyzer (2294:365c)] Request Connection: Remote Server @ 202.120.40.82:11235   (Service=)  (Sid= 61)  PROXIED!
+[Network Analyzer (2294: 6dc)]   (Sid: 56) Negotiate Client -> Proxy SSL Handshake (ssl:TLSv1.2, ciphers:ECDHE-RSA-AES256-GCM-SHA384)
+[Web Request      (2294: 2c8)] "CONNECT img01.51jobcdn.com:443"   
+[Network Analyzer (2294: 2c8)]   (Sid: 61) Client -> Server @ : 219 bytes (Service=HTTP)
+[Network Analyzer (2294:3780)] Request Connection: Remote Server @ 202.120.40.82:11235   (Service=)  (Sid= 62)  PROXIED!
+[Web Request      (2294: 2c8)] "POST /userset/ajax/whoviewme.php"   
+[Network Analyzer (2294: 2c8)]   (Sid: 56) Client -> Server @ : 1002 bytes (SSL)(Service=HTTP)
+[Web Request      (2294: 2c8)] "CONNECT www.51job.com:443"   
+[Network Analyzer (2294: 2c8)]   (Sid: 62) Client -> Server @ : 209 bytes (Service=HTTP)
+[Network Analyzer (2294: 2c8)]   (Sid: 46) Connection Terminated (by Client)
+[Network Analyzer (2294: 2c8)]   (Sid: 57) Server -> Client : 35 bytes 
+[Network Analyzer (2294: 2c8)]   (Sid: 58) Server -> Client : 35 bytes 
+[Network Analyzer (2294: 2c8)]   (Sid: 59) Server -> Client : 35 bytes 
+[Network Analyzer (2294: 2c8)]   (Sid: 60) Server -> Client : 35 bytes 
+[Network Analyzer (2294: 2c8)]   (Sid: 62) Server -> Client : 35 bytes 
+[Network Analyzer (2294: 2c8)]   (Sid: 56) Server -> Client : 668 bytes (SSL) (Service=HTTP)
+[Network Analyzer (2294: 2c8)]   (Sid: 61) Server -> Client : 35 bytes 
+[Network Analyzer (2294: 2c8)]   (Sid: 47) Connection Terminated (by Client)
+[Network Analyzer (2294: 2c8)]   (Sid: 48) Connection Terminated (by Client)
+[Network Analyzer (2294: 2c8)]   (Sid: 50) Connection Terminated (by Client)
+[Network Analyzer (2294:12b4)]   (Sid: 57) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.2, ciphers:ECDHE-RSA-AES128-GCM-SHA256)
+[Network Analyzer (2294:12b4)]   (Sid: 57) Negotiate Client -> Proxy SSL Handshake (ssl:TLSv1.2, ciphers:ECDHE-RSA-AES256-GCM-SHA384)
+[Network Analyzer (2294:1c50)]   (Sid: 58) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.2, ciphers:ECDHE-RSA-AES128-GCM-SHA256)
+[Network Analyzer (2294:1c50)]   (Sid: 58) Negotiate Client -> Proxy SSL Handshake (ssl:TLSv1.2, ciphers:ECDHE-RSA-AES256-GCM-SHA384)
+[Network Analyzer (2294: 8a8)]   (Sid: 59) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.2, ciphers:ECDHE-RSA-AES128-GCM-SHA256)
+[Network Analyzer (2294: 8a8)]   (Sid: 59) Negotiate Client -> Proxy SSL Handshake (ssl:TLSv1.2, ciphers:ECDHE-RSA-AES256-GCM-SHA384)
+[Network Analyzer (2294:148c)]   (Sid: 60) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.2, ciphers:ECDHE-RSA-AES128-GCM-SHA256)
+[Network Analyzer (2294:148c)]   (Sid: 60) Negotiate Client -> Proxy SSL Handshake (ssl:TLSv1.2, ciphers:ECDHE-RSA-AES256-GCM-SHA384)
+[Network Analyzer (2294:3590)]   (Sid: 62) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.2, ciphers:DES-CBC3-SHA)
+[Network Analyzer (2294:3590)]   (Sid: 62) Negotiate Client -> Proxy SSL Handshake (ssl:TLSv1.2, ciphers:ECDHE-RSA-AES256-GCM-SHA384)
+[Network Analyzer (2294:2640)]   (Sid: 61) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.2, ciphers:ECDHE-RSA-AES128-GCM-SHA256)
+[Network Analyzer (2294:2640)]   (Sid: 61) Negotiate Client -> Proxy SSL Handshake (ssl:TLSv1.2, ciphers:ECDHE-RSA-AES256-GCM-SHA384)
+[Web Request      (2294: 2c8)] "GET /im/2017/my/n.png"   
+[Network Analyzer (2294: 2c8)]   (Sid: 57) Client -> Server @ : 385 bytes (SSL)(Service=HTTP)
+[Web Request      (2294: 2c8)] "GET /im/2017/my/new.png"   
+[Network Analyzer (2294: 2c8)]   (Sid: 58) Client -> Server @ : 387 bytes (SSL)(Service=HTTP)
+[Web Request      (2294: 2c8)] "GET /im/2016/icon/arrow.png"   
+[Network Analyzer (2294: 2c8)]   (Sid: 59) Client -> Server @ : 391 bytes (SSL)(Service=HTTP)
+[Web Request      (2294: 2c8)] "GET /im/2016/icon/header2.png"   
+[Network Analyzer (2294: 2c8)]   (Sid: 60) Client -> Server @ : 393 bytes (SSL)(Service=HTTP)
+[Web Request      (2294: 2c8)] "GET /im/2017/my/icon_rse.png"   
+[Network Analyzer (2294: 2c8)]   (Sid: 61) Client -> Server @ : 392 bytes (SSL)(Service=HTTP)
+[Web Request      (2294: 2c8)] "GET /ex/page_view.php/adid=31493934"   
+[Network Analyzer (2294: 2c8)]   (Sid: 62) Client -> Server @ : 987 bytes (SSL)(Service=HTTP)
+[Network Analyzer (2294: 2c8)]   (Sid: 57) Server -> Client : 4863 bytes (SSL) (Service=HTTP)
+[Network Analyzer (2294: 2c8)]   (Sid: 58) Server -> Client : 635 bytes (SSL) (Service=HTTP)
+[Network Analyzer (2294: 2c8)]   (Sid: 59) Server -> Client : 1145 bytes (SSL) (Service=HTTP)
+[Network Analyzer (2294: 2c8)]   (Sid: 60) Server -> Client : 682 bytes (SSL) (Service=HTTP)
+[Network Analyzer (2294: 2c8)]   (Sid: 62) Server -> Client : 172 bytes (SSL) (Service=HTTP)
+[Network Analyzer (2294: 2c8)]   (Sid: 61) Server -> Client : 1315 bytes (SSL) (Service=HTTP)
+[Web Request      (2294: 2c8)] "GET /favicon.ico"   
+[Network Analyzer (2294: 2c8)]   (Sid: 56) Client -> Server @ : 793 bytes (SSL)(Service=HTTP)
+[Network Analyzer (2294: 2c8)]   (Sid: 56) Server -> Client : 1396 bytes (SSL) (Service=HTTP)
+[Web Request      (2294: 2c8)] "GET /userset/ajax/getRecommendJob.php?jsoncallback=jQuery183035585671028137044_1560568902396&currentPage=1&number=5&langType=c&_=1560568910981"   
+[Network Analyzer (2294: 2c8)]   (Sid: 56) Client -> Server @ : 1167 bytes (SSL)(Service=HTTP)
+[Network Analyzer (2294:3464)] Address lookup for DESKTOP-624ASTC = 172.16.182.1
+[Network Analyzer (2294:3464)] Request Connection: Remote Server @ 202.120.40.82:11235   (Service=)  (Sid= 63)  PROXIED!
+[Network Analyzer (2294: 2c8)]   (Sid: 56) Server -> Client : 452 bytes (SSL) (Service=HTTP)
+[Web Request      (2294: 2c8)] "CONNECT trace.51jingying.com:443"   
+[Network Analyzer (2294: 2c8)]   (Sid: 63) Client -> Server @ : 223 bytes (Service=HTTP)
+[Network Analyzer (2294: 2c8)]   (Sid: 63) Server -> Client : 35 bytes 
+[Network Analyzer (2294:37dc)]   (Sid: 63) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.2, ciphers:DES-CBC3-SHA)
+[Network Analyzer (2294:37dc)]   (Sid: 63) Negotiate Client -> Proxy SSL Handshake (ssl:TLSv1.2, ciphers:ECDHE-RSA-AES256-GCM-SHA384)
+[Web Request      (2294: 2c8)] "GET /logRecord.php?logCode=81&webId=2&version=1&logTime=1560568906168&ip=202.120.40.82&guid=99a1f5fd9691580e3e5168b4fd6f0cac&domain=i.51job.com&pageCode=11203&eventType=23&traceName=&cusParam=1%16158602693&vt=1560568910983&logType=event"   
+[Network Analyzer (2294: 2c8)]   (Sid: 63) Client -> Server @ : 602 bytes (SSL)(Service=HTTP)
+[Network Analyzer (2294: 2c8)]   (Sid: 63) Server -> Client : 338 bytes (SSL) (Service=HTTP)
+[Network Analyzer (2294: 2c8)]   (Sid: 49) Connection Terminated (by Client)
+[Web Request      (2294: 2c8)] "GET /logRecord.php?VerType=3&webId=2&logTime=1560568912631&ip=202.120.40.82&guid=99a1f5fd9691580e3e5168b4fd6f0cac&domain=i.51job.com&pageCode=11203&cusParam=1%16158602693%1651job_web%16%160%16login.51job.com&vt=1560568912988&logType=pageView"   
+[Network Analyzer (2294: 2c8)]   (Sid: 63) Client -> Server @ : 607 bytes (SSL)(Service=HTTP)
+[Network Analyzer (2294: 2c8)]   (Sid: 63) Server -> Client : 338 bytes (SSL) (Service=HTTP)
+[Network Analyzer (2294: 2c8)]   (Sid: 29) Server -> Client : 430 bytes  (Service=HTTP)
+[Network Analyzer (2294: 2c8)]   (Sid: 29) Connection Terminated (by Server)
+[Web Request      (2294: 2c8)] "GET /logRecord.php?logCode=81&webId=2&version=1&logTime=1560568921709&ip=202.120.40.82&guid=99a1f5fd9691580e3e5168b4fd6f0cac&domain=i.51job.com&pageCode=11203&eventType=5&traceName=&cusParam=1%16158602693&vt=1560568922065&logType=event"   
+[Network Analyzer (2294: 2c8)]   (Sid: 63) Client -> Server @ : 601 bytes (SSL)(Service=HTTP)
+[Network Analyzer (2294: 2c8)]   (Sid: 63) Server -> Client : 338 bytes (SSL) (Service=HTTP)
+[Web Request      (2294: 2c8)] "GET /userset/my_apply.php?lang=c"   
+[Network Analyzer (2294: 2c8)]   (Sid: 56) Client -> Server @ : 969 bytes (SSL)(Service=HTTP)
+[Network Analyzer (2294: 2c8)]   (Sid: 56) Server -> Client : 7159 bytes (SSL) (Service=HTTP)
+[Network Analyzer (2294: 2c8)]   (Sid: 56) Server -> Client : 1206 bytes (SSL) (Service=HTTP)
+[Web Request      (2294: 2c8)] "GET /im/2016/code/web_top.png"   
+[Network Analyzer (2294: 2c8)]   (Sid: 61) Client -> Server @ : 400 bytes (SSL)(Service=HTTP)
+[Web Request      (2294: 2c8)] "GET /im/2016/code/web_bottom.png"   
+[Network Analyzer (2294: 2c8)]   (Sid: 60) Client -> Server @ : 403 bytes (SSL)(Service=HTTP)
+[Network Analyzer (2294:3464)] Address lookup for DESKTOP-624ASTC = 172.16.182.1
+[Network Analyzer (2294: 2c8)]   (Sid: 61) Server -> Client : 3300 bytes (SSL) (Service=HTTP)
+[Network Analyzer (2294: 2c8)]   (Sid: 60) Server -> Client : 3276 bytes (SSL) (Service=HTTP)
+[Network Analyzer (2294: 2c8)]   (Sid: 59) Connection Terminated (by Server)
+[Network Analyzer (2294: 2c8)]   (Sid: 51) Connection Terminated (by Client)
+[Network Analyzer (2294: 2c8)]   (Sid: 52) Connection Terminated (by Client)
+[Network Analyzer (2294: 2c8)]   (Sid: 53) Connection Terminated (by Client)
+[Network Analyzer (2294: 2c8)]   (Sid: 54) Connection Terminated (by Client)
+[Network Analyzer (2294:17dc)] Address lookup for DESKTOP-624ASTC = 172.16.182.1
+[Network Analyzer (2294:17dc)] Request Connection: Remote Server @ 202.120.40.82:11235   (Service=)  (Sid= 64)  PROXIED!
+[Network Analyzer (2294:3780)] Address lookup for DESKTOP-624ASTC = 172.16.182.1
+[Web Request      (2294: 2c8)] "CONNECT js.51jobcdn.com:443"   
+[Network Analyzer (2294: 2c8)]   (Sid: 64) Client -> Server @ : 213 bytes (Service=HTTP)
+[Network Analyzer (2294:3464)] Request Connection: Remote Server @ 202.120.40.82:11235   (Service=)  (Sid= 65)  PROXIED!
+[Network Analyzer (2294:365c)] Address lookup for DESKTOP-624ASTC = 172.16.182.1
+[Web Request      (2294: 2c8)] "CONNECT img05.51jobcdn.com:443"   
+[Network Analyzer (2294: 2c8)]   (Sid: 65) Client -> Server @ : 219 bytes (Service=HTTP)
+[Network Analyzer (2294:3780)] Request Connection: Remote Server @ 202.120.40.82:11235   (Service=)  (Sid= 66)  PROXIED!
+[Network Analyzer (2294: 2c8)]   (Sid: 64) Server -> Client : 35 bytes 
+[Web Request      (2294: 2c8)] "CONNECT js.51jobcdn.com:443"   
+[Network Analyzer (2294: 2c8)]   (Sid: 66) Client -> Server @ : 213 bytes (Service=HTTP)
+[Network Analyzer (2294:365c)] Request Connection: Remote Server @ 202.120.40.82:11235   (Service=)  (Sid= 67)  PROXIED!
+[Web Request      (2294: 2c8)] "CONNECT img03.51jobcdn.com:443"   
+[Network Analyzer (2294: 2c8)]   (Sid: 67) Client -> Server @ : 219 bytes (Service=HTTP)
+[Network Analyzer (2294: 2c8)]   (Sid: 66) Server -> Client : 35 bytes 
+[Network Analyzer (2294: 2c8)]   (Sid: 65) Server -> Client : 35 bytes 
+[Network Analyzer (2294: dbc)]   (Sid: 64) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.2, ciphers:DES-CBC3-SHA)
+[Network Analyzer (2294: dbc)]   (Sid: 64) Negotiate Client -> Proxy SSL Handshake (ssl:TLSv1.2, ciphers:ECDHE-RSA-AES256-GCM-SHA384)
+[Network Analyzer (2294:27b4)]   (Sid: 66) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.2, ciphers:DES-CBC3-SHA)
+[Network Analyzer (2294:27b4)]   (Sid: 66) Negotiate Client -> Proxy SSL Handshake (ssl:TLSv1.2, ciphers:ECDHE-RSA-AES256-GCM-SHA384)
+[Network Analyzer (2294:30bc)]   (Sid: 65) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.2, ciphers:ECDHE-RSA-AES128-GCM-SHA256)
+[Network Analyzer (2294:30bc)]   (Sid: 65) Negotiate Client -> Proxy SSL Handshake (ssl:TLSv1.2, ciphers:ECDHE-RSA-AES256-GCM-SHA384)
+[Network Analyzer (2294: 2c8)]   (Sid: 67) Server -> Client : 35 bytes 
+[Web Request      (2294: 2c8)] "GET /in/js/2017/payservice/GetCompetition.js?20180319"   
+[Network Analyzer (2294: 2c8)]   (Sid: 64) Client -> Server @ : 393 bytes (SSL)(Service=HTTP)
+[Web Request      (2294: 2c8)] "GET /im/2016/code/web_fuwuhao_bottom.png"   
+[Network Analyzer (2294: 2c8)]   (Sid: 65) Client -> Server @ : 411 bytes (SSL)(Service=HTTP)
+[Web Request      (2294: 2c8)] "GET /in/js/iframeheight.js?20180319"   
+[Network Analyzer (2294: 2c8)]   (Sid: 66) Client -> Server @ : 375 bytes (SSL)(Service=HTTP)
+[Network Analyzer (2294: 2c8)]   (Sid: 64) Server -> Client : 1062 bytes (SSL) (Service=HTTP)
+[Network Analyzer (2294: 2c8)]   (Sid: 66) Server -> Client : 937 bytes (SSL) (Service=HTTP)
+[Network Analyzer (2294: 2c8)]   (Sid: 65) Server -> Client : 10343 bytes (SSL) (Service=HTTP)
+[Network Analyzer (2294:2314)]   (Sid: 67) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.2, ciphers:ECDHE-RSA-AES128-GCM-SHA256)
+[Network Analyzer (2294:365c)] Address lookup for DESKTOP-624ASTC = 172.16.182.1
+[Network Analyzer (2294:365c)] Request Connection: Remote Server @ 202.120.40.82:11235   (Service=)  (Sid= 68)  PROXIED!
+[Network Analyzer (2294:365c)] Address lookup for DESKTOP-624ASTC = 172.16.182.1
+[Web Request      (2294: 2c8)] "GET http://ocsp1.digicert.com/MFEwTzBNMEswSTAJBgUrDgMCGgUABBR0AkbyWlxCEiC1vV12Caa6XKNH3wQUJPIuTg%2B9yvc%2BKVXKco1ph1ZE6XoCEAl4pOxEmBNOiWgv4jRwaNM%3D"   
+[Network Analyzer (2294: 2c8)]   (Sid: 68) Client -> Server @ : 268 bytes (Service=HTTP)
+[Network Analyzer (2294:365c)] Request Connection: Remote Server @ 202.120.40.82:11235   (Service=)  (Sid= 69)  PROXIED!
+[Web Request      (2294: 2c8)] "GET http://i.51job.com/userset/my_apply.php?lang=c"   
+[Network Analyzer (2294: 2c8)]   (Sid: 69) Client -> Server @ : 942 bytes (Service=HTTP)
+[Network Analyzer (2294: 2c8)]   (Sid: 69) Server -> Client : 289 bytes  (Service=HTTP)
+[Network Analyzer (2294: 2c8)]   (Sid: 69) Server -> Client : 8068 bytes  (Service=HTTP)
+[Web Request      (2294: 2c8)] "GET http://js.51jobcdn.com/in/css/2017/public/base.css?20180408"   
+[Network Analyzer (2294: 2c8)]   (Sid: 69) Client -> Server @ : 388 bytes (Service=HTTP)
+[Network Analyzer (2294:2ad0)] Address lookup for DESKTOP-624ASTC = 172.16.182.1
+[Network Analyzer (2294:3780)] Address lookup for DESKTOP-624ASTC = 172.16.182.1
+[Network Analyzer (2294: 2c8)]   (Sid: 69) Server -> Client : 1761 bytes  (Service=HTTP)
+[Network Analyzer (2294: 840)] Address lookup for DESKTOP-624ASTC = 172.16.182.1
+[Network Analyzer (2294: 79c)] Address lookup for DESKTOP-624ASTC = 172.16.182.1
+[Network Analyzer (2294:365c)] Address lookup for DESKTOP-624ASTC = 172.16.182.1
+[Network Analyzer (2294: 2c8)]   (Sid: 69) Server -> Client : 1993 bytes  (Service=HTTP)
+[Web Request      (2294: 2c8)] "GET http://js.51jobcdn.com/in/css/2017/public/panel-pop.css?20180408"   
+[Network Analyzer (2294: 2c8)]   (Sid: 69) Client -> Server @ : 393 bytes (Service=HTTP)
+[Network Analyzer (2294:2ad0)] Request Connection: Remote Server @ 202.120.40.82:11235   (Service=)  (Sid= 70)  PROXIED!
+[Web Request      (2294: 2c8)] "GET http://js.51jobcdn.com/in/css/2017/my/my51.css?20180408"   
+[Network Analyzer (2294: 2c8)]   (Sid: 70) Client -> Server @ : 384 bytes (Service=HTTP)
+[Network Analyzer (2294:3780)] Request Connection: Remote Server @ 202.120.40.82:11235   (Service=)  (Sid= 71)  PROXIED!
+[Web Request      (2294: 2c8)] "GET http://js.51jobcdn.com/in/css/2017/public/form.css?20190524"   
+[Network Analyzer (2294: 2c8)]   (Sid: 71) Client -> Server @ : 388 bytes (Service=HTTP)
+[Network Analyzer (2294: 79c)] Request Connection: Remote Server @ 202.120.40.82:11235   (Service=)  (Sid= 72)  PROXIED!
+[Network Analyzer (2294: 2c8)]   (Sid: 69) Server -> Client : 7674 bytes  (Service=HTTP)
+[Web Request      (2294: 2c8)] "GET http://js.51jobcdn.com/in/js/2016/jquery.js?20180319"   
+[Network Analyzer (2294: 2c8)]   (Sid: 72) Client -> Server @ : 401 bytes (Service=HTTP)
+[Network Analyzer (2294: 840)] Request Connection: Remote Server @ 202.120.40.82:11235   (Service=)  (Sid= 73)  PROXIED!
+[Network Analyzer (2294: 2c8)]   (Sid: 70) Server -> Client : 400 bytes  (Service=HTTP)
+[Network Analyzer (2294: 2c8)]   (Sid: 71) Server -> Client : 2272 bytes  (Service=HTTP)
+[Web Request      (2294: 2c8)] "GET http://js.51jobcdn.com/in/js/2016/layer/layer.js?20180319"   
+[Network Analyzer (2294: 2c8)]   (Sid: 69) Client -> Server @ : 406 bytes (Service=HTTP)
+[Network Analyzer (2294: 2c8)]   (Sid: 70) Server -> Client : 14508 bytes  (Service=HTTP)
+[Network Analyzer (2294: 2c8)]   (Sid: 72) Server -> Client : 8590 bytes  (Service=HTTP)
+[Web Request      (2294: 2c8)] "GET http://js.51jobcdn.com/in/js/2016/delivery/delivery.js?20180419"   
+[Network Analyzer (2294: 2c8)]   (Sid: 73) Client -> Server @ : 412 bytes (Service=HTTP)
+[Web Request      (2294: 2c8)] "GET http://js.51jobcdn.com/in/js/2016/pointtrack.js?20180605"   
+[Network Analyzer (2294: 2c8)]   (Sid: 71) Client -> Server @ : 405 bytes (Service=HTTP)
+[Network Analyzer (2294: 2c8)]   (Sid: 72) Server -> Client : 10952 bytes  (Service=HTTP)
+[Network Analyzer (2294: 2c8)]   (Sid: 69) Server -> Client : 1958 bytes  (Service=HTTP)
+[Web Request      (2294: 2c8)] "GET http://js.51jobcdn.com/in/js/2016/my/my.js?20180319"   
+[Network Analyzer (2294: 2c8)]   (Sid: 70) Client -> Server @ : 400 bytes (Service=HTTP)
+[Network Analyzer (2294: 2c8)]   (Sid: 72) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (2294: 2c8)]   (Sid: 71) Server -> Client : 1658 bytes  (Service=HTTP)
+[Network Analyzer (2294: 2c8)]   (Sid: 72) Server -> Client : 837 bytes  (Service=HTTP)
+[Network Analyzer (2294: 2c8)]   (Sid: 73) Server -> Client : 4071 bytes  (Service=HTTP)
+[Web Request      (2294: 2c8)] "GET http://js.51jobcdn.com/in/js/2016/my/pointtrack_my.js?20180319"   
+[Network Analyzer (2294: 2c8)]   (Sid: 69) Client -> Server @ : 411 bytes (Service=HTTP)
+[Network Analyzer (2294: 2c8)]   (Sid: 70) Server -> Client : 2682 bytes  (Service=HTTP)
+[Web Request      (2294: 2c8)] "GET http://js.51jobcdn.com/in/js/2016/my/apply.js?20180319"   
+[Network Analyzer (2294: 2c8)]   (Sid: 71) Client -> Server @ : 403 bytes (Service=HTTP)
+[Web Request      (2294: 2c8)] "GET http://js.51jobcdn.com/in/js/2017/payservice/GetCompetition.js?20180319"   
+[Network Analyzer (2294: 2c8)]   (Sid: 72) Client -> Server @ : 420 bytes (Service=HTTP)
+[Web Request      (2294: 2c8)] "GET http://js.51jobcdn.com/in/js/iframeheight.js?20180319"   
+[Network Analyzer (2294: 2c8)]   (Sid: 73) Client -> Server @ : 402 bytes (Service=HTTP)
+[Network Analyzer (2294: 2c8)]   (Sid: 69) Server -> Client : 1250 bytes  (Service=HTTP)
+[Web Request      (2294: 2c8)] "GET http://img05.51jobcdn.com/im/2016/code/web_top.png"   
+[Network Analyzer (2294: 2c8)]   (Sid: 70) Client -> Server @ : 430 bytes (Service=HTTP)
+[Network Analyzer (2294: 2c8)]   (Sid: 71) Server -> Client : 2008 bytes  (Service=HTTP)
+[Network Analyzer (2294: 2c8)]   (Sid: 72) Server -> Client : 1062 bytes  (Service=HTTP)
+[Web Request      (2294: 2c8)] "GET http://img06.51jobcdn.com/im/2016/logo/logo_blue.png"   
+[Network Analyzer (2294: 2c8)]   (Sid: 69) Client -> Server @ : 432 bytes (Service=HTTP)
+[Network Analyzer (2294: 2c8)]   (Sid: 73) Server -> Client : 937 bytes  (Service=HTTP)
+[Web Request      (2294: 2c8)] "GET http://img01.51jobcdn.com/im/2016/header/slogen.png?1544426366"   
+[Network Analyzer (2294: 2c8)]   (Sid: 71) Client -> Server @ : 442 bytes (Service=HTTP)
+[Web Request      (2294: 2c8)] "GET http://img05.51jobcdn.com/im/2016/code/web_fuwuhao_bottom.png"   
+[Network Analyzer (2294: 2c8)]   (Sid: 72) Client -> Server @ : 441 bytes (Service=HTTP)
+[Web Request      (2294: 2c8)] "GET http://img03.51jobcdn.com/im/2016/code/web_bottom.png"   
+[Network Analyzer (2294: 2c8)]   (Sid: 73) Client -> Server @ : 433 bytes (Service=HTTP)
+[Network Analyzer (2294: 2c8)]   (Sid: 68) Server -> Client : 836 bytes  (Service=HTTP)
+[Network Analyzer (2294: 2c8)]   (Sid: 70) Server -> Client : 3349 bytes  (Service=HTTP)
+[Web Request      (2294: 2c8)] "GET http://ocsp1.digicert.com/MFEwTzBNMEswSTAJBgUrDgMCGgUABBR0AkbyWlxCEiC1vV12Caa6XKNH3wQUJPIuTg%2B9yvc%2BKVXKco1ph1ZE6XoCEAl4pOxEmBNOiWgv4jRwaNM%3D"   
+[Network Analyzer (2294: 2c8)]   (Sid: 68) Client -> Server @ : 311 bytes (Service=HTTP)
+[Web Request      (2294: 2c8)] "GET http://img01.51jobcdn.com/im/2017/my/hot.png"   
+[Network Analyzer (2294: 2c8)]   (Sid: 70) Client -> Server @ : 424 bytes (Service=HTTP)
+[Network Analyzer (2294: 2c8)]   (Sid: 72) Server -> Client : 3180 bytes  (Service=HTTP)
+[Network Analyzer (2294: 2c8)]   (Sid: 73) Server -> Client : 3258 bytes  (Service=HTTP)
+[Network Analyzer (2294: 2c8)]   (Sid: 72) Server -> Client : 7145 bytes  (Service=HTTP)
+[Web Request      (2294: 2c8)] "GET http://img01.51jobcdn.com/im/2016/icon/header.png"   
+[Network Analyzer (2294: 2c8)]   (Sid: 72) Client -> Server @ : 429 bytes (Service=HTTP)
+[Web Request      (2294: 2c8)] "GET http://img01.51jobcdn.com/im/2017/my/ns2.png"   
+[Network Analyzer (2294: 2c8)]   (Sid: 73) Client -> Server @ : 424 bytes (Service=HTTP)
+[Network Analyzer (2294: 2c8)]   (Sid: 69) Server -> Client : 3556 bytes  (Service=HTTP)
+[Network Analyzer (2294: 2c8)]   (Sid: 71) Server -> Client : 1762 bytes  (Service=HTTP)
+[Web Request      (2294: 2c8)] "GET http://img01.51jobcdn.com/im/2017/my/icon_mt.png"   
+[Network Analyzer (2294: 2c8)]   (Sid: 69) Client -> Server @ : 428 bytes (Service=HTTP)
+[Web Request      (2294: 2c8)] "GET http://img01.51jobcdn.com/im/jobs/img_top.png"   
+[Network Analyzer (2294: 2c8)]   (Sid: 71) Client -> Server @ : 425 bytes (Service=HTTP)
+[Network Analyzer (2294: 2c8)]   (Sid: 70) Server -> Client : 678 bytes  (Service=HTTP)
+[Web Request      (2294: 2c8)] "GET http://img01.51jobcdn.com/im/2016/icon/header2.png"   
+[Network Analyzer (2294: 2c8)]   (Sid: 70) Client -> Server @ : 430 bytes (Service=HTTP)
+[Network Analyzer (2294: 2c8)]   (Sid: 69) Server -> Client : 487 bytes  (Service=HTTP)
+[Network Analyzer (2294: 2c8)]   (Sid: 69) Server -> Client : 445 bytes  (Service=HTTP)
+[Web Request      (2294: 2c8)] "GET http://img01.51jobcdn.com/im/jobs/fb_img.png"   
+[Network Analyzer (2294: 2c8)]   (Sid: 69) Client -> Server @ : 424 bytes (Service=HTTP)
+[Network Analyzer (2294: 2c8)]   (Sid: 70) Server -> Client : 732 bytes  (Service=HTTP)
+[Network Analyzer (2294: 2c8)]   (Sid: 72) Server -> Client : 1646 bytes  (Service=HTTP)
+[Web Request      (2294: 2c8)] "GET http://img01.51jobcdn.com/im/2017/my/n.png"   
+[Network Analyzer (2294: 2c8)]   (Sid: 70) Client -> Server @ : 422 bytes (Service=HTTP)
+[Network Analyzer (2294: 2c8)]   (Sid: 71) Server -> Client : 633 bytes  (Service=HTTP)
+[Network Analyzer (2294: 2c8)]   (Sid: 73) Server -> Client : 1107 bytes  (Service=HTTP)
+[Web Request      (2294: 2c8)] "GET http://img01.51jobcdn.com/im/2016/form/hp_arr.png"   
+[Network Analyzer (2294: 2c8)]   (Sid: 71) Client -> Server @ : 429 bytes (Service=HTTP)
+[Web Request      (2294: 2c8)] "GET http://img01.51jobcdn.com/im/2017/my/new.png"   
+[Network Analyzer (2294: 2c8)]   (Sid: 72) Client -> Server @ : 424 bytes (Service=HTTP)
+[Web Request      (2294: 2c8)] "GET http://img01.51jobcdn.com/im/2016/icon/arrow.png"   
+[Network Analyzer (2294: 2c8)]   (Sid: 73) Client -> Server @ : 428 bytes (Service=HTTP)
+[Network Analyzer (2294: 2c8)]   (Sid: 69) Server -> Client : 737 bytes  (Service=HTTP)
+[Network Analyzer (2294: 2c8)]   (Sid: 68) Server -> Client : 836 bytes  (Service=HTTP)
+[Network Analyzer (2294: 2c8)]   (Sid: 70) Server -> Client : 4913 bytes  (Service=HTTP)
+[Network Analyzer (2294: 2c8)]   (Sid: 71) Server -> Client : 696 bytes  (Service=HTTP)
+[Network Analyzer (2294: 2c8)]   (Sid: 73) Server -> Client : 1195 bytes  (Service=HTTP)
+[Web Request      (2294: 2c8)] "GET http://cdp1.digicert.com/SecureSiteCA-1.crl"   
+[Network Analyzer (2294: 2c8)]   (Sid: 68) Client -> Server @ : 166 bytes (Service=HTTP)
+[Network Analyzer (2294: 2c8)]   (Sid: 72) Server -> Client : 685 bytes  (Service=HTTP)
+[Web Request      (2294: 2c8)] "GET http://i.51job.com/favicon.ico"   
+[Network Analyzer (2294: 2c8)]   (Sid: 72) Client -> Server @ : 817 bytes (Service=HTTP)
+[Network Analyzer (2294: 2c8)]   (Sid: 72) Server -> Client : 1388 bytes  (Service=HTTP)
+[Network Analyzer (2294: 2c8)]   (Sid: 68) Server -> Client : 305 bytes  (Service=HTTP)
+[Network Analyzer (2294: 2c8)]   (Sid: 68) Server -> Client : 4109 bytes  (Service=HTTP)
+[Web Request      (2294: 2c8)] "GET http://cdp1.digicert.com/SecureSiteCA-1.crl"   
+[Network Analyzer (2294: 2c8)]   (Sid: 68) Client -> Server @ : 209 bytes (Service=HTTP)
+[Network Analyzer (2294: 2c8)]   (Sid: 68) Server -> Client : 4414 bytes  (Service=HTTP)
+[Net An. Error    (2294:2314)] SSLAccept(ssl_id = 361101232 = 1585F7B0) Failed, ctx = 122CC230, err = "SSLv3/TLS write server done", err code = 5, err msg= "error:00000005:lib(0):func(0):DH lib
+" 
+[Net An. Error    (2294:2314)]   (Sid: 67) Negotiate Client -> Proxy SSL Handshake Failed!!!
+[Network Analyzer (2294: 2c8)]   (Sid: 67) Connection Terminated (by Client)
+[Network Analyzer (2294: 2c8)]   (Sid: 57) Connection Terminated (by Client)
+[Network Analyzer (2294: 2c8)]   (Sid: 58) Connection Terminated (by Client)
+[Network Analyzer (2294: 2c8)]   (Sid: 62) Connection Terminated (by Client)
+[Network Analyzer (2294: 2c8)]   (Sid: 63) Connection Terminated (by Client)
+[Network Analyzer (2294: 2c8)]   (Sid: 56) Connection Terminated (by Client)
+[Network Analyzer (2294: 2c8)]   (Sid: 61) Connection Terminated (by Client)
+[Network Analyzer (2294:2958)] Address lookup for DESKTOP-624ASTC = 172.16.182.1
+[Network Analyzer (2294: 2c8)]   (Sid: 60) Connection Terminated (by Client)
+[Network Analyzer (2294: 2c8)]   (Sid: 64) Connection Terminated (by Client)
+[Network Analyzer (2294: 2c8)]   (Sid: 66) Connection Terminated (by Client)
+[Network Analyzer (2294: 2c8)]   (Sid: 65) Connection Terminated (by Client)
+[Network Analyzer (2294:2958)] Request Connection: Remote Server @ 202.120.40.82:11235   (Service=)  (Sid= 74)  PROXIED!
+[Network Analyzer (2294:362c)] Address lookup for DESKTOP-624ASTC = 172.16.182.1
+[Network Analyzer (2294:33e8)] Address lookup for DESKTOP-624ASTC = 172.16.182.1
+[Network Analyzer (2294:17dc)] Address lookup for DESKTOP-624ASTC = 172.16.182.1
+[Network Analyzer (2294:362c)] Request Connection: Remote Server @ 202.120.40.82:11235   (Service=)  (Sid= 75)  PROXIED!
+[Network Analyzer (2294:365c)] Request Connection: Remote Server @ 202.120.40.82:11235   (Service=)  (Sid= 76)  PROXIED!
+[Network Analyzer (2294:33e8)] Request Connection: Remote Server @ 202.120.40.82:11235   (Service=)  (Sid= 77)  PROXIED!
+[Network Analyzer (2294:2564)] Address lookup for DESKTOP-624ASTC = 172.16.182.1
+[Network Analyzer (2294:17dc)] Request Connection: Remote Server @ 202.120.40.82:11235   (Service=)  (Sid= 78)  PROXIED!
+[Network Analyzer (2294:2564)] Request Connection: Remote Server @ 202.120.40.82:11235   (Service=)  (Sid= 79)  PROXIED!
+[Web Request      (2294: 2c8)] "GET http://trace.51jingying.com/logRecord.php?VerType=3&webId=2&logTime=1560568925933&ip=202.120.40.82&guid=99a1f5fd9691580e3e5168b4fd6f0cac&domain=i.51job.com&pageCode=19999&cusParam=1%16158602693%1651job_web%16%160%16&vt=1560568926262&logType=pageView"   
+[Network Analyzer (2294: 2c8)]   (Sid: 72) Client -> Server @ : 631 bytes (Service=HTTP)
+[Network Analyzer (2294: 2c8)]   (Sid: 72) Server -> Client : 479 bytes  (Service=HTTP)

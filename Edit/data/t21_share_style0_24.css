@@ -1,0 +1,77 @@
+.bdshare-button-style0-24 .bds_qzone {
+    background-position: 0 -120px
+}
+
+.bdshare-button-style0-24 .bds_tsina {
+    background-position: 0 -24px
+}
+
+
+
+.bdshare-button-style0-24 .bds_sqq {
+    background-position: 0 -48px
+}
+
+
+.bdshare-button-style0-24 .bds_renren {
+    background-position: 0 -72px;
+	margin-top:5px;
+}
+
+.bdshare-button-style0-24 .bds_weixin {
+    background-position: 0 0
+}
+
+
+
+.bdshare-button-style0-24 {
+    zoom:1}
+
+.bdshare-button-style0-24:after {
+    content: ".";
+    visibility: hidden;
+    display: block;
+    height: 0;
+    clear: both
+}
+
+.bdshare-button-style0-24 a,.bdshare-button-style0-24 .bds_more {
+    float: left;
+    font-size: 18px;
+    padding-left: 25px;
+    line-height: 24px;
+    height: 24px;
+    background-image: url(../img/share/icons_0_24.png?v=dcaa92d6.png);
+    background-repeat: no-repeat;
+    cursor: pointer;
+    margin: 3px 6px 3px 0
+}
+
+.bdshare-button-style0-24 a:hover {
+    color: #333;
+    opacity: .8;
+    filter: alpha(opacity=80)
+}
+
+.bdshare-button-style0-24 .bds_more {
+    color: #333;
+    float: left
+}
+
+.bdshare-button-style0-24 .bds_count {
+    color: #333;
+    background: url(../img/share/sc.png?v=a970ff04.png) no-repeat 0 0;
+    width: 45px;
+    height: 24px;
+    padding: 0;
+    text-align: center;
+    margin: 6px 6px 0 0
+}
+
+.bdshare-button-style0-24 .bds_count:hover {
+    background-position: -44px 0
+}
+
+.bds_tsohu,.bds_tfh,.bds_baidu,.bds_qq,.bds_msn,.bds_sohu,.bds_qy,.bds_leho,.bds_ifeng,.bds_ff,.bds_tuita,.bds_ms,.bds_deli,.bds_s51,.bds_t163,.bds_share189,.bds_xg,.bds_s139 {
+    display: none
+}

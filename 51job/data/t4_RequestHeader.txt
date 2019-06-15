@@ -1,0 +1,13 @@
+POST /login.php HTTP/1.1
+Accept: text/html, application/xhtml+xml, image/jxr, */*
+Referer: https://login.51job.com/login.php
+Accept-Language: zh-Hans-CN,zh-Hans;q=0.8,en-US;q=0.5,en;q=0.3
+User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64; Trident/7.0; rv:11.0) like Gecko
+Content-Type: application/x-www-form-urlencoded
+Accept-Encoding: gzip, deflate
+Host: login.51job.com
+Content-Length: 99
+Connection: Keep-Alive
+Cache-Control: no-cache
+Cookie: guid=99a1f5fd9691580e3e5168b4fd6f0cac; slife=lowbrowser%3Dnot%26%7C%26
+

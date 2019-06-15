@@ -1,0 +1,33 @@
+HTTP/1.1 200 OK
+Server: Tengine
+Content-Type: application/json
+Content-Length: 104
+Connection: keep-alive
+Date: Wed, 12 Jun 2019 09:00:30 GMT
+Accept-Ranges: bytes
+Access-Control-Allow-Origin: *
+Access-Control-Expose-Headers: X-Log, X-Reqid
+Access-Control-Max-Age: 2592000
+Cache-Control: public, max-age=31536000
+Content-Disposition: inline; filename="update-time.json"; filename*=utf-8' 'update-time.json
+Content-Encoding: gzip
+Content-Transfer-Encoding: binary
+Etag: "FsavM6RUJUJ9SePqTNNPnbgerj7E.gz"
+Last-Modified: Thu, 16 May 2019 07:30:01 GMT
+Vary: Accept-Encoding
+X-Log: X-Log
+X-M-Log: QNM:zz603;SRCPROXY:zz611;SRC:37;SRCPROXY:38;QNM3:38
+X-M-Reqid: SmsAAKpIJFjlZ6cV
+X-Qiniu-Zone: 2
+X-Qnm-Cache: Miss
+X-Reqid: tpYAAADwt1nlZ6cV
+X-Svr: IO
+Ali-Swift-Global-Savetime: 1560330030
+Via: cache8.l2cm12[121,200-0,M], cache10.l2cm12[123,0], cache6.cn270[339,200-0,M], cache7.cn270[340,0]
+Age: 0
+X-Cache: MISS TCP_MISS dirn:-2:-2
+X-Swift-SaveTime: Wed, 12 Jun 2019 09:00:30 GMT
+X-Swift-CacheTime: 2592000
+Timing-Allow-Origin: *
+EagleId: dec0ba5b15603300303697748e
+

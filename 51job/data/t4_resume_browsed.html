@@ -1,0 +1,37 @@
+//鼠标点击产品说明
+function introcudeOn(){
+	$("#hpBox").toggleClass("on");
+}
+//谁看过我-职位下拉
+function showOtherJobs(oThis)
+{
+	var eDiv = $(oThis).parents(".e");
+	if(eDiv.hasClass("on"))
+	{
+        eDiv.removeClass("on");
+	}
+	else
+	{
+        eDiv.addClass("on");
+	}
+
+}
+
+$(document).bind("click",function(e){
+	var target  = $(e.target);
+	//鼠标空白处点击关闭产品说明
+	if(target.closest(".hpBox").length == 0){
+		$("#hpBox").removeClass("on");
+	}
+});
+
+$(document).ready(function(){
+	//筛选条件
+	$("#filter").hover(function(){
+		$(this).children(".ul").show();
+	},function(){
+        $(this).children(".ul").hide();
+    });
+
+	
+});

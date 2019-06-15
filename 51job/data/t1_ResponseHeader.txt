@@ -1,0 +1,16 @@
+HTTP/1.1 200 OK
+Date: Sat, 15 Jun 2019 03:21:07 GMT
+Server: Apache
+Set-Cookie: guid=99a1f5fd9691580e3e5168b4fd6f0cac; expires=Mon, 14-Jun-2021 03:21:07 GMT; path=/; domain=.51job.com; httponly
+Set-Cookie: slife=lowbrowser%3Dnot%26%7C%26; expires=Sun, 14-Jun-2020 03:21:07 GMT; path=/; domain=.51job.com; httponly
+Set-Cookie: 51job=deleted; expires=Thu, 01-Jan-1970 00:00:01 GMT; path=/; domain=.51job.com
+Set-Cookie: bbs=deleted; expires=Thu, 01-Jan-1970 00:00:01 GMT; path=/; domain=.51job.com
+Cache-control: no-cache,no-store
+Pragma: no-cache
+Expires: Thu, 01 Jan 1970 00:00:01 GMT
+Keep-Alive: timeout=10, max=44
+Connection: Keep-Alive
+Content-Type: text/html
+Content-Encoding: gzip
+Transfer-Encoding: chunked
+

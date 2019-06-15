@@ -1,0 +1,11 @@
+[t7]
+FileName1=t7.html
+URL1=https://i.51job.com/userset/ajax/getRecommendJob.php?jsoncallback=jQuery183035585671028137044_1560568902396&currentPage=1&number=5&langType=c&_=1560568910981
+Total=1
+RequestHeaderFile=t7_RequestHeader.txt
+RequestBodyFile=NONE
+ResponseHeaderFile=t7_ResponseHeader.txt
+ContentType=text/html
+SnapshotXmlFile=snapshot_7.xml
+[ProtocolInfo]
+ProtocolId=QTWeb

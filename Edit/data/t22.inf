@@ -1,0 +1,13 @@
+[t22]
+FileName1=t22.html
+URL1=https://api.infinitynewtab.com/se.php?t=t1dd5eu7nmei8b21l8etdmd7t6c9
+Total=2
+RequestHeaderFile=t22_RequestHeader.txt
+RequestBodyFile=NONE
+ResponseHeaderFile=t22_ResponseHeader.txt
+ContentType=text/html
+SnapshotXmlFile=snapshot_22.xml
+FileName2=t22_collect.gif
+URL2=https://www.google-analytics.com/collect?_t=1560330313136&t=pageview&v=1&tid=UA-54537742-7&cid=e0a9e774-13d0-46d6-9af8-89a18b270e6e&sr=1536x864&sd=24-bits&ul=zh-CN&dl=chrome-extension%3A%2F%2Fdbfmnekepjoapopniengjbcpnbljalfg%2Fbackground%2Fbackground.html&dp=%2Fbackground%2Fbackground.html&dt=
+[ProtocolInfo]
+ProtocolId=QTWeb

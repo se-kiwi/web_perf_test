@@ -1,0 +1,13 @@
+[t5]
+FileName1=t5.html
+URL1=https://www.wjx.cn/wjx/design/EditQuestionnaireNext.aspx?activity=40211802
+Total=2
+RequestHeaderFile=t5_RequestHeader.txt
+RequestBodyFile=NONE
+ResponseHeaderFile=t5_ResponseHeader.txt
+ContentType=text/html
+SnapshotXmlFile=snapshot_5.xml
+FileName2=t5_edit.png
+URL2=https://www.wjx.cn/Images/newimg/online-exam/edit.png
+[ProtocolInfo]
+ProtocolId=QTWeb

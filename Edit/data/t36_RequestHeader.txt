@@ -1,0 +1,10 @@
+GET /service/update2/crx?os=win&arch=x64&os_arch=x86_64&nacl_arch=x86-64&prod=chromecrx&prodchannel=&prodversion=74.0.3729.169&lang=zh-CN&acceptformat=crx2,crx3&x=id%3Dpkedcjkdefgpdelpbcmbmeomcjbeemfm%26v%3D7419.311.0.1%26installedby%3Dother%26uc%26brand%3DSQJL HTTP/1.1
+Host: clients2.google.com
+Connection: keep-alive
+X-Goog-Update-Interactivity: bg
+X-Goog-Update-AppId: pkedcjkdefgpdelpbcmbmeomcjbeemfm
+X-Goog-Update-Updater: chromecrx-74.0.3729.169
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3729.169 Safari/537.36
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN,zh;q=0.9,en-US;q=0.8,en;q=0.7
+

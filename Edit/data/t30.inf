@@ -1,0 +1,15 @@
+[t30]
+FileName1=t30_userinfo.json
+URL1=https://www.googleapis.com/oauth2/v1/userinfo
+Total=3
+ContentType=application/json
+SnapshotXmlFile=snapshot_30.xml
+RequestHeaderFile=t30_RequestHeader.txt
+RequestBodyFile=NONE
+ResponseHeaderFile=t30_ResponseHeader.txt
+FileName2=t30_zhezhao.html
+URL2=https://www.wjx.cn/js/zhezhao.js?v=3
+FileName3=t30_logo.png
+URL3=https://www.wjx.cn/images/register-login/logo.png
+[ProtocolInfo]
+ProtocolId=QTWeb

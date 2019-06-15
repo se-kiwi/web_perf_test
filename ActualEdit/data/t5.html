@@ -1,0 +1,488 @@
+
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head id="ctl02_Head1"><title>
+	编辑问卷
+</title><meta http-equiv="content-type" content="text/html; charset=UTF-8" /><meta http-equiv="X-UA-Compatible" content="IE=EmulateIE10" /><meta name="renderer" content="webkit|ie-comp|ie-stand" /><meta id="ctl02_keywords" name="keywords" content="问卷星" /><link rel="stylesheet" type="text/css" href="/newwjx/css/default.css?v=4" /><link rel="Stylesheet" type="text/css" href="/newwjx/css/NewDefault.css?v=12" /><link rel="Stylesheet" type="text/css" href="/newwjx/css/wjxdesign360.css?v=16" /><link href="/wjxUI/src/wjxUI.css?v=5" rel="stylesheet" />
+    <style>
+        .selSendTypeBox {
+            position: absolute;
+            top: 20px;
+            left: 480px;
+            display: flex;
+            align-items: center;
+            color: #333333;
+            font-size: 14px;
+        }
+
+        .selectpick-div {
+            background: #fff;
+        }
+    </style>
+   
+    <script type="text/javascript" src="/js/jquery-1.8.3.min.js"></script>
+    <script src="/layer/layer.js?v=8"></script>
+    <script src="/newwjx/js/modernizr.js" type="text/javascript"></script>
+    <script type="text/javascript">
+        var _$ = jQuery.noConflict();
+    </script>
+    <script src="/newwjx/js/selectpick.js?v=4" type="text/javascript"></script>
+
+</head>
+<body class="fp-viewing">
+    <div class="main-container">
+        <div class="nav-bar aside size30x30" id="leftlabel">
+            <div class="ui-sidebar">
+                <a href="/newwjx/manage/myquestionnaires.aspx?randomt=1560564830" class="return-wrapper">
+                    <em class="icon return-icon"></em>
+                    <div class="tips">
+                        <div class="caret-top"></div>
+                        返回我的问卷
+                    </div>
+                </a>
+                <a class="nav-items" href="/wjx/design/designstart.aspx?activity=40211802">
+                    <div class="items-box">
+                        <i class="icon testDesign-icon"></i>
+                    </div>
+                    <br />
+                    <span class="items-name">设计问卷</span>
+                    <em class="caret-left"></em>
+                </a>
+                <a class="nav-items" href="/newwjx/design/sendqstart.aspx?activityid=40211802">
+                    <div class="items-box">
+                        <i class="icon issusPapers-icon"></i>
+                    </div>
+                    <br />
+                    <span class="items-name">发送问卷</span>
+                    <em class="caret-left"></em>
+                </a>
+                <a class="nav-items" href="/wjx/activitystat/reporttransfer.aspx?activity=40211802">
+                    <div class="items-box">
+                        <i class="icon resultsData-icon"></i>
+                    </div>
+                    <br />
+                    <span class="items-name">分析&下载</span>
+                    <em class="caret-left"></em>
+                </a>
+            </div>
+            <div id="ctl02_divKeFu" class="ui-sidebottom">
+                <ul>
+                    <li><a href="javascript:void(0)">
+                        <div class="icon-box">
+                            <i class="icon kefu-icon"></i>
+                            <div>客服中心</div>
+                        </div>
+                    </a>
+                        <div class="service-box">
+                            <div id="ctl02_divService" class="BS-con"><a href='javascript: void(0);' onclick='PDF_launch("/wjx/manage/onlinesupport.aspx", 620, 400); '  class='btn btn-default btn-sm btn-sm-apply '>申请协助</a><div class='freepromotetxt' style='margin-top:8px;'><b>提示：</b>升级到企业版可享受在线咨询及电话支持，<a href=' /register/upgradevip.aspx?upgradeReason=17'  class='titlelnk'>了解详情</a></span></div>
+                            
+                            
+                        </div>
+                    </li>
+                    <li alt="帮助中心">
+                        <a href="/help/help.aspx" title="帮助中心" target="_blank">
+                            <div class="icon-box">
+                                <i class="icon help-icon"></i>
+                                <div>
+                                    帮助中心
+                                </div>
+                            </div>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="inside-wrapper">
+            <div class="inside-head clearfix" style="">
+                <div class="activity-box pull-left">
+                    <span id="ctl02_spanActivity" style="display: none"><select  id='ddlActivitynew' style=''><option value='40211802' selected='selected'>当代大学生脱发情况调查132(ID:40211802)</option><option value='40211783'>当代大学生脱发情况调查726(ID:40211783)</option><option value='40213117'>当代大学生脱发情况调查296(ID:40213117)</option><option value='40213165'>当代大学生脱发情况调查1(ID:40213165)</option><option value='40088973'>当代大学生脱发情况调查206(ID:40088973)</option><option value='40090042'>当代大学生脱发情况调查56(ID:40090042)</option><option value='40089675'>当代大学生脱发情况调查191(ID:40089675)</option><option value='40091027'>当代大学生脱发情况调查515(ID:40091027)</option><option value='40076921'>当代大学生脱发情况调查81(ID:40076921)</option><option value='40078371'>当代大学生脱发情况调查190(ID:40078371)</option><option value='40079780'>当代大学生脱发情况调查306(ID:40079780)</option><option value='40067929'>当代大学生脱发情况调查414(ID:40067929)</option><option value='40032197'>当代大学生脱发情况调查908(ID:40032197)</option><option value='40023865'>大学生手机使用频率调查(ID:40023865)</option></select></span>
+
+                </div>
+                <a href="/wjx/design/previewmobile.aspx?activity=40211802&s=1" id="ctl02_hrefView" target="_blank" class="btnnew btn-default btn-lg btn-nobg view-btn">预览问卷</a>
+
+                <div class="nav-show clearfix" id="toplabel">
+                    <div class="nav-box clearfix" style="display: none">
+                        <a class="nav-items pull-left" href="/wjx/design/designstart.aspx?activity=40211802">
+                            <label class="icon ksdesignGuide-icon"></label>
+                            <br />
+                            <span>设计向导</span>
+                        </a>
+                        <a class="nav-items pull-left" href="/newwjx/design/editquestionnaire.aspx?activity=40211802">
+                            <label class="icon ksedit-icon"></label>
+                            <br />
+                            <span>编辑问卷</span>
+                        </a>
+                        <a class="nav-items pull-left" href="/wjx/design/questionnairesettings.aspx?activity=40211802">
+                            <label class="icon kssetting-icon"></label>
+                            <br />
+                            <span>问卷设置</span>
+                        </a>
+                        <a class="nav-items pull-left" href="/newwjx/join/jqnew.aspx?q=40211802&wg=1&t=636961904303231952">
+                            <label class="icon surface-icon"></label>
+                            <br />
+                            <span>问卷外观</span>
+                        </a>
+                        <a class="nav-items pull-left" href="/wjx/design/sethbaward.aspx?activity=40211802">
+                            <label class="icon kshongbao-icon"></label>
+                            <br />
+                            <span>红包&奖品</span>
+                        </a>
+                        <a class='nav-items pull-left' href='/wjx/rule/addrule.aspx?activity=40211802'>
+                            <label class="icon quality-icon"></label>
+                            <br />
+                            <span>质量控制</span>
+                        </a>
+                    </div>
+                    <div class="nav-box clearfix" style="display: none">
+                        <a class="nav-items pull-left" href="/newwjx/design/sendqstart.aspx?activity=40211802">
+                            <label class=" icon linkCode-icon"></label>
+                            <br />
+                            <span>链接与二维码</span>
+                        </a>
+                        <a class="nav-items pull-left" href="/wjx/promote/urlemed.aspx?activityid=40211802" style="display: none">
+                            <label class="icon CustomVariables-icon"></label>
+                            <br />
+                            <span>自定义参数</span>
+                        </a>
+                        <a class="nav-items pull-left" href="/wjx/promote/sendweixin.aspx?activityid=40211802">
+                            <label class="icon wechat-icon"></label>
+                            <br />
+                            <span>微信发送</span>
+                        </a>
+                        
+
+                        
+                        <a href="javascript:void(0)" id="ctl02_divEmailSms" class="nav-items pull-left">
+                            <label class="icon email-icon"></label>
+                            <br />
+                            <span>邮件&短信</span>
+                            <ul class="nav-ul" id="EmailSms">
+                                <li value="1">邮件发送</li>
+                                <li value="2">短信发送</li>
+                            </ul>
+                        </a>
+                        <a href="/sample/demand.aspx?activityid=40211802&lst=1&npub=1" id="ctl02_divsampleId" class="nav-items pull-left" target="_blank">
+                            <label class="icon sanpleinf-icon"></label>
+                            <br />
+                            <span>样本服务</span>
+                        </a>
+                        <a href="/wjx/promote/joinbacklist.aspx?activity=40211802" id="ctl02_divjoin" class="nav-items pull-left">
+                            <label class="icon join-icon"></label>
+                            <br />
+                            <span>互填问卷</span>
+                        </a>
+                        <a href="/wjx/promote/promoteapply.aspx?activity=40211802" id="ctl02_divpromote" class="nav-items pull-left">
+                            <label class="icon promote-icon"></label>
+                            <br />
+                            <span>申请推荐</span>
+                        </a>
+                    </div>
+                    <div class="nav-box clearfix" style="display: none">
+                        
+                        <a class="nav-items pull-left" href="/report/40211802.aspx">
+                            <label class="icon Answer2-icon"></label>
+                            <br />
+                            <span>统计&分析</span>
+                        </a>
+                        <a class="nav-items pull-left" href="/wjx/activitystat/viewstatsummary.aspx?activity=40211802">
+                            <label class="icon Answer1-icon"></label>
+                            <br />
+                            <span>查看下载答卷</span>
+                        </a>
+                       
+                        <a class="nav-items pull-left" href="/wjx/activitystat/viewurl.aspx?activity=40211802">
+                            <label class="icon Answer3-icon"></label>
+                            <br />
+                            <span>答案来源分析</span>
+                        </a>
+
+                        <a class="nav-items pull-left" href="/wjx/activitystat/visiturl.aspx?activity=40211802" style="">
+                            <label class="icon Answer4-icon"></label>
+                            <br />
+                            <span>完成率分析</span>
+                        </a>
+                    </div>
+                    <div class="nav-box">
+                         <a class="nav-items pull-left " href="/newwjx/design/sendqstart.aspx?activityid=40211802">
+                            <label class="icon defauleWx-icon"></label><br />
+                            <span>默认方式</span>
+                        </a>
+                        <a id="ctl02_hrefLink" class="nav-items pull-left">
+                            <label class=" icon linkCode-icon"></label>
+                            <br />
+                            <span>链接与二维码</span>
+                        </a>
+                    </div>
+                </div>
+                <a href="/wjx/design/previewmobile.aspx?activity=40211802&s=1" id="ctl02_hrefViewnew" target="_blank" class="btnnew btn-default btn-lg btn-nobg view-btn-mini help-btn">预览问卷</a>
+            </div>
+            
+               <script type="text/javascript">
+                   _$(".ui-sidebottom li").hover(function () {
+                       _$(this).find("div.service-box").eq(0).css("display", "block");
+                   }, function () {
+                       _$(this).find("div.service-box").eq(0).css("display", "none");
+                   })
+                   var  outlabel=0;
+                   var innerlabel="";
+                   var vstat=0;
+                   var $topoutlabel=_$("#toplabel div.nav-box")
+                   var $leftoutlabel=_$("#leftlabel a.nav-items")
+                   var $leftoutul=_$("#leftlabel dd.sub-item")
+                   //var $leftoutul=_$("#leftlabel dd")
+                   var $leftoutli=_$("#leftlabel dd.sub-item").eq(outlabel).find("a");
+
+                _$(".selSendType option:contains('" + innerlabel + "')").attr("selected", "selected");
+
+                for (var i = 0; i < $topoutlabel.length; i++) {
+                    $topoutlabel.eq(i).css("display", "none");
+                }
+                $topoutlabel.eq(outlabel).css("display", "");
+                var $topinnerlabel = $topoutlabel.eq(outlabel).find("span");
+                var $topinnera = $topoutlabel.eq(outlabel).find("a");
+                for (var i = 0; i < $topinnerlabel.length; i++) {
+                    if ($topinnerlabel.eq(i).text() == innerlabel) {
+                        $topinnera.eq(i).addClass("clicked");
+                    }
+                    else if (vstat == 1) {
+                        $topinnera.eq(i).hide();
+                    }
+                }
+                for (var i = 0; i < $leftoutli.length; i++) {
+                    if ($leftoutli.eq(i).text() == innerlabel) {
+                        $leftoutli.eq(i).addClass("current");
+                    }
+                }
+                if (outlabel == 3) {
+                    outlabel = 1;
+                }
+
+                $leftoutlabel.eq(outlabel).addClass("clicked");
+                $leftoutul.eq(outlabel).css("display", "block");
+                $overall_report = _$(".overall__report"),
+                    $overall_report_pageDec = $overall_report.find(".overall__report-pageDec");
+                if (ISIE(8) || ISIE(7) || ISIE(6)) {
+                    $overall_report_pageDec.children(".items:nth-child(5n + 1)").css({
+                        "margin-left": 0
+                    });
+                }
+                /*** 内部 选择问卷的select美化按钮 在1024,1366,1600分辨率下的宽度*/
+                var activity_box,
+                    wind_width_obj,
+                    window_width;
+                _$("body").scrollTop(10);
+                if (_$("body").scrollTop() > 0) {
+                    window_width = _$(window).width() + 17;//获得屏幕分辨率
+                }
+                else {
+                    window_width = _$(window).width();
+                }
+                _$("body").scrollTop(0);
+                // console.log(window_width)
+                if (ISIE(7)) {
+                    activity_box = 140;
+                }
+                else {
+                    if (window_width >= 1600) {
+                        activity_box = 300;
+                    } else if (window_width < 1600 && window_width >= 1349) {
+                        activity_box = 200;
+                    } else {
+                        activity_box = 140;
+                    }
+
+                }
+                wind_width_obj = {
+                    container: ".activity-box",
+                    width: activity_box,
+                    height: 30,
+                    disabled: false,
+                    flags: true,
+                    freeWidth: true,
+                    MaxfreeWidth: 600
+                };
+
+                   _$("#ddlActivitynew").selectpick(wind_width_obj);
+                   var reportId = '';
+                   _$("#ddlActivitynew").change(function()
+                   {
+                       var activity = _$(this).val();
+                       if (activity) {
+                           var loc = window.location.href.toLowerCase();
+                           loc = loc.replace(/activity=(\d+)/gi, "activity=" + activity + "");
+                           loc = loc.replace(/activityid=(\d+)/gi, "activityid=" + activity + "");
+                           loc = loc.replace(/\/(\d+)\.aspx/gi, "\/" + activity + "\.aspx");
+                           loc = loc.replace(/\/(\d+),/gi, "\/" + activity + ",");
+                              
+                           if (reportId) {
+                               loc = loc.replace(/reportid=(\d+)/g, "");
+                               loc = loc.replace(/,(\d+)/g, "");
+                           }
+                           if (loc.indexOf("viewregnew.aspx") > -1||loc.indexOf("viewregnew2.aspx") > -1)
+                               loc = "/report/" + activity + ".aspx";
+                           if (loc.indexOf("setcepingreport.aspx") > -1)
+                               loc = "/wjx/activitystat/setcepingreport.aspx?activity=" + activity;
+                           window.location = loc;
+                       }
+                   })
+                   var divEmailSms=document.getElementById("ctl02_divEmailSms");
+                   if(divEmailSms)
+                   {
+                       var lis=_$("#ctl02_divEmailSms li");
+                       lis .bind("click",function(){
+                           var val=_$(this).attr("value");
+                           var msg="邮件发送功能只对企业版用户提供，您是免费版用户，请升级到企业版！";
+                           var loc="/register/upgradevip.aspx?upgradeReason=27";
+                           if(val=="2")
+                           {
+                               msg="短信发送功能只对企业版用户提供，您是免费版用户，请升级到企业版！";
+                               loc="/register/upgradevip.aspx?upgradeReason=28";
+                           }
+                           layer.alert(msg, { btn: '知道了', title: '提示'  }, function () {
+                               location.href = loc;
+                           })
+                       })
+                   }
+                   function processQywx(){
+                       var cc=confirmnew("此问卷设置了只允许钉钉用户参与，是否取消该限制？",function(){
+                           var url = 0 ? "/mobile/qywx/qywxlimit.ashx?activity=40211802" : "/mobile/dingding/dingdinglimit.ashx?activity=40211802";
+                           _$.get(url,function(){
+                               window.location.href= "/newwjx/design/sendqstart.aspx?activity=40211802";
+                           });
+                       });
+                   }
+
+
+               </script>
+               <div class="inside-main">
+                    
+                <div class="inside-box">
+                    <div class="box-items">
+
+                        <div style="clear: both"></div>
+                        <div class="step__evaluate article" style="text-align: left">
+                            <style>
+                                .SET-Guide {
+                                    width: 740px !important;
+                                }
+
+                                .SET-Expansion h2 {
+                                    font-size: 12px;
+                                }
+                            </style>
+                            
+<form name="aspnetForm" method="post" action="EditQuestionnaireNext.aspx?activity=40211802" id="aspnetForm" style="margin:0px;">
+<div>
+<input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="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" />
+</div>
+
+<div>
+
+	<input type="hidden" name="__VIEWSTATEGENERATOR" id="__VIEWSTATEGENERATOR" value="D402CC5C" />
+	<input type="hidden" name="__EVENTVALIDATION" id="__EVENTVALIDATION" value="/wEdAALLJHrwr1MyGzngu5UrOBdaBBwpyEbLtg8yHyiwGd7i6nLBM+FVgGm1hIZQ3P5KSrMyKoO1" />
+</div>
+     
+   
+    <div id="main" style="background:#fff;margin:0 auto;width:900px;padding:20px 25px;">
+        <table style="font-size: 14px; color: #666;" width="858px" cellpadding="0" cellspacing="0"
+            border="0">
+            <tr>
+                <td align="left" style="border-bottom: #ccc 1px dotted; vertical-align: middle;">
+                    <span class="bluefont-16px">编辑问卷</span>
+                    <p style="color: #555555; font-size: 14px; padding-bottom: 15px; margin-top: 5px">
+                        <span style="font-weight: bold;">问卷名称：</span><span id="ctl02_ContentPlaceHolder1_lkQuestionnarie">当代大学生脱发情况调查132</span>
+                    </p>
+                </td>
+            </tr>
+            <tr>
+                <td height="10px">
+                </td>
+            </tr>
+            <tr>
+                <td style="line-height: 20px;">
+                    <div style=" font-size:14px">
+                    <table>
+                        <tr>
+                            <td width="15px">
+                            </td>
+                            <td>
+                               <div class="bluefont-16px" style="margin:10px;">请注意：您的问卷还处于编辑状态！可能是由于以下原因造成：</div>
+                                <table border="0" cellspacing="0" cellpadding="0">
+                                    <tr>
+                                        <td>
+                                            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                                            <font
+                                                style="font-weight: bold;">A.</font><span id="ctl02_ContentPlaceHolder1_spanReserve">由于您自己忘记关闭前一个编辑问卷窗口</span>
+                                                <div style=" margin-left:66px;"><span
+                                                    style='color: red;'>后续操作：关闭当前窗口进入前一个编辑问卷窗口继续编辑</div>
+                                        </td>
+                                     
+                                    </tr>
+                                    <tr><td style="height:20px;"></td></tr>
+                                    <tr>
+                                        <td>
+                                            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<font style="font-weight: bold;">B.</font><span id="ctl02_ContentPlaceHolder1_spanDelete">由于其他用户使用您的用户名登录并正在编辑此问卷</span><div style='color: red; margin-left:68px;'>后续操作：请与其联系并在其编辑完成后再次编辑此问卷</div>
+                                        </td>
+                                    </tr>
+                                    <tr><td style="height:20px;"></td></tr>
+                                       <tr>
+                                        <td>
+                                            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                                            <font
+                                                style="font-weight: bold;">C.</font><span id="ctl02_ContentPlaceHolder1_span1">由于前一次编辑此问卷时没有正常关闭窗口（例如电脑死机、浏览器异常退出）</span>
+                                                <div style='color: red; margin-left:68px;'>后续操作：<input type="submit" name="ctl02$ContentPlaceHolder1$btnEditQ" value="继续编辑此问卷" onclick="return edit_confirm();" id="ctl02_ContentPlaceHolder1_btnEditQ" class="submitbutton" /></div>
+                                        </td>
+                                     
+                                    </tr>
+                                    <tr>
+                                      <td height="5" ></td>
+                                    </tr>
+                                    <tr>
+                                        <td >
+                                            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                                        </td>
+                                    </tr>
+                                    
+                                    <tr>
+                                      <td height="40" colspan="2"></td>
+                                    </tr>
+                                    
+                                  
+                                </table>
+                               
+                            </td>
+                        </tr>
+                    </table>
+                </div></td>
+            </tr>
+        </table>
+    </div>
+    <script type="text/javascript">
+        var hasConfirm = false;
+        var btnEditQ = document.getElementById("ctl02_ContentPlaceHolder1_btnEditQ");
+        function edit_confirm() {
+            if (!hasConfirm) {
+                var cc = confirmnew(" 您确认没有在其它窗口中编辑此问卷吗？", function () {
+                    hasConfirm = true;
+                    btnEditQ.click();
+                });
+                return false;
+            }
+            return true;
+        }
+    </script>
+    </form>
+
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+    </div>
+     
+</body>
+</html>

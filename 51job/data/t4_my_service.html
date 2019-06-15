@@ -1,0 +1,1856 @@
+$(document).ready(function(){
+    var needChageSetting = $("#needChageSetting").val();
+    var content = ''
+    var lang = $("#language").val();
+    if (lang != 'e')
+    {
+        lang = 'c';
+    }
+    if (needChageSetting == '1')
+    {
+       var url = 'http://i.51job.com/payservice/my_secretary_setting.php?lang=' + lang +'&type=5&rand=' + Math.random();
+       content = '<div class="panel_lnp panel_py">\
+                            <h2>\
+                                <p>提示</p>\
+                                <a  href="#" class="notifyLayer"><i onclick="cancelNotify(\'http://i.51job.com\', \'2\', \'.notifyLayer\');"></i></a>\
+                            </h2>\
+                            <div class="pannel_con">\
+                                <div class="gp2">\
+                                    <p class="wd center c_666">\
+                                        尊敬的用户你好，近期发现你开通的无忧小秘书简历代投功能使用过程中，符合你要求的职位较少，建议你修改代投条件，以便于更好的为你投递更多机会。\
+                                    </p>\
+                                </div>\
+                            </div>\
+                            <div class="but_box b2">\
+                                <span class="p_but" href="javascript:" onclick="redirectUrl(\'' + url + '\', \'.notifyLayer\', \'2\');">修改代投条件</span><span class="p_but gray" onclick="cancelNotify(\'http://i.51job.com\', \'2\', \'.notifyLayer\');">暂不修改</span>\
+                            </div>\
+                        </div>';
+    }
+    if (content != '')
+    {
+        var oLayerParams = {'layer_close_class': 'notifyLayer'};
+        oLayerSettings = jQuery.FLayer.init(oLayerParams); 
+        jQuery.FLayer.setContent(oLayerSettings,content);               
+        jQuery.FLayer.open(oLayerSettings);
+    }
+});
+
+function cancelNotify(DOMAIN_I, type, id)
+{
+    cancel(id);
+    var url = DOMAIN_I + '/payservice/ajax/cancelNotify.php?jsoncallback=?';
+    $.ajaxSettings.async = false;
+    $.getJSON(url,{type:type},function(data){
+    });
+}
+
+function showPromotionsLuckyCodeUse(sSystemParam)
+{
+    var oSystemParam = eval(sSystemParam);
+    var oLayerParams = {'layer_close_class': 'vclose'};
+    var oLayerSettings = jQuery.FLayer.init(oLayerParams); 
+    var result = '<div class="panel_lnp panel_py">\
+                    <h2>\
+                        <p>幸运号码使用说明</p>\
+                        <a class="vclose" id="window_close9" href="javascript:void(0);" style="cursor: pointer;"><i></i></a>\
+                    </h2>\
+                    <div class="pannel_body f14">\
+                        <p class="p">为感谢大家对51job的支持，我们会定期向幸运用户发放幸运号码。敬请关注你的注册邮箱！幸运号码使用如下：</p>\
+                        <p><strong>第1步：选中要购买的产品，点击“<span class="c_orange">立即开通</span>”去结账</strong><br><img width="470" height="85" src="' + oSystemParam.IMGPATH +'/im/payservice/2015/pay_pop_img1.png" alt=""></p>\
+                        <br>\
+                        <p><strong>第2步：<span class="c_orange">输入幸运号码后</span>，点击“<span class="c_orange">提交订单</span>”，即可立享折扣</strong><br><img width="470" height="105" src="' + oSystemParam.IMGPATH +'/im/payservice/2015/pay_pop_img2.png" alt=""></p>\
+                        <br>\
+                        <p><strong>第3步：提交订单<span class="c_orange">进行支付</span></strong><br><img width="470" height="250" src="' + oSystemParam.IMGPATH +'/im/payservice/2015/pay_pop_img3.png" alt=""></p>\
+                    </div>\
+                </div>';
+    jQuery.FLayer.setContent(oLayerSettings,result);               
+    jQuery.FLayer.open(oLayerSettings);
+    return;
+}
+
+function signOut(loginDomain)
+{
+    var lang = $("#language").val();
+    if (lang != 'e')
+    {
+        lang = 'c';
+    }
+    window.location.href = loginDomain + '/logout.php?lang=' + lang;
+}
+
+function redirectResumeCenter(DOMAIN_I, className)
+{
+    var lang = $("#language").val();
+    if (lang != 'e')
+    {
+        lang = 'c';
+    }
+    cancel(className);
+    window.open(DOMAIN_I + '/resume/resume_center.php?lang=' + lang +'&rand=' + Math.random());
+}
+
+function redirectResumeInfo(resumeType, resumeId)
+{
+    $url = '';
+    var lang = $("#language").val();
+    if (lang != 'e')
+    {
+        lang = 'c';
+    }
+    
+    if (resumeType == 0 && resumeId != '')
+    {
+        $url = '/resume/standard_resume.php?lang=' + lang + '&resumeid=' + resumeId;
+    }
+    else if (resumeType == 9 && resumeId != '')
+    {
+        $url = '/resume/paste_resume.php?lang=' + lang + '&resumeid=' + resumeId;
+    }
+    else
+    {
+        $url = '/resume/resume_center.php?lang=' + lang +'&rand=' + Math.random();
+    }
+    return $url;
+}
+
+function redirectUrl(url, className)
+{
+    cancel(className);
+    var type = arguments[2] ? arguments[2] : 1;
+    if (type == 2)
+    {
+        window.location.href = url;
+    }
+    else
+    {
+        window.open(url);
+    }
+}
+
+function redirectServices(DOMAIN_I)
+{
+    var lang = $("#language").val();
+    if (lang != 'e')
+    {
+        lang = 'c';
+    }
+    window.location.href = DOMAIN_I + '/payservice/my_service.php?lang=' + lang +'&rand=' + Math.random();
+}
+
+function redirectSecretarySetting(DOMAIN_I)
+{
+    var type = arguments[1] ? arguments[1] : 1;
+    if (type == 3 || type == 1)
+    {
+        $("[name='buy_products']").submit();
+    }
+    else{
+        var lang = $("#language").val();
+        if (lang != 'e')
+        {
+            lang = 'c';
+        }
+        window.location.href = DOMAIN_I + '/payservice/my_secretary_setting.php?lang=' + lang +'&type=' + type + '&rand=' + Math.random();
+    }
+}
+
+function cancel(id)
+{
+    $(id).click();
+}
+
+function removeElementFromArray(element, removeArray)
+{
+    var result = removeArray;
+    for(var i = 0,len = removeArray.length; i < len; i++)
+    { 
+        if(removeArray[i] == element)
+        { 
+            index = i;
+            removeArray.splice(index,1);
+            break;
+        }        
+     }    
+     return result;
+}
+
+function checkServiceActivity(sServiceCode)
+{
+    var sServiceList = $('#user_service').val();
+    if (-1 != sServiceList.indexOf(sServiceCode))
+    {
+        return true;
+    }
+    else
+    {
+        return false;
+    }
+}
+
+function setRadio(oThis, sValue)
+{
+    var buyButtonDiv = $(oThis).parent().parent().find("div.crbox");
+    var selectItem = $(oThis).children("em");
+    buyButtonDiv.children("p").eq(0).attr("event-type", selectItem.attr("open-event-type"));
+    buyButtonDiv.children("p").eq(1).attr("event-type", selectItem.attr("cart-event-type"));
+    $(oThis).parent().find("em.rdo").removeClass("on");
+    $("em.rdo[data-value='" + sValue + "']").addClass("on");
+}
+
+function getProductCode(sServiceCode)
+{
+    sProductCode = false;
+    
+    switch (sServiceCode)
+    {
+        case '1300':
+            if (('undefined' != $("em[name=product_1300].on").attr("data-value")) && ('0W09' == $("em[name=product_1300].on").attr("data-value")))
+            {
+                sProductCode = '0W09';
+            }
+            else if (('undefined' != $("em[name=product_1300_08].on").attr("data-value")) && ('0W10' == $("em[name=product_1300_08].on").attr("data-value")))
+            {
+                sProductCode = '0W10';
+            }
+            else if (('undefined' != $("em[name=product_1400].on").attr("data-value")) && ('0W13' == $("em[name=product_1400].on").attr("data-value")))
+            {
+                sProductCode = '0W13';
+                sServiceCode = '1400';
+            }
+            else if (('undefined' != $("em[name=product_1400_07].on").attr("data-value")) && ('0W15' == $("em[name=product_1400_07].on").attr("data-value")))
+            {
+                sProductCode = '0W15';
+                sServiceCode = '1400';
+            }
+            break;
+        default:
+            var sProductCode = $('em[name=product_' + sServiceCode + '].on').attr("data-value");
+            break;
+    }
+    return Array(sProductCode, sServiceCode);
+}
+
+function openService(sProductCode, sSystemParam)
+{
+    var sInputProductCode = arguments[2] || '';
+    var bCheckService = false;
+    var oSystemParam = eval(sSystemParam);
+
+    bCheckService = checkServiceActivity(sProductCode);
+    if (bCheckService)
+    {
+        aProductDetail = sInputProductCode == '' ? getProductCode(sProductCode) : [sInputProductCode, sProductCode];
+        
+        sProductCode = aProductDetail[0];
+        sServiceCode = aProductDetail[1];
+        
+        var url = oSystemParam.DOMAIN_I + '/payservice/ajax/open_service.php?jsoncallback=?';
+        $.ajaxSettings.async = false;
+        $.getJSON(url,{sProductCode:sProductCode},function(data){
+            if(data['status'] == '-1' && typeof(data['error']) != 'undefined' && data['error'] == 'time')
+            {
+                var content = '<div class="panel_lnp panel_zz">'
+                +'<h2><p>提示</p><a class="vclose layer_close" href="javascript:void(0);"><i></i></a></h2>'
+                +'<div class="tp">'
+                +'您好！  23：30-次日00：30时间段内暂停购买产品，请稍后再试。'
+                +'</div>'
+                +'<div class="center">'
+                +'<div class="p_but layer_close">确定</div>'
+                +'</div></div>';
+                var oLayerSettings = jQuery.FLayer.init(); 
+                jQuery.FLayer.setContent(oLayerSettings,content);               
+                jQuery.FLayer.open(oLayerSettings);
+            } else {
+                $("#order_products").val(aProductDetail[0]);
+                $("#service_list").val(aProductDetail[1]);
+                 $("#orderProducts").val(aProductDetail[0]);
+                $("#serviceList").val(aProductDetail[1]);
+                if (data.type == '0W13' || data.type == '0W15')
+                {
+                    openSecretaryService(data, sSystemParam);
+                }
+                else
+                {
+                    addProduct(data, sSystemParam);   
+                }
+            }
+        });
+    }
+    else
+    {
+        signOut(oSystemParam.DOMAIN_LOGIN);
+    }
+}
+
+function openSecretaryService(data, sSystemParam)
+{
+    var oSystemParam = eval(sSystemParam);
+    var sourceType = arguments[2] ? arguments[2] : 1;
+    var content = '';
+    switch(data.status)
+    {
+        case 1:
+            content = '<div class="panel_lnp panel_py">\
+                    <h2>\
+                        <p>提示</p>\
+                        <a class="openApplyJob" href="#"><i></i></a>\
+                    </h2>\
+                    <div class="pannel_con">\
+                        <div class="gp2">\
+                            <p class="wd center c_666">\
+                                为了简历代投达到最佳的投递效果，建议你对代投条件进行测试，如对当前的代投条件很满意则无需修改。\
+                            </p>\
+                        </div>\
+                    </div>\
+                    <div class="but_box b2">\
+                        <span class="p_but" href="javascript:" onclick="redirectSecretarySetting(\''+ oSystemParam.DOMAIN_I + '\', \'' + sourceType + '\');">我要测试</span><span class="p_but gray" onclick="addSecretaryProduct(\'' + data.status + '\', ' + sSystemParam + ');">很满意，不需要修改</span>\
+                    </div>\
+                </div>';
+                break;
+        case -2:
+            content = '<div class="panel_lnp panel_py">\
+                    <h2>\
+                        <p>提示</p>\
+                        <a class="openApplyJob" href="#"><i></i></a>\
+                    </h2>\
+                    <div class="pannel_con">\
+                        <div class="gp2">\
+                            <p class="wd center c_666">\
+                                你目前还没有简历，无法购买无忧小秘书的简历代投服务，请先创建简历！ \
+                            </p>\
+                        </div>\
+                    </div>\
+                    <div class="but_box b2">\
+                        <span class="p_but" onclick="redirectUrl(\''+ oSystemParam.DOMAIN_I + '/resume/tri_resume.php\', \'.openApplyJob\');">立即创建简历</span>\
+                    </div>\
+                </div>';
+                break;
+        case -3:
+            if (data.resumeId && data.resumeType)
+            {
+                url = redirectResumeInfo(data.resumeType, data.resumeId);
+                url = 'redirectUrl(\''+ oSystemParam.DOMAIN_I + url + '\', \'.openApplyJob\');';
+            }
+            else
+            {
+                url = 'redirectResumeCenter(\'' + oSystemParam.DOMAIN_I +'\', \'.openApplyJob\');';
+            }
+            content = '<div class="panel_lnp panel_py">\
+                    <h2>\
+                        <p>提示</p>\
+                        <a class="openApplyJob" href="#"><i></i></a>\
+                    </h2>\
+                    <div class="pannel_con">\
+                        <div class="gp2">\
+                            <p class="wd center c_666">\
+                                你目前的简历还不完善，无法购买无忧小秘书的简历代投服务，请先完善简历！ \
+                            </p>\
+                        </div>\
+                    </div>\
+                    <div class="but_box b2">\
+                        <span class="p_but" onclick="'+ url + '">立即完善简历</span>\
+                    </div>\
+                </div>';
+                break;
+        case -4:
+        case -5:
+            content = '<div class="panel_lnp panel_py">\
+                    <h2>\
+                        <p>提示</p>\
+                        <a class="openApplyJob" href="#"><i></i></a>\
+                    </h2>\
+                    <div class="pannel_con">\
+                        <div class="gp2">\
+                            <p class="wd center c_666">\
+                                为了简历代投达到最佳的投递效果，请先测试你的目标职位是否适合使用简历代投。 \
+                            </p>\
+                        </div>\
+                    </div>\
+                    <div class="but_box b2">\
+                        <span class="p_but" onclick="redirectSecretarySetting(\''+ oSystemParam.DOMAIN_I + '\', \'' + sourceType + '\')">我要测试</span>\
+                    </div>\
+                </div>';
+                break;
+        case -1:
+            break;
+        default:
+            
+            break;
+    }
+
+    if (content != '')
+    {
+        var oLayerParams = {'layer_close_class': 'openApplyJob'};
+        var oLayerSettings = jQuery.FLayer.init(oLayerParams); 
+        jQuery.FLayer.setContent(oLayerSettings,content);               
+        jQuery.FLayer.open(oLayerSettings);
+    }
+
+}
+
+function addProduct(data, sSystemParam)
+{
+    var oSystemParam = eval(sSystemParam);
+    switch (data.type)
+    {
+        case '0C04':
+        case '0C05':
+        case '0C06':
+            addPpfProduct(data, sSystemParam);
+            break;
+        default:
+            if (data.status == 1)
+            {
+                $("[name='my_buy_product_list']").submit();
+            }
+            else
+            {
+                signOut(oSystemParam.DOMAIN_LOGIN);
+            }
+            break;
+    }
+}
+
+function addPpfProduct(data, sSystemParam)
+{
+    var oSystemParam = eval(sSystemParam);
+    var content = '';
+
+    switch(data.status)
+    {
+        case 1:
+            $("[name='my_buy_product_list']").submit();
+            break;
+        case 2:
+            content = '<div class="panel_lnp panel_py">\
+                            <h2>\
+                                <p>提示</p>\
+                                <a class="ppfClose" href="#"><i></i></a>\
+                            </h2>\
+                            <div class="pannel_con">\
+                                <div class="gp3">\
+                                    <p class="wd center c_666">\
+                                        你已开通本测评。<br/>请扫描下方二维码进入测评页面。\
+                                    </p>\
+                                    <center>\
+                                        <img width="198" height="198" style="vertical-align:top" src="http://img01.51jobcdn.com/im/payservice/2015/ppf_pc_10m.png" alt="">\
+                                    </center>\
+                                </div>\
+                            </div>\
+                        </div>';
+            break;
+        case 3:
+            content = '<div class="panel_lnp panel_py">' +
+                            '<h2>' + 
+                                '<p>提示</p>' + 
+                                '<a class="ppfClose" href="#"><i></i></a>' + 
+                            '</h2>' +
+                            '<div class="pannel_con">' + 
+                                '<div class="gp3">' + 
+                                    '<p class="wd center c_666">' + 
+                                        '你已完成测评。<br/>请在“我的服务”中查看报告或添加到简历中。' + 
+                                    '</p>' + 
+                                '</div>' + 
+                            '</div>' + 
+                            '<div class="but_box b2">' + 
+                                '<a class="p_but" href="' + oSystemParam.DOMAIN_I + '/payservice/my_service_list.php">进入"我的服务"</span>' + 
+                            '</div>' + 
+                        '</div>';
+            break;        
+        case -2:
+            break;
+        case -3:
+            redirectMyService(oAdditionalParam.DOMAIN_I);
+            break;
+        default:
+            signOut(oSystemParam.DOMAIN_LOGIN);
+    }
+
+    if (content != '')
+    {
+        var oLayerParams = {'layer_close_class': 'ppfClose'};
+        var oLayerSettings = jQuery.FLayer.init(oLayerParams); 
+        jQuery.FLayer.setContent(oLayerSettings,content);               
+        jQuery.FLayer.open(oLayerSettings);
+    }
+}
+
+function addSecretaryProduct(status, sSystemParam)
+{
+    var oSystemParam = eval(sSystemParam);
+    cancel('.openApplyJob');
+    
+    if (status == 1)
+    {
+        $("[name='my_buy_product_list']").submit();
+    }
+    else
+    {
+        signOut(oSystemParam.DOMAIN_LOGIN);
+    }
+}
+
+function addToCart(sProductCode, sSystemParam)
+{
+    bCheckService = false;
+    var content = '';
+    var oSystemParam = eval(sSystemParam);
+    var id = "#addToCart" + sProductCode;
+
+    bCheckService = checkServiceActivity(sProductCode);
+    if (bCheckService)
+    {
+        aProductDetail = getProductCode(sProductCode);
+        sProductCode = aProductDetail[0];
+        sServiceCode = aProductDetail[1];
+
+        var url = oSystemParam.DOMAIN_I + '/payservice/ajax/add_to_cart.php?jsoncallback=?';
+        $.ajaxSettings.async = false;
+        $.getJSON(url,{sProductCode:sProductCode},function(data){
+            switch(data.status)
+            {
+                case 1:
+                    var temp = $("#shoppingTrolley").text();                    
+                    temp++;
+                    $("#shoppingTrolley").text(temp);
+                    $("#shoppingTrolley").show();
+                    $(id).show();
+                    setTimeout(function(){$(id).hide();}, 1000);
+                    break;
+                case 99:
+                    content = '<div class="panel_lnp panel_py">\
+                            <h2>\
+                                <p>提示</p>\
+                                <a class="addCart" href="#"><i></i></a>\
+                            </h2>\
+                            <div class="pannel_con">\
+                                <div class="gp3">\
+                                    <p class="wd center c_666">\
+                                        请勿重复添加相同的服务至购物车\
+                                    </p>\
+                                </div>\
+                            </div>\
+                        </div>';
+                    break;
+                default:
+                    dealSpecialProduct(data, sSystemParam);
+                    break;
+            }
+            if (content != '')
+            {
+                var oLayerParams = {'layer_close_class': 'addCart'};
+                var oLayerSettings = jQuery.FLayer.init(oLayerParams); 
+                jQuery.FLayer.setContent(oLayerSettings,content);               
+                jQuery.FLayer.open(oLayerSettings);
+            }
+        });
+    }
+    else
+    {
+        signOut(oSystemParam.DOMAIN_LOGIN);
+    }    
+}
+
+function dealSpecialProduct(data, sSystemParam)
+{
+    switch(data.newProduct)
+    {
+        case '0C04':
+            addPpfProduct(data, sSystemParam);
+            break;
+        default:
+            break;
+    }
+}
+
+function removeProduct(ProductInfo, sSystemParam)
+{
+    var oProductInfo = eval(ProductInfo);
+    var oSystemParam = eval(sSystemParam);
+    var totalAmount = parseFloat($("#totalAmount").text());
+    var saveAmount = parseFloat($("#saveAmount").text());
+    var promotionAmount = parseFloat($("#promotionAmount").text());
+    var order_products = ($("#order_products").val()).split(",");
+    var service_list = $("#service_list").val().split(",");
+
+    var url = oSystemParam.DOMAIN_I + '/payservice/ajax/remove_product.php?jsoncallback=?';
+    $.ajaxSettings.async = false;
+    $.getJSON(url,{sProductCode:oProductInfo.code},function(data){
+        switch(data.status)
+        {
+            case 1:
+                removeElementFromArray(oProductInfo.code, order_products);
+                order_products = order_products.join(",");
+                $("#order_products").val(order_products);
+                removeElementFromArray(oProductInfo.belongsrv, service_list);
+                service_list = service_list.join(",");
+                $("#service_list").val(service_list);
+                totalAmount = totalAmount - oProductInfo.price;
+                saveAmount = saveAmount - oProductInfo.saveMoney;
+                promotionAmount = promotionAmount - oProductInfo.promotion;
+
+                var temp = $("#shoppingTrolley").text();                    
+                temp--;
+                if (temp == 0)
+                {
+                    $("#shoppingTrolley").hide();
+                    $("#trolleyList").hide();
+                    $("#emptyTrolley").show();
+                }
+                else
+                {
+                    $("#shoppingTrolley").text(temp);
+                    $("#shoppingTrolley").show();
+                }
+
+                $("#totalAmount").text((totalAmount).toFixed(2));
+                $("#saveAmount").text((saveAmount).toFixed(2));
+                $("#promotionAmount").text((promotionAmount).toFixed(2));
+
+                var sRemoveSubElementName = "cart" + oProductInfo.code;
+                if ($('#' + sRemoveSubElementName).length > 0)
+                {
+                    $('#' + sRemoveSubElementName).remove();
+                }
+                break;
+            case -1:
+                break;
+            default:
+                break;
+        }
+    }); 
+}
+
+function openServices(sSystemParam) {
+    var oSystemParam = eval(sSystemParam);
+
+    if( $("#order_products").val() == '' )
+    {
+        alert("对不起，你还没有购买任何产品。");
+        return false;
+    }
+    else{
+        var aProductList= new Array();
+        var sProducts = $('#order_products').val();
+        aProductList = sProducts.split(",");
+        var productCode = '';
+        bRet = true;
+
+        for (i = 0; i < aProductList.length; i++) 
+        {
+            if (aProductList[i] == '0W13' || aProductList[i] == '0W15')
+            {
+                //包含简历代投
+                bRet = false;
+                productCode = aProductList[i];
+                break;
+            }
+        } 
+        
+        if (bRet)
+        {
+            $("[name='my_buy_product_list']").submit();
+        }
+        else if (productCode != '')
+        {
+            var url = oSystemParam.DOMAIN_I + '/payservice/ajax/get_secretary_apply_status.php?jsoncallback=?';
+            $.ajaxSettings.async = false;
+            $.getJSON(url,{},function(data){
+                data.type = productCode;
+                openSecretaryService(data, sSystemParam, 3)
+            });
+        }
+    }
+}
+
+function checkSecretary(sSystemParam)
+{
+    var oSystemParam = eval(sSystemParam);
+    var content = '';
+    var url = oSystemParam.DOMAIN_I + '/payservice/ajax/get_secretary_apply_status.php?jsoncallback=?';
+    $.ajaxSettings.async = false;
+    $.getJSON(url,{},function(data){
+        switch(data.status)
+        {
+            case -2:
+                content = '<div class="panel_lnp panel_py">\
+                        <h2>\
+                            <p>提示</p>\
+                            <a class="checkApplyJob" href="#"><i></i></a>\
+                        </h2>\
+                        <div class="pannel_con">\
+                            <div class="gp2">\
+                                <p class="wd center c_666">\
+                                    你目前还没有简历，无法进行简历代投测试，请先创建简历！ \
+                                </p>\
+                            </div>\
+                        </div>\
+                        <div class="but_box b2">\
+                            <span class="p_but" onclick="redirectUrl(\''+ oSystemParam.DOMAIN_I + '/resume/tri_resume.php\', \'.checkApplyJob\');">立即创建简历</span>\
+                        </div>\
+                    </div>';
+                    break;
+            case -3:
+                if (data.resumeId && data.resumeType)
+                {
+                    url = redirectResumeInfo(data.resumeType, data.resumeId);
+                    url = 'redirectUrl(\''+ oSystemParam.DOMAIN_I + url + '\', \'.checkApplyJob\');';
+                }
+                else
+                {
+                    url = 'redirectResumeCenter(\'' + oSystemParam.DOMAIN_I +'\', \'.checkApplyJob\');';
+                }
+                content = '<div class="panel_lnp panel_py">\
+                        <h2>\
+                            <p>提示</p>\
+                            <a class="checkApplyJob" href="#"><i></i></a>\
+                        </h2>\
+                        <div class="pannel_con">\
+                            <div class="gp2">\
+                                <p class="wd center c_666">\
+                                    你目前的简历还不完善，无法进行简历代投测试，请先完善简历！ \
+                                </p>\
+                            </div>\
+                        </div>\
+                        <div class="but_box b2">\
+                            <span class="p_but" onclick="'+ url + '">立即完善简历</span>\
+                        </div>\
+                    </div>';
+                    break;
+            case 1:
+            case -4:
+            case -5:
+                redirectSecretarySetting(oSystemParam.DOMAIN_I, 5);
+            case -1:
+                break;
+            default:
+                
+                break;
+        }
+
+        if (content != '')
+        {
+            var oLayerParams = {'layer_close_class': 'checkApplyJob'};
+            var oLayerSettings = jQuery.FLayer.init(oLayerParams); 
+            jQuery.FLayer.setContent(oLayerSettings,content);               
+            jQuery.FLayer.open(oLayerSettings);
+        }
+    });
+}
+
+function modifySecretarySetting(sSystemParam)
+{
+    var oSystemParam = eval(sSystemParam);
+    var content = '';
+    var url = oSystemParam.DOMAIN_I + '/payservice/ajax/get_secretary_apply_status.php?jsoncallback=?';
+    $.ajaxSettings.async = false;
+    $.getJSON(url,{},function(data){
+        switch(data.status)
+        {
+            case -2:
+                content = '<div class="panel_lnp panel_py">\
+                        <h2>\
+                            <p>提示</p>\
+                            <a class="checkApplyJob" href="#"><i></i></a>\
+                        </h2>\
+                        <div class="pannel_con">\
+                            <div class="gp2">\
+                                <p class="wd center c_666">\
+                                    你目前还没有简历，无法修改代投条件，请先创建简历！  \
+                                </p>\
+                            </div>\
+                        </div>\
+                        <div class="but_box b2">\
+                            <span class="p_but" onclick="redirectUrl(\''+ oSystemParam.DOMAIN_I + '/resume/tri_resume.php\', \'.checkApplyJob\');">立即创建简历</span>\
+                        </div>\
+                    </div>';
+                    break;
+            case -3:
+                if (data.resumeId && data.resumeType)
+                {
+                    url = redirectResumeInfo(data.resumeType, data.resumeId);
+                    url = 'redirectUrl(\''+ oSystemParam.DOMAIN_I + url + '\', \'.checkApplyJob\');';
+                }
+                else
+                {
+                    url = 'redirectResumeCenter(\'' + oSystemParam.DOMAIN_I +'\', \'.checkApplyJob\');';
+                }
+                content = '<div class="panel_lnp panel_py">\
+                        <h2>\
+                            <p>提示</p>\
+                            <a class="checkApplyJob" href="#"><i></i></a>\
+                        </h2>\
+                        <div class="pannel_con">\
+                            <div class="gp2">\
+                                <p class="wd center c_666">\
+                                    你目前的简历还不完善，无法修改代投条件，请先完善简历！  \
+                                </p>\
+                            </div>\
+                        </div>\
+                        <div class="but_box b2">\
+                            <span class="p_but" onclick="'+ url + '">立即完善简历</span>\
+                        </div>\
+                    </div>';
+                    break;
+            case 1:
+            case -4:
+            case -5:
+                redirectSecretarySetting(oSystemParam.DOMAIN_I, 2);
+            case -1:
+                break;
+            default:
+                
+                break;
+        }
+
+        if (content != '')
+        {
+            var oLayerParams = {'layer_close_class': 'checkApplyJob'};
+            var oLayerSettings = jQuery.FLayer.init(oLayerParams); 
+            jQuery.FLayer.setContent(oLayerSettings,content);               
+            jQuery.FLayer.open(oLayerSettings);
+        }
+    });
+}
+
+function showConfirmLayer(sMsgInfo, type)
+{
+    var msg = new Array();
+    var action = new Array();
+
+    msg[1] = '你确认要激活此服务吗？<br/>请注意你的产品结束时间，被激活的产品结束时间不作顺延。只要在产品有效期内，你还可以将该产品再次暂停。';
+    msg[0] = '你确认要暂停此服务吗？<br/>请注意你的产品结束时间，被暂停的产品结束时间不作顺延。只要在产品有效期内，你还可以将该产品再次激活使用！';
+
+    content = '<div class="panel_lnp panel_py">\
+                    <h2>\
+                        <p>提示</p>\
+                        <a class="confirmLayer" href="#"><i></i></a>\
+                    </h2>\
+                    <div class="pannel_con">\
+                        <div class="gp2">\
+                            <p class="wd center c_666">\
+                                ' + msg[type] + '\
+                            </p>\
+                        </div>\
+                    </div>\
+                    <div class="but_box b2">\
+                        <span class="p_but" href="javascript:" onclick="changeServiceStatus( ' + sMsgInfo + ', \''+ type + '\' );">确定</span><span class="p_but gray" onclick="cancel(\'.confirmLayer\')">取消</span>\
+                    </div>\
+                </div>';
+    var oLayerParams = {'layer_close_class': 'confirmLayer'};
+    var oLayerSettings = jQuery.FLayer.init(oLayerParams); 
+    jQuery.FLayer.setContent(oLayerSettings,content);               
+    jQuery.FLayer.open(oLayerSettings);
+}
+
+function activateSecreatryLayer(sMsgInfo)
+{
+    var msg = new Array();
+    var content = '';
+    var oMsgInfo = eval(sMsgInfo);
+    
+    if (oMsgInfo.serviceID == '1400')
+    {
+        var url = oMsgInfo.DOMAIN_I + '/payservice/ajax/get_secretary_apply_status.php?jsoncallback=?';
+        $.ajaxSettings.async = false;
+        $.getJSON(url,{},function(data){
+            switch(data.status)
+            {
+                case 1:
+                    content = '<div class="panel_lnp panel_py">\
+                            <h2>\
+                                <p>提示</p>\
+                                <a class="confirmLayer" href="#"><i></i></a>\
+                            </h2>\
+                            <div class="pannel_con">\
+                                <div class="gp2">\
+                                    <p class="wd center c_666">\
+                                        为了简历代投达到最佳的投递效果，建议你对代投条件进行测试，如对当前的代投条件很满意则无需修改。\
+                                    </p>\
+                                </div>\
+                            </div>\
+                            <div class="but_box b2">\
+                                <span class="p_but" href="javascript:" onclick="redirectSecretarySetting(\''+ oMsgInfo.DOMAIN_I + '\', \'4\')">我要测试</span><span class="p_but gray" onclick="changeServiceStatus( ' + sMsgInfo + ', \'1\' );">很满意，不需要修改</span>\
+                            </div>\
+                        </div>';
+                        break;
+                case -2:
+                    content = '<div class="panel_lnp panel_py">\
+                            <h2>\
+                                <p>提示</p>\
+                                <a class="confirmLayer" href="#"><i></i></a>\
+                            </h2>\
+                            <div class="pannel_con">\
+                                <div class="gp2">\
+                                    <p class="wd center c_666">\
+                                        你目前还没有简历，无法激活无忧小秘书的简历代投服务，请创建简历后再激活！ \
+                                    </p>\
+                                </div>\
+                            </div>\
+                            <div class="but_box b2">\
+                                <span class="p_but" onclick="redirectUrl(\''+ oMsgInfo.DOMAIN_I + '/resume/tri_resume.php\', \'.confirmLayer\');">立即创建简历</span>\
+                            </div>\
+                        </div>';
+                        break;
+                case -3:
+                    if (data.resumeId && data.resumeType)
+                    {
+                        url = redirectResumeInfo(data.resumeType, data.resumeId);
+                        url = 'redirectUrl(\''+ oMsgInfo.DOMAIN_I + url + '\', \'.confirmLayer\');';
+                    }
+                    else
+                    {
+                        url = 'redirectResumeCenter(\'' + oMsgInfo.DOMAIN_I +'\', \'.confirmLayer\');';
+                    }
+                    content = '<div class="panel_lnp panel_py">\
+                            <h2>\
+                                <p>提示</p>\
+                                <a class="confirmLayer" href="#"><i></i></a>\
+                            </h2>\
+                            <div class="pannel_con">\
+                                <div class="gp2">\
+                                    <p class="wd center c_666">\
+                                        你目前的简历还不完善，无法激活无忧小秘书的简历代投服务，请完善简历后再激活！ \
+                                    </p>\
+                                </div>\
+                            </div>\
+                            <div class="but_box b2">\
+                                <span class="p_but" onclick="'+ url + '">立即完善简历</span>\
+                            </div>\
+                        </div>';
+                        break;
+                case -4:
+                case -5:
+                    content = '<div class="panel_lnp panel_py">\
+                            <h2>\
+                                <p>提示</p>\
+                                <a class="confirmLayer" href="#"><i></i></a>\
+                            </h2>\
+                            <div class="pannel_con">\
+                                <div class="gp2">\
+                                    <p class="wd center c_666">\
+                                        为了简历代投达到最佳的投递效果，请先测试你的目标职位是否适合使用简历代投。 \
+                                    </p>\
+                                </div>\
+                            </div>\
+                            <div class="but_box b2">\
+                                <span class="p_but" onclick="redirectSecretarySetting(\''+ oMsgInfo.DOMAIN_I + '\', \'4\')">我要测试</span>\
+                            </div>\
+                        </div>';
+                        break;
+                case -1:
+                    break;
+                default:
+                    
+                    break;
+            }
+        });
+    }
+    
+    if (content != '')
+    {
+        var oLayerParams = {'layer_close_class': 'confirmLayer'};
+        var oLayerSettings = jQuery.FLayer.init(oLayerParams); 
+        jQuery.FLayer.setContent(oLayerSettings,content);               
+        jQuery.FLayer.open(oLayerSettings);
+    }
+
+}
+
+function stopSecretaryLayer(sMsgInfo)
+{
+    var msg = new Array();
+    var oMsgInfo = eval(sMsgInfo);
+    
+    msg['1400'] = '简历代投功能暂停后，将不再为你代投简历，<br/>且该服务的结束时间不作顺延。在服务有效期内，你还可以再次激活使用。确定暂停简历代投功能吗？';
+    msg['1300'] = '简历刷新功能暂停后，将不再为你自动刷新简历，<br/>且该服务的结束时间不作顺延。在服务有效期内，你还可以再次激活使用。确定暂停简历刷新功能吗？';
+
+    content = '<div class="panel_lnp panel_py">\
+                    <h2>\
+                        <p>提示</p>\
+                        <a class="confirmLayer" href="#"><i></i></a>\
+                    </h2>\
+                    <div class="pannel_con">\
+                        <div class="gp2">\
+                            <p class="wd center c_666">\
+                                ' + msg[oMsgInfo.serviceID] + '\
+                            </p>\
+                        </div>\
+                    </div>\
+                    <div class="but_box b2">\
+                        <span class="p_but" href="javascript:" onclick="changeServiceStatus( ' + sMsgInfo + ', \'0\' );">确定</span><span class="p_but gray" onclick="cancel(\'.confirmLayer\')">取消</span>\
+                    </div>\
+                </div>';
+    var oLayerParams = {'layer_close_class': 'confirmLayer'};
+    var oLayerSettings = jQuery.FLayer.init(oLayerParams); 
+    jQuery.FLayer.setContent(oLayerSettings,content);               
+    jQuery.FLayer.open(oLayerSettings);
+}
+
+function changeServiceStatus(sMsgInfo, type)
+{
+    var oMsgInfo = eval(sMsgInfo);
+    var url = oMsgInfo.DOMAIN_I + '/payservice/ajax/change_service_status.php?jsoncallback=?';
+    $.ajaxSettings.async = false;
+    $.getJSON(url,{type:type, serviceID:oMsgInfo.serviceID},function(data){
+        switch(data.status)
+        {
+            case 1:
+                if (type == 1)
+                {
+                    $('#status_' + oMsgInfo.serviceID).html("已开通");
+                    changeType = 0;
+                }
+                else
+                {
+                    $('#status_' + oMsgInfo.serviceID).html("已暂停");
+                    changeType = 1;
+                }
+                $('#' + oMsgInfo.serviceID + '_' + changeType).show();
+                $('#' + oMsgInfo.serviceID + '_' + type).hide();
+                if (type == 1 && oMsgInfo.serviceID == '1300')
+                {
+                    content = '<div class="panel_lnp panel_py">\
+                                <h2>\
+                                    <p>提示</p>\
+                                    <a class="confirmLayer"href="#"><i></i></a>\
+                                </h2>\
+                                <div class="pannel_con">\
+                                    <div class="gp3 center">\
+                                        <strong class="wd f16 c_orange">\
+                                            简历刷新服务激活成功！\
+                                        </strong>\
+                                        <p class="p c_666">\
+                                            激活后该服务结束时间不作顺延，只要在服务有限期内，<br/>你还可以将该服务再次暂停。\
+                                        </p>\
+                                    </div>\
+                                </div>\
+                            </div>';
+                        var oLayerParams = {'layer_close_class': 'confirmLayer'};
+                        var oLayerSettings = jQuery.FLayer.init(oLayerParams); 
+                        jQuery.FLayer.setContent(oLayerSettings,content);               
+                        jQuery.FLayer.open(oLayerSettings);
+                }
+                else
+                {
+                    cancel('.confirmLayer');
+                }
+
+                break;
+            case -2:
+                if (type == 1 && oMsgInfo.serviceID == '1300')
+                {
+                    //激活简历刷新，用户没有简历
+                    content = '<div class="panel_lnp panel_py">\
+                            <h2>\
+                                <p>提示</p>\
+                                <a class="confirmLayer" href="#"><i></i></a>\
+                            </h2>\
+                            <div class="pannel_con">\
+                                <div class="gp2">\
+                                    <p class="wd center c_666">\
+                                        你目前还没有简历，无法激活无忧小秘书的简历刷新服务，<br/>请创建简历后再激活！\
+                                    </p>\
+                                </div>\
+                            </div>\
+                            <div class="but_box b2">\
+                                <span class="p_but" onclick="redirectUrl(\''+ oMsgInfo.DOMAIN_I + '/resume/tri_resume.php\', \'.confirmLayer\');">立即创建简历</span>\
+                            </div>\
+                        </div>';
+                    var oLayerParams = {'layer_close_class': 'confirmLayer'};
+                    var oLayerSettings = jQuery.FLayer.init(oLayerParams); 
+                    jQuery.FLayer.setContent(oLayerSettings,content);               
+                    jQuery.FLayer.open(oLayerSettings);
+                }
+                break;
+            default:
+                cancel('.confirmLayer');
+                break;
+        }
+    });
+}
+
+function checkMasttoResume(sMastInfo, type)
+{
+    var oMastInfo = eval(sMastInfo);
+    var url = oMastInfo.DOMAIN_I + '/payservice/ajax/check_mast_to_resume.php?jsoncallback=?';
+    $.ajaxSettings.async = false;
+    var content ='';
+    $.getJSON(url,{orderid:oMastInfo.orderID, type:type},function(data){
+        switch(data.status)
+        {
+            case 1:
+                    content = '<div class="panel_lnp panel_py">\
+                    <h2>\
+                        <p>提示</p>\
+                        <a class="addMastToResume" href="#"><i></i></a>\
+                    </h2>\
+                    <div class="pannel_con">\
+                        <div class="gp2">\
+                            <p class="wd center c_666">\
+                                是否确认将该报告添加到简历当中？<br />添加后该报告将成为你简历内容的一部分。\
+                            </p>\
+                        </div>\
+                    </div>\
+                    <div class="but_box b2">\
+                        <span class="p_but" href="javascript:" onclick="AddtoResumeConfirm(' + sMastInfo + ', 2)">确定</span><span class="p_but gray" onclick="cancel(\'.addMastToResume\')">取消</span>\
+                    </div>\
+                </div>';
+                break;
+            case 2:
+                content = '<div class="panel_lnp panel_py">\
+                            <h2>\
+                                <p>提示</p>\
+                                <a class="addMastToResume" href="#"><i></i></a>\
+                            </h2>\
+                            <div class="pannel_con">\
+                                <div class="gp3">\
+                                    <p class="wd center c_666">\
+                                        你已经添加过！请去简历中查看\
+                                    </p>\
+                                </div>\
+                            </div>\
+                        </div>';
+                break;
+            case -2:
+                content = '<div class="panel_lnp panel_py">\
+                            <h2>\
+                                <p>提示</p>\
+                                <a class="addMastToResume" href="#"><i></i></a>\
+                            </h2>\
+                            <div class="pannel_con">\
+                                <div class="gp2">\
+                                    <p class="wd center c_666">\
+                                        对不起，由于你未创建一份标准简历，所以无法附加MAST测评报告。\
+                                    </p>\
+                                </div>\
+                            </div>\
+                            <div class="but_box b2">\
+                                <span class="p_but" onclick="redirectResumeCenter(\'' + oMastInfo.DOMAIN_I +'\', \'.addMastToResume\');">立即创建</span>\
+                            </div>\
+                        </div>';
+                break;
+        }
+        if (content != '')
+        {
+            var oLayerParams = {'layer_close_class': 'addMastToResume'};
+            var oLayerSettings = jQuery.FLayer.init(oLayerParams); 
+            jQuery.FLayer.setContent(oLayerSettings,content);               
+            jQuery.FLayer.open(oLayerSettings);
+        }
+    });
+}
+
+function AddtoResumeConfirm(sMastInfo, type)
+{
+    cancel('.addMastToResume');
+    var oMastInfo = eval(sMastInfo);
+    var url = oMastInfo.DOMAIN_I + '/payservice/ajax/check_mast_to_resume.php?jsoncallback=?';
+    $.ajaxSettings.async = false;
+    var content ='';
+    $.getJSON(url,{type:type},function(data){
+        switch(data.status)
+        {
+            case 3:
+                content = '<div class="panel_lnp panel_py">\
+                    <h2>\
+                        <p>提示</p>\
+                        <a class="addMastToResume" href="#"><i></i></a>\
+                    </h2>\
+                    <div class="pannel_con">\
+                        <div class="gp2">\
+                            <p class="wd center c_666">\
+                                你确认要覆盖现在简历中的MAST测评报告吗？\
+                            </p>\
+                        </div>\
+                    </div>\
+                    <div class="but_box b2">\
+                        <span class="p_but" href="javascript:" onclick="MastToResume(\'' + oMastInfo.orderID + '\', \'' + oMastInfo.key + '\', \'' + oMastInfo.DOMAIN_I + '\')">确定</span><span class="p_but gray" onclick="cancel(\'.addMastToResume\')">取消</span>\
+                    </div>\
+                </div>';
+                break;
+            case 4:
+                MastToResume(oMastInfo.orderID, oMastInfo.key, oMastInfo.DOMAIN_I);
+                break;
+        }
+        if (content != '')
+        {
+            var oLayerParams = {'layer_close_class': 'addMastToResume'};
+            var oLayerSettings = jQuery.FLayer.init(oLayerParams); 
+            jQuery.FLayer.setContent(oLayerSettings,content);               
+            jQuery.FLayer.open(oLayerSettings);
+        }
+    });
+}
+
+function MastToResume(orderid, key, DOMAIN_I)
+{
+    cancel('.addMastToResume');
+    var url = DOMAIN_I + '/payservice/ajax/check_mast_to_resume.php?jsoncallback=?';
+    $.ajaxSettings.async = false;
+    var content ='';
+    $.getJSON(url,{type:3, orderid:orderid, key:key},function(data){
+
+        if (data.status == 1)
+        {
+            content = '<div class="panel_lnp panel_py">\
+                            <h2>\
+                                <p>提示</p>\
+                                <a class="MastToResume" href="#"><i></i></a>\
+                            </h2>\
+                            <div class="pannel_con">\
+                                <div class="gp2">\
+                                    <p class="wd center c_666">\
+                                        测评报告已成功添加至简历附加信息中！\
+                                    </p>\
+                                </div>\
+                            </div>\
+                            <div class="but_box b2">\
+                                <span class="p_but" onclick="redirectResumeCenter(\'' + DOMAIN_I +'\', \'.MastToResume\')">查看</span>\
+                            </div>\
+                        </div>';
+        }
+        if (content != '')
+        {
+            var oLayerParams = {'layer_close_class': 'MastToResume'};
+            var oLayerSettings = jQuery.FLayer.init(oLayerParams); 
+            jQuery.FLayer.setContent(oLayerSettings,content);               
+            jQuery.FLayer.open(oLayerSettings);
+        }
+    });
+}
+
+function startOipTest(sMsgInfo)
+{
+    var oMsgInfo = eval(sMsgInfo);
+    var lang = $("#language").val();
+    if (lang != 'e')
+    {
+        lang = 'c';
+    }
+    var url = oMsgInfo.DOMAIN_I + '/payservice/ajax/check_oip_to_resume.php?jsoncallback=?';
+    $.ajaxSettings.async = false;
+    var content ='';
+    $.getJSON(url,{orderID: oMsgInfo.orderID, reportID: oMsgInfo.reportID, sign: oMsgInfo.sOipSign, type:1, lang:lang},function(data){
+        switch(data.status)
+        {
+            case 4:
+                content = '<div class="panel_lnp panel_py">\
+                    <h2>\
+                        <p>提示</p>\
+                        <a class="startOip" href="#"><i></i></a>\
+                    </h2>\
+                    <div class="pannel_con">\
+                        <div class="gp2">\
+                            <p class="wd center c_666">\
+                                对不起，你还没有创建完整的标准简历，所以无法附加Choices职业兴趣与需求问卷。\
+                            </p>\
+                        </div>\
+                    </div>\
+                    <div class="but_box b2">\
+                        <span class="p_but" onclick="redirectResumeCenter(\'' + oMsgInfo.DOMAIN_I +'\', \'.startOip\')">立即创建</span>\
+                    </div>\
+                </div>';
+                break;
+            case -1:
+                content = '<div class="panel_lnp panel_py">\
+                            <h2>\
+                                <p>提示</p>\
+                                <a class="startOip" href="#"><i></i></a>\
+                            </h2>\
+                            <div class="pannel_con">\
+                                <div class="gp3">\
+                                    <p class="wd center c_666">\
+                                        你的请求失败！请稍后重试！\
+                                    </p>\
+                                </div>\
+                            </div>\
+                        </div>';
+                break;
+            case 1:
+            case 2:
+            case 3:
+                window.open(data.url);
+                break;
+
+        }
+
+        if (content != '')
+        {
+            var oLayerParams = {'layer_close_class': 'startOip'};
+            var oLayerSettings = jQuery.FLayer.init(oLayerParams); 
+            jQuery.FLayer.setContent(oLayerSettings,content);               
+            jQuery.FLayer.open(oLayerSettings);
+        }
+    });
+}
+
+function getOipReport(sMsgInfo)
+{
+    var oMsgInfo = eval(sMsgInfo);
+
+    var url = oMsgInfo.DOMAIN_I + '/payservice/ajax/check_oip_to_resume.php?jsoncallback=?';
+    $.ajaxSettings.async = false;
+    var content ='';
+
+    $.getJSON(url,{orderID: oMsgInfo.orderID, reportID: oMsgInfo.reportID, sign: oMsgInfo.sViewOipSign, type:3},function(data){
+        switch(data.status)
+        {
+            case 1:
+                window.open(data.url);
+                break;
+            case 2:
+                content = '<div class="panel_lnp panel_py">\
+                            <h2>\
+                                <p>提示</p>\
+                                <a class="viewOip" href="#"><i></i></a>\
+                            </h2>\
+                            <div class="pannel_con">\
+                                <div class="gp3">\
+                                    <p class="wd center c_666">\
+                                        报告文件还没有生成, 请稍后重试！\
+                                    </p>\
+                                </div>\
+                            </div>\
+                        </div>';
+                 break;
+            case -1:
+                content = '<div class="panel_lnp panel_py">\
+                            <h2>\
+                                <p>提示</p>\
+                                <a class="viewOip" href="#"><i></i></a>\
+                            </h2>\
+                            <div class="pannel_con">\
+                                <div class="gp3">\
+                                    <p class="wd center c_666">\
+                                        你的请求失败！请稍后重试！\
+                                    </p>\
+                                </div>\
+                            </div>\
+                        </div>';
+                break;
+        }
+
+        if (content != '')
+        {
+            var oLayerParams = {'layer_close_class': 'viewOip'};
+            var oLayerSettings = jQuery.FLayer.init(oLayerParams); 
+            jQuery.FLayer.setContent(oLayerSettings,content);               
+            jQuery.FLayer.open(oLayerSettings);
+        }
+    });
+}
+
+function CheckOipToResume(sMsgInfo)
+{
+    var oMsgInfo = eval(sMsgInfo);
+    var url = oMsgInfo.DOMAIN_I + '/payservice/ajax/check_oip_to_resume.php?jsoncallback=?';
+    $.ajaxSettings.async = false;
+    var content ='';
+
+    $.getJSON(url,{orderID: oMsgInfo.orderID, reportID: oMsgInfo.reportID, sign: oMsgInfo.sOipSign, type:2},function(data){
+        switch(data.status)
+        {
+            case 1:
+                content = '<div class="panel_lnp panel_py">\
+                    <h2>\
+                        <p>提示</p>\
+                        <a class="checkOip" href="#"><i></i></a>\
+                    </h2>\
+                    <div class="pannel_con">\
+                        <div class="gp2">\
+                            <p class="wd center c_666">\
+                                是否确认将该报告添加到简历当中？<br />添加后该报告将成为你简历内容的一部分。\
+                            </p>\
+                        </div>\
+                    </div>\
+                    <div class="but_box b2">\
+                        <span class="p_but" href="javascript:" onclick="AddOiptoResume(\'' + oMsgInfo.orderID + '\', \'' + oMsgInfo.reportID + '\', \'' + oMsgInfo.sOipSign + '\', \'' + oMsgInfo.DOMAIN_I + '\')">确定</span><span class="p_but gray" onclick="cancel(\'.checkOip\')">取消</span>\
+                    </div>\
+                </div>';
+                break;
+            case 2:
+                content = '<div class="panel_lnp panel_py">\
+                            <h2>\
+                                <p>提示</p>\
+                                <a class="checkOip" href="#"><i></i></a>\
+                            </h2>\
+                            <div class="pannel_con">\
+                                <div class="gp3">\
+                                    <p class="wd center c_666">\
+                                        你已经添加过！请去简历中查看。\
+                                    </p>\
+                                </div>\
+                            </div>\
+                        </div>';
+                break;
+            case 3:
+                content = '<div class="panel_lnp panel_py">\
+                    <h2>\
+                        <p>提示</p>\
+                        <a class="checkOip" href="#"><i></i></a>\
+                    </h2>\
+                    <div class="pannel_con">\
+                        <div class="gp2">\
+                            <p class="wd center c_666">\
+                                对不起，你还没有创建完整的标准简历，所以无法附加Choices职业兴趣与需求问卷。\
+                            </p>\
+                        </div>\
+                    </div>\
+                    <div class="but_box b2">\
+                        <span class="p_but" onclick="redirectResumeCenter(\'' + oMsgInfo.DOMAIN_I +'\', \'.checkOip\')">立即创建</span>\
+                    </div>\
+                </div>';
+                break;
+            case 5:
+                content = '<div class="panel_lnp panel_py">\
+                    <h2>\
+                        <p>提示</p>\
+                        <a class="checkOip" href="#"><i></i></a>\
+                    </h2>\
+                    <div class="pannel_con">\
+                        <div class="gp2">\
+                            <p class="wd center c_666">\
+                                是否确认将该报告添加到简历当中？<br />添加后该报告将成为你简历内容的一部分。\
+                            </p>\
+                        </div>\
+                    </div>\
+                    <div class="but_box b2">\
+                        <span class="p_but" href="javascript:" onclick="confirmAddOipToResume(' + sMsgInfo + ')">确定</span><span class="p_but gray" onclick="cancel(\'.checkOip\')">取消</span>\
+                    </div>\
+                </div>';
+                break;
+        }
+
+        if (content != '')
+        {
+            var oLayerParams = {'layer_close_class': 'checkOip'};
+            var oLayerSettings = jQuery.FLayer.init(oLayerParams); 
+            jQuery.FLayer.setContent(oLayerSettings,content);               
+            jQuery.FLayer.open(oLayerSettings);
+        }
+    });
+}
+
+function AddOiptoResume(orderID, reportID, sOipSign, DOMAIN_I)
+{
+    cancel('.addOipToResumeConfirm');
+    cancel('.checkOip');
+    var url = DOMAIN_I + '/payservice/ajax/check_oip_to_resume.php?jsoncallback=?';
+    $.ajaxSettings.async = false;
+    var content ='';
+
+    $.getJSON(url,{orderID: orderID, reportID: reportID, sign: sOipSign, type:4},function(data){
+        if (data.status == 1)
+        {
+            //添加成功
+            content = '<div class="panel_lnp panel_py">\
+                            <h2>\
+                                <p>提示</p>\
+                                <a class="OipToResume" href="#"><i></i></a>\
+                            </h2>\
+                            <div class="pannel_con">\
+                                <div class="gp2">\
+                                    <p class="wd center c_666">\
+                                        Choices职业兴趣与需求问卷已经成功添加进你简历的附加信息中了！\
+                                    </p>\
+                                </div>\
+                            </div>\
+                            <div class="but_box b2">\
+                                <span class="p_but" onclick="redirectResumeCenter(\'' + DOMAIN_I +'\', \'.OipToResume\')">查看</span>\
+                            </div>\
+                        </div>';
+            
+        }
+        if (content != '')
+        {
+            var oLayerParams = {'layer_close_class': 'OipToResume'};
+            var oLayerSettings = jQuery.FLayer.init(oLayerParams); 
+            jQuery.FLayer.setContent(oLayerSettings,content);               
+            jQuery.FLayer.open(oLayerSettings);
+        }
+    });
+}
+
+function confirmAddOipToResume(sMsgInfo)
+{
+    cancel('.checkOip');
+    var oMsgInfo = eval(sMsgInfo);
+    var content = '';
+    content = '<div class="panel_lnp panel_py">\
+        <h2>\
+            <p>提示</p>\
+            <a class="addOipToResumeConfirm" href="#"><i></i></a>\
+        </h2>\
+        <div class="pannel_con">\
+            <div class="gp2">\
+                <p class="wd center c_666">\
+                    你确认要覆盖现在简历中的Choices职业兴趣与需求问卷吗？\
+                </p>\
+            </div>\
+        </div>\
+        <div class="but_box b2">\
+            <span class="p_but" href="javascript:" onclick="AddOiptoResume(\'' + oMsgInfo.orderID + '\', \'' + oMsgInfo.reportID + '\', \'' + oMsgInfo.sOipSign + '\', \'' + oMsgInfo.DOMAIN_I + '\')">确定</span><span class="p_but gray" onclick="cancel(\'.addOipToResumeConfirm\')">取消</span>\
+        </div>\
+    </div>';
+
+    var oLayerParams = {'layer_close_class': 'addOipToResumeConfirm'};
+    var oLayerSettings = jQuery.FLayer.init(oLayerParams); 
+    jQuery.FLayer.setContent(oLayerSettings,content);               
+    jQuery.FLayer.open(oLayerSettings);
+}
+
+function verifyInfo(vtype, DOMAIN_I)
+{
+    var lang = $("#language").val();
+    if (lang != 'e')
+    {
+        lang = 'c';
+    }
+    var url = DOMAIN_I + '/payservice/ajax/verify_check.php?jsoncallback=?';
+    $.ajaxSettings.async = false;
+    var content ='';
+
+    $.getJSON(url,{type: vtype, lang:lang},function(data){
+       switch(data.status)
+       {
+            case -2:
+            case 1:
+                window.open(data.info);
+                break;
+            case 2:
+                content = '<div class="panel_lnp panel_py">\
+                    <h2>\
+                        <p>提示</p>\
+                        <a class="checkVerify" href="#"><i></i></a>\
+                    </h2>\
+                    <div class="pannel_con">\
+                        <div class="gp2">\
+                            <p class="wd center c_666">\
+                                对不起，你目前没有一份标准的中文简历，无法提交验证信息，请先创建一份完整的中文简历。谢谢！\
+                            </p>\
+                        </div>\
+                    </div>\
+                    <div class="but_box b2">\
+                        <span class="p_but" onclick="redirectUrl(\'' + data.info +'\', \'.checkVerify\')">立即创建</span>\
+                    </div>\
+                </div>';
+                break;
+            case 3:
+                content = '<div class="panel_lnp panel_py">\
+                    <h2>\
+                        <p>提示</p>\
+                        <a class="checkVerify" href="#"><i></i></a>\
+                    </h2>\
+                    <div class="pannel_con">\
+                        <div class="gp2">\
+                            <p class="wd center c_666">\
+                                对不起，你的标准中文简历不完整，目前无法提交验证信息，建议你先将简历填写完整后再来提交信息。谢谢！\
+                            </p>\
+                        </div>\
+                    </div>\
+                    <div class="but_box b2">\
+                        <span class="p_but" onclick="redirectUrl(\'' + data.info +'\', \'.checkVerify\')">立即创建</span>\
+                    </div>\
+                </div>';
+                break;
+       }
+        if (content != '')
+        {
+            var oLayerParams = {'layer_close_class': 'checkVerify'};
+            var oLayerSettings = jQuery.FLayer.init(oLayerParams); 
+            jQuery.FLayer.setContent(oLayerSettings,content);               
+            jQuery.FLayer.open(oLayerSettings);
+        }
+    });
+}
+
+function verifyReject(DOMAIN_I, vrId, type)
+{
+    var url = DOMAIN_I + '/payservice/ajax/verify_reject.php?jsoncallback=?';
+    $.ajaxSettings.async = false;
+    var content ='';
+
+    $.getJSON(url,{vrId: vrId},function(data){
+       if (data.status == 1)
+       {
+           if (type == 0)
+           {
+              content = '<div class="panel_lnp panel_py">\
+                        <h2>\
+                            <p>提示</p>\
+                            <a class="verifyRej" href="#"><i></i></a>\
+                        </h2>\
+                        <div class="pannel_con">\
+                            <div class="gp2">\
+                                <p class="wd center c_666">\
+                                    尊敬的用户，你好！在核对你提交的信息时，我们发现该信息和第三方供应商提供的信息不完全符合，无法通过验证。具体原因可能是：' + data.rejectReson + '。建议你仔细核对信息后重新提交。谢谢！\
+                                </p>\
+                            </div>\
+                        </div>\
+                        <div class="but_box b2">\
+                            <span class="p_but" onclick="redirectUrl(\'' + data.info +'\', \'.verifyRej\')">重新提交</span>\
+                        </div>\
+                    </div>';
+           }
+           else if (type == 1)
+           {
+               content = '<div class="panel_lnp panel_py">\
+                        <h2>\
+                            <p>提示</p>\
+                            <a class="verifyRej" href="#"><i></i></a>\
+                        </h2>\
+                        <div class="pannel_con">\
+                            <div class="gp2">\
+                                <p class="wd center c_666">\
+                                    尊敬的用户，你好！在核对你提交的信息时，我们发现该信息和第三方供应商提供的信息不完全符合，无法通过验证。具体原因可能是：' + data.rejectReson + '。\
+                                </p>\
+                            </div>\
+                        </div>\
+                        <div class="but_box b2">\
+                            <span class="p_but" onclick="cancel(\'.verifyRej\')">确定</span>\
+                        </div>\
+                    </div>';
+           }
+            var oLayerParams = {'layer_close_class': 'verifyRej'};
+            var oLayerSettings = jQuery.FLayer.init(oLayerParams); 
+            jQuery.FLayer.setContent(oLayerSettings,content);               
+            jQuery.FLayer.open(oLayerSettings);
+       }
+
+    });
+}
+
+function verifyNoResume()
+{
+    content = '<div class="panel_lnp panel_py">\
+        <h2>\
+            <p>提示</p>\
+            <a class="verifynoneResume" href="#"><i></i></a>\
+        </h2>\
+        <div class="pannel_con">\
+            <div class="gp3">\
+                <p class="wd center c_666">\
+                    对不起，你的标准简历已删除，无法查看认证标记。\
+                </p>\
+            </div>\
+        </div>\
+    </div>';
+
+    var oLayerParams = {'layer_close_class': 'verifynoneResume'};
+    var oLayerSettings = jQuery.FLayer.init(oLayerParams); 
+    jQuery.FLayer.setContent(oLayerSettings,content);               
+    jQuery.FLayer.open(oLayerSettings);
+}
+
+function PpfTestStart()
+{
+    content = '<div class="panel_lnp panel_py">\
+                <h2>\
+                    <p>提示</p>\
+                    <a class="ppfTest" href="#"><i></i></a>\
+                </h2>\
+                <div class="pannel_con">\
+                    <div class="gp3">\
+                        <p class="wd c_666">\
+                            看看你适合什么样的工作。<br />如果你是刚走出校门的菜鸟，或者你是刚步入职场的新鸟，亦或你还在为现在该不该转行而纠结。这份职业偏好度测评会帮你洞悉自我、助你找到志趣相投的职业。如果你觉得职业偏好度测评帮到了你，请告诉更多的人。<br />重要的是，将测评报告添加到简历中，HR查看简历时会收到特别提醒，提高简历的通过率。<br /><br />本测评由智鼎在线提供。<br />\
+                        </p>\
+                        <center>\
+                            <img width="198" height="198" style="vertical-align:top" src="http://img01.51jobcdn.com/im/payservice/2015/ppf_pc_10m.png" alt="">\
+                        </center>\
+                    </div>\
+                </div>\
+            </div>';
+    var oLayerParams = {'layer_close_class': 'ppfTest'};
+    var oLayerSettings = jQuery.FLayer.init(oLayerParams); 
+    jQuery.FLayer.setContent(oLayerSettings,content);               
+    jQuery.FLayer.open(oLayerSettings);
+}
+
+function checkResumePpf(sMsgInfo)
+{
+    var oMsgInfo = eval(sMsgInfo);
+
+    var url = oMsgInfo.DOMAIN_I + '/payservice/ajax/add_ppf_to_resume.php?jsoncallback=?';
+    $.ajaxSettings.async = false;
+    var content ='';
+
+    var aPpfParams = {
+        'aid': oMsgInfo.aid,
+        'rid': oMsgInfo.rid,
+        'r'  : oMsgInfo.r,
+        'c'  : oMsgInfo.c,
+        't'  : oMsgInfo.t,
+        'cp' : oMsgInfo.cp,
+        'sign': oMsgInfo.sign
+    };
+    $.getJSON(url,{aPpfParams: aPpfParams},function(data){
+        switch(data.status)
+        {
+            case 5:
+                content = '<div class="panel_lnp panel_py">\
+                    <h2>\
+                        <p>提示</p>\
+                        <a class="addPpf" href="#"><i></i></a>\
+                    </h2>\
+                    <div class="pannel_con">\
+                        <div class="gp2">\
+                            <p class="wd center c_666">\
+                                对不起，你还没有创建标准简历，所以无法附加测评报告。\
+                            </p>\
+                        </div>\
+                    </div>\
+                    <div class="but_box b2">\
+                        <span class="p_but" onclick="redirectResumeCenter(\'' + oMsgInfo.DOMAIN_I +'\', \'.addPpf\')">立即创建</span>\
+                    </div>\
+                </div>';
+                break;
+            case 2:
+                content = '<div class="panel_lnp panel_py">\
+                    <h2>\
+                        <p>提示</p>\
+                        <a class="addPpf" href="#"><i></i></a>\
+                    </h2>\
+                    <div class="pannel_con">\
+                        <div class="gp3">\
+                            <p class="wd center c_666">\
+                                附加测评报告成功，请去简历中查看。\
+                            </p>\
+                        </div>\
+                    </div>\
+                </div>';
+                break;
+            case 3:
+                content = '<div class="panel_lnp panel_py">\
+                    <h2>\
+                        <p>提示</p>\
+                        <a class="addPpf" href="#"><i></i></a>\
+                    </h2>\
+                    <div class="pannel_con">\
+                        <div class="gp3">\
+                            <p class="wd center c_666">\
+                                你已经添加过！请去简历中查看。\
+                            </p>\
+                        </div>\
+                    </div>\
+                </div>';
+                break;
+        }
+        if (content != '')
+        {
+            var oLayerParams = {'layer_close_class': 'addPpf'};
+            var oLayerSettings = jQuery.FLayer.init(oLayerParams); 
+            jQuery.FLayer.setContent(oLayerSettings,content);               
+            jQuery.FLayer.open(oLayerSettings);
+        }
+    });
+}
+
+function jump_page_pay(total)
+{
+    var lang = $("#language").val();
+    if (lang != 'e')
+    {
+        lang = 'c';
+    }
+    var p = document.getElementById('jump_page').value;
+    if (p > total)
+    {
+        p = 1;
+    }
+    var protocol = window.location.protocol;
+    var host = window.location.host;
+    var pathname = window.location.pathname;
+    var url = protocol+'//'+host+pathname;
+    var myurl = url+'?page='+p + '&lang=' + lang;
+    window.location=myurl;
+}
+
+
+function welfareDeal(sType)
+{
+    var sUrl = window.cfg.domain.i + '/payservice/ajax/payservice_welfare.php?rand=' + Math.random() + '&jsoncallback=?';
+
+    var oRequestInput = {
+        'type': sType
+    }
+
+    $.getJSON(sUrl, oRequestInput, function (result) {
+        switch(sType)
+        {
+            case 1:
+                if(result.status == 1)
+                {
+                    switchRecieveDiv('recieve');
+                }
+                else
+                {
+                    window.location.href = window.cfg.domain.i + "/payservice/my_service.php?lang=c";
+                }
+                break;
+            case 3:
+                switch (result.status)
+                {
+                    case -1:  //未登录
+                        signOut(window.cfg.domain.login);
+                        break;
+                    case 0:   //数据库操作失败
+                        window.location.href = window.cfg.domain.i + "/payservice/my_service.php?lang=c";
+                        break;
+
+                    case 1:  //数据操作成功
+                        if (result.result)
+                        {
+                            $("#verifyEmailFloatDiv").hide();
+                            switchRecieveDiv('close');
+                            
+                            var content = '<div class="panel_lnp panel_zz">'
+                            +'<h2><p>提示</p><a class="vclose layer_close" href="javascript:void(0);"><i></i></a></h2>'
+                            +'<div class="tp">'
+                            +'福利已领取成功，请去我的服务中查看！'
+                            +'</div></div>';
+                            var oLayerSettings = jQuery.FLayer.init(); 
+                            jQuery.FLayer.setContent(oLayerSettings,content);               
+                            jQuery.FLayer.open(oLayerSettings);
+                            
+                            setTimeout(function(){
+                                jQuery.FLayer.close(oLayerSettings);
+                            }, 3000);
+                        }
+                        else  //条件不满足，更改文案
+                        {
+                            switchRecieveDiv('verify');
+                        }
+                        break;
+                }
+                break;
+            default:
+                break;
+        }
+    });
+    
+    if(sType == 1)
+    {
+        window.open(window.cfg.domain.i + "/userset/security_center.php?lang=c");
+    }
+}
+
+function switchRecieveDiv(showType)
+{
+    switch(showType)
+    {
+        case 'recieve':
+            $("#reDisplayWelfare,#reDisplayWelfareTitle").hide();
+            $("#recieveWelfareBtn,#recieveWelfareTitle").show();
+            $("#getResumeGiftFloatDiv, #getResumeGiftFloatShadow").show();
+            break;
+        case 'verify':
+            $("#recieveWelfareBtn,#recieveWelfareTitle").hide();
+            $("#reDisplayWelfare,#reDisplayWelfareTitle").show();
+            $("#getResumeGiftFloatDiv, #getResumeGiftFloatShadow").show();
+            break;
+        case 'close':
+            $("#getResumeGiftFloatDiv, #getResumeGiftFloatShadow").hide();
+            break;
+    }
+}

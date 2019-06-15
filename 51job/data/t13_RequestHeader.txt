@@ -1,0 +1,9 @@
+GET http://trace.51jingying.com/logRecord.php?VerType=3&webId=2&logTime=1560568925933&ip=202.120.40.82&guid=99a1f5fd9691580e3e5168b4fd6f0cac&domain=i.51job.com&pageCode=19999&cusParam=1%16158602693%1651job_web%16%160%16&vt=1560568926262&logType=pageView HTTP/1.1
+Accept: image/png, image/svg+xml, image/jxr, image/*;q=0.8, */*;q=0.5
+Referer: http://i.51job.com/userset/my_apply.php?lang=c
+Accept-Language: zh-Hans-CN,zh-Hans;q=0.8,en-US;q=0.5,en;q=0.3
+User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64; Trident/7.0; rv:11.0) like Gecko
+Accept-Encoding: gzip, deflate
+Host: trace.51jingying.com
+Proxy-Connection: Keep-Alive
+
